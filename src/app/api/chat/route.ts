@@ -155,23 +155,28 @@ export async function POST(request: NextRequest) {
 
     const stream = new ReadableStream({
       async start(controller) {
+        let buffer = ''
         try {
           while (true) {
             const { done, value } = await reader.read()
             if (done) break
 
-            const chunk = decoder.decode(value, { stream: true })
-            const lines = chunk.split('\n').filter((line) => line.trim() !== '')
+            buffer += decoder.decode(value, { stream: true })
+            const lines = buffer.split('\n')
+            buffer = lines.pop() || ''
 
             for (const line of lines) {
-              if (line === 'data: [DONE]') {
+              const trimmedLine = line.trim()
+              if (!trimmedLine) continue
+
+              if (trimmedLine === 'data: [DONE]') {
                 controller.close()
                 return
               }
 
-              if (line.startsWith('data: ')) {
+              if (trimmedLine.startsWith('data: ')) {
                 try {
-                  const json = JSON.parse(line.slice(6))
+                  const json = JSON.parse(trimmedLine.slice(6))
                   const content = json.choices?.[0]?.delta?.content
                   if (content) {
                     controller.enqueue(
@@ -179,7 +184,7 @@ export async function POST(request: NextRequest) {
                     )
                   }
                 } catch {
-                  // Skip malformed JSON chunks
+                  // Incomplete JSON — will be completed in next chunk via buffer
                 }
               }
             }
