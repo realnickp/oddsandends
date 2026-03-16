@@ -171,7 +171,7 @@ export default async function ServicePage({ params }: PageProps) {
           <div className="grid lg:grid-cols-3 gap-10 lg:gap-12">
             <div className="lg:col-span-2 space-y-12">
               <ScrollReveal>
-                <div className="prose prose-lg max-w-none">
+                <div className="prose prose-lg max-w-none space-y-6">
                   {service.intro.split('\n\n').map((paragraph, i) => (
                     <p key={i} className="text-gray-500 font-light leading-relaxed text-lg">
                       {paragraph}
