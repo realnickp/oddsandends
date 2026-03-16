@@ -538,8 +538,8 @@ export const services: Service[] = [
     metaTitle: 'Flooring Installation | Rockland County, NY',
     metaDescription: 'Professional flooring installation in Rockland County. Vinyl plank, laminate, engineered hardwood, and floor tile. Demo, subfloor prep, and flawless finishing. 20+ years experience.',
     keywords: [],
-    image: '/images/services/tile-work.jpg',
-    altText: 'Vinyl plank flooring being installed in a Rockland County living room',
+    image: '/images/services/flooring.jpg',
+    altText: 'Vinyl plank flooring freshly installed in a Rockland County living room',
     processSteps: [
       { title: 'Evaluate & Measure', description: 'We assess the existing floor condition, check the subfloor for levelness and moisture, and take precise measurements for materials.' },
       { title: 'Demo & Prep', description: 'Old flooring is removed, the subfloor is leveled and repaired if needed, and proper underlayment or moisture barrier is installed.' },
