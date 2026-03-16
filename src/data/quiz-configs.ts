@@ -1081,6 +1081,205 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     ],
   },
 
+  'excavation': {
+    serviceSlug: 'excavation',
+    serviceName: 'Excavation',
+    headline: 'Plan Your Excavation Project',
+    subtitle: 'A few details so Dan can line up the right equipment',
+    steps: [
+      {
+        id: 'job-type',
+        question: 'What type of excavation?',
+        type: 'single-select',
+        options: [
+          { label: '🔲 Trenching', value: 'trenching' },
+          { label: '🏗️ Grading / Leveling', value: 'grading' },
+          { label: '💧 Drainage', value: 'drainage' },
+          { label: '🏠 Foundation prep', value: 'foundation' },
+          { label: '⚡ Utility line work', value: 'utility' },
+        ],
+      },
+      {
+        id: 'area-size',
+        question: 'How big is the area?',
+        type: 'single-select',
+        options: [
+          { label: '📏 Small — a trench or small section', value: 'small' },
+          { label: '📐 Medium — partial yard or driveway', value: 'medium' },
+          { label: '🏗️ Large — full yard or major grading', value: 'large' },
+        ],
+      },
+      {
+        id: 'soil-concerns',
+        question: 'Any soil concerns?',
+        type: 'single-select',
+        options: [
+          { label: '🪨 Rocky ground', value: 'rocky' },
+          { label: '🧱 Heavy clay', value: 'clay' },
+          { label: '✅ Normal soil', value: 'normal' },
+          { label: '🤷 Not sure', value: 'not-sure' },
+        ],
+      },
+      {
+        id: 'utilities-marked',
+        question: 'Do you need utilities marked before digging?',
+        type: 'single-select',
+        options: [
+          { label: '✅ Yes, please', value: 'yes' },
+          { label: '🚫 No, already done', value: 'no' },
+          { label: '🤷 Not sure', value: 'not-sure' },
+        ],
+      },
+    ],
+  },
+
+  'gravel-pads': {
+    serviceSlug: 'gravel-pads',
+    serviceName: 'Gravel Pads',
+    headline: 'Plan Your Gravel Pad',
+    subtitle: 'Tell Dan about your pad project so he can prep materials',
+    steps: [
+      {
+        id: 'pad-purpose',
+        question: 'What is the pad for?',
+        type: 'single-select',
+        options: [
+          { label: '🏠 Shed base', value: 'shed' },
+          { label: '♨️ Hot tub base', value: 'hot-tub' },
+          { label: '🔥 Fire pit area', value: 'fire-pit' },
+          { label: '🚗 Parking pad', value: 'parking' },
+          { label: '💧 Drainage solution', value: 'drainage' },
+          { label: '📦 Other', value: 'other' },
+        ],
+      },
+      {
+        id: 'pad-size',
+        question: 'Approximate size?',
+        type: 'single-select',
+        options: [
+          { label: '📏 Small (under 100 sq ft)', value: 'small' },
+          { label: '📐 Medium (100–200 sq ft)', value: 'medium' },
+          { label: '🏗️ Large (200+ sq ft)', value: 'large' },
+        ],
+      },
+      {
+        id: 'site-condition',
+        question: 'What does the site look like now?',
+        type: 'single-select',
+        options: [
+          { label: '✅ Flat and clear', value: 'flat' },
+          { label: '⛰️ Sloped', value: 'sloped' },
+          { label: '🌲 Wooded / Needs clearing', value: 'wooded' },
+          { label: '🤷 Not sure', value: 'not-sure' },
+        ],
+      },
+    ],
+  },
+
+  'sheds': {
+    serviceSlug: 'sheds',
+    serviceName: 'Sheds',
+    headline: 'Plan Your Shed Project',
+    subtitle: 'Help Dan understand the build so he comes prepared',
+    steps: [
+      {
+        id: 'shed-type',
+        question: 'What type of shed project?',
+        type: 'single-select',
+        options: [
+          { label: '📦 Pre-fab assembly', value: 'pre-fab' },
+          { label: '🛠️ Custom build', value: 'custom-build' },
+          { label: '🔧 Repair existing shed', value: 'repair' },
+        ],
+      },
+      {
+        id: 'shed-size',
+        question: 'What size shed?',
+        type: 'single-select',
+        options: [
+          { label: '📏 Small (under 80 sq ft)', value: 'small' },
+          { label: '📐 Medium (80–150 sq ft)', value: 'medium' },
+          { label: '🏗️ Large (150+ sq ft)', value: 'large' },
+        ],
+      },
+      {
+        id: 'shed-foundation',
+        question: 'Foundation situation?',
+        type: 'single-select',
+        options: [
+          { label: '🔲 Yes, need a concrete pad', value: 'concrete' },
+          { label: '🪨 Yes, need a gravel pad', value: 'gravel' },
+          { label: '✅ Already have a foundation', value: 'already-have' },
+          { label: '🤷 Not sure', value: 'not-sure' },
+        ],
+      },
+      {
+        id: 'shed-extras',
+        question: 'Any extras needed?',
+        type: 'multi-select',
+        options: [
+          { label: '⚡ Electrical wiring', value: 'electrical' },
+          { label: '📚 Shelving / Storage', value: 'shelving' },
+          { label: '🚫 None — just the shed', value: 'none' },
+        ],
+      },
+    ],
+  },
+
+  'tiki-bars': {
+    serviceSlug: 'tiki-bars',
+    serviceName: 'Tiki Bars',
+    headline: 'Plan Your Tiki Bar Build',
+    subtitle: 'Tell Dan about your dream bar so he can make it happen',
+    steps: [
+      {
+        id: 'bar-style',
+        question: 'What style are you going for?',
+        type: 'single-select',
+        options: [
+          { label: '🌴 Bamboo tropical', value: 'bamboo-tropical' },
+          { label: '🪵 Rustic wood', value: 'rustic-wood' },
+          { label: '🔲 Modern bar', value: 'modern' },
+          { label: '🤷 Not sure — want Dan\'s input', value: 'not-sure' },
+        ],
+      },
+      {
+        id: 'bar-size',
+        question: 'How big?',
+        type: 'single-select',
+        options: [
+          { label: '📏 Small (4–6 ft)', value: 'small' },
+          { label: '📐 Medium (6–8 ft)', value: 'medium' },
+          { label: '🏗️ Large (8+ ft)', value: 'large' },
+        ],
+      },
+      {
+        id: 'bar-features',
+        question: 'What features do you want?',
+        type: 'multi-select',
+        options: [
+          { label: '🪵 Bar top', value: 'bar-top' },
+          { label: '🌿 Thatched roof', value: 'thatched-roof' },
+          { label: '💡 Lighting', value: 'lighting' },
+          { label: '🪑 Built-in seating', value: 'seating' },
+          { label: '🚰 Plumbing / Sink', value: 'plumbing' },
+          { label: '📦 Other', value: 'other' },
+        ],
+      },
+      {
+        id: 'bar-location',
+        question: 'Where will it go?',
+        type: 'single-select',
+        options: [
+          { label: '🏠 Deck', value: 'deck' },
+          { label: '🔲 Patio', value: 'patio' },
+          { label: '🌿 Yard', value: 'yard' },
+          { label: '🏊 Poolside', value: 'poolside' },
+        ],
+      },
+    ],
+  },
+
   'outdoor-structures': {
     serviceSlug: 'outdoor-structures',
     serviceName: 'Outdoor Structures',

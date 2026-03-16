@@ -1382,5 +1382,213 @@ export const services: Service[] = [
       { title: 'Permitting Guidance', description: 'We help you determine if your project needs a permit and can advise on your specific municipality\'s requirements.' },
       { title: 'Full Finishing', description: 'Stain, paint, roofing, lighting, curtain rods — we finish every detail so the structure is ready to enjoy the day we\'re done.' }
     ]
+  },
+  {
+    slug: 'excavation',
+    name: 'Excavation',
+    shortDescription: 'Small to medium excavation services in Rockland County. Trenching, grading, drainage, and site prep done right.',
+    heroHeadline: 'Excavation Services in Rockland County, NY',
+    heroSubheadline: 'Precision digging and grading for projects big and small.',
+    intro: 'Many home improvement and outdoor projects start with excavation — and getting it wrong can mean drainage problems, foundation failures, or costly do-overs. Whether you need a trench dug for a new utility line, a section of yard graded for proper water flow, or a site excavated for a new shed foundation, the work needs to be done with precision and an understanding of Rockland County\'s rocky, variable terrain.\n\nOdds & Ends Handyman Service handles small to medium excavation projects for homeowners across Rockland County. Dan and the team have over 25 years of experience working with the clay, rock, and uneven ground conditions found throughout Suffern, New City, Nyack, and surrounding communities. We bring the right equipment, dig to the correct depth, and leave your site graded and ready for the next phase of your project.',
+    commonProblems: [
+      'Yard flooding due to improper grading or drainage',
+      'Rocky soil making digging difficult for DIY homeowners',
+      'Utility lines that need trenching for water, electric, or gas',
+      'Uneven terrain requiring leveling before a structure can be built',
+      'Old tree stumps and root systems blocking a build site',
+      'Erosion washing away topsoil and exposing foundations'
+    ],
+    jobExamples: [
+      'Trenched and graded a 60-foot French drain line in New City',
+      'Excavated and leveled a shed pad site on a rocky slope in Suffern',
+      'Dug utility trench for new outdoor electrical run in Pearl River',
+      'Graded a backyard for proper drainage away from foundation in Nanuet',
+      'Excavated for a retaining wall footer along a hillside in Stony Point',
+      'Site prep and excavation for a gravel parking pad in Nyack'
+    ],
+    whyHireHandyman: 'Excavation is physically demanding and technically precise work. Dig too shallow and your drainage or foundation will fail; dig too deep and you risk hitting utility lines or destabilizing nearby structures. Rockland County\'s terrain is full of rock ledges, clay pockets, and variable soil conditions that can turn a simple trench into a serious problem without the right experience and equipment. A professional handyman knows how to read the ground, call in utility markings, and get the job done safely.',
+    whyChooseUs: 'Odds & Ends has been digging in Rockland County dirt for over 25 years. Dan knows where the rock ledges hide in Suffern, how the clay drains in New City, and what Nyack hillsides demand in terms of erosion control. We handle projects that are too small for big excavation contractors but too involved for a homeowner with a shovel. Our pricing is fair, our work is precise, and we always leave your property clean.',
+    faqs: [
+      { question: 'How deep can you excavate?', answer: 'We handle most residential excavation depths, typically up to 4 to 6 feet for trenching and drainage projects. For anything deeper or requiring heavy commercial equipment, we can recommend a trusted partner.' },
+      { question: 'Do I need to call 811 before you dig?', answer: 'Yes, and we can help coordinate this. New York law requires utility marking before any excavation. We will not break ground until all lines are clearly marked and we know exactly what is beneath the surface.' },
+      { question: 'Can you excavate on rocky Rockland County terrain?', answer: 'Absolutely. Rocky ground is the norm here, not the exception. We carry the right tools to work through and around rock, and we know when a rock ledge means adjusting the plan versus powering through.' },
+      { question: 'Do you handle the disposal of excavated soil?', answer: 'Yes. We haul away excavated material or, if the soil is clean fill, we can redistribute it elsewhere on your property for grading purposes. Either way, your site is left clean.' },
+      { question: 'How long does a typical excavation job take?', answer: 'Most residential excavation projects take one to three days depending on scope, soil conditions, and weather. We will give you a clear timeline during our initial site assessment.' }
+    ],
+    relatedServices: ['gravel-pads', 'sheds', 'deck-repair', 'fence-repair'],
+    metaTitle: 'Excavation Services | Rockland County, NY',
+    metaDescription: 'Professional residential excavation in Rockland County, NY. Trenching, grading, drainage, and site prep. 25+ years experience. Call Odds & Ends today!',
+    keywords: ['excavation Rockland County', 'trenching service New City NY', 'grading contractor near me', 'drainage excavation', 'site prep Rockland County', 'residential excavation Suffern', 'yard grading Nyack', 'utility trenching'],
+    image: '/images/services/excavation.svg',
+    altText: 'Odds & Ends excavating and grading a residential site in Rockland County',
+    processSteps: [
+      { title: 'Site Assessment & Utility Check', description: 'We evaluate the terrain, soil conditions, and grade, then coordinate utility markings through 811 before any digging begins.' },
+      { title: 'Excavation & Digging', description: 'Using the right equipment for your project\'s scale, we excavate to the correct depth and dimensions, working carefully around rock and existing structures.' },
+      { title: 'Grading & Compaction', description: 'The excavated area is graded to the proper slope for drainage or leveled for a foundation, then compacted to prevent future settling.' },
+      { title: 'Cleanup & Soil Disposal', description: 'Excess soil is hauled away or redistributed on-site, the work area is cleaned up, and your property is left ready for the next phase.' }
+    ],
+    whyChooseUsCards: [
+      { title: 'Rockland County Terrain Experts', description: 'We have 25 years of experience working with the rocky, clay-heavy, and variable soil conditions found across Rockland County — no surprises underground.' },
+      { title: 'Right-Sized for Residential', description: 'We specialize in the small to medium jobs that big excavation companies either overcharge for or won\'t bother with.' },
+      { title: 'Utility-Safe Digging', description: 'We always coordinate 811 utility markings and dig carefully around existing lines. No cut cables, no broken pipes.' },
+      { title: 'Proper Grading', description: 'Every excavation is graded correctly so water flows away from structures — not toward them. We prevent the drainage problems other contractors create.' },
+      { title: 'Clean Worksite', description: 'We haul away excavated material, restore disturbed areas, and leave your property clean when the job is done.' }
+    ]
+  },
+  {
+    slug: 'gravel-pads',
+    name: 'Gravel Pads',
+    shortDescription: 'Professional gravel pad installation in Rockland County. Shed pads, hot tub bases, fire pit areas, and parking pads built to last.',
+    heroHeadline: 'Gravel Pad Installation in Rockland County, NY',
+    heroSubheadline: 'A solid, level foundation for sheds, hot tubs, fire pits, and more.',
+    intro: 'A gravel pad is the unsung hero of outdoor projects. It provides the level, well-drained foundation that sheds, hot tubs, fire pits, and parking areas need to stay stable and last for years. Skip the proper base and your shed will settle unevenly, your hot tub will shift, and your gravel parking area will turn into a muddy mess after the first heavy rain.\n\nOdds & Ends Handyman Service builds gravel pads the right way for homeowners throughout Rockland County. Dan and the team handle every step — excavation, landscape fabric, proper gravel selection, compaction, and edging — so your pad is level, drains correctly, and stays put through New York\'s freeze-thaw cycles. With over 25 years of experience on Rockland County properties, we know the soil and drainage conditions in every corner of the county.',
+    commonProblems: [
+      'Sheds settling unevenly on bare ground or improperly prepared pads',
+      'Gravel washing away due to lack of edging or fabric underlayment',
+      'Water pooling on pads that were not graded or compacted correctly',
+      'Hot tubs and fire pits shifting on unstable or unlevel surfaces',
+      'Weeds growing up through gravel that was laid without landscape fabric',
+      'Parking areas turning to mud because the wrong type of gravel was used'
+    ],
+    jobExamples: [
+      'Built a 10x12 gravel pad for a new storage shed in New City',
+      'Installed a compacted gravel base for a hot tub installation in Pearl River',
+      'Created a 20-foot gravel parking pad for extra vehicles in Stony Point',
+      'Prepared a level fire pit area with gravel surround in Suffern',
+      'Built a gravel pad with timber edging for a backyard gazebo in Nanuet',
+      'Installed a drainage-focused gravel pad on a sloped lot in Nyack'
+    ],
+    whyHireHandyman: 'Building a gravel pad that lasts requires more than dumping stone on the ground. The site must be excavated to the right depth, the soil compacted, landscape fabric laid to prevent weed growth and gravel migration, and the correct type and depth of gravel installed and compacted in layers. Get any step wrong and you end up with a pad that settles, shifts, or floods. A professional handyman handles every step correctly so your pad stays level and functional for years.',
+    whyChooseUs: 'Odds & Ends has installed gravel pads for sheds, hot tubs, and outdoor living spaces across Rockland County for over 25 years. We know which gravel types work best for Rockland County\'s soil and climate, we compact in proper lifts, and we always install edging to keep your gravel where it belongs. Dan personally checks every pad with a level before the job is done. Fair pricing, clean work, no shortcuts.',
+    faqs: [
+      { question: 'What type of gravel do you use for shed pads?', answer: 'We typically use a combination of crushed stone base (often called process or crusher run) compacted in layers, topped with clean 3/4-inch stone for drainage. The exact mix depends on your soil conditions and what the pad is supporting.' },
+      { question: 'How deep should a gravel pad be?', answer: 'Most residential gravel pads require 4 to 6 inches of compacted gravel over landscape fabric. Heavy-load applications like hot tubs or parking areas may require 6 to 8 inches. We always excavate below the gravel depth to remove organic material.' },
+      { question: 'Do you install edging around the gravel pad?', answer: 'Yes. Edging — whether pressure-treated timber, steel landscape edging, or stone — is essential to keep gravel contained and maintain clean edges. We recommend edging on every pad we build.' },
+      { question: 'Can you build a gravel pad on a slope?', answer: 'Absolutely. Sloped sites are common in Rockland County. We excavate into the hillside, build up the low side with proper retaining, and ensure the finished pad is level and drains correctly.' },
+      { question: 'How long does a gravel pad installation take?', answer: 'Most gravel pad projects take one to two days. A standard 10x12 shed pad on reasonably flat ground is typically a one-day job. Larger pads or challenging terrain may take two days.' }
+    ],
+    relatedServices: ['excavation', 'sheds', 'deck-repair', 'fence-repair'],
+    metaTitle: 'Gravel Pad Installation | Rockland County, NY',
+    metaDescription: 'Professional gravel pad installation in Rockland County, NY. Shed pads, hot tub bases, fire pits, parking areas. 25+ years experience. Call Odds & Ends!',
+    keywords: ['gravel pad installation Rockland County', 'shed pad New City NY', 'gravel base hot tub', 'gravel parking pad', 'fire pit gravel pad', 'crushed stone pad Suffern', 'gravel pad near me'],
+    image: '/images/services/gravel-pads.svg',
+    altText: 'Freshly installed and compacted gravel pad ready for a shed in Rockland County',
+    processSteps: [
+      { title: 'Site Layout & Excavation', description: 'We mark the pad dimensions, excavate to the correct depth, remove organic material, and grade the subsoil for proper drainage.' },
+      { title: 'Fabric & Edging Installation', description: 'Heavy-duty landscape fabric is laid to prevent weed growth and gravel migration, and edging is installed to define clean borders.' },
+      { title: 'Gravel Placement & Compaction', description: 'Crushed stone is placed in lifts and mechanically compacted in layers to create a solid, stable base that will not settle.' },
+      { title: 'Leveling & Final Inspection', description: 'The finished pad is checked for level across all points, drainage is confirmed, and the surrounding area is cleaned up.' }
+    ],
+    whyChooseUsCards: [
+      { title: 'Proper Base Preparation', description: 'We excavate, grade, and compact the subsoil before a single stone is placed — the step most DIYers and some contractors skip.' },
+      { title: 'Compacted in Lifts', description: 'Gravel is placed and compacted in layers, not dumped all at once. This creates a pad that stays level and supports heavy loads without settling.' },
+      { title: 'Drainage Done Right', description: 'Every pad is graded so water flows away from structures. No pooling, no erosion, no water finding its way into your shed or under your hot tub.' },
+      { title: 'Edging Included', description: 'We install proper edging on every pad to keep gravel contained and maintain clean, professional borders that last.' },
+      { title: '25+ Years in Rockland County', description: 'We know the soil, the slopes, and the drainage patterns across every town in the county. That local knowledge shows in every pad we build.' }
+    ]
+  },
+  {
+    slug: 'sheds',
+    name: 'Sheds',
+    shortDescription: 'Shed building, assembly, and installation in Rockland County. Pre-fab assembly, custom builds, and foundation prep.',
+    heroHeadline: 'Shed Building & Assembly in Rockland County, NY',
+    heroSubheadline: 'From foundation to finish — your shed, built right.',
+    intro: 'Every homeowner eventually runs out of storage space. A well-built shed solves the problem, giving you a dedicated place for lawn equipment, tools, seasonal gear, and everything else that has been cluttering your garage or basement. But a shed is only as good as its foundation, framing, and weatherproofing — and cutting corners on any of these means a structure that rots, sags, or leaks within a few years.\n\nOdds & Ends Handyman Service builds and assembles sheds for homeowners throughout Rockland County. Whether you have a pre-fab shed kit that needs proper assembly or want a custom-built shed designed for your specific needs and property, Dan and the team handle every step. With over 25 years of experience, we ensure your shed is level, structurally sound, weathertight, and built to last through decades of Rockland County weather.',
+    commonProblems: [
+      'Pre-fab shed kits arriving with confusing instructions and missing hardware',
+      'Sheds built on bare ground without a proper foundation settling and rotting',
+      'Doors that stick or will not close properly due to unlevel framing',
+      'Roof leaks from improper shingle installation or flashing',
+      'Sheds too small for actual storage needs because sizing was not planned',
+      'Interior space wasted due to lack of shelving or organizational layout'
+    ],
+    jobExamples: [
+      'Assembled a 10x16 Tuff Shed kit on a prepared gravel pad in New City',
+      'Built a custom 12x20 workshop shed with electrical and workbench in Suffern',
+      'Installed a foundation and assembled a Keter resin shed in Pearl River',
+      'Built interior shelving and pegboard wall in an existing shed in Nanuet',
+      'Constructed a cedar garden shed with potting bench and window boxes in Nyack',
+      'Replaced rotted floor joists and re-leveled a settling shed in Stony Point'
+    ],
+    whyHireHandyman: 'Shed assembly and construction involves foundation work, precise framing, roofing, and weatherproofing — skills that overlap with house building. A pre-fab shed kit might look simple, but improper assembly leads to doors that jam, roofs that leak, and walls that bow. A custom shed requires carpentry expertise from the ground up. A professional handyman ensures your shed is square, level, weathertight, and anchored properly so it stands strong for decades rather than sagging within a few seasons.',
+    whyChooseUs: 'Odds & Ends has been building and assembling sheds across Rockland County for over 25 years. Dan insists on proper foundations — whether that means a gravel pad, concrete piers, or a pressure-treated timber frame — because a shed is only as good as what it sits on. We build with quality materials, install proper roofing, and can add interior shelving, electrical, lighting, and workbenches to make your shed truly functional. Our sheds are built to handle heavy snow loads, driving rain, and Rockland County\'s freeze-thaw cycles.',
+    faqs: [
+      { question: 'Do I need a permit to build a shed in Rockland County?', answer: 'It depends on your municipality and the size of the shed. Many Rockland County towns require permits for sheds over 100 or 120 square feet. We can advise you on your specific town\'s requirements and help you navigate the process.' },
+      { question: 'Can you assemble a shed kit I already purchased?', answer: 'Absolutely. We assemble all major brands including Tuff Shed, Best Barns, Keter, and Rubbermaid kits. We also prepare the foundation the kit manufacturer recommends, which most homeowners skip.' },
+      { question: 'What type of foundation does a shed need?', answer: 'It depends on the shed size and your site conditions. Options include compacted gravel pads, concrete pier blocks, pressure-treated timber frames, or poured concrete slabs. We will recommend the best option for your specific situation and terrain.' },
+      { question: 'Can you add electricity, lighting, or shelving to my shed?', answer: 'Yes. We regularly add interior shelving, pegboard walls, workbenches, lighting, and electrical outlets to sheds. These additions transform a basic storage box into a truly functional workspace.' },
+      { question: 'How long does it take to build a shed?', answer: 'A pre-fab shed assembly on a prepared foundation typically takes one to two days. A custom-built shed usually takes three to five days depending on size, features, and weather. Foundation prep is additional time if needed.' }
+    ],
+    relatedServices: ['gravel-pads', 'excavation', 'shelving-installation', 'door-installation'],
+    metaTitle: 'Shed Building & Assembly | Rockland County, NY',
+    metaDescription: 'Professional shed building and assembly in Rockland County, NY. Pre-fab kits, custom builds, foundations, and interiors. 25+ years experience. Call today!',
+    keywords: ['shed building Rockland County', 'shed assembly New City NY', 'custom shed builder', 'shed installation near me', 'pre-fab shed assembly', 'shed foundation Suffern', 'storage shed Nyack', 'shed contractor Rockland County'],
+    image: '/images/services/sheds.svg',
+    altText: 'Custom-built storage shed with shelving on a gravel pad in Rockland County',
+    processSteps: [
+      { title: 'Site Selection & Foundation Prep', description: 'We help choose the best location on your property, then excavate, level, and install the appropriate foundation — gravel pad, pier blocks, or timber frame.' },
+      { title: 'Framing & Assembly', description: 'Whether assembling a pre-fab kit or custom framing from scratch, we build the floor, walls, and roof structure square, plumb, and level.' },
+      { title: 'Roofing & Weatherproofing', description: 'Shingles, drip edge, and flashing are installed properly. Doors and windows are sealed, and all joints are caulked to keep water out.' },
+      { title: 'Interior Finish & Cleanup', description: 'Shelving, hooks, pegboard, workbenches, and electrical are installed. The site is cleaned up and all construction debris is removed.' }
+    ],
+    whyChooseUsCards: [
+      { title: 'Foundation First', description: 'We never set a shed on bare ground. Every build starts with a proper, level foundation designed for your terrain and shed type.' },
+      { title: 'Built for Rockland County Weather', description: 'Heavy snow loads, driving rain, freeze-thaw cycles — we build with materials and techniques that handle everything this climate throws at a structure.' },
+      { title: 'Pre-Fab or Custom', description: 'We assemble any brand of shed kit correctly, or we can design and build a custom shed to your exact specifications and needs.' },
+      { title: 'Functional Interiors', description: 'Shelving, pegboard, workbenches, lighting, electrical — we set up the inside so your shed works as hard as you need it to.' },
+      { title: 'Permitting Guidance', description: 'We know Rockland County\'s shed regulations and can help you understand what your specific town requires before we start building.' }
+    ]
+  },
+  {
+    slug: 'tiki-bars',
+    name: 'Tiki Bars',
+    shortDescription: 'Custom outdoor tiki bar construction in Rockland County. Bamboo, wood, thatch, countertops, and electrical for the ultimate backyard hangout.',
+    heroHeadline: 'Custom Tiki Bar Construction in Rockland County, NY',
+    heroSubheadline: 'Your backyard paradise — designed, built, and ready to enjoy.',
+    intro: 'There is nothing quite like a backyard tiki bar to turn an ordinary patio or deck into the ultimate outdoor entertaining space. Whether you want a classic Polynesian-style bar with a thatched roof and bamboo accents or a more modern outdoor bar with clean lines and a stone countertop, a custom-built tiki bar adds character, function, and serious fun to your Rockland County backyard.\n\nOdds & Ends Handyman Service designs and builds custom outdoor tiki bars for homeowners throughout Rockland County. Dan and the team have over 25 years of construction experience and handle every detail — framing, roofing, countertops, seating, and electrical for lighting, outlets, and blender hookups. We build structures that look incredible and stand up to New York weather year after year.',
+    commonProblems: [
+      'Store-bought tiki bar kits that fall apart after one season',
+      'Lack of electrical outlets for blenders, refrigerators, and lighting',
+      'Thatched roofing that leaks or blows off in high winds',
+      'Countertops that warp, stain, or deteriorate from weather exposure',
+      'Bars built without proper footings that shift or lean over time',
+      'Poor lighting that makes the bar unusable after dark'
+    ],
+    jobExamples: [
+      'Built a 10-foot bamboo tiki bar with thatched roof and LED lighting on a Suffern patio',
+      'Constructed a custom cedar outdoor bar with granite countertop and electrical in New City',
+      'Built a poolside tiki bar with built-in cooler and overhead fan hookup in Pearl River',
+      'Designed and built a 12-foot tiki bar with wrap-around seating in Nanuet',
+      'Constructed a two-level tiki bar with storage and mini-fridge cabinet in Nyack',
+      'Built a rustic wood bar with thatched pergola roof and string light wiring in Stony Point'
+    ],
+    whyHireHandyman: 'A tiki bar is a structure that needs to handle weight on the countertop, support a roof, resist weather exposure, and often include electrical wiring for lights and appliances. Building one from scratch involves carpentry, roofing, electrical, and finishing skills. A cheap kit bar from a big box store will look tired and fall apart after a season or two. A professionally built tiki bar becomes a permanent backyard feature that impresses guests and lasts for years.',
+    whyChooseUs: 'Odds & Ends brings over 25 years of construction experience to every tiki bar build. Dan works with each homeowner to design a bar that fits their space, style, and entertaining needs. We use weather-resistant materials — pressure-treated framing, marine-grade fasteners, rot-resistant countertop options, and properly secured thatching — to ensure your bar survives Rockland County winters and looks great every summer. We also handle the electrical work for outlets, lighting, and appliance hookups so your bar is fully functional from day one.',
+    faqs: [
+      { question: 'How much does a custom tiki bar cost?', answer: 'Pricing varies based on size, materials, and features. A basic 8-foot bar with a thatched roof starts at a different price point than a 14-foot bar with granite countertops and full electrical. We provide a detailed quote after discussing your vision and assessing your space.' },
+      { question: 'Can you add electrical outlets and lighting?', answer: 'Yes. We wire outlets for blenders and mini-fridges, install overhead and ambient lighting, and can add ceiling fans under covered roofs. All electrical work is done safely and to code.' },
+      { question: 'What materials hold up best outdoors in Rockland County?', answer: 'Pressure-treated lumber or cedar for framing, marine-grade stainless steel hardware, stone or sealed hardwood countertops, and synthetic thatch that resists wind and rot all perform well through our freeze-thaw cycles and heavy weather.' },
+      { question: 'Do I need a permit for an outdoor bar?', answer: 'It depends on the size of the structure and your municipality\'s rules. Many freestanding bars under a certain square footage do not require permits, but covered structures or those with electrical may. We can advise based on your town\'s specific requirements.' },
+      { question: 'Can the bar be built on an existing deck or patio?', answer: 'Absolutely. We build tiki bars on existing decks, concrete patios, paver patios, and directly on gravel pads. We assess the existing surface to ensure it can support the bar\'s weight and make any reinforcements needed.' }
+    ],
+    relatedServices: ['deck-repair', 'outdoor-structures', 'light-fixture-installation', 'painting'],
+    metaTitle: 'Custom Tiki Bar Construction | Rockland County, NY',
+    metaDescription: 'Custom outdoor tiki bar construction in Rockland County, NY. Bamboo, wood, thatch, countertops, lighting, and electrical. 25+ years experience. Call today!',
+    keywords: ['tiki bar builder Rockland County', 'outdoor bar construction New City NY', 'custom tiki bar', 'backyard bar builder near me', 'outdoor bar with roof', 'tiki bar contractor Suffern', 'patio bar Nyack'],
+    image: '/images/services/tiki-bars.svg',
+    altText: 'Custom tiki bar with thatched roof and string lights built on a Rockland County patio',
+    processSteps: [
+      { title: 'Design & Planning', description: 'We discuss your vision, measure your space, and design a bar that fits your style, budget, and entertaining needs — including layout for electrical and seating.' },
+      { title: 'Foundation & Framing', description: 'Proper footings or anchoring are installed, then the bar is framed with pressure-treated or rot-resistant lumber built to handle weight and weather.' },
+      { title: 'Countertops, Roof & Finishing', description: 'Your chosen countertop material is installed, roofing or thatching is secured, and all surfaces are sealed, stained, or finished for weather resistance.' },
+      { title: 'Electrical, Lighting & Final Details', description: 'Outlets, lighting, fans, and any built-in features like cooler cabinets or shelving are installed. The site is cleaned and your bar is ready to enjoy.' }
+    ],
+    whyChooseUsCards: [
+      { title: 'Fully Custom Design', description: 'Every tiki bar we build is designed from scratch for your specific space, style, and how you like to entertain — no cookie-cutter kits.' },
+      { title: 'Built to Last', description: 'Pressure-treated framing, marine-grade hardware, and weather-resistant finishes mean your bar stands up to Rockland County winters and keeps looking great.' },
+      { title: 'Electrical Included', description: 'We handle outlets for blenders and mini-fridges, overhead lighting, string light hookups, and fan wiring so your bar is fully functional.' },
+      { title: 'One Contractor, Every Trade', description: 'Carpentry, roofing, countertops, electrical, finishing — we handle every aspect of the build so you deal with one team, not five subcontractors.' },
+      { title: '25+ Years of Building', description: 'Dan and the team bring decades of construction experience to every bar build. Your tiki bar is built with the same care and precision as any structural project we take on.' }
+    ]
   }
 ]

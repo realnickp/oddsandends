@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f"/>
+      <stop offset="100%" style="stop-color:#2d3748"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg)" rx="4"/>
+  <!-- Thatched roof -->
+  <path d="M200 220 L400 140 L600 220" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Roof thatch overhang - left -->
+  <path d="M200 220 L180 230" stroke="rgba(255,255,255,0.7)" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Roof thatch overhang - right -->
+  <path d="M600 220 L620 230" stroke="rgba(255,255,255,0.7)" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Thatch texture lines -->
+  <path d="M220 218 L215 228" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M250 212 L243 225" stroke="rgba(255,255,255,0.35)" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M280 206 L272 222" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M310 200 L303 218" stroke="rgba(255,255,255,0.35)" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M340 193 L334 214" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M370 186 L365 210" stroke="rgba(255,255,255,0.35)" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M430 186 L435 210" stroke="rgba(255,255,255,0.35)" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M460 193 L466 214" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M490 200 L497 218" stroke="rgba(255,255,255,0.35)" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M520 206 L528 222" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M550 212 L557 225" stroke="rgba(255,255,255,0.35)" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M580 218 L585 228" stroke="rgba(255,255,255,0.4)" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- Thatch layer lines -->
+  <path d="M230 215 L400 150 L570 215" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <path d="M260 210 L400 158 L540 210" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <path d="M290 205 L400 165 L510 205" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+  <!-- Support posts -->
+  <line x1="240" y1="222" x2="240" y2="410" stroke="rgba(255,255,255,0.9)" stroke-width="4" stroke-linecap="round"/>
+  <line x1="560" y1="222" x2="560" y2="410" stroke="rgba(255,255,255,0.9)" stroke-width="4" stroke-linecap="round"/>
+  <!-- Bamboo texture on posts -->
+  <line x1="233" y1="280" x2="247" y2="280" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="233" y1="330" x2="247" y2="330" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="233" y1="380" x2="247" y2="380" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="553" y1="280" x2="567" y2="280" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="553" y1="330" x2="567" y2="330" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <line x1="553" y1="380" x2="567" y2="380" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <!-- Bar counter top -->
+  <rect x="225" y="320" width="350" height="12" rx="2" fill="none" stroke="rgba(255,255,255,0.8)" stroke-width="2.5"/>
+  <rect x="225" y="320" width="350" height="12" rx="2" fill="rgba(255,255,255,0.08)"/>
+  <!-- Bar front panel -->
+  <rect x="240" y="332" width="320" height="78" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+  <!-- Bamboo slat details on bar front -->
+  <line x1="280" y1="332" x2="280" y2="410" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <line x1="320" y1="332" x2="320" y2="410" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <line x1="360" y1="332" x2="360" y2="410" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <line x1="400" y1="332" x2="400" y2="410" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <line x1="440" y1="332" x2="440" y2="410" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <line x1="480" y1="332" x2="480" y2="410" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <line x1="520" y1="332" x2="520" y2="410" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <!-- Bar stool left -->
+  <circle cx="300" cy="408" r="14" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+  <line x1="300" y1="422" x2="300" y2="445" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+  <line x1="290" y1="445" x2="310" y2="445" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+  <!-- Bar stool right -->
+  <circle cx="500" cy="408" r="14" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+  <line x1="500" y1="422" x2="500" y2="445" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+  <line x1="490" y1="445" x2="510" y2="445" stroke="rgba(255,255,255,0.5)" stroke-width="2"/>
+  <!-- Drinks on counter -->
+  <!-- Glass left -->
+  <path d="M340 305 L345 320 L355 320 L360 305" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.5" stroke-linejoin="round"/>
+  <line x1="350" y1="305" x2="350" y2="298" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <circle cx="355" cy="296" r="4" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <!-- Glass right -->
+  <path d="M440 308 L440 320 L458 320 L458 308 Z" fill="none" stroke="rgba(255,255,255,0.6)" stroke-width="1.5"/>
+  <line x1="440" y1="312" x2="458" y2="312" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+  <!-- Palm leaf accent - left -->
+  <path d="M180 200 Q160 170 170 130" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M170 130 Q185 155 180 200" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="8" stroke-linecap="round"/>
+  <!-- Palm leaf accent - right -->
+  <path d="M620 200 Q640 170 630 130" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="2" stroke-linecap="round"/>
+  <path d="M630 130 Q615 155 620 200" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="8" stroke-linecap="round"/>
+  <!-- Service name -->
+  <text x="400" y="520" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="bold" fill="rgba(255,255,255,0.95)" text-anchor="middle" letter-spacing="3">TIKI BARS</text>
+  <line x1="290" y1="540" x2="510" y2="540" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+</svg>

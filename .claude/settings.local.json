@@ -47,7 +47,9 @@
       "Bash(cd:*)",
       "Bash(node:*)",
       "Bash(netstat:*)",
-      "Bash(taskkill:*)"
+      "Bash(taskkill:*)",
+      "Bash(ls:*)",
+      "Bash(wc:*)"
     ]
   }
 }

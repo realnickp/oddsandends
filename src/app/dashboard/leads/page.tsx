@@ -22,6 +22,8 @@ import {
   Zap,
   Snowflake,
   Camera,
+  Printer,
+  ArrowUp,
 } from 'lucide-react'
 
 // ── Urgency detection ─────────────────────────────────────────
@@ -204,6 +206,17 @@ export default function LeadsPage() {
   const [page, setPage] = useState(1)
   const [hasMore, setHasMore] = useState(false)
 
+  // Scroll-to-top FAB visibility
+  const [showScrollTop, setShowScrollTop] = useState(false)
+
+  useEffect(() => {
+    const main = document.querySelector('main')
+    if (!main) return
+    const onScroll = () => setShowScrollTop(main.scrollTop > 400)
+    main.addEventListener('scroll', onScroll, { passive: true })
+    return () => main.removeEventListener('scroll', onScroll)
+  }, [])
+
   // Bulk selection state
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set())
   const [bulkAction, setBulkAction] = useState(false)
@@ -284,6 +297,55 @@ export default function LeadsPage() {
     } finally {
       setSavingNote(false)
     }
+  }
+
+  // ── Print lead ──────────────────────────────────────────
+  const handlePrint = (lead: Lead) => {
+    const ls = scoreLead(lead)
+    const service = getService(lead)
+    const date = new Date(lead.created_at).toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      hour: 'numeric',
+      minute: '2-digit',
+    })
+
+    let quizHtml = ''
+    if (lead.source === 'project-builder' && lead.answers) {
+      const rows = Object.entries(lead.answers)
+        .map(
+          ([q, a]) =>
+            `<tr><td style="padding:8px 12px;font-weight:600;color:#4b5563;border-bottom:1px solid #e5e7eb;width:40%;vertical-align:top">${q}</td><td style="padding:8px 12px;color:#111827;border-bottom:1px solid #e5e7eb">${Array.isArray(a) ? a.join(', ') : String(a)}</td></tr>`
+        )
+        .join('')
+      quizHtml = `<div style="margin-top:24px"><h3 style="font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#9ca3af;margin-bottom:12px">Project Builder Answers</h3><table style="width:100%;border-collapse:collapse;border:1px solid #e5e7eb;border-radius:8px;overflow:hidden">${rows}</table></div>`
+    }
+
+    let chatHtml = ''
+    if (lead.source === 'chatbot' && lead.messages && lead.messages.length > 0) {
+      const msgs = lead.messages
+        .map(
+          (m) =>
+            `<div style="margin-bottom:8px;display:flex;justify-content:${m.role === 'user' ? 'flex-end' : 'flex-start'}"><div style="max-width:75%;padding:8px 14px;border-radius:12px;font-size:14px;${m.role === 'user' ? 'background:#2563eb;color:white' : 'background:#f3f4f6;color:#1f2937'}">${m.content}</div></div>`
+        )
+        .join('')
+      chatHtml = `<div style="margin-top:24px"><h3 style="font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#9ca3af;margin-bottom:12px">Conversation History</h3><div style="border:1px solid #e5e7eb;border-radius:12px;padding:16px;background:white">${msgs}</div></div>`
+    }
+
+    const pw = window.open('', '_blank')
+    if (!pw) return
+    const printedDate = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+    const scoreBadgeStyle = ls.score >= 65
+      ? 'background:#fef2f2;color:#dc2626;border:1px solid #fecaca'
+      : ls.score >= 35
+        ? 'background:#fffbeb;color:#d97706;border:1px solid #fde68a'
+        : 'background:#eff6ff;color:#3b82f6;border:1px solid #bfdbfe'
+
+    pw.document.write(`<!DOCTYPE html><html><head><title>Lead - ${lead.name}</title><style>@media print{body{print-color-adjust:exact;-webkit-print-color-adjust:exact}}</style></head><body style="margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#111827;background:white"><div style="max-width:700px;margin:0 auto;padding:40px 32px"><div style="border-bottom:3px solid #2563eb;padding-bottom:20px;margin-bottom:32px"><h1 style="margin:0 0 4px 0;font-size:24px;font-weight:800;color:#1e3a5f">Odds &amp; Ends Handyman Service</h1><p style="margin:0;font-size:14px;color:#6b7280">(908) 461-2688</p></div><div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:24px"><div><h2 style="margin:0 0 6px 0;font-size:22px;font-weight:700;color:#111827">${lead.name}</h2><p style="margin:0;font-size:16px;color:#4b5563;font-weight:500">${service}</p></div><div style="text-align:right"><div style="display:inline-block;padding:6px 14px;border-radius:20px;font-size:13px;font-weight:700;${scoreBadgeStyle}">${ls.label} Lead &mdash; ${ls.score}/100</div><p style="margin:6px 0 0 0;font-size:12px;color:#9ca3af">${ls.reason}</p></div></div><div style="display:grid;grid-template-columns:1fr 1fr;gap:12px 32px;margin-bottom:24px;padding:20px;background:#f9fafb;border-radius:12px;border:1px solid #e5e7eb">${lead.phone ? `<div><span style="font-size:12px;font-weight:600;color:#9ca3af;text-transform:uppercase;letter-spacing:0.5px">Phone</span><p style="margin:4px 0 0 0;font-size:15px;font-weight:500">${lead.phone}</p></div>` : ''}${lead.email ? `<div><span style="font-size:12px;font-weight:600;color:#9ca3af;text-transform:uppercase;letter-spacing:0.5px">Email</span><p style="margin:4px 0 0 0;font-size:15px;font-weight:500">${lead.email}</p></div>` : ''}${lead.city ? `<div><span style="font-size:12px;font-weight:600;color:#9ca3af;text-transform:uppercase;letter-spacing:0.5px">City</span><p style="margin:4px 0 0 0;font-size:15px;font-weight:500">${lead.city}</p></div>` : ''}<div><span style="font-size:12px;font-weight:600;color:#9ca3af;text-transform:uppercase;letter-spacing:0.5px">Source</span><p style="margin:4px 0 0 0;font-size:15px;font-weight:500">${sourceLabel[lead.source] || lead.source}</p></div><div><span style="font-size:12px;font-weight:600;color:#9ca3af;text-transform:uppercase;letter-spacing:0.5px">Status</span><p style="margin:4px 0 0 0;font-size:15px;font-weight:500">${statusLabel[lead.status] || lead.status}</p></div><div><span style="font-size:12px;font-weight:600;color:#9ca3af;text-transform:uppercase;letter-spacing:0.5px">Date</span><p style="margin:4px 0 0 0;font-size:15px;font-weight:500">${date}</p></div>${lead.timeline ? `<div><span style="font-size:12px;font-weight:600;color:#9ca3af;text-transform:uppercase;letter-spacing:0.5px">Timeline</span><p style="margin:4px 0 0 0;font-size:15px;font-weight:500">${lead.timeline}</p></div>` : ''}${lead.contact_method ? `<div><span style="font-size:12px;font-weight:600;color:#9ca3af;text-transform:uppercase;letter-spacing:0.5px">Preferred Contact</span><p style="margin:4px 0 0 0;font-size:15px;font-weight:500">${lead.contact_method}</p></div>` : ''}</div>${lead.description ? `<div style="margin-top:24px"><h3 style="font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#9ca3af;margin-bottom:12px">Description</h3><p style="margin:0;font-size:14px;line-height:1.7;color:#374151;background:white;border:1px solid #e5e7eb;border-radius:12px;padding:16px;white-space:pre-wrap">${lead.description}</p></div>` : ''}${quizHtml}${chatHtml}${lead.notes ? `<div style="margin-top:24px"><h3 style="font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#9ca3af;margin-bottom:12px">Notes</h3><div style="font-size:14px;line-height:1.7;color:#374151;background:#fefce8;border:1px solid #fde68a;border-radius:12px;padding:16px;white-space:pre-wrap">${lead.notes}</div></div>` : ''}<div style="margin-top:40px;padding-top:16px;border-top:1px solid #e5e7eb;text-align:center"><p style="margin:0;font-size:12px;color:#9ca3af">Printed on ${printedDate} &mdash; Odds &amp; Ends Handyman Service</p></div></div></body></html>`)
+    pw.document.close()
+    pw.focus()
+    pw.print()
   }
 
   // ── Bulk actions ──────────────────────────────────────────
@@ -402,7 +464,7 @@ export default function LeadsPage() {
                     e.target.value = ''
                   }}
                   disabled={bulkProcessing}
-                  className="rounded-xl border border-blue-300 bg-white px-3 py-2 text-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                  className="w-full sm:w-auto rounded-xl border border-blue-300 bg-white px-3 py-3 sm:py-2 text-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                   defaultValue=""
                 >
                   <option value="" disabled>
@@ -463,14 +525,14 @@ export default function LeadsPage() {
             placeholder="Search by name, email, phone..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full rounded-xl border border-gray-200 py-2.5 pl-10 pr-4 text-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+            className="w-full rounded-xl border border-gray-200 py-3 sm:py-2.5 pl-10 pr-4 text-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none"
           />
         </div>
 
         <select
           value={sourceFilter}
           onChange={(e) => setSourceFilter(e.target.value)}
-          className="rounded-xl border border-gray-200 px-3 py-2.5 text-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+          className="w-full sm:w-auto rounded-xl border border-gray-200 px-3 py-3 sm:py-2.5 text-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none"
         >
           <option value="all">All Sources</option>
           <option value="project-builder">Project Builder</option>
@@ -481,7 +543,7 @@ export default function LeadsPage() {
         <select
           value={statusFilter}
           onChange={(e) => setStatusFilter(e.target.value)}
-          className="rounded-xl border border-gray-200 px-3 py-2.5 text-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+          className="w-full sm:w-auto rounded-xl border border-gray-200 px-3 py-3 sm:py-2.5 text-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none"
         >
           <option value="all">All Statuses</option>
           {statusOptions.map((s) => (
@@ -527,7 +589,7 @@ export default function LeadsPage() {
                 }`}
               >
                 {/* Card summary */}
-                <div className="flex items-start gap-3 p-5">
+                <div className="flex items-start gap-2.5 sm:gap-3 p-4 sm:p-5">
                   {/* Checkbox for bulk mode */}
                   {bulkAction && (
                     <button
@@ -544,12 +606,12 @@ export default function LeadsPage() {
 
                   {/* Score indicator */}
                   <div
-                    className={`shrink-0 flex flex-col items-center gap-0.5 rounded-xl border px-3 py-2 min-w-[52px] ${leadScore.color}`}
+                    className={`shrink-0 flex flex-col items-center gap-0.5 rounded-xl border px-2 py-1.5 sm:px-3 sm:py-2 min-w-[40px] sm:min-w-[52px] ${leadScore.color}`}
                     title={`Lead Score: ${leadScore.score}/100 — ${leadScore.reason}`}
                   >
-                    <ScoreIcon className="h-5 w-5" />
-                    <span className="text-xs font-bold">{leadScore.score}</span>
-                    <span className="text-[10px] font-semibold leading-tight">{leadScore.label}</span>
+                    <ScoreIcon className="h-4 w-4 sm:h-5 sm:w-5" />
+                    <span className="text-[10px] sm:text-xs font-bold">{leadScore.score}</span>
+                    <span className="text-[9px] sm:text-[10px] font-semibold leading-tight">{leadScore.label}</span>
                   </div>
 
                   {/* Main info */}
@@ -581,52 +643,64 @@ export default function LeadsPage() {
                     </p>
 
                     {/* Contact + meta row */}
-                    <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-gray-500">
-                      {lead.phone && <span>{lead.phone}</span>}
-                      {lead.email && <span>{lead.email}</span>}
-                      {lead.city && <span>{lead.city}</span>}
-                      <span>{timeAgo(lead.created_at)}</span>
-                      {hasPhotos && (
-                        <span className="inline-flex items-center gap-1 text-gray-400">
-                          <Camera className="h-3.5 w-3.5" />
-                          {lead.photo_urls!.length} photo{lead.photo_urls!.length > 1 ? 's' : ''}
-                        </span>
-                      )}
+                    <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-y-0.5 sm:gap-x-4 sm:gap-y-1 text-sm text-gray-500">
+                      {lead.phone && <span className="truncate">{lead.phone}</span>}
+                      {lead.email && <span className="truncate">{lead.email}</span>}
+                      <div className="flex flex-wrap items-center gap-x-4 gap-y-0.5">
+                        {lead.city && <span>{lead.city}</span>}
+                        <span>{timeAgo(lead.created_at)}</span>
+                        {hasPhotos && (
+                          <span className="inline-flex items-center gap-1 text-gray-400">
+                            <Camera className="h-3.5 w-3.5" />
+                            {lead.photo_urls!.length} photo{lead.photo_urls!.length > 1 ? 's' : ''}
+                          </span>
+                        )}
+                      </div>
                     </div>
                   </button>
 
                   {/* Quick actions */}
-                  <div className="flex items-center gap-1.5 shrink-0">
+                  <div className="flex items-center gap-1 sm:gap-1.5 shrink-0">
                     {lead.phone && (
                       <>
                         <a
                           href={`tel:${lead.phone}`}
-                          className="rounded-xl p-2.5 text-blue-600 hover:bg-blue-50 transition-colors"
+                          className="rounded-xl p-3 sm:p-2.5 text-blue-600 hover:bg-blue-50 active:bg-blue-100 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
                           title="Call"
                         >
-                          <Phone className="h-5 w-5" />
+                          <Phone className="h-5 w-5 sm:h-5 sm:w-5" />
                         </a>
                         <a
                           href={`sms:${lead.phone}`}
-                          className="rounded-xl p-2.5 text-green-600 hover:bg-green-50 transition-colors"
+                          className="rounded-xl p-3 sm:p-2.5 text-green-600 hover:bg-green-50 active:bg-green-100 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
                           title="Text"
                         >
-                          <MessageSquare className="h-5 w-5" />
+                          <MessageSquare className="h-5 w-5 sm:h-5 sm:w-5" />
                         </a>
                       </>
                     )}
                     {lead.email && (
                       <a
                         href={`mailto:${lead.email}`}
-                        className="rounded-xl p-2.5 text-purple-600 hover:bg-purple-50 transition-colors"
+                        className="rounded-xl p-3 sm:p-2.5 text-purple-600 hover:bg-purple-50 active:bg-purple-100 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
                         title="Email"
                       >
-                        <Mail className="h-5 w-5" />
+                        <Mail className="h-5 w-5 sm:h-5 sm:w-5" />
                       </a>
                     )}
                     <button
+                      onClick={(e) => {
+                        e.stopPropagation()
+                        handlePrint(lead)
+                      }}
+                      className="rounded-xl p-3 sm:p-2.5 text-gray-400 hover:bg-gray-100 hover:text-gray-600 active:bg-gray-200 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
+                      title="Print"
+                    >
+                      <Printer className="h-5 w-5" />
+                    </button>
+                    <button
                       onClick={() => setExpandedId(expanded ? null : lead.id)}
-                      className="rounded-xl p-2.5 text-gray-400 hover:bg-gray-100 transition-colors"
+                      className="rounded-xl p-3 sm:p-2.5 text-gray-400 hover:bg-gray-100 active:bg-gray-200 transition-colors min-w-[44px] min-h-[44px] flex items-center justify-center"
                     >
                       {expanded ? (
                         <ChevronUp className="h-5 w-5" />
@@ -645,7 +719,7 @@ export default function LeadsPage() {
                         <button
                           key={i}
                           onClick={() => setLightboxUrl(url)}
-                          className="group relative h-16 w-16 shrink-0 overflow-hidden rounded-lg border border-gray-200"
+                          className="group relative h-14 w-14 sm:h-16 sm:w-16 shrink-0 overflow-hidden rounded-lg border border-gray-200"
                         >
                           <img
                             src={url}
@@ -657,7 +731,7 @@ export default function LeadsPage() {
                       {lead.photo_urls!.length > 4 && (
                         <button
                           onClick={() => setExpandedId(lead.id)}
-                          className="flex h-16 w-16 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-gray-100 text-sm font-medium text-gray-500 hover:bg-gray-200"
+                          className="flex h-14 w-14 sm:h-16 sm:w-16 shrink-0 items-center justify-center rounded-lg border border-gray-200 bg-gray-100 text-sm font-medium text-gray-500 hover:bg-gray-200"
                         >
                           +{lead.photo_urls!.length - 4}
                         </button>
@@ -668,7 +742,7 @@ export default function LeadsPage() {
 
                 {/* Expanded detail */}
                 {expanded && (
-                  <div className="border-t border-gray-200 px-5 py-5 space-y-6 bg-gray-50/30">
+                  <div className="border-t border-gray-200 px-4 sm:px-5 py-5 space-y-6 bg-gray-50/30">
                     {/* Lead score breakdown */}
                     <div className="rounded-xl border border-gray-200 bg-white p-4 space-y-3">
                       <div className="flex items-center gap-4">
@@ -837,7 +911,7 @@ export default function LeadsPage() {
                       <select
                         value={lead.status}
                         onChange={(e) => handleStatusChange(lead.id, e.target.value)}
-                        className="rounded-xl border border-gray-200 px-4 py-2.5 text-sm font-medium focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                        className="w-full sm:w-auto rounded-xl border border-gray-200 px-4 py-3 sm:py-2.5 text-sm font-medium focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                       >
                         {statusOptions.map((s) => (
                           <option key={s} value={s}>
@@ -864,12 +938,12 @@ export default function LeadsPage() {
                           value={expandedId === lead.id ? newNote : ''}
                           onChange={(e) => setNewNote(e.target.value)}
                           onKeyDown={(e) => e.key === 'Enter' && handleAddNote(lead.id)}
-                          className="flex-1 rounded-xl border border-gray-200 px-4 py-2.5 text-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                          className="flex-1 rounded-xl border border-gray-200 px-4 py-3 sm:py-2.5 text-base sm:text-sm focus:border-blue-500 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                         />
                         <button
                           onClick={() => handleAddNote(lead.id)}
                           disabled={savingNote || !newNote.trim()}
-                          className="rounded-xl bg-blue-600 px-4 py-2.5 text-sm font-medium text-white hover:bg-blue-700 disabled:opacity-50"
+                          className="rounded-xl bg-blue-600 px-5 sm:px-4 py-3 sm:py-2.5 text-sm font-medium text-white hover:bg-blue-700 active:bg-blue-800 disabled:opacity-50 min-w-[44px] min-h-[44px] flex items-center justify-center"
                         >
                           {savingNote ? <Loader2 className="h-4 w-4 animate-spin" /> : <Send className="h-4 w-4" />}
                         </button>
@@ -900,6 +974,29 @@ export default function LeadsPage() {
         </div>
       )}
 
+      {/* Mobile floating action buttons */}
+      <div className="fixed bottom-20 right-4 z-40 flex flex-col gap-3 md:hidden" style={{ bottom: 'calc(5rem + env(safe-area-inset-bottom, 0px))' }}>
+        {showScrollTop && (
+          <button
+            onClick={() => {
+              const main = document.querySelector('main')
+              main?.scrollTo({ top: 0, behavior: 'smooth' })
+            }}
+            className="flex h-12 w-12 items-center justify-center rounded-full bg-gray-900 text-white shadow-lg active:bg-gray-700 transition-colors"
+            aria-label="Scroll to top"
+          >
+            <ArrowUp className="h-5 w-5" />
+          </button>
+        )}
+        <button
+          onClick={() => fetchLeads(1)}
+          className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-600 text-white shadow-lg active:bg-blue-700 transition-colors"
+          aria-label="Refresh leads"
+        >
+          <RefreshCw className={`h-5 w-5 ${loading ? 'animate-spin' : ''}`} />
+        </button>
+      </div>
+
       {/* Lightbox */}
       {lightboxUrl && (
         <div
@@ -908,7 +1005,7 @@ export default function LeadsPage() {
         >
           <button
             onClick={() => setLightboxUrl(null)}
-            className="absolute top-4 right-4 rounded-full bg-white/20 p-2 text-white hover:bg-white/30"
+            className="absolute top-4 right-4 rounded-full bg-white/20 p-3 sm:p-2 text-white hover:bg-white/30 active:bg-white/40 min-w-[44px] min-h-[44px] flex items-center justify-center"
           >
             <X className="h-6 w-6" />
           </button>
