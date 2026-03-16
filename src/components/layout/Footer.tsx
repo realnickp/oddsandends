@@ -32,7 +32,6 @@ const areaLinks = [
 const companyLinks = [
   { label: 'About Us', href: '/about' },
   { label: 'Reviews', href: '/reviews' },
-  { label: 'Gallery', href: '/gallery' },
   { label: 'Blog', href: '/blog' },
   { label: 'FAQ', href: '/faq' },
   { label: 'Free Estimate', href: '/estimate' },

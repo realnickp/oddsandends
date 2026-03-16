@@ -124,7 +124,6 @@ export default function ThankYouPage() {
                 {[
                   { label: 'Our Services', href: '/services' },
                   { label: 'Customer Reviews', href: '/reviews' },
-                  { label: 'Project Gallery', href: '/gallery' },
                   { label: 'Back Home', href: '/' },
                 ].map((link) => (
                   <Link

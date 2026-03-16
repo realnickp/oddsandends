@@ -41,7 +41,6 @@ const navItems: NavItem[] = [
   { label: 'Services', href: '/services', dropdown: 'services' },
   { label: 'Service Areas', href: '/areas', dropdown: 'areas' },
   { label: 'About', href: '/about' },
-  { label: 'Gallery', href: '/gallery' },
   { label: 'Reviews', href: '/reviews' },
   { label: 'Blog', href: '/blog' },
   { label: 'Contact', href: '/contact' },

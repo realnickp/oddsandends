@@ -6,7 +6,6 @@ import { AreasSection } from '@/components/sections/AreasSection'
 import { ReviewsSection } from '@/components/sections/ReviewsSection'
 import { ProcessSteps } from '@/components/sections/ProcessSteps'
 import { CommonJobs } from '@/components/sections/CommonJobs'
-import { GalleryPreview } from '@/components/sections/GalleryPreview'
 import { FAQSection } from '@/components/sections/FAQSection'
 import { CTASection } from '@/components/sections/CTASection'
 import { HomepageEstimateSection } from '@/components/sections/HomepageEstimateSection'
@@ -67,7 +66,6 @@ export default function HomePage() {
       <AreasSection />
       <SectionDivider variant="wave" fromColor="#030712" toColor="#f9fafb" />
       <CommonJobs />
-      <GalleryPreview />
       <FAQSection
         faqs={homeFAQs}
         title="Common Questions"
