@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useRef, useEffect, useCallback } from 'react'
-import { MessageCircle, X, Send, User, Phone, Mail } from 'lucide-react'
+import { MessageCircle, X, Send, User, Phone, Mail, RotateCcw } from 'lucide-react'
 
 interface Message {
   role: 'user' | 'assistant'
@@ -106,6 +106,16 @@ export function ChatWidget() {
   function handleClose() {
     if (messages.length > 0) saveLead()
     setIsOpen(false)
+  }
+
+  function handleReset() {
+    if (messages.length > 0) saveLead()
+    hasSubmittedLead.current = false
+    setMessages([])
+    setInput('')
+    setIsTyping(false)
+    setContactPhase(true)
+    setUserInfo({ name: '', phone: '', email: '' })
   }
 
   function handleContactSubmit(e: React.FormEvent) {
@@ -262,13 +272,25 @@ export function ChatWidget() {
                   Chat with Odds &amp; Ends
                 </h2>
               </div>
-              <button
-                onClick={handleClose}
-                aria-label="Close chat"
-                className="flex items-center justify-center w-8 h-8 rounded-full hover:bg-white/20 transition-colors"
-              >
-                <X className="h-5 w-5 text-white" />
-              </button>
+              <div className="flex items-center gap-1">
+                {!contactPhase && (
+                  <button
+                    onClick={handleReset}
+                    aria-label="Reset chat"
+                    title="Start new chat"
+                    className="flex items-center justify-center w-8 h-8 rounded-full hover:bg-white/20 transition-colors"
+                  >
+                    <RotateCcw className="h-4 w-4 text-white" />
+                  </button>
+                )}
+                <button
+                  onClick={handleClose}
+                  aria-label="Close chat"
+                  className="flex items-center justify-center w-8 h-8 rounded-full hover:bg-white/20 transition-colors"
+                >
+                  <X className="h-5 w-5 text-white" />
+                </button>
+              </div>
             </div>
 
             {/* Contact info collection */}
