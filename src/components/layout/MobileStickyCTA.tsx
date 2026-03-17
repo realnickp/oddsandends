@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect, useCallback, useRef } from 'react'
+import { createPortal } from 'react-dom'
 import { usePathname } from 'next/navigation'
 import {
   Phone,
@@ -41,6 +42,11 @@ export function MobileStickyCTA() {
     name: string
   } | null>(null)
   const historyDepthRef = useRef(0)
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
   useEffect(() => {
     if (overlay !== 'closed') {
@@ -121,10 +127,12 @@ export function MobileStickyCTA() {
           ? 'Request Estimate'
           : ''
 
-  return (
+  if (!mounted) return null
+
+  const content = (
     <>
       {/* Sticky bottom bar */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-gray-950 border-t border-gray-800 shadow-2xl" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)', willChange: 'transform', backfaceVisibility: 'hidden' }}>
+      <div className="fixed bottom-0 inset-x-0 z-[9999] md:hidden bg-gray-950 border-t border-gray-800 shadow-2xl" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>
         <div className="grid grid-cols-3 divide-x divide-gray-800">
           <a
             href={phoneHref(siteConfig.phone)}
@@ -289,4 +297,6 @@ export function MobileStickyCTA() {
       )}
     </>
   )
+
+  return createPortal(content, document.body)
 }

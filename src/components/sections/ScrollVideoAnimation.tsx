@@ -43,6 +43,8 @@ export function ScrollVideoAnimation({
   const currentFrameRef = useRef(0)
   const rafRef = useRef<number | null>(null)
   const isMobileRef = useRef(false)
+  const canvasSizeRef = useRef({ w: 0, h: 0 })
+  const hasCaptions = captions.length > 0
   const [loaded, setLoaded] = useState(false)
   const [progress, setProgress] = useState(0)
 
@@ -79,14 +81,14 @@ export function ScrollVideoAnimation({
     const containerWidth = parent.clientWidth
     const aspect = img.naturalHeight / img.naturalWidth
     const width = containerWidth
-    const height = containerWidth * aspect
+    const height = Math.round(containerWidth * aspect)
 
-    if (canvas.width !== width || canvas.height !== height) {
+    if (canvasSizeRef.current.w !== width || canvasSizeRef.current.h !== height) {
       canvas.width = width
       canvas.height = height
+      canvasSizeRef.current = { w: width, h: height }
     }
 
-    ctx.clearRect(0, 0, width, height)
     ctx.drawImage(img, 0, 0, width, height)
   }, [])
 
@@ -178,7 +180,7 @@ export function ScrollVideoAnimation({
           drawFrame(frameIndex)
         }
 
-        setProgress(rawProgress)
+        if (hasCaptions) setProgress(rawProgress)
       })
     }
 
@@ -213,7 +215,7 @@ export function ScrollVideoAnimation({
         <canvas
           ref={canvasRef}
           className="w-full max-w-6xl mx-auto md:px-4"
-          style={{ display: 'block' }}
+          style={{ display: 'block', willChange: 'contents' }}
         />
 
         {captions.map((caption, i) => {
