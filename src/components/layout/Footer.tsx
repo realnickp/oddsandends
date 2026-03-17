@@ -50,9 +50,9 @@ export function Footer() {
               <Image
                 src={siteConfig.logo}
                 alt={siteConfig.businessName}
-                width={56}
-                height={56}
-                className="h-14 w-14 rounded-full"
+                width={96}
+                height={96}
+                className="h-[5.5rem] w-[5.5rem] rounded-full"
               />
               <div>
                 <p className="font-bold text-white text-lg leading-tight">

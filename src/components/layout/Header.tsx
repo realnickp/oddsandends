@@ -77,14 +77,25 @@ export function Header() {
     if (!mobileOpen) setMobileAccordion(null)
   }, [mobileOpen])
 
+  const [scrolled, setScrolled] = useState(false)
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 20)
+    onScroll()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
+
   const toggleMobileAccordion = (key: string) => {
     setMobileAccordion((prev) => (prev === key ? null : key))
   }
 
   return (
-    <header className="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
+    <header className={`sticky top-0 z-50 border-b border-white/10 transition-all duration-300 ${
+      scrolled ? 'bg-black/70 backdrop-blur-xl' : 'bg-black'
+    }`}>
       {/* Top bar */}
-      <div className="bg-gray-950 text-white py-2 hidden md:block">
+      <div className="border-b border-white/10 text-white py-2 hidden md:block">
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center text-sm">
           <p className="text-gray-300">
             Serving {siteConfig.county}, {siteConfig.stateAbbr} — Free Estimates
@@ -110,22 +121,22 @@ export function Header() {
 
       {/* Main nav */}
       <div className="max-w-7xl mx-auto px-4">
-        <div className="flex items-center justify-between h-16 md:h-20">
+        <div className="flex items-center justify-between h-18 md:h-24">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 shrink-0">
             <Image
               src={siteConfig.logo}
               alt={siteConfig.businessName}
-              width={56}
-              height={56}
-              className="h-12 w-12 md:h-14 md:w-14"
+              width={96}
+              height={96}
+              className="h-16 w-16 md:h-[5.5rem] md:w-[5.5rem]"
               priority
             />
             <div className="hidden sm:block">
-              <p className="font-bold text-gray-900 text-lg leading-tight tracking-tight">
+              <p className="font-bold text-white text-lg leading-tight tracking-tight">
                 Odds &amp; Ends
               </p>
-              <p className="text-xs text-gray-500 tracking-wide uppercase">
+              <p className="text-xs text-gray-400 tracking-wide uppercase">
                 Handyman Service
               </p>
             </div>
@@ -143,7 +154,7 @@ export function Header() {
                 >
                   <Link
                     href={item.href}
-                    className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-blue-700 rounded-lg hover:bg-gray-50 transition-colors flex items-center gap-1 group"
+                    className="px-3 py-2 text-sm font-medium text-gray-300 hover:text-white rounded-lg hover:bg-white/10 transition-colors flex items-center gap-1 group"
                   >
                     {item.label}
                     <ChevronDown
@@ -175,7 +186,7 @@ export function Header() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="px-3 py-2 text-sm font-medium text-gray-700 hover:text-blue-700 rounded-lg hover:bg-gray-50 transition-colors"
+                  className="px-3 py-2 text-sm font-medium text-gray-300 hover:text-white rounded-lg hover:bg-white/10 transition-colors"
                 >
                   {item.label}
                 </Link>
@@ -200,7 +211,7 @@ export function Header() {
             </Link>
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
-              className="lg:hidden p-2 text-gray-700 hover:bg-gray-100 rounded-lg"
+              className="lg:hidden p-2 text-gray-300 hover:bg-white/10 rounded-lg"
               aria-label="Toggle menu"
             >
               {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -211,7 +222,7 @@ export function Header() {
 
       {/* Mobile menu */}
       <div
-        className={`lg:hidden border-t border-gray-100 bg-white overflow-hidden transition-all duration-300 ${
+        className={`lg:hidden border-t border-white/10 bg-black overflow-hidden transition-all duration-300 ${
           mobileOpen ? 'max-h-[calc(100vh-8rem)] opacity-100' : 'max-h-0 opacity-0'
         }`}
       >
@@ -221,7 +232,7 @@ export function Header() {
               <div key={item.href}>
                 <button
                   onClick={() => toggleMobileAccordion(item.dropdown)}
-                  className="w-full flex items-center justify-between px-4 py-3 text-gray-700 hover:text-blue-700 hover:bg-gray-50 rounded-lg font-medium transition-colors"
+                  className="w-full flex items-center justify-between px-4 py-3 text-gray-300 hover:text-white hover:bg-white/10 rounded-lg font-medium transition-colors"
                 >
                   <span>{item.label}</span>
                   <ChevronDown
@@ -253,7 +264,7 @@ export function Header() {
                 key={item.href}
                 href={item.href}
                 onClick={() => setMobileOpen(false)}
-                className="block px-4 py-3 text-gray-700 hover:text-blue-700 hover:bg-gray-50 rounded-lg font-medium transition-colors"
+                className="block px-4 py-3 text-gray-300 hover:text-white hover:bg-white/10 rounded-lg font-medium transition-colors"
               >
                 {item.label}
               </Link>
@@ -269,7 +280,7 @@ export function Header() {
             </a>
             <a
               href={smsHref(siteConfig.phone)}
-              className="flex items-center justify-center gap-2 bg-gray-900 text-white px-5 py-3 rounded-lg font-semibold"
+              className="flex items-center justify-center gap-2 bg-white/10 border border-white/20 text-white px-5 py-3 rounded-lg font-semibold"
             >
               <MessageSquare className="h-4 w-4" />
               Text Us
@@ -353,7 +364,7 @@ function MobileServicesPanel({ onNavigate }: { onNavigate: () => void }) {
           key={service.slug}
           href={`/services/${service.slug}`}
           onClick={onNavigate}
-          className="block px-3 py-2 text-sm text-gray-600 hover:text-blue-700 hover:bg-blue-50 rounded-md transition-colors"
+          className="block px-3 py-2 text-sm text-gray-400 hover:text-white hover:bg-white/10 rounded-md transition-colors"
         >
           {service.name}
         </Link>
@@ -361,7 +372,7 @@ function MobileServicesPanel({ onNavigate }: { onNavigate: () => void }) {
       <Link
         href="/services"
         onClick={onNavigate}
-        className="flex items-center gap-1.5 px-3 py-2 text-sm font-semibold text-blue-600 hover:text-blue-800 hover:bg-blue-50 rounded-md transition-colors mt-1"
+        className="flex items-center gap-1.5 px-3 py-2 text-sm font-semibold text-blue-400 hover:text-blue-300 hover:bg-white/10 rounded-md transition-colors mt-1"
       >
         View All Services
         <ArrowRight className="h-3.5 w-3.5" />
@@ -378,7 +389,7 @@ function MobileAreasPanel({ onNavigate }: { onNavigate: () => void }) {
           key={city.slug}
           href={`/areas/${city.slug}`}
           onClick={onNavigate}
-          className="block px-3 py-2 text-sm text-gray-600 hover:text-blue-700 hover:bg-blue-50 rounded-md transition-colors"
+          className="block px-3 py-2 text-sm text-gray-400 hover:text-white hover:bg-white/10 rounded-md transition-colors"
         >
           {city.name}, NY
         </Link>
@@ -386,7 +397,7 @@ function MobileAreasPanel({ onNavigate }: { onNavigate: () => void }) {
       <Link
         href="/areas"
         onClick={onNavigate}
-        className="flex items-center gap-1.5 px-3 py-2 text-sm font-semibold text-blue-600 hover:text-blue-800 hover:bg-blue-50 rounded-md transition-colors mt-1"
+        className="flex items-center gap-1.5 px-3 py-2 text-sm font-semibold text-blue-400 hover:text-blue-300 hover:bg-white/10 rounded-md transition-colors mt-1"
       >
         View All Service Areas
         <ArrowRight className="h-3.5 w-3.5" />

@@ -49,7 +49,9 @@
       "Bash(netstat:*)",
       "Bash(taskkill:*)",
       "Bash(ls:*)",
-      "Bash(wc:*)"
+      "Bash(wc:*)",
+      "Bash(find:*)",
+      "Bash(python:*)"
     ]
   }
 }
