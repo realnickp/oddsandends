@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import { usePathname } from 'next/navigation'
 import {
   Phone,
@@ -40,6 +40,7 @@ export function MobileStickyCTA() {
     slug: string
     name: string
   } | null>(null)
+  const historyDepthRef = useRef(0)
 
   useEffect(() => {
     if (overlay !== 'closed') {
@@ -52,16 +53,46 @@ export function MobileStickyCTA() {
     }
   }, [overlay])
 
-  function closeAll() {
+  const closeAll = useCallback(() => {
+    const depth = historyDepthRef.current
+    historyDepthRef.current = 0
     setOverlay('closed')
     setSelectedService(null)
+    if (depth > 0) {
+      window.history.go(-depth)
+    }
+  }, [])
+
+  useEffect(() => {
+    const onPopState = () => {
+      if (historyDepthRef.current > 0) {
+        historyDepthRef.current--
+      }
+      if (overlay === 'quiz' && !isServicePage) {
+        setSelectedService(null)
+        setOverlay('pick-service')
+      } else {
+        setOverlay('closed')
+        setSelectedService(null)
+        historyDepthRef.current = 0
+      }
+    }
+    window.addEventListener('popstate', onPopState)
+    return () => window.removeEventListener('popstate', onPopState)
+  }, [overlay, isServicePage])
+
+  function pushHistory() {
+    window.history.pushState({ overlay: true }, '')
+    historyDepthRef.current++
   }
 
   function handleEstimateClick() {
+    pushHistory()
     setOverlay('choice')
   }
 
   function chooseProjectBuilder() {
+    pushHistory()
     if (isServicePage && serviceSlug) {
       setSelectedService({ slug: serviceSlug, name: serviceName })
       setOverlay('quiz')
@@ -71,10 +102,12 @@ export function MobileStickyCTA() {
   }
 
   function chooseForm() {
+    pushHistory()
     setOverlay('form')
   }
 
   function selectService(slug: string, name: string) {
+    pushHistory()
     setSelectedService({ slug, name })
     setOverlay('quiz')
   }
@@ -91,7 +124,7 @@ export function MobileStickyCTA() {
   return (
     <>
       {/* Sticky bottom bar */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-gray-950 border-t border-gray-800 shadow-2xl safe-area-bottom">
+      <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-gray-950 border-t border-gray-800 shadow-2xl" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>
         <div className="grid grid-cols-3 divide-x divide-gray-800">
           <a
             href={phoneHref(siteConfig.phone)}
@@ -187,10 +220,7 @@ export function MobileStickyCTA() {
             <div className="flex items-center gap-2">
               {overlay === 'quiz' && !isServicePage && (
                 <button
-                  onClick={() => {
-                    setSelectedService(null)
-                    setOverlay('pick-service')
-                  }}
+                  onClick={() => window.history.back()}
                   className="text-gray-400 hover:text-white text-sm font-medium mr-2 transition-colors"
                 >
                   &larr; Back
