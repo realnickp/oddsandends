@@ -124,7 +124,7 @@ export function MobileStickyCTA() {
   return (
     <>
       {/* Sticky bottom bar */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-gray-950 border-t border-gray-800 shadow-2xl" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>
+      <div className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-gray-950 border-t border-gray-800 shadow-2xl" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)', willChange: 'transform', backfaceVisibility: 'hidden' }}>
         <div className="grid grid-cols-3 divide-x divide-gray-800">
           <a
             href={phoneHref(siteConfig.phone)}

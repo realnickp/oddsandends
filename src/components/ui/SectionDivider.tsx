@@ -22,7 +22,7 @@ export function SectionDivider({
       className="relative w-full overflow-hidden leading-[0] -mt-px"
       style={{
         backgroundColor: fromColor,
-        transform: flip ? 'scaleY(-1)' : undefined,
+        ...(flip ? { transform: 'scaleY(-1)' } : {}),
       }}
     >
       <svg

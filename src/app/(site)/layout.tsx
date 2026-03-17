@@ -15,9 +15,11 @@ export default function SiteLayout({
     <>
       <SchemaMarkup schema={[localBusinessSchema(), organizationSchema()]} />
       <ScrollToTop />
-      <Header />
-      <main className="min-h-screen pb-16 md:pb-0">{children}</main>
-      <Footer />
+      <div id="page-content">
+        <Header />
+        <main className="min-h-screen pb-16 md:pb-0">{children}</main>
+        <Footer />
+      </div>
       <MobileStickyCTA />
       <ChatWidget />
     </>
