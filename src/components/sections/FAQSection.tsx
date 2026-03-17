@@ -1,8 +1,4 @@
-'use client'
-
-import { useState } from 'react'
 import { ChevronDown } from 'lucide-react'
-import { cn } from '@/lib/utils'
 import { ScrollReveal } from '@/components/ui/ScrollReveal'
 
 interface FAQ {
@@ -43,42 +39,24 @@ export function FAQSection({
         <div className="space-y-3">
           {faqs.map((faq, index) => (
             <ScrollReveal key={index} delay={index * 60}>
-              <FAQItem faq={faq} />
+              <details
+                className="group border rounded-xl overflow-hidden transition-all duration-300 border-gray-200 open:border-blue-200 open:shadow-md open:shadow-blue-50 open:border-l-4 open:border-l-blue-600"
+                {...(index === 0 ? { open: true } : {})}
+              >
+                <summary className="flex items-center justify-between gap-4 p-5 text-left hover:bg-gray-50/50 transition-colors cursor-pointer list-none [&::-webkit-details-marker]:hidden">
+                  <h3 className="font-semibold text-gray-900">{faq.question}</h3>
+                  <ChevronDown
+                    className="h-5 w-5 text-gray-400 shrink-0 transition-transform duration-300 group-open:rotate-180 group-open:text-blue-600"
+                  />
+                </summary>
+                <div className="px-5 pb-5">
+                  <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
+                </div>
+              </details>
             </ScrollReveal>
           ))}
         </div>
       </div>
     </section>
-  )
-}
-
-function FAQItem({ faq }: { faq: FAQ }) {
-  const [open, setOpen] = useState(false)
-
-  return (
-    <div className={cn(
-      'border rounded-xl overflow-hidden transition-all duration-300',
-      open ? 'border-blue-200 shadow-md shadow-blue-50 border-l-4 border-l-blue-600' : 'border-gray-200'
-    )}>
-      <button
-        onClick={() => setOpen(!open)}
-        className="w-full flex items-center justify-between gap-4 p-5 text-left hover:bg-gray-50/50 transition-colors"
-      >
-        <span className="font-semibold text-gray-900">{faq.question}</span>
-        <ChevronDown
-          className={cn(
-            'h-5 w-5 text-gray-400 shrink-0 transition-transform duration-300',
-            open && 'rotate-180 text-blue-600'
-          )}
-        />
-      </button>
-      <div className={cn('accordion-content', open && 'open')}>
-        <div>
-          <div className="px-5 pb-5">
-            <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
-          </div>
-        </div>
-      </div>
-    </div>
   )
 }

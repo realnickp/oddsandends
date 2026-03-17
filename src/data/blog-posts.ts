@@ -53,7 +53,7 @@ Not sure if your damage warrants a pro? Snap a photo and request a free estimate
     category: 'Home Maintenance',
     relatedServices: ['drywall-repair'],
     relatedCities: ['new-city', 'nanuet', 'pearl-river'],
-    metaTitle: 'When Does Drywall Need Professional Repair? | Odds & Ends Handyman',
+    metaTitle: 'When Does Drywall Need Professional Repair? | Odds & Ends',
     metaDescription:
       'Learn the warning signs that your drywall damage needs professional repair. From recurring cracks to water damage, know when to call a Rockland County handyman.',
     publishedDate: '2025-09-05',
@@ -97,7 +97,7 @@ A poorly mounted TV is a safety hazard, especially with children or pets. Reques
     category: 'Room Guides',
     relatedServices: ['tv-mounting'],
     relatedCities: ['nyack', 'suffern', 'spring-valley'],
-    metaTitle: 'Where to Mount a TV in Older Rockland County Homes | Odds & Ends',
+    metaTitle: 'TV Mounting in Older Rockland County Homes | Odds & Ends',
     metaDescription:
       'Find the best TV mounting spots in older Rockland County homes. Tips for plaster walls, fireplace placement, and clean cable management from a local handyman.',
     publishedDate: '2025-09-18',
@@ -155,7 +155,7 @@ A single handyman visit can knock out a long pre-sale list in one day. At Odds &
     relatedCities: ['new-city', 'nanuet', 'pearl-river'],
     metaTitle: 'Handyman Jobs to Do Before Selling Your Home | Odds & Ends',
     metaDescription:
-      'Prepare your Rockland County home for sale with these common handyman fixes. From patching walls to updating fixtures, get market-ready without major renovations.',
+      'Prepare your Rockland County home for sale with these handyman fixes. Patching walls, updating fixtures, and more to get market-ready without major renovations.',
     publishedDate: '2025-10-02',
     author: 'Daniel Kiely',
     image: '/images/blog/home-selling-prep.jpg',
@@ -208,9 +208,9 @@ Address small problems before they become big ones. If you have a list of naggin
       'minor-plumbing-fixes',
     ],
     relatedCities: ['haverstraw', 'nyack', 'tappan'],
-    metaTitle: 'Small Home Repairs You Shouldn\'t Ignore | Odds & Ends Rockland County',
+    metaTitle: 'Small Home Repairs You Should Not Ignore | Odds & Ends',
     metaDescription:
-      'Stop putting off small home repairs. Learn why minor fixes like dripping faucets, cracked caulk, and loose railings should be handled now before they become costly problems.',
+      'Stop putting off small home repairs. Minor fixes like dripping faucets, cracked caulk, and loose railings should be handled before they become costly problems.',
     publishedDate: '2025-10-15',
     author: 'Daniel Kiely',
     image: '/images/blog/small-repairs.jpg',
@@ -260,7 +260,7 @@ Many issues can be repaired without replacing the entire structure. At Odds & En
     category: 'Home Maintenance',
     relatedServices: ['deck-repair'],
     relatedCities: ['stony-point', 'thiells', 'congers'],
-    metaTitle: 'Deck Repair Warning Signs for Homeowners | Odds & Ends Handyman',
+    metaTitle: 'Deck Repair Warning Signs for Homeowners | Odds & Ends',
     metaDescription:
       'Spot the warning signs that your deck needs repair. Soft boards, loose railings, and other red flags Rockland County homeowners should watch for.',
     publishedDate: '2025-10-28',
@@ -296,9 +296,9 @@ Not sure whether to repair or replace? Send us a photo and describe the issue. R
     category: 'Home Maintenance',
     relatedServices: ['light-fixture-installation'],
     relatedCities: ['clarkstown', 'orangetown', 'nanuet'],
-    metaTitle: 'Repair or Replace a Light Fixture? How to Decide | Odds & Ends',
+    metaTitle: 'Repair or Replace a Light Fixture? | Odds & Ends Guide',
     metaDescription:
-      'Learn when to repair your light fixture and when replacement is the better choice. Practical advice from a Rockland County handyman with 20+ years of experience.',
+      'Learn when to repair your light fixture and when replacement is better. Practical advice from a Rockland County handyman with 20+ years of experience.',
     publishedDate: '2025-11-08',
     author: 'Daniel Kiely',
     image: '/images/blog/light-fixture.jpg',
@@ -400,7 +400,7 @@ Bundle your bathroom repairs. New faucet, running toilet fix, showerhead replace
       'flooring',
     ],
     relatedCities: ['pearl-river', 'nanuet', 'new-city'],
-    metaTitle: 'Bathroom Fixes a Handyman Can Handle | Odds & Ends Rockland County',
+    metaTitle: 'Bathroom Fixes a Handyman Can Handle | Odds & Ends',
     metaDescription:
       'From faucet replacement to tile repair, learn which common bathroom fixes a handyman can handle. Save money on bathroom repairs in Rockland County.',
     publishedDate: '2025-12-03',
@@ -521,7 +521,7 @@ Odds & Ends has served New City since 2001. If you have a list of projects, requ
       'home-office-setup',
     ],
     relatedCities: ['new-city'],
-    metaTitle: 'Handyman Services New City Homeowners Need Most | Odds & Ends',
+    metaTitle: 'Handyman Services New City Homeowners Need | Odds & Ends',
     metaDescription:
       'Explore the most common handyman services New City, NY homeowners request. Cabinet upgrades, ceiling fans, drywall repair, and more from Odds & Ends.',
     publishedDate: '2026-01-05',
@@ -625,7 +625,7 @@ If you are unsure about the status of your smoke detectors, request a free estim
     category: 'Home Maintenance',
     relatedServices: ['smoke-detector-testing-and-replacement'],
     relatedCities: ['new-city', 'spring-valley', 'haverstraw'],
-    metaTitle: 'Smoke Detector Testing and Replacement | Odds & Ends Rockland County',
+    metaTitle: 'Smoke Detector Testing and Replacement | Odds & Ends',
     metaDescription:
       'Learn how often to test smoke detectors and when to replace them. Odds & Ends provides smoke detector testing and replacement across Rockland County, NY.',
     publishedDate: '2026-01-25',
@@ -673,7 +673,7 @@ At Odds & Ends, cabinet hardware installation is one of our most popular service
     category: 'Room Guides',
     relatedServices: ['cabinet-and-drawer-hardware-installation', 'cabinet-installation'],
     relatedCities: ['new-city', 'pearl-river', 'nanuet'],
-    metaTitle: 'Kitchen Cabinet Hardware Upgrades | Odds & Ends Rockland County',
+    metaTitle: 'Kitchen Cabinet Hardware Upgrades | Odds & Ends Guide',
     metaDescription:
       'Transform your kitchen with new cabinet hardware. Tips on choosing the right style, finish, and size from Odds & Ends Handyman in Rockland County, NY.',
     publishedDate: '2026-02-02',
@@ -719,7 +719,7 @@ Start with the biggest-impact devices. A smart thermostat and video doorbell are
     category: 'Home Maintenance',
     relatedServices: ['smart-home-device-setup'],
     relatedCities: ['new-city', 'nanuet', 'suffern'],
-    metaTitle: 'Smart Home Setup Guide for Rockland County | Odds & Ends Handyman',
+    metaTitle: 'Smart Home Setup Guide for Rockland County | Odds & Ends',
     metaDescription:
       'A practical smart home setup guide for Rockland County homeowners. Learn which devices to start with and how to handle installation in older homes.',
     publishedDate: '2026-02-10',
@@ -767,7 +767,7 @@ At Odds & Ends, we handle monitor mounting, shelving, cable management, and ligh
     category: 'Room Guides',
     relatedServices: ['home-office-setup', 'shelving-installation'],
     relatedCities: ['new-city', 'pearl-river', 'nyack'],
-    metaTitle: 'Home Office Setup Guide | Odds & Ends Rockland County Handyman',
+    metaTitle: 'Home Office Setup Guide | Odds & Ends Rockland County',
     metaDescription:
       'Set up the perfect home office in your Rockland County home. Tips on desk placement, monitor mounting, shelving, and cable management from Odds & Ends Handyman.',
     publishedDate: '2026-02-18',
@@ -810,7 +810,7 @@ For items that need a professional touch, or to knock out the entire seasonal li
       'fence-repair',
     ],
     relatedCities: ['new-city', 'nanuet', 'pearl-river'],
-    metaTitle: 'Seasonal Home Maintenance Checklist for Rockland County | Odds & Ends',
+    metaTitle: 'Seasonal Home Maintenance Checklist | Odds & Ends Guide',
     metaDescription:
       'Keep your Rockland County home in great shape with this seasonal maintenance checklist. Spring, summer, fall, and winter tips from Odds & Ends Handyman.',
     publishedDate: '2026-02-25',
@@ -848,7 +848,7 @@ At Odds & Ends, ceiling fan installation is one of our most requested services a
     category: 'Room Guides',
     relatedServices: ['ceiling-fan-installation-and-replacement'],
     relatedCities: ['new-city', 'nanuet', 'congers'],
-    metaTitle: 'How to Choose the Right Ceiling Fan | Odds & Ends Rockland County',
+    metaTitle: 'How to Choose the Right Ceiling Fan | Odds & Ends Guide',
     metaDescription:
       'Choose the right ceiling fan size, mount, and style for every room in your home. Expert tips from Odds & Ends Handyman serving Rockland County, NY.',
     publishedDate: '2026-03-01',
@@ -890,7 +890,7 @@ At Odds & Ends, we check every post for rot, inspect rails, and assess overall a
     category: 'Home Maintenance',
     relatedServices: ['fence-repair'],
     relatedCities: ['new-city', 'nanuet', 'stony-point'],
-    metaTitle: 'Fence Repair vs Replacement: How to Decide | Odds & Ends Handyman',
+    metaTitle: 'Fence Repair vs Replacement: How to Decide | Odds & Ends',
     metaDescription:
       'Should you repair or replace your fence? Learn how to evaluate damage and make the right call. Fence repair services across Rockland County from Odds & Ends.',
     publishedDate: '2025-09-25',
@@ -944,9 +944,9 @@ At Odds & Ends, we build and install custom accent walls throughout Rockland Cou
     category: 'Room Guides',
     relatedServices: ['custom-accent-walls'],
     relatedCities: ['nyack', 'new-city', 'pearl-river'],
-    metaTitle: 'Custom Accent Wall Ideas for Every Room | Odds & Ends Handyman',
+    metaTitle: 'Custom Accent Wall Ideas for Every Room | Odds & Ends',
     metaDescription:
-      'Get inspired with custom accent wall ideas for your living room, bedroom, and home office. Professional accent wall installation in Rockland County from Odds & Ends.',
+      'Get inspired with accent wall ideas for your living room, bedroom, and home office. Professional accent wall installation in Rockland County from Odds & Ends.',
     publishedDate: '2025-10-10',
     author: 'Daniel Kiely',
     image: '/images/blog/accent-wall.jpg',
@@ -1038,7 +1038,7 @@ At Odds & Ends, we install closet systems throughout Rockland County. Request a 
     category: 'Room Guides',
     relatedServices: ['closet-system-installation'],
     relatedCities: ['new-city', 'suffern', 'nanuet'],
-    metaTitle: 'Closet Organization Systems: What to Know | Odds & Ends Handyman',
+    metaTitle: 'Closet Organization Systems: What to Know | Odds & Ends',
     metaDescription:
       'Find the right closet organization system for your home. Compare wire, laminate, and custom options. Professional closet installation in Rockland County.',
     publishedDate: '2025-11-15',
@@ -1084,9 +1084,9 @@ For gallery walls with many pieces, heavy mirrors, art on plaster, or anything r
     category: 'Home Maintenance',
     relatedServices: ['picture-hanging'],
     relatedCities: ['nyack', 'piermont', 'new-city'],
-    metaTitle: 'Picture Hanging Tips: Gallery Walls & Heavy Mirrors | Odds & Ends',
+    metaTitle: 'Picture Hanging Tips: Gallery Walls & Heavy Mirrors',
     metaDescription:
-      'Get expert picture hanging tips for gallery walls, heavy mirrors, and plaster walls. Professional picture hanging services across Rockland County from Odds & Ends.',
+      'Expert picture hanging tips for gallery walls, heavy mirrors, and plaster walls. Professional picture hanging services across Rockland County from Odds & Ends.',
     publishedDate: '2025-12-10',
     author: 'Daniel Kiely',
     image: '/images/blog/picture-hanging.jpg',
@@ -1134,7 +1134,7 @@ A door that is not plumb and square will stick, swing open on its own, or have u
     category: 'Home Maintenance',
     relatedServices: ['door-installation'],
     relatedCities: ['new-city', 'nanuet', 'pearl-river'],
-    metaTitle: 'Door Installation & Replacement Guide | Odds & Ends Rockland County',
+    metaTitle: 'Door Installation & Replacement Guide | Odds & Ends',
     metaDescription:
       'Everything Rockland County homeowners need to know about door installation and replacement. Interior, exterior, and common door fixes from Odds & Ends Handyman.',
     publishedDate: '2026-01-20',

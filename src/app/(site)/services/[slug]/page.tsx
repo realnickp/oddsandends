@@ -14,7 +14,7 @@ import { ProjectBuilderCard } from '@/components/forms/ProjectBuilderCard'
 import { ScrollReveal } from '@/components/ui/ScrollReveal'
 import { SectionDivider } from '@/components/ui/SectionDivider'
 import { generateServiceMetadata } from '@/lib/metadata'
-import { serviceSchema, faqSchema, breadcrumbSchema } from '@/lib/schema'
+import { serviceSchema, faqSchema, breadcrumbSchema, howToSchema } from '@/lib/schema'
 import { phoneHref } from '@/lib/utils'
 import { EstimateChoiceButton } from '@/components/forms/EstimateChoiceButton'
 
@@ -57,10 +57,12 @@ export default async function ServicePage({ params }: PageProps) {
         schema={[
           serviceSchema({
             name: service.name,
+            shortDescription: service.shortDescription,
             description: service.shortDescription,
             slug: service.slug,
           }),
           faqSchema(service.faqs),
+          howToSchema({ name: service.name, processSteps: service.processSteps }),
         ]}
       />
 
@@ -166,6 +168,7 @@ export default async function ServicePage({ params }: PageProps) {
       <SectionDivider variant="curve" fromColor="#030712" toColor="#ffffff" />
 
       {/* ── 4. Main Content — 2-column with sticky sidebar ── */}
+      <article>
       <section className="py-20 md:py-28">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid lg:grid-cols-3 gap-10 lg:gap-12">
@@ -304,18 +307,18 @@ export default async function ServicePage({ params }: PageProps) {
             </h2>
           </ScrollReveal>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 list-none">
             {service.commonProblems.map((problem, i) => (
               <ScrollReveal key={problem} delay={i * 60}>
-                <div className="flex items-start gap-3 bg-white rounded-xl p-5 border border-gray-200/80 hover:border-blue-200 hover:shadow-md transition-all duration-300">
+                <li className="flex items-start gap-3 bg-white rounded-xl p-5 border border-gray-200/80 hover:border-blue-200 hover:shadow-md transition-all duration-300">
                   <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-blue-600 to-blue-700 flex items-center justify-center shrink-0">
                     <CheckCircle2 className="h-4 w-4 text-white" />
                   </div>
                   <span className="text-gray-700 text-sm leading-relaxed pt-1">{problem}</span>
-                </div>
+                </li>
               </ScrollReveal>
             ))}
-          </div>
+          </ul>
         </div>
       </section>
 
@@ -331,18 +334,18 @@ export default async function ServicePage({ params }: PageProps) {
             </h2>
           </ScrollReveal>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 list-none">
             {service.jobExamples.map((example, i) => (
               <ScrollReveal key={example} delay={i * 60}>
-                <div className="flex items-start gap-3 bg-green-50/50 rounded-xl p-5 border border-green-100/60 hover:border-green-200 hover:shadow-md transition-all duration-300">
+                <li className="flex items-start gap-3 bg-green-50/50 rounded-xl p-5 border border-green-100/60 hover:border-green-200 hover:shadow-md transition-all duration-300">
                   <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-green-500 to-emerald-600 flex items-center justify-center shrink-0">
                     <CheckCircle2 className="h-4 w-4 text-white" />
                   </div>
                   <span className="text-gray-700 text-sm leading-relaxed pt-1">{example}</span>
-                </div>
+                </li>
               </ScrollReveal>
             ))}
-          </div>
+          </ul>
         </div>
       </section>
 
@@ -428,13 +431,14 @@ export default async function ServicePage({ params }: PageProps) {
               </h2>
             </ScrollReveal>
 
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            <ul className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 list-none">
               {relatedServices.map((related, i) => {
                 const relatedImage = related.image
                   ? { src: related.image, alt: related.altText || related.name }
                   : null
                 return (
                   <ScrollReveal key={related.slug} delay={i * 80}>
+                    <li>
                     <Link
                       href={`/services/${related.slug}`}
                       className="group block h-full rounded-2xl overflow-hidden border border-gray-100 hover:border-blue-200 hover:shadow-xl hover:shadow-blue-50/50 transition-all duration-500"
@@ -478,10 +482,11 @@ export default async function ServicePage({ params }: PageProps) {
                         </div>
                       )}
                     </Link>
+                    </li>
                   </ScrollReveal>
                 )
               })}
-            </div>
+            </ul>
           </div>
         </section>
       )}
@@ -582,6 +587,7 @@ export default async function ServicePage({ params }: PageProps) {
         headline="Ready to Get Started?"
         subheadline="Dan is ready to help. Call, text, or request your free estimate today. No obligation, no pressure — just honest, quality work."
       />
+      </article>
     </>
   )
 }

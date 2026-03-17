@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useRef, useEffect, useCallback } from 'react'
-import { MessageCircle, X, Send, User, Phone, Mail, RotateCcw } from 'lucide-react'
+import { MessageCircle, X, Send, User, Phone, Mail, RotateCcw, MessageSquare } from 'lucide-react'
 
 interface Message {
   role: 'user' | 'assistant'
@@ -400,7 +400,35 @@ export function ChatWidget() {
                             : 'bg-blue-600 text-white rounded-2xl rounded-tr-sm',
                         ].join(' ')}
                       >
-                        {msg.content}
+                        {msg.role === 'assistant' && msg.content.includes('[CONTACT_DAN]') ? (
+                          <>
+                            {msg.content.split('[CONTACT_DAN]').map((part, idx, arr) => (
+                              <span key={idx}>
+                                {part}
+                                {idx < arr.length - 1 && (
+                                  <span className="flex gap-2 mt-2 mb-1">
+                                    <a
+                                      href="tel:+19084612688"
+                                      className="inline-flex items-center gap-1.5 px-3.5 py-2 bg-green-600 hover:bg-green-700 text-white text-xs font-semibold rounded-full transition-colors shadow-sm"
+                                    >
+                                      <Phone className="h-3.5 w-3.5" />
+                                      Call Dan
+                                    </a>
+                                    <a
+                                      href="sms:+19084612688"
+                                      className="inline-flex items-center gap-1.5 px-3.5 py-2 bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold rounded-full transition-colors shadow-sm"
+                                    >
+                                      <MessageSquare className="h-3.5 w-3.5" />
+                                      Text Dan
+                                    </a>
+                                  </span>
+                                )}
+                              </span>
+                            ))}
+                          </>
+                        ) : (
+                          msg.content
+                        )}
                       </div>
                     </div>
                   ))}

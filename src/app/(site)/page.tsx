@@ -1,4 +1,15 @@
+import { generatePageMetadata } from '@/lib/metadata'
 import { Hero } from '@/components/sections/Hero'
+
+export async function generateMetadata() {
+  return generatePageMetadata({
+    title: 'Odds & Ends Handyman | Rockland County, NY Services',
+    description:
+      'Professional handyman services in Rockland County, NY. 25+ years experience. TV mounting, drywall, painting, deck repair, and more. Free estimates.',
+    path: '/',
+    keywords: ['handyman', 'Rockland County', 'home repair', 'TV mounting', 'drywall', 'painting', 'deck repair'],
+  })
+}
 import { TrustBar } from '@/components/sections/TrustBar'
 import { ServicesOverview } from '@/components/sections/ServicesOverview'
 import { WhyChooseUs } from '@/components/sections/WhyChooseUs'

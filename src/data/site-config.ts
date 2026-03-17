@@ -36,6 +36,20 @@ export const siteConfig = {
     'Major electrical',
     'Large remodels',
   ],
+  latitude: 41.1482,
+  longitude: -74.0671,
+  socialProfiles: [
+    'https://www.google.com/maps/place/Odds+%26+Ends+Handyman+Service',
+    'https://www.yelp.com/biz/odds-and-ends-handyman-service-rockland-county',
+    'https://www.facebook.com/oddsandendshandyman',
+  ],
+  knowsAbout: [
+    'Home repair', 'Handyman services', 'TV mounting', 'Drywall repair',
+    'Painting', 'Deck repair', 'Door installation', 'Plumbing repairs',
+    'Kitchen renovation', 'Bathroom renovation', 'Furniture assembly',
+    'Fence repair', 'Light fixture installation', 'Cabinet installation',
+    'Flooring installation', 'Tile work', 'Shed building', 'Excavation',
+  ],
 } as const
 
 export type SiteConfig = typeof siteConfig

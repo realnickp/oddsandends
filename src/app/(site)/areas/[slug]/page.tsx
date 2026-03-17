@@ -158,7 +158,7 @@ export default async function CityPage({ params }: PageProps) {
       <SectionDivider variant="wave" fromColor="#030712" toColor="#ffffff" />
 
       {/* ─── 3. Two-Column: Main Content + Estimate Sidebar ─── */}
-      <section className="py-16 md:py-24">
+      <article className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid lg:grid-cols-3 gap-12">
             {/* LEFT COLUMN */}
@@ -235,17 +235,17 @@ export default async function CityPage({ params }: PageProps) {
                       <h3 className="font-semibold text-gray-900 mb-3">
                         Neighborhoods We Serve
                       </h3>
-                      <div className="flex flex-wrap gap-2">
+                      <ul className="list-none flex flex-wrap gap-2">
                         {city.neighborhoods.map((n) => (
-                          <span
+                          <li
                             key={n}
                             className="inline-flex items-center gap-1.5 bg-white border border-gray-200 rounded-full px-3.5 py-1.5 text-sm text-gray-700"
                           >
                             <MapPin className="h-3 w-3 text-blue-500" />
                             {n}
-                          </span>
+                          </li>
                         ))}
-                      </div>
+                      </ul>
                     </div>
                   )}
                 </div>
@@ -283,7 +283,7 @@ export default async function CityPage({ params }: PageProps) {
             </div>
           </div>
         </div>
-      </section>
+      </article>
 
       {/* ─── 4. Popular Services ─── */}
       {popularServices.length > 0 && (
@@ -440,16 +440,16 @@ export default async function CityPage({ params }: PageProps) {
             </h2>
           </ScrollReveal>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <ul className="list-none grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {city.commonNeeds.map((need, i) => (
               <ScrollReveal key={need} direction="up" delay={i * 40}>
-                <div className="flex items-start gap-3 bg-white rounded-xl p-4 border border-gray-100 hover:border-blue-200 hover:shadow-md hover:shadow-blue-50 transition-all duration-300">
+                <li className="flex items-start gap-3 bg-white rounded-xl p-4 border border-gray-100 hover:border-blue-200 hover:shadow-md hover:shadow-blue-50 transition-all duration-300">
                   <CheckCircle2 className="h-5 w-5 text-blue-600 shrink-0 mt-0.5" />
                   <span className="text-gray-700 text-sm font-medium">{need}</span>
-                </div>
+                </li>
               </ScrollReveal>
             ))}
-          </div>
+          </ul>
         </div>
       </section>
 

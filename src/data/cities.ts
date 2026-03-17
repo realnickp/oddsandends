@@ -66,7 +66,7 @@ export const cities: City[] = [
       }
     ],
     nearbyAreas: ["piermont", "grandview-on-hudson", "clarkstown", "orangetown"],
-    metaTitle: "Handyman Services in Nyack, NY | Odds & Ends",
+    metaTitle: "Expert Handyman Services in Nyack, NY | Odds & Ends",
     metaDescription: "Trusted handyman service for Nyack, NY homeowners. Expert repairs, restoration, and maintenance for Victorian and craftsman homes in Rockland County.",
     keywords: ["handyman Nyack NY", "Nyack home repair", "Victorian home maintenance Nyack", "Rockland County handyman", "Nyack porch repair", "home improvement Nyack"],
     localAdvantage: "Nyack's position directly on the Hudson River means homes here endure relentless moisture, wind-driven rain, and salt air that accelerate paint failure and deck rot far faster than inland properties. The village's concentration of Victorian and Queen Anne homes — many dating to the 1880s and 1890s — demands period-appropriate repair techniques, from matching original plaster profiles to sourcing compatible trim moldings that modern lumber yards don't stock.",
@@ -124,7 +124,7 @@ export const cities: City[] = [
       }
     ],
     nearbyAreas: ["clarkstown", "nanuet", "pomona", "stony-point"],
-    metaTitle: "Handyman Services in New City, NY | Odds & Ends",
+    metaTitle: "Professional Handyman in New City, NY | Odds & Ends",
     metaDescription: "Professional handyman services for New City, NY. From deck repairs to basement finishing, Odds & Ends has served Rockland County homes for over 20 years.",
     keywords: ["handyman New City NY", "New City home repair", "Clarkstown handyman", "home improvement New City", "deck repair New City NY", "Rockland County handyman"],
     localAdvantage: "New City's housing boom in the 1960s and 1970s means most homes here are hitting the 50- to 60-year mark — the age when original decks fail, basement waterproofing breaks down, and dated split-level layouts start begging for modernization. The heavy clay soil common throughout central Clarkstown creates persistent foundation moisture pressure, making basement waterproofing a recurring need.",
@@ -178,7 +178,7 @@ export const cities: City[] = [
       }
     ],
     nearbyAreas: ["new-city", "pearl-river", "clarkstown", "spring-valley"],
-    metaTitle: "Handyman Services in Nanuet, NY | Odds & Ends",
+    metaTitle: "Expert Handyman Services in Nanuet, NY | Odds & Ends",
     metaDescription: "Affordable, reliable handyman services in Nanuet, NY. Home repairs, updates, and maintenance from a trusted Rockland County team with 20+ years of experience.",
     keywords: ["handyman Nanuet NY", "Nanuet home repair", "home improvement Nanuet", "Rockland County handyman", "Nanuet kitchen remodel", "bathroom update Nanuet"],
     localAdvantage: "Nanuet sits at the crossroads of Route 59 and Route 304, and its housing reflects the post-war suburban expansion that followed the Tappan Zee Bridge opening. Many homes are original-owner properties now being updated by second or third owners, meaning we frequently encounter decades-old wiring, galvanized plumbing, and original single-pane windows that need thoughtful upgrading rather than quick patches.",
@@ -340,7 +340,7 @@ export const cities: City[] = [
       }
     ],
     nearbyAreas: ["stony-point", "clarkstown", "ramapo", "new-city"],
-    metaTitle: "Handyman Services in Haverstraw, NY | Odds & Ends",
+    metaTitle: "Professional Handyman in Haverstraw, NY | Odds & Ends",
     metaDescription: "Trusted handyman services in Haverstraw, NY. Home repairs, upgrades, and maintenance for the village and town. Serving Rockland County for over 20 years.",
     keywords: ["handyman Haverstraw NY", "Haverstraw home repair", "home improvement Haverstraw", "Rockland County handyman", "Haverstraw village repairs"],
     localAdvantage: "Haverstraw's dramatic terrain — from the waterfront village streets up through the steep hillside neighborhoods — creates unique challenges: retaining walls need constant attention, hillside drainage must be managed proactively, and the older brick and frame buildings in the village core require a different skill set than the suburban homes in the outer town. The former brickmaking center of the Hudson Valley, Haverstraw has a building stock that reflects its industrial heritage with sturdy but aging construction.",
@@ -395,7 +395,7 @@ export const cities: City[] = [
     ],
     nearbyAreas: ["haverstraw", "new-city", "clarkstown", "pomona"],
     metaTitle: "Handyman Services in Stony Point, NY | Odds & Ends",
-    metaDescription: "Dependable handyman services in Stony Point, NY. Home repairs, deck building, and property maintenance from a trusted Rockland County team.",
+    metaDescription: "Dependable handyman services in Stony Point, NY. Home repairs, deck building, and expert property maintenance from a trusted Rockland County team.",
     keywords: ["handyman Stony Point NY", "Stony Point home repair", "deck building Stony Point", "Rockland County handyman", "home maintenance Stony Point"],
     localAdvantage: "Stony Point's heavily wooded lots and proximity to Harriman State Park and the Stony Point Battlefield mean homes here deal with constant tree debris in gutters, heavy shade that promotes moss and algae on siding and decks, and extra moisture from the dense forest canopy. Northeast storm systems push hard through the river corridor here, making storm damage repair and proactive exterior maintenance a regular part of homeownership.",
     neighborhoods: ["Route 9W corridor", "Buckberg Mountain Road", "Tomkins Cove", "near Stony Point Battlefield", "Mott Farm Road area", "Wayne Avenue", "Crickettown Road", "Filors Lane area"],
@@ -452,8 +452,8 @@ export const cities: City[] = [
       }
     ],
     nearbyAreas: ["new-city", "nanuet", "nyack", "stony-point"],
-    metaTitle: "Handyman Services in Clarkstown, NY | Odds & Ends",
-    metaDescription: "Premier handyman services for Clarkstown, NY homeowners. Expert craftsmanship, reliable scheduling, and 20+ years serving Rockland County.",
+    metaTitle: "Professional Handyman in Clarkstown, NY | Odds & Ends",
+    metaDescription: "Premier handyman services for Clarkstown, NY homeowners. Expert craftsmanship, reliable scheduling, and over 20 years serving Rockland County.",
     keywords: ["handyman Clarkstown NY", "Clarkstown home repair", "home renovation Clarkstown", "Rockland County handyman", "Clarkstown kitchen remodel", "Clarkstown deck building"],
     localAdvantage: "As Rockland County's largest town by population, Clarkstown spans a huge range of housing types and eras across its hamlets. This means our work here is incredibly varied — one day we're updating a 1960s split-level kitchen in New City, the next we're rebuilding a deck on a lakeside home in Congers. The town's mature suburban infrastructure means we frequently encounter aging decks, original windows, and fascia and soffit deterioration that comes from 50+ years of Hudson Valley freeze-thaw cycles.",
     neighborhoods: ["New City hamlet", "Nanuet hamlet", "Congers", "West Nyack", "Central Nyack", "Bardonia", "Germonds", "near Lake DeForest"],
@@ -506,7 +506,7 @@ export const cities: City[] = [
       }
     ],
     nearbyAreas: ["pearl-river", "tappan", "sparkill", "piermont"],
-    metaTitle: "Handyman Services in Orangetown, NY | Odds & Ends",
+    metaTitle: "Professional Handyman in Orangetown, NY | Odds & Ends",
     metaDescription: "Experienced handyman services in Orangetown, NY. Reliable home repairs and maintenance for Pearl River, Tappan, Sparkill, and all Orangetown hamlets.",
     keywords: ["handyman Orangetown NY", "Orangetown home repair", "Rockland County handyman", "home maintenance Orangetown", "Orangetown property care"],
     localAdvantage: "Orangetown encompasses some of Rockland County's most historically significant hamlets, and the housing stock reflects that heritage — from colonial-era stone houses in Tappan to early 20th-century bungalows in Pearl River to riverfront properties in Palisades. Working across this range demands versatility: we might need period-appropriate restoration skills in one hamlet and straightforward mid-century maintenance skills in the next, all within the same town.",
@@ -560,7 +560,7 @@ export const cities: City[] = [
       }
     ],
     nearbyAreas: ["suffern", "spring-valley", "pomona", "clarkstown"],
-    metaTitle: "Handyman Services in Ramapo, NY | Odds & Ends",
+    metaTitle: "Expert Handyman Services in Ramapo, NY | Odds & Ends",
     metaDescription: "Reliable handyman services across the Town of Ramapo, NY. Quality home repairs and maintenance for Suffern, Spring Valley, Pomona, and more.",
     keywords: ["handyman Ramapo NY", "Ramapo home repair", "Rockland County handyman", "home maintenance Ramapo", "Ramapo property repair"],
     localAdvantage: "Ramapo is Rockland County's largest town by area, stretching from the Suffern village core at the base of the Ramapo Mountains westward through wooded Pomona and down into densely populated Spring Valley. This geographic spread means homes here face dramatically different conditions: mountain-adjacent properties deal with steep grades, rocky soil, and heavy runoff, while the flatter eastern sections contend with older infrastructure and higher-density housing demands.",
@@ -614,7 +614,7 @@ export const cities: City[] = [
       }
     ],
     nearbyAreas: ["ramapo", "spring-valley", "pomona", "pearl-river"],
-    metaTitle: "Handyman Services in Suffern, NY | Odds & Ends",
+    metaTitle: "Professional Handyman in Suffern, NY | Odds & Ends",
     metaDescription: "Trusted handyman services in Suffern, NY. Expert home repairs for village homes and hillside properties. Serving Rockland County for over 20 years.",
     keywords: ["handyman Suffern NY", "Suffern home repair", "village home maintenance Suffern", "Rockland County handyman", "Suffern property maintenance"],
     localAdvantage: "Suffern's position at the base of the Ramapo Mountains creates a distinct microclimate — heavy runoff from the mountain slopes puts extra pressure on foundations and basements, while the village's collection of century-old homes along Lafayette Avenue and surrounding streets features construction methods that require experienced hands. Hillside properties face grading and drainage challenges that flatter communities simply don't encounter.",
@@ -672,7 +672,7 @@ export const cities: City[] = [
       }
     ],
     nearbyAreas: ["nyack", "grandview-on-hudson", "orangetown", "sparkill"],
-    metaTitle: "Handyman Services in Piermont, NY | Odds & Ends",
+    metaTitle: "Professional Handyman in Piermont, NY | Odds & Ends",
     metaDescription: "Expert handyman services for Piermont, NY's distinctive homes. Meticulous craftsmanship and premium finishes for this unique Hudson River village.",
     keywords: ["handyman Piermont NY", "Piermont home repair", "Hudson River village handyman", "Piermont home renovation", "Rockland County handyman", "premium home repair Piermont"],
     localAdvantage: "Piermont's hillside terrain and waterfront exposure present challenges you won't find in typical suburban communities. Many homes are built on steep, narrow lots where access for materials and equipment requires creative logistics. The Hudson River is literally at the village's doorstep, and that proximity drives accelerated deterioration of exterior finishes, deck materials, and any exposed metal hardware. Compact lot sizes also mean working in tight quarters where precision matters more than usual.",
@@ -730,7 +730,7 @@ export const cities: City[] = [
       }
     ],
     nearbyAreas: ["nyack", "piermont", "orangetown", "clarkstown"],
-    metaTitle: "Handyman in Grandview-on-Hudson, NY | Odds & Ends",
+    metaTitle: "Handyman in Grandview-on-Hudson, NY | Odds & Ends Handyman",
     metaDescription: "Premium handyman services for Grandview-on-Hudson, NY. Expert craftsmanship for riverfront homes in Rockland County's most exclusive village.",
     keywords: ["handyman Grandview-on-Hudson NY", "Grandview-on-Hudson home repair", "riverfront home maintenance", "Rockland County handyman", "premium handyman service"],
     localAdvantage: "Grandview-on-Hudson is one of the smallest villages in New York State, and virtually every property here has direct or near-direct Hudson River exposure. The combination of constant moisture, wind off the Tappan Zee, and steep wooded lots means exterior materials degrade faster than anywhere else in the county. Homes here are often architect-designed or extensively customized, so cookie-cutter repair approaches don't work — each project requires understanding the specific home's design intent and materials palette.",
@@ -788,7 +788,7 @@ export const cities: City[] = [
       }
     ],
     nearbyAreas: ["tappan", "piermont", "orangetown", "pearl-river"],
-    metaTitle: "Handyman Services in Sparkill, NY | Odds & Ends",
+    metaTitle: "Professional Handyman in Sparkill, NY | Odds & Ends",
     metaDescription: "Quality handyman services for Sparkill, NY. Careful craftsmanship for older homes in this quiet Orangetown hamlet. Free estimates, 20+ years experience.",
     keywords: ["handyman Sparkill NY", "Sparkill home repair", "Orangetown handyman", "home maintenance Sparkill", "Rockland County handyman", "Sparkill home improvement"],
     localAdvantage: "Sparkill's position along its namesake creek means properties on the lower streets can experience periodic flooding and persistent basement moisture — a very different challenge than the well-drained hillside lots just a few blocks away. The hamlet's quiet, tree-canopied streets produce heavy leaf fall that clogs gutters and downspouts, and the mature tree roots common throughout the area can crack walkways and shift foundations over time.",
@@ -846,8 +846,8 @@ export const cities: City[] = [
       }
     ],
     nearbyAreas: ["sparkill", "orangetown", "pearl-river", "piermont"],
-    metaTitle: "Handyman Services in Tappan, NY | Odds & Ends",
-    metaDescription: "Expert handyman services for Tappan, NY. Skilled craftsmanship for historic and modern homes in this storied Rockland County hamlet.",
+    metaTitle: "Expert Handyman Services in Tappan, NY | Odds & Ends",
+    metaDescription: "Expert handyman services for Tappan, NY. Skilled craftsmanship for historic and modern homes in this storied Rockland County hamlet. Free estimates.",
     keywords: ["handyman Tappan NY", "Tappan home repair", "historic home maintenance Tappan", "Orangetown handyman", "Rockland County handyman", "Tappan home renovation"],
     localAdvantage: "Tappan is one of the oldest continuously settled communities in Rockland County, with stone houses dating to the 1700s alongside every subsequent era of American residential construction. This layered history means a handyman working here needs to be comfortable with colonial-era stone foundations one day and mid-century drywall the next. The hamlet's low-lying areas along the creek corridors also face seasonal moisture challenges that require proactive waterproofing attention.",
     neighborhoods: ["Old Tappan Road area", "Kings Highway", "Western Highway corridor", "Route 303 area", "near the DeWint House", "Tappan historic center", "Oak Tree Road area", "near the '76 House"],
@@ -904,7 +904,7 @@ export const cities: City[] = [
       }
     ],
     nearbyAreas: ["ramapo", "new-city", "suffern", "stony-point"],
-    metaTitle: "Handyman Services in Pomona, NY | Odds & Ends",
+    metaTitle: "Expert Handyman Services in Pomona, NY | Odds & Ends",
     metaDescription: "Quality handyman services for Pomona, NY homeowners. Expert repairs and maintenance for homes in Rockland County's nature-surrounded community.",
     keywords: ["handyman Pomona NY", "Pomona home repair", "Ramapo handyman", "home maintenance Pomona", "Rockland County handyman", "Pomona deck building"],
     localAdvantage: "Pomona's heavily wooded, larger lots give homeowners a rural feel within reach of the rest of Rockland County, but those same beautiful trees create relentless maintenance demands. Leaf and debris buildup in gutters is constant from September through December, shade and moisture promote mold and algae growth on siding and decks, and the wildlife common to the area — from woodpeckers to squirrels — can cause surprising damage to soffits, fascia, and attic venting. Homes here are also more spread out, with longer driveways and more outbuilding structures that need periodic attention.",

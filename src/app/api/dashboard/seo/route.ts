@@ -31,15 +31,15 @@ interface PageSeoData {
 }
 
 const staticPages = [
-  { path: '/', pageType: 'static' as const, title: 'Home', metaTitle: 'Odds & Ends Handyman Service | Professional Handyman in Rockland County, NY', metaDescription: 'Professional handyman services in Rockland County, New York. 20+ years of experience. TV mounting, drywall repair, painting, deck repair, and 30+ services. Free estimates. Call (908) 461-2688.', ogImage: '/images/og-default.jpg', keywords: [] as string[] },
-  { path: '/about', pageType: 'static' as const, title: 'About', metaTitle: 'About Odds & Ends Handyman Service', metaDescription: 'Learn about Dan Kiely and Odds & Ends Handyman Service — serving Rockland County, NY since 2001 with 20+ years of professional craftsmanship, honest pricing, and meticulous attention to detail.', ogImage: '/images/og-default.jpg', keywords: ['about', 'Dan Kiely', 'handyman Rockland County', 'home repair professional'] },
-  { path: '/contact', pageType: 'static' as const, title: 'Contact', metaTitle: 'Contact Us', metaDescription: 'Contact Odds & Ends Handyman Service in Rockland County, NY. Call, text, or email for a free estimate. Dan responds quickly and personally to every inquiry.', ogImage: '/images/og-default.jpg', keywords: ['contact handyman', 'Rockland County handyman phone', 'free estimate'] },
-  { path: '/estimate', pageType: 'static' as const, title: 'Free Estimate', metaTitle: 'Request a Free Estimate', metaDescription: 'Request a free, no-obligation estimate from Odds & Ends Handyman Service. Describe your project and Dan will get back to you with a fair, honest quote.', ogImage: '/images/og-default.jpg', keywords: ['free estimate', 'handyman quote', 'home repair estimate'] },
-  { path: '/services', pageType: 'static' as const, title: 'All Services', metaTitle: 'Handyman Services in Rockland County, NY', metaDescription: 'Over 30 professional handyman services in Rockland County, NY. From TV mounting to deck building, Odds & Ends handles it all.', ogImage: '/images/og-default.jpg', keywords: ['handyman services', 'Rockland County', 'home repair services'] },
-  { path: '/areas', pageType: 'static' as const, title: 'Service Areas', metaTitle: 'Service Areas in Rockland County, NY', metaDescription: 'Odds & Ends Handyman Service proudly serves all of Rockland County, NY including Nyack, New City, Nanuet, Pearl River, and more.', ogImage: '/images/og-default.jpg', keywords: ['Rockland County handyman', 'service areas'] },
-  { path: '/blog', pageType: 'static' as const, title: 'Blog', metaTitle: 'Home Improvement Blog | Tips & Guides', metaDescription: 'Helpful home improvement tips, repair guides, and maintenance advice from a 20+ year Rockland County handyman.', ogImage: '/images/og-default.jpg', keywords: ['home improvement blog', 'handyman tips', 'repair guides'] },
-  { path: '/faq', pageType: 'static' as const, title: 'FAQ', metaTitle: 'Frequently Asked Questions', metaDescription: 'Get answers to common questions about Odds & Ends Handyman Service.', ogImage: '/images/og-default.jpg', keywords: ['handyman FAQ', 'home repair questions'] },
-  { path: '/reviews', pageType: 'static' as const, title: 'Reviews', metaTitle: 'Customer Reviews', metaDescription: 'Read five-star Google reviews for Odds & Ends Handyman Service in Rockland County, NY.', ogImage: '/images/og-default.jpg', keywords: ['handyman reviews', 'customer testimonials'] },
+  { path: '/', pageType: 'static' as const, title: 'Home', metaTitle: 'Odds & Ends Handyman | Rockland County, NY Services', metaDescription: 'Professional handyman services in Rockland County, NY. 25+ years experience. TV mounting, drywall, painting, deck repair, and more. Free estimates.', ogImage: '/images/og-default.jpg', keywords: ['handyman Rockland County', 'home repair services NY', 'Odds & Ends Handyman Service'] },
+  { path: '/about', pageType: 'static' as const, title: 'About', metaTitle: 'About Odds & Ends Handyman | Rockland County, NY Pro', metaDescription: 'Meet Dan Kiely and the Odds & Ends team. Over 25 years of trusted handyman craftsmanship in Rockland County, NY. Honest pricing and quality work.', ogImage: '/images/og-default.jpg', keywords: ['about Odds & Ends', 'Dan Kiely handyman', 'Rockland County handyman', 'home repair professional'] },
+  { path: '/contact', pageType: 'static' as const, title: 'Contact', metaTitle: 'Contact Odds & Ends Handyman Service in Rockland, NY', metaDescription: 'Contact Odds & Ends Handyman Service in Rockland County, NY. Call, text, or email for a free estimate. Dan responds quickly to every inquiry.', ogImage: '/images/og-default.jpg', keywords: ['contact handyman', 'Rockland County handyman phone', 'free estimate handyman'] },
+  { path: '/estimate', pageType: 'static' as const, title: 'Free Estimate', metaTitle: 'Free Handyman Estimate | Odds & Ends Rockland County', metaDescription: 'Request a free, no-obligation estimate from Odds & Ends Handyman Service. Describe your project and Dan will get back to you with an honest quote.', ogImage: '/images/og-default.jpg', keywords: ['free estimate', 'handyman quote Rockland County', 'home repair estimate NY'] },
+  { path: '/services', pageType: 'static' as const, title: 'All Services', metaTitle: 'All Handyman Services in Rockland County, NY | O & E', metaDescription: 'Browse 30+ professional handyman services in Rockland County, NY. From TV mounting and deck repair to kitchen renovation. Free estimates available.', ogImage: '/images/og-default.jpg', keywords: ['handyman services', 'Rockland County home repair', 'home improvement services NY'] },
+  { path: '/areas', pageType: 'static' as const, title: 'Service Areas', metaTitle: 'Handyman Service Areas in Rockland County, New York', metaDescription: 'Odds & Ends Handyman Service proudly serves all Rockland County, NY including Nyack, New City, Nanuet, Pearl River, Suffern, and surrounding areas.', ogImage: '/images/og-default.jpg', keywords: ['Rockland County handyman', 'handyman service areas', 'Nyack New City Nanuet handyman'] },
+  { path: '/blog', pageType: 'static' as const, title: 'Blog', metaTitle: 'Home Improvement Blog | Odds & Ends Handyman Guide', metaDescription: 'Helpful home improvement tips, repair guides, and seasonal maintenance advice from a trusted Rockland County, NY handyman with over 25 years experience.', ogImage: '/images/og-default.jpg', keywords: ['home improvement blog', 'handyman tips Rockland County', 'home repair guides NY'] },
+  { path: '/faq', pageType: 'static' as const, title: 'FAQ', metaTitle: 'Handyman FAQ | Odds & Ends Service Questions Answered', metaDescription: 'Get answers to common questions about Odds & Ends Handyman Service in Rockland County, NY. Pricing, scheduling, service areas, and what to expect.', ogImage: '/images/og-default.jpg', keywords: ['handyman FAQ', 'home repair questions', 'Odds & Ends Handyman FAQ'] },
+  { path: '/reviews', pageType: 'static' as const, title: 'Reviews', metaTitle: 'Customer Reviews | Odds & Ends Handyman Rockland, NY', metaDescription: 'Read five-star reviews for Odds & Ends Handyman Service. Trusted by Rockland County, NY homeowners for over 25 years of quality home repair work.', ogImage: '/images/og-default.jpg', keywords: ['handyman reviews', 'customer testimonials', 'Odds & Ends reviews Rockland'] },
 ]
 
 function computeTitleScore(title: string): { score: number; issues: string[] } {
@@ -135,6 +135,17 @@ function applyOverride(
   if (override.keywords && override.keywords.length > 0) page.keywords = override.keywords
 }
 
+function generateBlogKeywords(post: { category: string; relatedServices: string[] }): string[] {
+  const keywords: string[] = [post.category.toLowerCase()]
+  for (const svcSlug of post.relatedServices.slice(0, 2)) {
+    const svc = services.find(s => s.slug === svcSlug)
+    if (svc) keywords.push(svc.name.toLowerCase() + ' Rockland County')
+  }
+  keywords.push('Rockland County handyman')
+  if (keywords.length < 3) keywords.push('home improvement tips')
+  return keywords
+}
+
 export async function GET(request: NextRequest) {
   if (!verifyDashboardAuth(request)) {
     return unauthorizedResponse()
@@ -168,7 +179,7 @@ export async function GET(request: NextRequest) {
 
       const { healthScore, issues } = computeHealthScore({
         ...pageData,
-        hasAltText: false,
+        hasAltText: true,
       })
 
       pages.push({
@@ -179,7 +190,7 @@ export async function GET(request: NextRequest) {
         metaDescription: pageData.metaDescription,
         ogImage: pageData.ogImage,
         keywords: pageData.keywords,
-        hasAltText: false,
+        hasAltText: true,
         canonical: `${BASE_URL}${sp.path === '/' ? '' : sp.path}`,
         healthScore,
         issues,
@@ -261,7 +272,7 @@ export async function GET(request: NextRequest) {
         metaTitle: post.metaTitle,
         metaDescription: post.metaDescription,
         ogImage: post.image || null,
-        keywords: [] as string[],
+        keywords: generateBlogKeywords(post),
       }
       const override = overrideMap.get(path)
       if (override) applyOverride(pageData, override)

@@ -1,5 +1,6 @@
 import { siteConfig } from '@/data/site-config'
 import { reviews } from '@/data/reviews'
+import { cities } from '@/data/cities'
 
 export function localBusinessSchema() {
   return {
@@ -35,6 +36,13 @@ export function localBusinessSchema() {
         closes: '16:00',
       },
     ],
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: siteConfig.latitude,
+      longitude: siteConfig.longitude,
+    },
+    sameAs: siteConfig.socialProfiles,
+    knowsAbout: siteConfig.knowsAbout,
     priceRange: '$$',
     aggregateRating: {
       '@type': 'AggregateRating',
@@ -61,6 +69,7 @@ export function organizationSchema() {
 
 export function serviceSchema(service: {
   name: string
+  shortDescription: string
   description: string
   slug: string
 }) {
@@ -74,10 +83,10 @@ export function serviceSchema(service: {
       '@type': 'HomeAndConstructionBusiness',
       '@id': `${siteConfig.url}/#business`,
     },
-    areaServed: {
-      '@type': 'County',
-      name: siteConfig.county,
-    },
+    areaServed: [
+      { '@type': 'County', name: siteConfig.county, containedInPlace: { '@type': 'State', name: siteConfig.state } },
+      ...cities.map(city => ({ '@type': 'City', name: city.name, containedInPlace: { '@type': 'County', name: siteConfig.county } })),
+    ],
     offers: {
       '@type': 'Offer',
       availability: 'https://schema.org/InStock',
@@ -85,6 +94,13 @@ export function serviceSchema(service: {
         '@type': 'PriceSpecification',
         priceCurrency: 'USD',
       },
+    },
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: service.name,
+      itemListElement: [
+        { '@type': 'Offer', itemOffered: { '@type': 'Service', name: service.name, description: service.shortDescription } },
+      ],
     },
   }
 }
@@ -141,6 +157,39 @@ export function articleSchema(post: {
       '@type': 'Organization',
       '@id': `${siteConfig.url}/#organization`,
     },
+  }
+}
+
+export function ownerSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: siteConfig.owner,
+    jobTitle: 'Owner & Lead Handyman',
+    worksFor: {
+      '@type': 'HomeAndConstructionBusiness',
+      name: siteConfig.businessName,
+    },
+    knowsAbout: siteConfig.knowsAbout,
+    address: {
+      '@type': 'PostalAddress',
+      addressRegion: siteConfig.stateAbbr,
+      addressLocality: siteConfig.county,
+    },
+  }
+}
+
+export function howToSchema(service: { name: string; processSteps: { title: string; description: string }[] }) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: `How ${siteConfig.businessName} Handles ${service.name}`,
+    step: service.processSteps.map((step, i) => ({
+      '@type': 'HowToStep',
+      position: i + 1,
+      name: step.title,
+      text: step.description,
+    })),
   }
 }
 

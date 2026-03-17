@@ -54,7 +54,7 @@ export const services: Service[] = [
       { question: 'What size TVs can you mount?', answer: 'We mount TVs of all sizes, from 32-inch bedroom sets to 85-inch home theater displays. The process varies based on weight and wall type, but we have solutions for every scenario.' }
     ],
     relatedServices: ['shelving-installation', 'picture-hanging', 'smart-home-device-setup', 'light-fixture-installation'],
-    metaTitle: 'TV Mounting Service | Rockland County, NY',
+    metaTitle: 'Professional TV Mounting Service | Rockland County, NY',
     metaDescription: 'Professional TV mounting in Rockland County, NY. Secure bracket installation, cable management, and all wall types. 20+ years experience. Call today!',
     keywords: ['TV mounting Rockland County', 'TV installation New City NY', 'flat screen mounting', 'TV wall mount service', 'TV mounting near me', 'cable management', 'TV bracket installation'],
     image: '/images/services/tv-mounting.jpg',
@@ -106,7 +106,7 @@ export const services: Service[] = [
       { question: 'Do you also paint after the repair?', answer: 'Yes. We can paint the repaired area or the entire wall to ensure a perfect match. We recommend painting the full wall for the most seamless result.' }
     ],
     relatedServices: ['painting', 'door-installation', 'shelving-installation', 'custom-accent-walls'],
-    metaTitle: 'Drywall Repair | Rockland County, NY',
+    metaTitle: 'Professional Drywall Repair Service | Rockland County, NY',
     metaDescription: 'Professional drywall repair in Rockland County. Holes, cracks, water damage patched seamlessly. 20+ years experience. Free estimates available.',
     keywords: ['drywall repair Rockland County', 'drywall patching', 'hole repair', 'wall repair New City NY', 'drywall contractor near me', 'ceiling repair', 'drywall finishing'],
     image: '/images/services/drywall-repair.jpg',
@@ -157,7 +157,7 @@ export const services: Service[] = [
       { question: 'Can you fix a door that sticks instead of replacing it?', answer: 'Often, yes. We can plane, trim, or rehang a sticking door for much less than a full replacement. We will always recommend the most cost-effective solution.' }
     ],
     relatedServices: ['doorknob-and-handle-replacement', 'drywall-repair', 'painting', 'cabinet-installation'],
-    metaTitle: 'Door Installation | Rockland County, NY',
+    metaTitle: 'Professional Door Installation | Rockland County, NY',
     metaDescription: 'Professional door installation in Rockland County, NY. Interior and exterior doors, pre-hung and slab. Expert fitting for older homes. Call today!',
     keywords: ['door installation Rockland County', 'door replacement', 'interior door installation', 'exterior door installation', 'door hanging service', 'pre-hung door install near me'],
     image: '/images/services/door-installation.jpg',
@@ -208,8 +208,8 @@ export const services: Service[] = [
       { question: 'Can you repair vinyl fencing?', answer: 'Yes. Vinyl fence sections are modular, so we can replace individual panels, posts, or caps as needed. We source matching vinyl components from major manufacturers.' }
     ],
     relatedServices: ['deck-repair', 'painting', 'door-installation', 'custom-accent-walls'],
-    metaTitle: 'Fence Repair | Rockland County, NY',
-    metaDescription: 'Fence repair services in Rockland County. Leaning posts, broken boards, sagging gates fixed fast. Wood, vinyl, and chain-link. Call today!',
+    metaTitle: 'Professional Fence Repair Service | Rockland County, NY',
+    metaDescription: 'Fence repair services in Rockland County, NY. Leaning posts, broken boards, sagging gates fixed fast. Wood, vinyl, and chain-link. Call today!',
     keywords: ['fence repair Rockland County', 'fence repair near me', 'broken fence board replacement', 'fence post repair', 'wood fence repair NY', 'vinyl fence repair'],
     image: '/images/services/fence-repair.jpg',
     altText: 'Handyman replacing a broken fence board in Rockland County backyard',
@@ -260,7 +260,7 @@ export const services: Service[] = [
       { question: 'Is a permit needed for deck repairs?', answer: 'Minor repairs like replacing boards or railings typically do not require permits. If structural work is needed, we will let you know if a permit is required in your municipality.' }
     ],
     relatedServices: ['fence-repair', 'painting', 'custom-accent-walls', 'door-installation'],
-    metaTitle: 'Deck Repair | Rockland County, NY',
+    metaTitle: 'Professional Deck Repair Service | Rockland County, NY',
     metaDescription: 'Professional deck repair in Rockland County. Board replacement, railing fixes, structural repairs, staining and sealing. 20+ years experience.',
     keywords: ['deck repair Rockland County', 'deck board replacement', 'railing repair', 'deck maintenance NY', 'deck staining near me', 'deck repair service'],
     image: '/images/services/deck-repair.jpg',
@@ -311,7 +311,7 @@ export const services: Service[] = [
       { question: 'What if parts are missing from the box?', answer: 'We will identify any missing parts and help you contact the manufacturer for replacements. We can return to finish assembly once the parts arrive.' }
     ],
     relatedServices: ['shelving-installation', 'home-office-setup', 'closet-system-installation', 'picture-hanging', 'tv-mounting'],
-    metaTitle: 'Furniture Assembly | Rockland County, NY',
+    metaTitle: 'Professional Furniture Assembly | Rockland County, NY',
     metaDescription: 'Professional furniture assembly in Rockland County. IKEA, Wayfair, and all brands. Fast, sturdy assembly with wall anchoring. Call for a quote!',
     keywords: ['furniture assembly Rockland County', 'IKEA assembly', 'furniture assembly near me', 'Wayfair assembly service', 'flat pack assembly NY', 'furniture building service'],
     image: '/images/services/furniture-assembly.jpg',
@@ -362,7 +362,7 @@ export const services: Service[] = [
       { question: 'Do you install dimmer switches too?', answer: 'Yes, we can install a dimmer switch at the same time as your new fixture. We will confirm your new fixture is dimmer-compatible and recommend the right switch.' }
     ],
     relatedServices: ['ceiling-fan-installation-and-replacement', 'smart-home-device-setup', 'painting'],
-    metaTitle: 'Light Fixture Installation | Rockland County, NY',
+    metaTitle: 'Expert Light Fixture Installation | Rockland County, NY',
     metaDescription: 'Light fixture installation in Rockland County. Chandeliers, pendants, sconces, vanity lights installed safely. 20+ years experience. Call today!',
     keywords: ['light fixture installation Rockland County', 'chandelier installation', 'light replacement near me', 'vanity light installation', 'pendant light install NY', 'sconce installation'],
     image: '/images/services/light-fixture-installation.jpg',
@@ -421,7 +421,7 @@ export const services: Service[] = [
     relatedServices: ['tile-work', 'flooring', 'painting', 'drywall-repair', 'light-fixture-installation'],
     metaTitle: 'Bathroom Renovation & Updates | Rockland County, NY',
     metaDescription: 'Bathroom renovation in Rockland County. Toilets, vanities, showers, tile, flooring, faucets, and fixtures installed by one trusted handyman. Free estimates.',
-    keywords: [],
+    keywords: ['bathroom renovation Rockland County', 'bathroom remodel near me', 'toilet installation NY', 'vanity installation', 'shower tile installation', 'bathroom update service', 'bathroom handyman'],
     image: '/images/services/toilet-installation.jpg',
     altText: 'Freshly renovated bathroom with new vanity and tile',
     processSteps: [
@@ -478,8 +478,8 @@ export const services: Service[] = [
     ],
     relatedServices: ['tile-work', 'flooring', 'cabinet-installation', 'painting', 'light-fixture-installation', 'built-ins'],
     metaTitle: 'Kitchen Renovation & Updates | Rockland County, NY',
-    metaDescription: 'Kitchen renovation in Rockland County. Cabinets, countertops, backsplash, appliances, flooring, islands, sinks, and faucets. One trusted handyman. Free estimates.',
-    keywords: [],
+    metaDescription: 'Kitchen renovation in Rockland County. Cabinets, countertops, backsplash, appliances, flooring, islands, sinks, and faucets. One trusted handyman.',
+    keywords: ['kitchen renovation Rockland County', 'kitchen remodel near me', 'cabinet installation NY', 'countertop installation', 'backsplash installation', 'kitchen update service', 'kitchen handyman'],
     image: '/images/services/cabinet-installation.jpg',
     altText: 'Kitchen with freshly installed cabinets and tile backsplash',
     processSteps: [
@@ -535,9 +535,9 @@ export const services: Service[] = [
       { question: 'Do you handle transitions between rooms?', answer: 'Absolutely. Clean transitions between different flooring types and rooms are one of the details that separate a professional install from a DIY job.' }
     ],
     relatedServices: ['tile-work', 'painting', 'drywall-repair', 'cabinet-installation', 'door-installation'],
-    metaTitle: 'Flooring Installation | Rockland County, NY',
-    metaDescription: 'Professional flooring installation in Rockland County. Vinyl plank, laminate, engineered hardwood, and floor tile. Demo, subfloor prep, and flawless finishing. 20+ years experience.',
-    keywords: [],
+    metaTitle: 'Professional Flooring Installation | Rockland County, NY',
+    metaDescription: 'Professional flooring installation in Rockland County, NY. Vinyl plank, laminate, engineered hardwood, and floor tile. Subfloor prep and flawless finishing.',
+    keywords: ['flooring installation Rockland County', 'vinyl plank flooring near me', 'laminate flooring NY', 'hardwood floor installation', 'floor tile installation', 'flooring contractor', 'floor replacement service'],
     image: '/images/services/flooring.jpg',
     altText: 'Vinyl plank flooring freshly installed in a Rockland County living room',
     processSteps: [
@@ -594,7 +594,7 @@ export const services: Service[] = [
     relatedServices: ['flooring', 'bathroom-renovation', 'kitchen-renovation', 'painting', 'drywall-repair', 'cabinet-installation'],
     metaTitle: 'Tile Work & Backsplash Installation | Rockland County, NY',
     metaDescription: 'Professional tile installation in Rockland County. Backsplashes, shower surrounds, wall tile, floor tile, regrouting, and tile repair. 20+ years experience.',
-    keywords: [],
+    keywords: ['tile installation Rockland County', 'backsplash installation near me', 'shower tile NY', 'floor tile installation', 'tile repair service', 'regrouting service', 'tile contractor'],
     image: '/images/services/tile-work.jpg',
     altText: 'Subway tile backsplash freshly installed in a kitchen',
     processSteps: [
@@ -644,8 +644,8 @@ export const services: Service[] = [
       { question: 'Can you paint kitchen cabinets?', answer: 'Yes. Cabinet painting requires thorough degreasing, sanding, priming, and multiple coats of durable paint. It is one of the most transformative upgrades you can make to a kitchen.' }
     ],
     relatedServices: ['drywall-repair', 'custom-accent-walls', 'cabinet-installation', 'door-installation'],
-    metaTitle: 'Painting Services | Rockland County, NY',
-    metaDescription: 'Professional painting in Rockland County, NY. Interior rooms, trim, doors, accent walls. Clean lines and smooth finishes. Free estimates!',
+    metaTitle: 'Professional Painting Services | Rockland County, NY',
+    metaDescription: 'Professional painting services in Rockland County, NY. Interior rooms, trim, doors, accent walls. Clean lines and smooth finishes. Free estimates!',
     keywords: ['painting Rockland County', 'interior painting', 'room painting near me', 'house painter NY', 'accent wall painting', 'trim painting service', 'cabinet painting'],
     image: '/images/services/painting.jpg',
     altText: 'Odds & Ends painter applying second coat to accent wall',
@@ -695,8 +695,8 @@ export const services: Service[] = [
       { question: 'Can you install shelves without damaging the wall?', answer: 'All shelf installations require holes in the wall for anchors or brackets. We minimize the number of holes by placing them strategically and hitting studs when possible.' }
     ],
     relatedServices: ['closet-system-installation', 'furniture-assembly', 'tv-mounting', 'built-ins'],
-    metaTitle: 'Shelving Installation | Rockland County, NY',
-    metaDescription: 'Shelving installation in Rockland County. Floating shelves, pantry shelving, and custom systems installed level and secure. Call today!',
+    metaTitle: 'Professional Shelving Installation | Rockland County, NY',
+    metaDescription: 'Professional shelving installation in Rockland County, NY. Floating shelves, pantry shelving, and custom systems installed level and secure. Call today!',
     keywords: ['shelving installation Rockland County', 'floating shelves', 'shelf installation near me', 'pantry shelving', 'custom shelves NY', 'wall shelf mounting'],
     image: '/images/services/shelving-installation.jpg',
     altText: 'Odds & Ends installing floating shelves on living room wall',
@@ -746,8 +746,8 @@ export const services: Service[] = [
       { question: 'How long does cabinet installation take?', answer: 'A single cabinet takes 1 to 2 hours. A full kitchen with upper and lower cabinets typically takes 1 to 2 days depending on the complexity.' }
     ],
     relatedServices: ['shelving-installation', 'painting', 'door-installation', 'built-ins'],
-    metaTitle: 'Cabinet Installation | Rockland County, NY',
-    metaDescription: 'Cabinet installation in Rockland County. Kitchen, bathroom, and storage cabinets installed level and secure. 20+ years experience.',
+    metaTitle: 'Professional Cabinet Installation | Rockland County, NY',
+    metaDescription: 'Professional cabinet installation in Rockland County, NY. Kitchen, bathroom, and storage cabinets installed level and secure. 20+ years experience.',
     keywords: ['cabinet installation Rockland County', 'kitchen cabinet install', 'cabinet replacement near me', 'bathroom cabinet installation', 'IKEA cabinet install NY', 'cabinet hanging service'],
     image: '/images/services/cabinet-installation.jpg',
     altText: 'Odds & Ends installing kitchen cabinets during renovation',
@@ -797,8 +797,8 @@ export const services: Service[] = [
       { question: 'What about plaster walls?', answer: 'Many Rockland County homes have plaster walls, which require different anchoring techniques than drywall. We carry the right hardware for plaster and use careful drilling to avoid cracking.' }
     ],
     relatedServices: ['tv-mounting', 'shelving-installation', 'custom-accent-walls'],
-    metaTitle: 'Picture Hanging | Rockland County, NY',
-    metaDescription: 'Picture and art hanging services in Rockland County. Gallery walls, mirrors, heavy frames hung level and secure. Call today!',
+    metaTitle: 'Professional Picture Hanging Service | Rockland County, NY',
+    metaDescription: 'Professional picture and art hanging services in Rockland County, NY. Gallery walls, mirrors, heavy frames hung level and secure. Call today!',
     keywords: ['picture hanging Rockland County', 'art hanging service', 'gallery wall installation', 'mirror hanging near me', 'picture hanging service NY', 'heavy frame mounting'],
     image: '/images/services/picture-hanging.jpg',
     altText: 'Gallery wall of framed artwork hung on a Rockland County stairway',
@@ -849,8 +849,8 @@ export const services: Service[] = [
       { question: 'Can you combine filter replacement with other tasks?', answer: 'Absolutely. Many customers have us change filters while we handle other small maintenance tasks like smoke detector testing, light bulb replacement, or minor repairs.' }
     ],
     relatedServices: ['smoke-detector-testing-and-replacement', 'smart-home-device-setup', 'home-office-setup'],
-    metaTitle: 'Air Filter Replacement | Rockland County, NY',
-    metaDescription: 'HVAC air filter replacement in Rockland County. Improve air quality and system efficiency. Regular schedules available. Call today!',
+    metaTitle: 'Professional Air Filter Replacement | Rockland County, NY',
+    metaDescription: 'Professional HVAC air filter replacement in Rockland County, NY. Improve air quality and system efficiency. Regular schedules available. Call today!',
     keywords: ['air filter replacement Rockland County', 'HVAC filter change', 'furnace filter replacement', 'air filter service near me', 'home air quality NY', 'filter change service'],
     image: '/images/services/air-filter-replacement.jpg',
     altText: 'Replacing a furnace air filter in a utility closet',
@@ -900,8 +900,8 @@ export const services: Service[] = [
       { question: 'Do you install smart locks?', answer: 'Yes. We install keypad locks, smart deadbolts, and app-controlled locks. We ensure they are properly aligned and help you with initial setup if needed.' }
     ],
     relatedServices: ['door-installation', 'smart-home-device-setup', 'painting'],
-    metaTitle: 'Doorknob Replacement | Rockland County, NY',
-    metaDescription: 'Doorknob and handle replacement in Rockland County. Interior and exterior hardware upgraded quickly. All styles and finishes. Call today!',
+    metaTitle: 'Professional Doorknob Replacement | Rockland County, NY',
+    metaDescription: 'Professional doorknob and handle replacement in Rockland County, NY. Interior and exterior hardware upgraded quickly. All styles and finishes. Call today!',
     keywords: ['doorknob replacement Rockland County', 'door handle replacement', 'door hardware installation near me', 'lever handle installation', 'deadbolt replacement NY', 'door lock replacement'],
     image: '/images/services/doorknob-and-handle-replacement.jpg',
     altText: 'Installing brushed nickel lever handles on interior doors',
@@ -952,8 +952,8 @@ export const services: Service[] = [
       { question: 'Do you also handle carbon monoxide detectors?', answer: 'Yes. CO detectors should be installed near bedrooms and on every level. If your home has gas appliances, a fireplace, or an attached garage, CO detectors are essential.' }
     ],
     relatedServices: ['air-filter-replacement', 'smart-home-device-setup', 'light-fixture-installation'],
-    metaTitle: 'Smoke Detector Replacement | Rockland County, NY',
-    metaDescription: 'Smoke detector testing and replacement in Rockland County. Batteries, expired units, and CO detectors. Keep your family safe. Call today!',
+    metaTitle: 'Expert Smoke Detector Replacement | Rockland County, NY',
+    metaDescription: 'Professional smoke detector testing and replacement in Rockland County, NY. Batteries, expired units, and CO detectors. Keep your family safe. Call!',
     keywords: ['smoke detector replacement Rockland County', 'smoke alarm testing', 'smoke detector installation near me', 'CO detector installation', 'fire safety NY', 'smoke alarm battery replacement'],
     image: '/images/services/smoke-detector-testing-and-replacement.jpg',
     altText: 'Testing a ceiling-mounted smoke detector',
@@ -1003,8 +1003,8 @@ export const services: Service[] = [
       { question: 'Do you install motorized shades?', answer: 'Yes. We install motorized roller shades and cellular shades. We mount the hardware and ensure the motor operates correctly. For smart home integration, we can set that up as well.' }
     ],
     relatedServices: ['picture-hanging', 'shelving-installation', 'smart-home-device-setup', 'painting'],
-    metaTitle: 'Curtain & Blind Installation | Rockland County',
-    metaDescription: 'Curtain rod and blind installation in Rockland County. Window treatments mounted level and secure. All types and styles. Call today!',
+    metaTitle: 'Curtain & Blind Installation | Rockland County, NY',
+    metaDescription: 'Professional curtain rod and blind installation in Rockland County, NY. Window treatments mounted level and secure. All types and styles. Call today!',
     keywords: ['curtain installation Rockland County', 'blind installation', 'curtain rod hanging near me', 'window treatment installation', 'shade installation NY', 'drapery hardware mounting'],
     image: '/images/services/curtain-and-blind-installation.jpg',
     altText: 'Curtain rod mounted above a window with draped fabric',
@@ -1054,8 +1054,8 @@ export const services: Service[] = [
       { question: 'Can you install a fan on a vaulted ceiling?', answer: 'Yes. Vaulted or sloped ceilings require an angled mounting adapter and a longer downrod. We carry these accessories and handle vaulted installations regularly.' }
     ],
     relatedServices: ['light-fixture-installation', 'smart-home-device-setup', 'painting'],
-    metaTitle: 'Ceiling Fan Installation | Rockland County, NY',
-    metaDescription: 'Ceiling fan installation and replacement in Rockland County. Fan-rated boxes, balanced mounting, and remote setup. Call for a quote!',
+    metaTitle: 'Professional Ceiling Fan Installation | Rockland County, NY',
+    metaDescription: 'Professional ceiling fan installation and replacement in Rockland County, NY. Fan-rated boxes, balanced mounting, and remote setup. Call for a quote!',
     keywords: ['ceiling fan installation Rockland County', 'ceiling fan replacement', 'fan installation near me', 'ceiling fan mounting NY', 'fan installation service', 'ceiling fan electrician'],
     image: '/images/services/ceiling-fan-installation-and-replacement.jpg',
     altText: 'Ceiling fan installation in a Rockland County bedroom',
@@ -1106,8 +1106,8 @@ export const services: Service[] = [
       { question: 'What smart home brands do you work with?', answer: 'We work with all major brands including Nest, Ring, Ecobee, Schlage, Lutron, TP-Link, Wyze, and more. If you have a specific device, we can install it.' }
     ],
     relatedServices: ['light-fixture-installation', 'doorknob-and-handle-replacement', 'ceiling-fan-installation-and-replacement', 'home-office-setup'],
-    metaTitle: 'Smart Home Setup | Rockland County, NY',
-    metaDescription: 'Smart home device installation in Rockland County. Thermostats, doorbells, cameras, locks, and more set up and configured. Call today!',
+    metaTitle: 'Professional Smart Home Device Setup | Rockland County, NY',
+    metaDescription: 'Professional smart home device installation in Rockland County, NY. Thermostats, doorbells, cameras, locks, and more set up and configured. Call today!',
     keywords: ['smart home setup Rockland County', 'smart thermostat installation', 'Ring doorbell installation near me', 'smart home installation NY', 'home automation setup', 'smart lock installation'],
     image: '/images/services/smart-home-device-setup.jpg',
     altText: 'Smart thermostat mounted on hallway wall',
@@ -1157,8 +1157,8 @@ export const services: Service[] = [
       { question: 'How long does a home office setup take?', answer: 'A basic setup with desk assembly and monitor mounting takes 2 to 3 hours. A full office build-out with shelving, cable management, and lighting can take half a day.' }
     ],
     relatedServices: ['furniture-assembly', 'shelving-installation', 'tv-mounting', 'smart-home-device-setup', 'light-fixture-installation'],
-    metaTitle: 'Home Office Setup | Rockland County, NY',
-    metaDescription: 'Home office setup in Rockland County. Desk assembly, monitor mounting, cable management, and shelving. Work from home comfortably!',
+    metaTitle: 'Professional Home Office Setup | Rockland County, NY',
+    metaDescription: 'Professional home office setup in Rockland County, NY. Desk assembly, monitor mounting, cable management, and shelving. Work from home comfortably!',
     keywords: ['home office setup Rockland County', 'desk assembly', 'monitor mounting near me', 'home office organization', 'cable management service NY', 'remote work setup'],
     image: '/images/services/home-office-setup.jpg',
     altText: 'Dual monitor setup with cable management on desk',
@@ -1208,8 +1208,8 @@ export const services: Service[] = [
       { question: 'Will you remove the old closet setup?', answer: 'Yes. We remove existing rods, shelves, and hardware, patch any wall damage, and install your new system on a clean surface.' }
     ],
     relatedServices: ['shelving-installation', 'furniture-assembly', 'built-ins', 'painting'],
-    metaTitle: 'Closet System Installation | Rockland County',
-    metaDescription: 'Closet organization system installation in Rockland County. Modular, IKEA, and custom closet systems installed. Maximize your storage!',
+    metaTitle: 'Professional Closet Organization | Rockland County, NY',
+    metaDescription: 'Professional closet organization system installation in Rockland County, NY. Modular, IKEA, and custom closet systems installed. Maximize your storage!',
     keywords: ['closet system installation Rockland County', 'closet organizer installation', 'closet organization near me', 'IKEA PAX installation', 'walk-in closet system NY', 'closet makeover service'],
     image: '/images/services/closet-system-installation.jpg',
     altText: 'Custom closet organizer with double rods and shelving',
@@ -1260,8 +1260,8 @@ export const services: Service[] = [
       { question: 'Can you do an accent wall in a bathroom?', answer: 'Yes. We use moisture-appropriate materials and finishes for bathroom accent walls. Board and batten and wainscoting are popular bathroom choices.' }
     ],
     relatedServices: ['painting', 'drywall-repair', 'built-ins', 'shelving-installation', 'cabinet-installation'],
-    metaTitle: 'Custom Accent Walls | Rockland County, NY',
-    metaDescription: 'Custom accent wall installation in Rockland County. Board and batten, shiplap, wainscoting, and wood features. Transform any room!',
+    metaTitle: 'Professional Custom Accent Walls | Rockland County, NY',
+    metaDescription: 'Professional custom accent wall installation in Rockland County, NY. Board and batten, shiplap, wainscoting, and wood features. Transform any room!',
     keywords: ['accent wall Rockland County', 'board and batten installation', 'shiplap wall near me', 'wainscoting installation NY', 'custom feature wall', 'accent wall contractor', 'wood slat wall'],
     image: '/images/services/custom-accent-walls.jpg',
     altText: 'White board and batten accent wall in a dining room',
@@ -1312,7 +1312,7 @@ export const services: Service[] = [
       { question: 'Can you build around a TV or fireplace?', answer: 'Absolutely. Entertainment center built-ins and fireplace surrounds with flanking bookcases are among our most popular projects. We accommodate wiring, cable management, and heat clearances.' }
     ],
     relatedServices: ['shelving-installation', 'cabinet-installation', 'custom-accent-walls', 'painting', 'closet-system-installation'],
-    metaTitle: 'Custom Built-Ins | Rockland County, NY',
+    metaTitle: 'Professional Custom Built-Ins | Rockland County, NY',
     metaDescription: 'Custom built-in bookcases, shelving, and storage in Rockland County. Designed and built to fit your space perfectly. Call for a consultation!',
     keywords: ['custom built-ins Rockland County', 'built-in bookcase', 'built-in shelving near me', 'custom bookcases NY', 'window seat built-in', 'fireplace built-ins', 'mudroom built-in'],
     image: '/images/services/built-ins.jpg',
@@ -1364,7 +1364,7 @@ export const services: Service[] = [
       { question: 'Do you also do decks and patios?', answer: 'Yes. Outdoor structures often pair with deck or patio work. We can build a pergola attached to your deck, a gazebo on a new paver patio, or a shed on a gravel pad — all in one project.' }
     ],
     relatedServices: ['deck-repair', 'fence-repair', 'light-fixture-installation', 'painting', 'custom-accent-walls'],
-    metaTitle: 'Outdoor Structures | Pergolas, Gazebos, Sheds | Rockland County, NY',
+    metaTitle: 'Custom Outdoor Structures & Sheds | Rockland County, NY',
     metaDescription: 'Custom pergolas, canopies, sheds, and gazebos in Rockland County. Built to last with quality materials. 20+ years experience. Free estimates!',
     keywords: ['pergola builder Rockland County', 'gazebo installation', 'custom shed builder near me', 'outdoor canopy installation NY', 'pergola contractor', 'backyard gazebo', 'storage shed builder', 'outdoor structures Rockland County'],
     image: '/images/services/outdoor-structures.jpg',
@@ -1416,7 +1416,7 @@ export const services: Service[] = [
       { question: 'How long does a typical excavation job take?', answer: 'Most residential excavation projects take one to three days depending on scope, soil conditions, and weather. We will give you a clear timeline during our initial site assessment.' }
     ],
     relatedServices: ['gravel-pads', 'sheds', 'deck-repair', 'fence-repair'],
-    metaTitle: 'Excavation Services | Rockland County, NY',
+    metaTitle: 'Professional Excavation Services | Rockland County, NY',
     metaDescription: 'Professional residential excavation in Rockland County, NY. Trenching, grading, drainage, and site prep. 25+ years experience. Call Odds & Ends today!',
     keywords: ['excavation Rockland County', 'trenching service New City NY', 'grading contractor near me', 'drainage excavation', 'site prep Rockland County', 'residential excavation Suffern', 'yard grading Nyack', 'utility trenching'],
     image: '/images/services/excavation.svg',
@@ -1468,7 +1468,7 @@ export const services: Service[] = [
       { question: 'How long does a gravel pad installation take?', answer: 'Most gravel pad projects take one to two days. A standard 10x12 shed pad on reasonably flat ground is typically a one-day job. Larger pads or challenging terrain may take two days.' }
     ],
     relatedServices: ['excavation', 'sheds', 'deck-repair', 'fence-repair'],
-    metaTitle: 'Gravel Pad Installation | Rockland County, NY',
+    metaTitle: 'Professional Gravel Pad Installation | Rockland County, NY',
     metaDescription: 'Professional gravel pad installation in Rockland County, NY. Shed pads, hot tub bases, fire pits, parking areas. 25+ years experience. Call Odds & Ends!',
     keywords: ['gravel pad installation Rockland County', 'shed pad New City NY', 'gravel base hot tub', 'gravel parking pad', 'fire pit gravel pad', 'crushed stone pad Suffern', 'gravel pad near me'],
     image: '/images/services/gravel-pads.svg',
@@ -1520,7 +1520,7 @@ export const services: Service[] = [
       { question: 'How long does it take to build a shed?', answer: 'A pre-fab shed assembly on a prepared foundation typically takes one to two days. A custom-built shed usually takes three to five days depending on size, features, and weather. Foundation prep is additional time if needed.' }
     ],
     relatedServices: ['gravel-pads', 'excavation', 'shelving-installation', 'door-installation'],
-    metaTitle: 'Shed Building & Assembly | Rockland County, NY',
+    metaTitle: 'Professional Shed Building & Assembly | Rockland County, NY',
     metaDescription: 'Professional shed building and assembly in Rockland County, NY. Pre-fab kits, custom builds, foundations, and interiors. 25+ years experience. Call today!',
     keywords: ['shed building Rockland County', 'shed assembly New City NY', 'custom shed builder', 'shed installation near me', 'pre-fab shed assembly', 'shed foundation Suffern', 'storage shed Nyack', 'shed contractor Rockland County'],
     image: '/images/services/sheds.svg',
