@@ -46,7 +46,7 @@ export function MobileProjectCTA({ serviceSlug, serviceName }: MobileProjectCTAP
   return (
     <>
       {/* Sticky bottom button - mobile only */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 lg:hidden shadow-[0_-4px_20px_rgba(0,0,0,0.15)]" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)', transform: 'translate3d(0,0,0)', WebkitTransform: 'translate3d(0,0,0)' }}>
+      <div className="fixed bottom-0 left-0 right-0 z-50 lg:hidden shadow-[0_-4px_20px_rgba(0,0,0,0.15)]" style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>
         <button
           onClick={handleOpen}
           className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white py-4 px-6 flex items-center justify-center gap-2.5 font-bold text-lg transition-all active:scale-[0.98]"

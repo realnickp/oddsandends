@@ -10,11 +10,23 @@ interface Caption {
 
 const TOTAL_FRAMES = 121
 const MOBILE_BREAKPOINT = 768
+const MOBILE_FRAME_STEP = 3
 
 function getFrameSrc(index: number, isMobile: boolean): string {
   const num = Math.min(Math.max(index, 1), TOTAL_FRAMES)
   const folder = isMobile ? '/video/frames-mobile/frame-' : '/video/frames/frame-'
   return `${folder}${String(num).padStart(3, '0')}.jpg`
+}
+
+function getMobileFrameIndices(): number[] {
+  const indices: number[] = []
+  for (let i = 1; i <= TOTAL_FRAMES; i += MOBILE_FRAME_STEP) {
+    indices.push(i)
+  }
+  if (indices[indices.length - 1] !== TOTAL_FRAMES) {
+    indices.push(TOTAL_FRAMES)
+  }
+  return indices
 }
 
 export function ScrollVideoAnimation({
@@ -27,6 +39,7 @@ export function ScrollVideoAnimation({
   const containerRef = useRef<HTMLDivElement>(null)
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const framesRef = useRef<HTMLImageElement[]>([])
+  const frameMapRef = useRef<number[]>([])
   const currentFrameRef = useRef(0)
   const rafRef = useRef<number | null>(null)
   const isMobileRef = useRef(false)
@@ -39,17 +52,18 @@ export function ScrollVideoAnimation({
     const frames = framesRef.current
     if (!canvas || !ctx || frames.length === 0) return
 
-    let img: HTMLImageElement | null = frames[index] ?? null
+    const clampedIndex = Math.min(Math.max(index, 0), frames.length - 1)
+    let img: HTMLImageElement | null = frames[clampedIndex] ?? null
     if (!img || !img.complete || img.naturalWidth === 0) {
       img = null
-      for (let i = index - 1; i >= 0; i--) {
+      for (let i = clampedIndex - 1; i >= 0; i--) {
         if (frames[i]?.complete && frames[i].naturalWidth > 0) {
           img = frames[i]
           break
         }
       }
       if (!img) {
-        for (let i = index + 1; i < frames.length; i++) {
+        for (let i = clampedIndex + 1; i < frames.length; i++) {
           if (frames[i]?.complete && frames[i].naturalWidth > 0) {
             img = frames[i]
             break
@@ -76,38 +90,39 @@ export function ScrollVideoAnimation({
     ctx.drawImage(img, 0, 0, width, height)
   }, [])
 
-  // Load frames based on screen size
   const loadFrames = useCallback((mobile: boolean) => {
     const images: HTMLImageElement[] = []
+    const frameIndices = mobile ? getMobileFrameIndices() : Array.from({ length: TOTAL_FRAMES }, (_, i) => i + 1)
+    const totalToLoad = frameIndices.length
     let loadedCount = 0
 
     const onReady = () => {
       loadedCount++
-      if (loadedCount >= TOTAL_FRAMES) {
+      if (loadedCount >= totalToLoad) {
         setLoaded(true)
       }
     }
 
-    for (let i = 1; i <= TOTAL_FRAMES; i++) {
+    for (const frameNum of frameIndices) {
       const img = new Image()
       img.onload = onReady
       img.onerror = onReady
-      img.src = getFrameSrc(i, mobile)
+      img.src = getFrameSrc(frameNum, mobile)
       if (img.complete) onReady()
       images.push(img)
     }
 
     framesRef.current = images
+    frameMapRef.current = frameIndices
     isMobileRef.current = mobile
 
-    if (images[0].complete) {
+    if (images[0]?.complete) {
       drawFrame(0)
-    } else {
+    } else if (images[0]) {
       images[0].addEventListener('load', () => drawFrame(0))
     }
   }, [drawFrame])
 
-  // Initialize and handle resize across breakpoint
   useEffect(() => {
     const mobile = window.innerWidth < MOBILE_BREAKPOINT
     loadFrames(mobile)
@@ -126,14 +141,12 @@ export function ScrollVideoAnimation({
     return () => window.removeEventListener('resize', handleResize)
   }, [loadFrames, drawFrame])
 
-  // Redraw current frame once all frames finish loading
   useEffect(() => {
     if (loaded) {
       drawFrame(currentFrameRef.current)
     }
   }, [loaded, drawFrame])
 
-  // Scroll handler
   useEffect(() => {
     let initialDraw = true
 
@@ -156,7 +169,8 @@ export function ScrollVideoAnimation({
           rawProgress = Math.min(Math.max(distanceTraveled / totalTravel, 0), 1)
         }
 
-        const frameIndex = Math.round(rawProgress * (TOTAL_FRAMES - 1))
+        const totalLoadedFrames = framesRef.current.length
+        const frameIndex = Math.round(rawProgress * (totalLoadedFrames - 1))
 
         if (frameIndex !== currentFrameRef.current || initialDraw) {
           initialDraw = false
@@ -187,7 +201,6 @@ export function ScrollVideoAnimation({
       style={{ height: scrollHeight }}
     >
       <div className="sticky top-0 h-screen flex items-center justify-center overflow-hidden">
-        {/* Loading state */}
         {!loaded && (
           <div className="absolute inset-0 flex items-center justify-center bg-gray-950 z-10">
             <div className="flex flex-col items-center gap-3">
@@ -197,14 +210,12 @@ export function ScrollVideoAnimation({
           </div>
         )}
 
-        {/* Canvas */}
         <canvas
           ref={canvasRef}
           className="w-full max-w-6xl mx-auto md:px-4"
           style={{ display: 'block' }}
         />
 
-        {/* Optional captions */}
         {captions.map((caption, i) => {
           const visible =
             progress >= caption.startProgress && progress <= caption.endProgress
