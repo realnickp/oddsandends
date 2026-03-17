@@ -44,6 +44,15 @@ export function localBusinessSchema() {
     sameAs: siteConfig.socialProfiles,
     knowsAbout: siteConfig.knowsAbout,
     priceRange: '$$',
+    hasCredential: {
+      '@type': 'EducationalOccupationalCredential',
+      credentialCategory: 'Home Improvement Contractor License',
+      recognizedBy: {
+        '@type': 'GovernmentOrganization',
+        name: 'Rockland County Office of Consumer Protection',
+      },
+      identifier: siteConfig.license.number,
+    },
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: '5.0',

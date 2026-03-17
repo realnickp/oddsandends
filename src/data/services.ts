@@ -1419,7 +1419,7 @@ export const services: Service[] = [
     metaTitle: 'Professional Excavation Services | Rockland County, NY',
     metaDescription: 'Professional residential excavation in Rockland County, NY. Trenching, grading, drainage, and site prep. 25+ years experience. Call Odds & Ends today!',
     keywords: ['excavation Rockland County', 'trenching service New City NY', 'grading contractor near me', 'drainage excavation', 'site prep Rockland County', 'residential excavation Suffern', 'yard grading Nyack', 'utility trenching'],
-    image: '/images/services/excavation.svg',
+    image: '/images/services/excavation.jpg',
     altText: 'Odds & Ends excavating and grading a residential site in Rockland County',
     processSteps: [
       { title: 'Site Assessment & Utility Check', description: 'We evaluate the terrain, soil conditions, and grade, then coordinate utility markings through 811 before any digging begins.' },
@@ -1471,7 +1471,7 @@ export const services: Service[] = [
     metaTitle: 'Professional Gravel Pad Installation | Rockland County, NY',
     metaDescription: 'Professional gravel pad installation in Rockland County, NY. Shed pads, hot tub bases, fire pits, parking areas. 25+ years experience. Call Odds & Ends!',
     keywords: ['gravel pad installation Rockland County', 'shed pad New City NY', 'gravel base hot tub', 'gravel parking pad', 'fire pit gravel pad', 'crushed stone pad Suffern', 'gravel pad near me'],
-    image: '/images/services/gravel-pads.svg',
+    image: '/images/services/gravel-pads.jpg',
     altText: 'Freshly installed and compacted gravel pad ready for a shed in Rockland County',
     processSteps: [
       { title: 'Site Layout & Excavation', description: 'We mark the pad dimensions, excavate to the correct depth, remove organic material, and grade the subsoil for proper drainage.' },
@@ -1523,7 +1523,7 @@ export const services: Service[] = [
     metaTitle: 'Professional Shed Building & Assembly | Rockland County, NY',
     metaDescription: 'Professional shed building and assembly in Rockland County, NY. Pre-fab kits, custom builds, foundations, and interiors. 25+ years experience. Call today!',
     keywords: ['shed building Rockland County', 'shed assembly New City NY', 'custom shed builder', 'shed installation near me', 'pre-fab shed assembly', 'shed foundation Suffern', 'storage shed Nyack', 'shed contractor Rockland County'],
-    image: '/images/services/sheds.svg',
+    image: '/images/services/sheds.jpg',
     altText: 'Custom-built storage shed with shelving on a gravel pad in Rockland County',
     processSteps: [
       { title: 'Site Selection & Foundation Prep', description: 'We help choose the best location on your property, then excavate, level, and install the appropriate foundation — gravel pad, pier blocks, or timber frame.' },
@@ -1575,7 +1575,7 @@ export const services: Service[] = [
     metaTitle: 'Custom Tiki Bar Construction | Rockland County, NY',
     metaDescription: 'Custom outdoor tiki bar construction in Rockland County, NY. Bamboo, wood, thatch, countertops, lighting, and electrical. 25+ years experience. Call today!',
     keywords: ['tiki bar builder Rockland County', 'outdoor bar construction New City NY', 'custom tiki bar', 'backyard bar builder near me', 'outdoor bar with roof', 'tiki bar contractor Suffern', 'patio bar Nyack'],
-    image: '/images/services/tiki-bars.svg',
+    image: '/images/services/tiki-bars.jpg',
     altText: 'Custom tiki bar with thatched roof and string lights built on a Rockland County patio',
     processSteps: [
       { title: 'Design & Planning', description: 'We discuss your vision, measure your space, and design a bar that fits your style, budget, and entertaining needs — including layout for electrical and seating.' },

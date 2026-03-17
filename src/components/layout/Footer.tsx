@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { Phone, Mail, MessageSquare, Clock, MapPin } from 'lucide-react'
+import { Phone, Mail, MessageSquare, Clock, MapPin, Shield } from 'lucide-react'
 import { siteConfig } from '@/data/site-config'
 import { phoneHref, smsHref } from '@/lib/utils'
 
@@ -175,10 +175,17 @@ export function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 py-6 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-gray-500">
-          <p>
-            © {new Date().getFullYear()} {siteConfig.businessName}. All rights
-            reserved. Est. {siteConfig.established}.
-          </p>
+          <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
+            <p>
+              © {new Date().getFullYear()} {siteConfig.businessName}. All rights
+              reserved. Est. {siteConfig.established}.
+            </p>
+            <span className="hidden sm:inline text-gray-700">·</span>
+            <p className="flex items-center gap-1.5">
+              <Shield className="h-3 w-3 text-green-500" />
+              Licensed & Insured · Lic# {siteConfig.license.number}
+            </p>
+          </div>
           <div className="flex gap-6">
             <Link href="/privacy" className="hover:text-gray-300 transition-colors">
               Privacy Policy

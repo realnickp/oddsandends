@@ -240,9 +240,10 @@ export default function AboutContent() {
                     </div>
                     <div>
                       <p className="font-bold text-gray-900 text-sm">Dan Kiely</p>
-                      <p className="text-gray-500 text-xs">Owner & Craftsman</p>
-                      <p className="text-blue-600 text-xs font-medium">
-                        Est. {siteConfig.established}
+                      <p className="text-gray-500 text-xs">Owner & Craftsman · Est. {siteConfig.established}</p>
+                      <p className="text-green-600 text-xs font-medium flex items-center gap-1">
+                        <Shield className="h-3 w-3" />
+                        Licensed & Insured · Lic# {siteConfig.license.number}
                       </p>
                     </div>
                   </div>

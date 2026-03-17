@@ -52,9 +52,9 @@ export function Hero() {
 
         <div className="absolute top-4 left-0 right-0 z-10 flex justify-center" style={show(200)}>
           <div className="inline-flex items-center gap-2 bg-black/30 backdrop-blur-md border border-white/10 rounded-full px-4 py-1.5">
-            <Shield className="h-3.5 w-3.5 text-blue-400" />
+            <Shield className="h-3.5 w-3.5 text-green-400" />
             <span className="text-xs text-white/80 font-medium">
-              Trusted Since {siteConfig.established} · {siteConfig.county}
+              Licensed & Insured · Lic# {siteConfig.license.number}
             </span>
           </div>
         </div>
@@ -132,9 +132,9 @@ export function Hero() {
             <div>
               <div style={show(100)}>
                 <div className="inline-flex items-center gap-2 bg-white/[0.07] backdrop-blur-sm border border-white/10 rounded-full px-4 py-1.5 mb-8">
-                  <Shield className="h-4 w-4 text-blue-400" />
+                  <Shield className="h-4 w-4 text-green-400" />
                   <span className="text-sm text-gray-300">
-                    Trusted Since {siteConfig.established} · {siteConfig.county}, {siteConfig.stateAbbr}
+                    Licensed & Insured · Lic# {siteConfig.license.number} · {siteConfig.county}, {siteConfig.stateAbbr}
                   </span>
                 </div>
               </div>
@@ -185,8 +185,8 @@ export function Hero() {
                   <span>Fast Response Times</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <Shield className="h-4 w-4 text-blue-400" />
-                  <span>Free Estimates</span>
+                  <Shield className="h-4 w-4 text-green-400" />
+                  <span>Licensed & Insured</span>
                 </div>
               </div>
             </div>

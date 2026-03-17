@@ -43,6 +43,16 @@ export const siteConfig = {
     'https://www.yelp.com/biz/odds-and-ends-handyman-service-rockland-county',
     'https://www.facebook.com/oddsandendshandyman',
   ],
+  license: {
+    number: 'H-25-600',
+    type: 'Home Improvement Contractor',
+    issuedBy: 'Rockland County Office of Consumer Protection',
+    holder: 'Daniel Kiely',
+    businessEntity: 'Top Line Property Solutions LLC',
+    dba: 'Odds and Ends Handyman Services',
+    effectiveDate: '03/04/2026',
+    expirationDate: '01/31/2027',
+  },
   knowsAbout: [
     'Home repair', 'Handyman services', 'TV mounting', 'Drywall repair',
     'Painting', 'Deck repair', 'Door installation', 'Plumbing repairs',
