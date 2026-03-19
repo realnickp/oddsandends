@@ -74,7 +74,7 @@ export function Hero() {
 
           <p className="text-sm sm:text-base text-gray-300/80 font-light leading-relaxed mb-6 max-w-md" style={show(550)}>
             {siteConfig.yearsExperience}+ years of meticulous craftsmanship.
-            From quick fixes to full custom builds — Dan handles it all.
+            Owner operated, licensed, and local — specializing in small and medium sized renovations.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 mb-5" style={show(650)}>
@@ -150,8 +150,8 @@ export function Hero() {
                 style={show(600)}
               >
                 {siteConfig.yearsExperience}+ years of professional handyman service.
-                From small repairs to custom projects — one call handles it all.
-                Free estimates, honest pricing, meticulous work.
+                Owner operated, licensed, and local — specializing in small and
+                medium sized renovations. Free estimates, honest pricing, meticulous work.
               </p>
 
               <div className="flex flex-row gap-4 mb-12" style={show(750)}>
@@ -278,7 +278,7 @@ export function Hero() {
             </div>
             <div className="relative rounded-xl overflow-hidden group flex items-center justify-center bg-white/[0.04] border border-white/[0.06] hover:bg-white/[0.06] transition-colors cursor-pointer">
               <Link href="/services" className="flex flex-col items-center gap-1.5 text-center">
-                <span className="text-white font-bold text-sm">30+ Services</span>
+                <span className="text-white font-bold text-sm">Full-Service Handyman</span>
                 <span className="text-blue-400 text-xs font-medium flex items-center gap-1">
                   View All <ArrowRight className="h-3 w-3" />
                 </span>

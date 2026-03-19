@@ -72,7 +72,7 @@ const faqs = [
   {
     question: 'Do you handle small jobs?',
     answer:
-      'Yes — no job is too small. Whether you need a single doorknob replaced, a picture hung, or a full day of repairs knocked off your list, we\'re happy to help. We treat every project with the same care and attention to detail.',
+      'No job too small, because we know how much the little things matter. Whether you need a single doorknob replaced, a picture hung, or a full day of repairs knocked off your list, we\'re happy to help. We treat every project with the same care and attention to detail.',
   },
   {
     question: 'What about larger projects?',

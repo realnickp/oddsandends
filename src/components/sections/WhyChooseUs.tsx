@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { Sparkles, Clock, Shield, Paintbrush, MessagesSquare, DollarSign } from 'lucide-react'
 import { ScrollReveal } from '@/components/ui/ScrollReveal'
+import { siteConfig } from '@/data/site-config'
 
 const reasons = [
   {
@@ -56,8 +57,9 @@ export function WhyChooseUs() {
               The Handyman Rockland County Counts On
             </h2>
             <p className="text-lg text-gray-500 font-light leading-relaxed">
-              Finding a reliable handyman shouldn&apos;t be harder than the repair itself.
-              Here&apos;s why hundreds of homeowners trust Dan with their homes.
+              Owner operated, licensed, and local — Dan specializes in small and medium
+              sized renovations and carries a million dollar insurance policy.
+              Here&apos;s why hundreds of homeowners trust him with their homes.
             </p>
           </div>
         </ScrollReveal>
@@ -75,6 +77,10 @@ export function WhyChooseUs() {
             </div>
             <p className="mt-4 font-bold text-gray-900 text-lg">Dan Kiely</p>
             <p className="text-gray-500 text-sm font-light">Owner &amp; Craftsman Since 2001</p>
+            <p className="text-green-600 text-xs font-medium flex items-center justify-center gap-1 mt-1">
+              <Shield className="h-3 w-3" />
+              Licensed &amp; Insured in Rockland County
+            </p>
           </div>
         </ScrollReveal>
 

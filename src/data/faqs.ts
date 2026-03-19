@@ -18,7 +18,7 @@ export const faqs: FAQ[] = [
   },
   {
     question: 'Is Dan licensed and insured?',
-    answer: 'Yes. Odds & Ends is a fully established and insured handyman service that has been operating in Rockland County since 2001.',
+    answer: 'Yes. Odds & Ends is a licensed Home Improvement Contractor (Lic# H-25-600) in Rockland County and carries a million dollar general liability insurance policy. Dan has been operating in Rockland County since 2001 and now also serves parts of Westchester County.',
     category: 'General',
   },
   {
@@ -29,12 +29,12 @@ export const faqs: FAQ[] = [
   // Services
   {
     question: 'What types of work do you handle?',
-    answer: 'We handle over 30 types of home repair and improvement work including TV mounting, drywall repair, painting, door installation, deck and fence repair, plumbing fixtures, light fixtures, furniture assembly, custom accent walls, built-ins, smart home setup, and much more.',
+    answer: 'We handle a wide range of home repair and improvement work including TV mounting, drywall repair, painting, door installation, deck and fence repair, plumbing fixtures, light fixtures, furniture assembly, custom accent walls, wainscoting, built-ins, smart home setup, and much more. Dan specializes in small and medium sized renovations.',
     category: 'Services',
   },
   {
     question: 'Is any job too small?',
-    answer: 'No job is too small. Whether you need a single doorknob replaced, a picture hung, or a light bulb changed, we treat every project with the same professionalism and care. Many customers call us for a mix of small tasks they want knocked out in one visit.',
+    answer: 'No job too small, because we know how much the little things matter. Whether you need a single doorknob replaced, a picture hung, or a light bulb changed, we treat every project with the same professionalism and care. Many customers call us for a mix of small tasks they want knocked out in one visit.',
     category: 'Services',
   },
   {

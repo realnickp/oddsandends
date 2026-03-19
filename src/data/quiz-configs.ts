@@ -656,22 +656,33 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     ],
   },
 
-  'cabinet-installation': {
-    serviceSlug: 'cabinet-installation',
-    serviceName: 'Cabinet Installation',
-    headline: 'Plan Your Cabinet Install',
+  'cabinet-refinishing': {
+    serviceSlug: 'cabinet-refinishing',
+    serviceName: 'Cabinet Refinishing',
+    headline: 'Plan Your Cabinet Refinishing',
     subtitle: 'Help Dan understand the cabinet project',
     steps: [
       {
-        id: 'cabinet-type',
-        question: 'What type of cabinets?',
+        id: 'cabinet-goal',
+        question: 'What are you looking to do?',
         type: 'single-select',
         options: [
-          { label: '🍳 Kitchen wall cabinets', value: 'kitchen-wall' },
-          { label: '🗄️ Kitchen base cabinets', value: 'kitchen-base' },
-          { label: '🚿 Bathroom vanity', value: 'bathroom' },
-          { label: '📦 Storage / Utility', value: 'storage' },
-          { label: '🟡 IKEA cabinets', value: 'ikea' },
+          { label: '🎨 Paint cabinets a new color', value: 'paint' },
+          { label: '🪵 Stain or restain wood cabinets', value: 'stain' },
+          { label: '🔧 Update hardware (knobs, pulls, hinges)', value: 'hardware' },
+          { label: '🔄 Full makeover (paint + hardware)', value: 'full-makeover' },
+          { label: '🆕 Replace cabinets entirely', value: 'replace' },
+        ],
+      },
+      {
+        id: 'cabinet-location',
+        question: 'Where are the cabinets?',
+        type: 'single-select',
+        options: [
+          { label: '🍳 Kitchen', value: 'kitchen' },
+          { label: '🚿 Bathroom', value: 'bathroom' },
+          { label: '🧺 Laundry room', value: 'laundry' },
+          { label: '📦 Garage / Utility', value: 'garage' },
         ],
       },
       {
@@ -679,18 +690,9 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
         question: 'How many cabinets?',
         type: 'single-select',
         options: [
-          { label: '1️⃣ 1–2 cabinets', value: '1-2' },
-          { label: '3️⃣ 3–5 cabinets', value: '3-5' },
-          { label: '🔢 Full set', value: 'full-set' },
-        ],
-      },
-      {
-        id: 'old-removal',
-        question: 'Need old cabinets removed?',
-        type: 'single-select',
-        options: [
-          { label: '✅ Yes, remove old ones', value: 'yes' },
-          { label: '🚫 No, fresh install', value: 'no' },
+          { label: '1️⃣ Just a few (1–5)', value: 'few' },
+          { label: '🗄️ Partial set (6–15)', value: 'partial' },
+          { label: '🔢 Full kitchen / room set', value: 'full-set' },
         ],
       },
     ],
@@ -788,36 +790,6 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     ],
   },
 
-  'smoke-detector-testing-and-replacement': {
-    serviceSlug: 'smoke-detector-testing-and-replacement',
-    serviceName: 'Smoke Detector Service',
-    headline: 'Plan Your Smoke Detector Service',
-    subtitle: 'Keep your family safe with working detectors',
-    steps: [
-      {
-        id: 'detector-need',
-        question: 'What do you need?',
-        type: 'single-select',
-        options: [
-          { label: '🔍 Test existing detectors', value: 'test' },
-          { label: '🔋 Replace batteries', value: 'batteries' },
-          { label: '🔄 Replace expired units', value: 'replace' },
-          { label: '🆕 Add new detectors', value: 'add-new' },
-          { label: '⚠️ CO detectors too', value: 'co-detectors' },
-        ],
-      },
-      {
-        id: 'detector-qty',
-        question: 'How many detectors?',
-        type: 'single-select',
-        options: [
-          { label: '1️⃣ 1–3 units', value: '1-3' },
-          { label: '4️⃣ 4–6 units', value: '4-6' },
-          { label: '🔢 7 or more', value: '7-plus' },
-        ],
-      },
-    ],
-  },
 
   'curtain-and-blind-installation': {
     serviceSlug: 'curtain-and-blind-installation',
@@ -915,6 +887,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
           { label: '📷 Security cameras', value: 'cameras' },
           { label: '🔊 Smart speakers', value: 'speakers' },
           { label: '💡 Smart lights', value: 'lights' },
+          { label: '🔥 Smoke / CO detectors', value: 'detectors' },
           { label: '📦 Other', value: 'other' },
         ],
       },
@@ -1031,6 +1004,49 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
           { label: '✅ Yes, materials purchased', value: 'have-materials' },
           { label: '🛒 Need Dan to recommend', value: 'need-recommendation' },
           { label: '🤔 Still deciding', value: 'deciding' },
+        ],
+      },
+    ],
+  },
+
+  'wainscoting': {
+    serviceSlug: 'wainscoting',
+    serviceName: 'Wainscoting',
+    headline: 'Plan Your Wainscoting Project',
+    subtitle: 'Help Dan understand your wainscoting vision',
+    steps: [
+      {
+        id: 'wainscoting-style',
+        question: 'What style of wainscoting?',
+        type: 'single-select',
+        options: [
+          { label: '🪵 Beadboard', value: 'beadboard' },
+          { label: '🔲 Shaker (flat recessed panel)', value: 'shaker' },
+          { label: '🏛️ Raised panel', value: 'raised-panel' },
+          { label: '📏 Board & Batten', value: 'board-batten' },
+          { label: '🤔 Not sure / Need advice', value: 'not-sure' },
+        ],
+      },
+      {
+        id: 'wainscoting-scope',
+        question: 'How many rooms?',
+        type: 'single-select',
+        options: [
+          { label: '1️⃣ One room or wall', value: 'one' },
+          { label: '2️⃣ 2–3 rooms', value: '2-3' },
+          { label: '🏠 Hallway / Staircase', value: 'hallway' },
+          { label: '🔢 Whole floor or more', value: 'whole-floor' },
+        ],
+      },
+      {
+        id: 'wainscoting-height',
+        question: 'How tall?',
+        type: 'single-select',
+        options: [
+          { label: '📏 Chair rail height (~36")', value: 'chair-rail' },
+          { label: '📐 Two-thirds height', value: 'two-thirds' },
+          { label: '🏛️ Full wall height', value: 'full-height' },
+          { label: '🤔 Not sure yet', value: 'not-sure' },
         ],
       },
     ],

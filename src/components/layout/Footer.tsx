@@ -13,7 +13,7 @@ const serviceLinks = [
   { label: 'Light Fixture Installation', href: '/services/light-fixture-installation' },
   { label: 'Bathroom Renovation', href: '/services/bathroom-renovation' },
   { label: 'Kitchen Renovation', href: '/services/kitchen-renovation' },
-  { label: 'Cabinet Installation', href: '/services/cabinet-installation' },
+  { label: 'Cabinet Refinishing', href: '/services/cabinet-refinishing' },
   { label: 'All Services →', href: '/services' },
 ]
 
@@ -66,7 +66,7 @@ export function Footer() {
             <p className="text-sm leading-relaxed text-gray-400">
               Professional handyman services in {siteConfig.county},{' '}
               {siteConfig.stateAbbr}. Trusted by homeowners since{' '}
-              {siteConfig.established}. No job too big or too small.
+              {siteConfig.established}. No job too small, because we know how much the little things matter.
             </p>
             <div className="space-y-3 text-sm">
               <a

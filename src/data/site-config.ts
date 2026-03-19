@@ -53,12 +53,17 @@ export const siteConfig = {
     effectiveDate: '03/04/2026',
     expirationDate: '01/31/2027',
   },
+  insurance: {
+    coverage: '$1,000,000',
+    type: 'General Liability',
+  },
   knowsAbout: [
     'Home repair', 'Handyman services', 'TV mounting', 'Drywall repair',
     'Painting', 'Deck repair', 'Door installation', 'Plumbing repairs',
     'Kitchen renovation', 'Bathroom renovation', 'Furniture assembly',
-    'Fence repair', 'Light fixture installation', 'Cabinet installation',
+    'Fence repair', 'Light fixture installation', 'Cabinet refinishing',
     'Flooring installation', 'Tile work', 'Shed building', 'Excavation',
+    'Wainscoting', 'Small and medium sized renovations',
   ],
 } as const
 

@@ -204,7 +204,7 @@ Address small problems before they become big ones. If you have a list of naggin
       'flooring',
       'deck-repair',
       'door-installation',
-      'smoke-detector-testing-and-replacement',
+      'smart-home-device-setup',
       'minor-plumbing-fixes',
     ],
     relatedCities: ['haverstraw', 'nyack', 'tappan'],
@@ -623,7 +623,7 @@ At Odds & Ends, we check every detector in your home, replace batteries, swap ou
 
 If you are unsure about the status of your smoke detectors, request a free estimate and we will make sure your home is properly protected.`,
     category: 'Home Maintenance',
-    relatedServices: ['smoke-detector-testing-and-replacement'],
+    relatedServices: ['smart-home-device-setup'],
     relatedCities: ['new-city', 'spring-valley', 'haverstraw'],
     metaTitle: 'Smoke Detector Testing and Replacement | Odds & Ends',
     metaDescription:
@@ -671,7 +671,7 @@ Professional installation means every knob at the same height, every pull at the
 
 At Odds & Ends, cabinet hardware installation is one of our most popular services in Rockland County. Request a free estimate and give your kitchen an affordable refresh.`,
     category: 'Room Guides',
-    relatedServices: ['cabinet-and-drawer-hardware-installation', 'cabinet-installation'],
+    relatedServices: ['cabinet-and-drawer-hardware-installation', 'cabinet-refinishing'],
     relatedCities: ['new-city', 'pearl-river', 'nanuet'],
     metaTitle: 'Kitchen Cabinet Hardware Upgrades | Odds & Ends Guide',
     metaDescription:
@@ -805,7 +805,7 @@ For items that need a professional touch, or to knock out the entire seasonal li
       'deck-repair',
       'drywall-repair',
       'paint-touch-ups',
-      'smoke-detector-testing-and-replacement',
+      'smart-home-device-setup',
       'door-installation',
       'fence-repair',
     ],

@@ -19,8 +19,8 @@ const trustItems: TrustItem[] = [
   { icon: Star, value: '5.0', countTo: 5, decimals: 1, label: 'Star Rating' },
   { icon: Shield, value: 'Free', label: 'Estimates' },
   { icon: ThumbsUp, value: '100%', countTo: 100, suffix: '%', label: 'Satisfaction' },
-  { icon: Wrench, value: '30+', countTo: 30, suffix: '+', label: 'Services' },
-  { icon: MapPin, value: '16', countTo: 16, label: 'Towns Served' },
+  { icon: Wrench, value: 'Owner', label: 'Operated & Local' },
+  { icon: MapPin, value: 'Rockland', label: '& Westchester' },
 ]
 
 function CounterValue({ item, isVisible }: { item: TrustItem; isVisible: boolean }) {

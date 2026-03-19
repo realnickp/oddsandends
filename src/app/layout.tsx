@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     default: `${siteConfig.businessName} | Professional Handyman in ${siteConfig.county}, ${siteConfig.stateAbbr}`,
     template: `%s | ${siteConfig.businessName}`,
   },
-  description: `Professional handyman services in ${siteConfig.county}, ${siteConfig.state}. ${siteConfig.yearsExperience}+ years of experience. TV mounting, drywall repair, painting, deck repair, and 30+ services. Free estimates. Call ${siteConfig.phoneFormatted}.`,
+  description: `Professional handyman services in ${siteConfig.county}, ${siteConfig.state}. ${siteConfig.yearsExperience}+ years of experience. TV mounting, drywall repair, painting, deck repair, and a wide range of home improvement services. Owner operated, licensed, and insured. Free estimates. Call ${siteConfig.phoneFormatted}.`,
   metadataBase: new URL(siteConfig.url),
   alternates: {
     canonical: '/',

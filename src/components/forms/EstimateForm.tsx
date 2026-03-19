@@ -8,9 +8,9 @@ const serviceOptions = [
   'TV Mounting', 'Drywall Repair', 'Door Installation', 'Fence Repair',
   'Deck Repair', 'Furniture Assembly', 'Light Fixture Installation',
   'Toilet Installation', 'Faucet Installation', 'Tile Repair', 'Painting',
-  'Shelving Installation', 'Cabinet Installation', 'Picture Hanging',
+  'Shelving Installation', 'Cabinet Refinishing', 'Picture Hanging',
   'Ceiling Fan Installation', 'Minor Plumbing', 'Smart Home Setup',
-  'Custom Accent Wall', 'Built-Ins', 'Other',
+  'Custom Accent Wall', 'Wainscoting', 'Built-Ins', 'Other',
 ]
 
 const timelineOptions = [

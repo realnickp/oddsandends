@@ -80,17 +80,16 @@ export default function ServicesPage() {
           </ScrollReveal>
           <ScrollReveal delay={200}>
             <p className="text-lg md:text-xl text-gray-400 font-light leading-relaxed max-w-2xl">
-              Over {services.length} home repair and improvement services, all handled by one
-              trusted professional with 20+ years of experience. No job is too
-              small.
+              A comprehensive range of home repair and improvement services, all handled by one
+              trusted professional with 20+ years of experience. No job too small, because we know how much the little things matter.
             </p>
           </ScrollReveal>
 
           <ScrollReveal delay={300}>
             <div className="flex gap-8 mt-10">
               <div>
-                <p className="text-3xl font-bold text-white">{services.length}+</p>
-                <p className="text-xs text-gray-500 uppercase tracking-wider mt-1">Services</p>
+                <p className="text-3xl font-bold text-white">Owner</p>
+                <p className="text-xs text-gray-500 uppercase tracking-wider mt-1">Operated</p>
               </div>
               <div className="w-px bg-white/10" />
               <div>

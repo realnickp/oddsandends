@@ -156,7 +156,7 @@ export const services: Service[] = [
       { question: 'Do you install pocket doors or barn doors?', answer: 'Yes, we install both. Pocket doors require some wall modification, while barn-style sliding doors mount on a track on the wall exterior. We handle both regularly.' },
       { question: 'Can you fix a door that sticks instead of replacing it?', answer: 'Often, yes. We can plane, trim, or rehang a sticking door for much less than a full replacement. We will always recommend the most cost-effective solution.' }
     ],
-    relatedServices: ['doorknob-and-handle-replacement', 'drywall-repair', 'painting', 'cabinet-installation'],
+    relatedServices: ['doorknob-and-handle-replacement', 'drywall-repair', 'painting', 'cabinet-refinishing'],
     metaTitle: 'Professional Door Installation | Rockland County, NY',
     metaDescription: 'Professional door installation in Rockland County, NY. Interior and exterior doors, pre-hung and slab. Expert fitting for older homes. Call today!',
     keywords: ['door installation Rockland County', 'door replacement', 'interior door installation', 'exterior door installation', 'door hanging service', 'pre-hung door install near me'],
@@ -476,11 +476,11 @@ export const services: Service[] = [
       { question: 'How long does a kitchen renovation take?', answer: 'A single upgrade like a backsplash takes 1–2 days. A bigger project with cabinets, countertops, flooring, and backsplash typically takes 1–2 weeks depending on scope.' },
       { question: 'Can you just do one thing like a backsplash?', answer: 'Absolutely. Not every kitchen project is a full renovation. A new backsplash, cabinet hardware swap, or faucet replacement on its own is a great way to refresh the space.' }
     ],
-    relatedServices: ['tile-work', 'flooring', 'cabinet-installation', 'painting', 'light-fixture-installation', 'built-ins'],
+    relatedServices: ['tile-work', 'flooring', 'cabinet-refinishing', 'painting', 'light-fixture-installation', 'built-ins'],
     metaTitle: 'Kitchen Renovation & Updates | Rockland County, NY',
     metaDescription: 'Kitchen renovation in Rockland County. Cabinets, countertops, backsplash, appliances, flooring, islands, sinks, and faucets. One trusted handyman.',
     keywords: ['kitchen renovation Rockland County', 'kitchen remodel near me', 'cabinet installation NY', 'countertop installation', 'backsplash installation', 'kitchen update service', 'kitchen handyman'],
-    image: '/images/services/cabinet-installation.jpg',
+    image: '/images/services/cabinet-refinishing.jpg',
     altText: 'Kitchen with freshly installed cabinets and tile backsplash',
     processSteps: [
       { title: 'Consult & Plan', description: 'Dan visits your kitchen, discusses your priorities and budget, takes measurements, and creates a clear project plan and estimate.' },
@@ -534,7 +534,7 @@ export const services: Service[] = [
       { question: 'Can you install flooring over existing floors?', answer: 'In some cases, yes. Vinyl plank and laminate can often go over existing hard surfaces if they are flat and in good condition. We will assess your situation and recommend the best approach.' },
       { question: 'Do you handle transitions between rooms?', answer: 'Absolutely. Clean transitions between different flooring types and rooms are one of the details that separate a professional install from a DIY job.' }
     ],
-    relatedServices: ['tile-work', 'painting', 'drywall-repair', 'cabinet-installation', 'door-installation'],
+    relatedServices: ['tile-work', 'painting', 'drywall-repair', 'cabinet-refinishing', 'door-installation'],
     metaTitle: 'Professional Flooring Installation | Rockland County, NY',
     metaDescription: 'Professional flooring installation in Rockland County, NY. Vinyl plank, laminate, engineered hardwood, and floor tile. Subfloor prep and flawless finishing.',
     keywords: ['flooring installation Rockland County', 'vinyl plank flooring near me', 'laminate flooring NY', 'hardwood floor installation', 'floor tile installation', 'flooring contractor', 'floor replacement service'],
@@ -591,7 +591,7 @@ export const services: Service[] = [
       { question: 'Do you waterproof behind shower tile?', answer: 'Absolutely. Proper waterproofing behind shower and tub tile is critical. We use appropriate moisture barriers to protect the wall structure.' },
       { question: 'Can you install tile on a floor too?', answer: 'Yes. While we have a separate flooring service for large floor installations, floor tile — especially in bathrooms, entryways, and kitchens — is core tile work that we handle regularly.' }
     ],
-    relatedServices: ['flooring', 'bathroom-renovation', 'kitchen-renovation', 'painting', 'drywall-repair', 'cabinet-installation'],
+    relatedServices: ['flooring', 'bathroom-renovation', 'kitchen-renovation', 'painting', 'drywall-repair', 'cabinet-refinishing'],
     metaTitle: 'Tile Work & Backsplash Installation | Rockland County, NY',
     metaDescription: 'Professional tile installation in Rockland County. Backsplashes, shower surrounds, wall tile, floor tile, regrouting, and tile repair. 20+ years experience.',
     keywords: ['tile installation Rockland County', 'backsplash installation near me', 'shower tile NY', 'floor tile installation', 'tile repair service', 'regrouting service', 'tile contractor'],
@@ -643,7 +643,7 @@ export const services: Service[] = [
       { question: 'Do you move furniture?', answer: 'We move light furniture to the center of the room and cover it with drop cloths. For very heavy or delicate pieces, we ask that you arrange to have them moved beforehand.' },
       { question: 'Can you paint kitchen cabinets?', answer: 'Yes. Cabinet painting requires thorough degreasing, sanding, priming, and multiple coats of durable paint. It is one of the most transformative upgrades you can make to a kitchen.' }
     ],
-    relatedServices: ['drywall-repair', 'custom-accent-walls', 'cabinet-installation', 'door-installation'],
+    relatedServices: ['drywall-repair', 'custom-accent-walls', 'cabinet-refinishing', 'door-installation'],
     metaTitle: 'Professional Painting Services | Rockland County, NY',
     metaDescription: 'Professional painting services in Rockland County, NY. Interior rooms, trim, doors, accent walls. Clean lines and smooth finishes. Free estimates!',
     keywords: ['painting Rockland County', 'interior painting', 'room painting near me', 'house painter NY', 'accent wall painting', 'trim painting service', 'cabinet painting'],
@@ -715,54 +715,54 @@ export const services: Service[] = [
     ]
   },
   {
-    slug: 'cabinet-installation',
-    name: 'Cabinet Installation',
-    shortDescription: 'Cabinet installation and replacement in Rockland County. Kitchen, bathroom, and storage cabinets installed professionally.',
-    heroHeadline: 'Cabinet Installation Services in Rockland County',
-    heroSubheadline: 'Kitchen, bathroom, and storage cabinets installed with precision.',
-    intro: 'New cabinets can completely transform a kitchen, bathroom, or laundry room — but only if they are installed correctly. Cabinets that are not level, plumb, and securely fastened will develop problems quickly: doors that will not close, drawers that stick, and gaps that ruin the finished look.\n\nOdds & Ends Handyman Service installs cabinets throughout Rockland County. Dan and the team handle stock cabinets, semi-custom units, and wall-mounted storage cabinets for kitchens, bathrooms, garages, and laundry rooms. With over 20 years of experience, we ensure every cabinet is perfectly aligned, securely mounted, and functioning smoothly.',
+    slug: 'cabinet-refinishing',
+    name: 'Cabinet Refinishing',
+    shortDescription: 'Cabinet refinishing and painting in Rockland County. Transform tired cabinets with professional sanding, painting, staining, and hardware updates.',
+    heroHeadline: 'Cabinet Refinishing Services in Rockland County',
+    heroSubheadline: 'Give your kitchen or bathroom a fresh look without the cost of full replacement.',
+    intro: 'Replacing kitchen or bathroom cabinets is expensive and disruptive. Cabinet refinishing gives you a brand-new look at a fraction of the cost — and Dan can handle the entire project solo, keeping your costs down.\n\nOdds & Ends Handyman Service refinishes cabinets throughout Rockland County. Dan sands, primes, paints, and stains cabinet doors, drawer fronts, and frames to transform dated or worn cabinets into something that looks and feels new. He also swaps out hardware, adds soft-close hinges, and repairs damaged components. When full cabinet installation is needed, Dan handles that too — but refinishing is the smart, affordable first option most homeowners should consider.',
     commonProblems: [
-      'Cabinets not level causing doors to swing open or closed on their own',
-      'Gaps between cabinets or between cabinets and walls',
-      'Cabinets pulling away from the wall due to poor anchoring',
-      'Drawers that stick or do not slide smoothly',
-      'Uneven countertop surfaces from unlevel base cabinets',
-      'Outdated cabinets that waste space and look worn'
+      'Yellowed or peeling cabinet finish that makes the whole kitchen look dated',
+      'Oak or honey-toned cabinets that no longer match updated decor',
+      'Cabinet doors with chipped or worn paint from daily use',
+      'Outdated hardware dragging down an otherwise nice kitchen',
+      'Grease and grime buildup that cleaning alone cannot fix',
+      'Cabinets in good structural shape but cosmetically worn out'
     ],
     jobExamples: [
-      'Installed a full set of stock kitchen cabinets in New City',
-      'Hung wall-mounted bathroom cabinets in Suffern',
-      'Installed a laundry room storage cabinet system in Pearl River',
-      'Replaced under-sink kitchen cabinet damaged by water in Nanuet',
-      'Installed garage wall cabinets for workshop storage in Nyack',
-      'Added a pantry cabinet to an underused kitchen corner in Stony Point'
+      'Sanded and painted oak kitchen cabinets white in New City',
+      'Stained bathroom vanity cabinets a modern espresso tone in Suffern',
+      'Refinished and added soft-close hinges to kitchen cabinets in Pearl River',
+      'Painted laundry room cabinets and swapped to brushed nickel pulls in Nanuet',
+      'Refinished a full set of maple kitchen cabinets in a two-tone scheme in Nyack',
+      'Repaired water-damaged cabinet doors and painted entire set in Stony Point'
     ],
-    whyHireHandyman: 'Cabinet installation demands precision. Base cabinets must be shimmed perfectly level because countertops sit on top of them — any variance shows immediately. Wall cabinets must be anchored into studs to support the weight of dishes, glasses, and supplies. Doors and drawers need to be adjusted for proper alignment. This is not a job where close enough is good enough.',
-    whyChooseUs: 'Odds & Ends has installed cabinets in kitchens, bathrooms, and utility spaces across Rockland County. Dan uses laser levels and shims to achieve perfect alignment on every job, even in older homes with uneven walls and floors. We adjust all doors and drawers for smooth operation and install soft-close hardware when requested. Our attention to detail ensures a result that looks and functions like a professional kitchen remodel.',
+    whyHireHandyman: 'Cabinet refinishing looks easy on YouTube but delivers terrible results when done wrong. Proper prep — degreasing, sanding, priming — is what makes paint adhere and last. Skipping steps leads to peeling, brush marks, and a finish that wears off within months. Dan handles every step with the patience and precision this job demands, and he works solo so there are no extra labor costs.',
+    whyChooseUs: 'Odds & Ends has refinished hundreds of cabinets across Rockland County. Dan is meticulous about surface prep, uses high-quality cabinet-grade paint and finishes, and applies multiple coats for a smooth, durable result. He also handles hardware swaps, soft-close upgrades, and minor repairs to doors and drawers. The result looks like a professional kitchen remodel at a fraction of the price. Dan also handles full cabinet installation when refinishing is not enough.',
     faqs: [
-      { question: 'Do you install IKEA kitchen cabinets?', answer: 'Yes. IKEA cabinets use a specific rail-hanging system that we are very familiar with. We assemble and install IKEA kitchens regularly.' },
-      { question: 'Can you replace just a few cabinets?', answer: 'Absolutely. We can replace individual damaged cabinets, add new ones to existing runs, or install a single cabinet in a bathroom or laundry room.' },
-      { question: 'Do you install countertops too?', answer: 'We install pre-fabricated laminate countertops. For stone or solid-surface countertops, you will need a countertop fabricator, but we can handle the cabinet installation they sit on.' },
-      { question: 'How long does cabinet installation take?', answer: 'A single cabinet takes 1 to 2 hours. A full kitchen with upper and lower cabinets typically takes 1 to 2 days depending on the complexity.' }
+      { question: 'Is refinishing cheaper than replacing cabinets?', answer: 'Significantly. Refinishing typically costs 50-75% less than full replacement while delivering a completely transformed look. If your cabinets are structurally sound, refinishing is the smart move.' },
+      { question: 'How long does cabinet refinishing take?', answer: 'A typical kitchen takes 3 to 5 days including prep, priming, painting, and curing time. Dan works methodically to ensure a flawless, durable finish.' },
+      { question: 'Can you change the color of stained wood cabinets?', answer: 'Yes. Oak, maple, and cherry cabinets can be sanded, primed, and painted any color. Going from dark wood to a light painted finish is one of the most popular transformations we do.' },
+      { question: 'Do you also install new cabinets?', answer: 'Yes. When refinishing is not enough — for instance, if the cabinet boxes are damaged or the layout needs to change — Dan handles full cabinet installation as well.' }
     ],
     relatedServices: ['shelving-installation', 'painting', 'door-installation', 'built-ins'],
-    metaTitle: 'Professional Cabinet Installation | Rockland County, NY',
-    metaDescription: 'Professional cabinet installation in Rockland County, NY. Kitchen, bathroom, and storage cabinets installed level and secure. 20+ years experience.',
-    keywords: ['cabinet installation Rockland County', 'kitchen cabinet install', 'cabinet replacement near me', 'bathroom cabinet installation', 'IKEA cabinet install NY', 'cabinet hanging service'],
-    image: '/images/services/cabinet-installation.jpg',
-    altText: 'Odds & Ends installing kitchen cabinets during renovation',
+    metaTitle: 'Professional Cabinet Refinishing | Rockland County, NY',
+    metaDescription: 'Professional cabinet refinishing and painting in Rockland County, NY. Transform your kitchen or bathroom cabinets. Sanding, painting, staining, hardware updates.',
+    keywords: ['cabinet refinishing Rockland County', 'kitchen cabinet painting', 'cabinet refinishing near me', 'cabinet painting service NY', 'cabinet staining', 'cabinet makeover'],
+    image: '/images/services/cabinet-refinishing.jpg',
+    altText: 'Freshly refinished white kitchen cabinets with modern hardware',
     processSteps: [
-      { title: 'Measure & Layout', description: 'We check walls and floors for level and plumb, then mark precise layout lines for every cabinet position.' },
-      { title: 'Hang Upper Cabinets', description: 'Wall cabinets are mounted on a ledger rail, leveled, shimmed, and screwed into studs for rock-solid support.' },
-      { title: 'Set & Level Base Cabinets', description: 'Base cabinets are shimmed to level on the floor, connected to each other, and anchored securely to the wall.' },
-      { title: 'Align Doors & Hardware', description: 'Every door and drawer is adjusted for smooth operation, consistent gaps, and proper alignment. Hardware is installed to your specifications.' }
+      { title: 'Prep & Degrease', description: 'Cabinet doors and drawer fronts are removed, labeled, degreased, and thoroughly sanded to create a surface that paint bonds to permanently.' },
+      { title: 'Prime Everything', description: 'A bonding primer is applied to all surfaces — this is the critical step that prevents peeling and ensures long-lasting adhesion.' },
+      { title: 'Paint or Stain', description: 'Multiple coats of cabinet-grade paint or stain are applied with smooth, even coverage. Each coat is sanded lightly between applications.' },
+      { title: 'Reassemble & Hardware', description: 'Doors and drawers are reinstalled with adjusted hinges, new hardware if requested, and soft-close upgrades. Everything is aligned and tested.' }
     ],
     whyChooseUsCards: [
-      { title: 'Precision Alignment', description: 'Laser levels and shims ensure every cabinet is perfectly level and plumb — even on the uneven walls and floors common in older Rockland County homes.' },
-      { title: 'All Cabinet Systems', description: 'Stock, semi-custom, IKEA, and RTA cabinets — we\'re experienced with every major system and assembly method.' },
-      { title: 'Soft-Close Upgrades', description: 'We install soft-close hinges and drawer slides on request for a modern, quiet cabinet experience.' },
-      { title: 'Full Kitchen Competence', description: 'Upper and lower cabinets, fillers, end panels, crown molding — we handle the complete kitchen cabinet installation.' },
-      { title: 'Countertop Ready', description: 'Base cabinets are installed to exact specifications so your countertop fabricator has a perfectly level surface to work with.' }
+      { title: 'Meticulous Surface Prep', description: 'Degreasing, sanding, and priming are what separate a professional finish from a DIY disaster. Dan never skips a step.' },
+      { title: 'Cabinet-Grade Finishes', description: 'We use premium, self-leveling cabinet paint that resists chipping, yellowing, and wear — not regular wall paint.' },
+      { title: 'Hardware Upgrades', description: 'New pulls, knobs, and soft-close hinges can be added during refinishing for a complete transformation.' },
+      { title: 'Solo Operator Savings', description: 'Dan handles the entire project himself, which means lower labor costs for you compared to a multi-person crew.' },
+      { title: 'Installation Available Too', description: 'When refinishing is not enough, Dan also handles full cabinet installation — stock, semi-custom, IKEA, and RTA systems.' }
     ]
   },
   {
@@ -848,7 +848,7 @@ export const services: Service[] = [
       { question: 'What MERV rating do you recommend?', answer: 'For most homes, MERV 8 to 11 offers a good balance of filtration and airflow. Higher MERV ratings filter more particles but can restrict airflow in some systems.' },
       { question: 'Can you combine filter replacement with other tasks?', answer: 'Absolutely. Many customers have us change filters while we handle other small maintenance tasks like smoke detector testing, light bulb replacement, or minor repairs.' }
     ],
-    relatedServices: ['smoke-detector-testing-and-replacement', 'smart-home-device-setup', 'home-office-setup'],
+    relatedServices: ['smart-home-device-setup', 'home-office-setup', 'light-fixture-installation'],
     metaTitle: 'Professional Air Filter Replacement | Rockland County, NY',
     metaDescription: 'Professional HVAC air filter replacement in Rockland County, NY. Improve air quality and system efficiency. Regular schedules available. Call today!',
     keywords: ['air filter replacement Rockland County', 'HVAC filter change', 'furnace filter replacement', 'air filter service near me', 'home air quality NY', 'filter change service'],
@@ -917,58 +917,6 @@ export const services: Service[] = [
       { title: 'Smart Lock Installation', description: 'We install keypad locks, smart deadbolts, and app-controlled locks with full alignment and initial setup.' },
       { title: 'All Finishes & Styles', description: 'Brushed nickel, matte black, oil-rubbed bronze, satin chrome — we work with every style and finish on the market.' },
       { title: 'Quick Turnaround', description: 'Most doorknob replacements take just 15-20 minutes per door, so a whole house can be done in a few hours.' }
-    ]
-  },
-  {
-    slug: 'smoke-detector-testing-and-replacement',
-    name: 'Smoke Detector Testing and Replacement',
-    shortDescription: 'Smoke detector testing and replacement in Rockland County. Keep your family safe with properly functioning detectors.',
-    heroHeadline: 'Smoke Detector Testing & Replacement in Rockland County',
-    heroSubheadline: 'Peace of mind starts with working smoke detectors.',
-    intro: 'Smoke detectors save lives, but only when they are working properly. Batteries die, sensors degrade over time, and many homeowners have detectors that are well past their 10-year replacement date. Testing and maintaining your smoke detectors is one of the most important safety tasks in any home.\n\nOdds & Ends Handyman Service tests and replaces smoke detectors and carbon monoxide detectors for homeowners throughout Rockland County. Dan and the team check every detector in your home, replace batteries, swap out expired units, and install new detectors where coverage is lacking. With 20+ years of experience, we know the placement requirements and help ensure your home meets current safety standards.',
-    commonProblems: [
-      'Smoke detectors chirping from low batteries',
-      'Detectors older than 10 years with degraded sensors',
-      'Missing detectors in bedrooms or on every level',
-      'Detectors painted over during room painting',
-      'Carbon monoxide detectors missing near gas appliances',
-      'Hard-wired detectors that have stopped working',
-      'Difficulty reaching ceiling-mounted detectors'
-    ],
-    jobExamples: [
-      'Tested and replaced batteries in all detectors throughout a New City home',
-      'Installed new smoke detectors in every bedroom of a Suffern colonial',
-      'Replaced expired detectors with 10-year sealed-battery units in Pearl River',
-      'Added carbon monoxide detectors near furnace and garage in Nanuet',
-      'Installed interconnected wireless smoke detectors in a Nyack bungalow',
-      'Replaced hard-wired detectors throughout a Stony Point split-level'
-    ],
-    whyHireHandyman: 'Smoke detector placement matters — detectors installed in the wrong location, too close to kitchens or bathrooms, or painted over may not function properly in an emergency. Hard-wired detectors require electrical knowledge to replace. A professional handyman ensures proper placement, tests every unit, and makes sure your entire home has adequate coverage.',
-    whyChooseUs: 'Odds & Ends takes home safety seriously. Dan tests every detector in your home using manufacturer-approved methods and replaces units that are expired or malfunctioning. We install detectors at the correct height and location per safety guidelines, and we help you understand the difference between ionization and photoelectric sensors. We also pair this service with other maintenance tasks for an efficient visit.',
-    faqs: [
-      { question: 'How often should smoke detectors be replaced?', answer: 'Every 10 years, regardless of whether they seem to be working. The sensors degrade over time and may not detect smoke reliably. Check the manufacturing date on the back of each unit.' },
-      { question: 'Do you replace hard-wired smoke detectors?', answer: 'Yes. We disconnect the old unit, connect the new one to the existing wiring, and test the interconnection with other detectors in the system.' },
-      { question: 'Where should smoke detectors be placed?', answer: 'Inside every bedroom, outside each sleeping area, on every level of the home including the basement, and near kitchens (but not too close). We will assess your home and recommend any additions.' },
-      { question: 'Do you also handle carbon monoxide detectors?', answer: 'Yes. CO detectors should be installed near bedrooms and on every level. If your home has gas appliances, a fireplace, or an attached garage, CO detectors are essential.' }
-    ],
-    relatedServices: ['air-filter-replacement', 'smart-home-device-setup', 'light-fixture-installation'],
-    metaTitle: 'Expert Smoke Detector Replacement | Rockland County, NY',
-    metaDescription: 'Professional smoke detector testing and replacement in Rockland County, NY. Batteries, expired units, and CO detectors. Keep your family safe. Call!',
-    keywords: ['smoke detector replacement Rockland County', 'smoke alarm testing', 'smoke detector installation near me', 'CO detector installation', 'fire safety NY', 'smoke alarm battery replacement'],
-    image: '/images/services/smoke-detector-testing-and-replacement.jpg',
-    altText: 'Testing a ceiling-mounted smoke detector',
-    processSteps: [
-      { title: 'Full Home Audit', description: 'We locate and test every smoke and CO detector in your home, noting each unit\'s age, type, and condition.' },
-      { title: 'Replace Expired Units', description: 'Detectors older than 10 years or with failing sensors are swapped out with new units — battery-powered or hard-wired.' },
-      { title: 'Fill Coverage Gaps', description: 'We identify locations where detectors are missing and install new units per current safety placement guidelines.' },
-      { title: 'Test & Document', description: 'Every detector is tested after installation, and we note the replacement date so you know when the next change is due.' }
-    ],
-    whyChooseUsCards: [
-      { title: 'Complete Home Coverage', description: 'We check every floor, every bedroom, and every area near gas appliances — not just the ones that are chirping.' },
-      { title: '10-Year Sealed Battery Units', description: 'We install modern sealed-battery detectors that last a full decade with no battery changes needed.' },
-      { title: 'Hard-Wired Replacement', description: 'We safely disconnect and reconnect hard-wired detectors, maintaining interconnection with the rest of your system.' },
-      { title: 'CO Detectors Included', description: 'We install and test carbon monoxide detectors near bedrooms, gas appliances, and attached garages — essential for Rockland County homes.' },
-      { title: 'Peace of Mind', description: 'Working detectors are the most important safety feature in your home. We make sure yours will perform when they\'re needed.' }
     ]
   },
   {
@@ -1078,8 +1026,8 @@ export const services: Service[] = [
     name: 'Smart Home Device Setup',
     shortDescription: 'Smart home device installation and setup in Rockland County. Thermostats, doorbells, cameras, and smart speakers configured.',
     heroHeadline: 'Smart Home Device Setup in Rockland County',
-    heroSubheadline: 'Smart thermostats, doorbells, cameras, and more — installed and configured.',
-    intro: 'Smart home technology can make your life more convenient, secure, and energy-efficient — but only if the devices are set up correctly. From smart thermostats that learn your schedule to video doorbells that let you see who is at the door from anywhere, these devices require proper installation, Wi-Fi configuration, and app setup to work reliably.\n\nOdds & Ends Handyman Service installs and configures smart home devices for homeowners throughout Rockland County. Dan and the team handle smart thermostats, video doorbells, security cameras, smart locks, smart light switches, and voice assistant devices. With 20+ years of adapting to new home technology, we bridge the gap between buying a smart device and actually getting it to work.',
+    heroSubheadline: 'Smart thermostats, doorbells, cameras, smoke detectors, and more — installed and configured.',
+    intro: 'Smart home technology can make your life more convenient, secure, and energy-efficient — but only if the devices are set up correctly. From smart thermostats that learn your schedule to video doorbells that let you see who is at the door from anywhere, these devices require proper installation, Wi-Fi configuration, and app setup to work reliably.\n\nOdds & Ends Handyman Service installs and configures smart home devices for homeowners throughout Rockland County. Dan handles smart thermostats, video doorbells, security cameras, smart locks, smart light switches, voice assistant devices, and smoke and CO detectors (including hardwired replacements). With 20+ years of adapting to new home technology, we bridge the gap between buying a smart device and actually getting it to work.',
     commonProblems: [
       'Smart thermostat not compatible with existing HVAC wiring',
       'Video doorbell Wi-Fi connection dropping frequently',
@@ -1087,7 +1035,9 @@ export const services: Service[] = [
       'Smart locks not syncing with phone apps',
       'Smart switches requiring neutral wire that older homes lack',
       'Multiple smart devices not communicating with each other',
-      'Difficulty navigating setup apps and configurations'
+      'Difficulty navigating setup apps and configurations',
+      'Smoke detectors chirping, expired, or missing coverage',
+      'Hard-wired smoke and CO detectors that need replacement'
     ],
     jobExamples: [
       'Installed a Nest thermostat and configured scheduling in New City',
@@ -1259,7 +1209,7 @@ export const services: Service[] = [
       { question: 'How much does an accent wall cost?', answer: 'Cost depends on the style, wall size, and materials. We provide a detailed quote after discussing your vision and measuring the wall. Accent walls are one of the most affordable ways to add architectural detail to a room.' },
       { question: 'Can you do an accent wall in a bathroom?', answer: 'Yes. We use moisture-appropriate materials and finishes for bathroom accent walls. Board and batten and wainscoting are popular bathroom choices.' }
     ],
-    relatedServices: ['painting', 'drywall-repair', 'built-ins', 'shelving-installation', 'cabinet-installation'],
+    relatedServices: ['painting', 'drywall-repair', 'built-ins', 'shelving-installation', 'cabinet-refinishing'],
     metaTitle: 'Professional Custom Accent Walls | Rockland County, NY',
     metaDescription: 'Professional custom accent wall installation in Rockland County, NY. Board and batten, shiplap, wainscoting, and wood features. Transform any room!',
     keywords: ['accent wall Rockland County', 'board and batten installation', 'shiplap wall near me', 'wainscoting installation NY', 'custom feature wall', 'accent wall contractor', 'wood slat wall'],
@@ -1277,6 +1227,57 @@ export const services: Service[] = [
       { title: 'Full Paint Finish', description: 'Every accent wall is caulked, filled, primed, and painted as part of the project — delivered as a polished, complete feature.' },
       { title: 'Any Room, Any Wall', description: 'Bedrooms, dining rooms, bathrooms, hallways — we build accent walls wherever you want to add architectural character.' },
       { title: 'Inspiration to Installation', description: 'Bring us a Pinterest photo or magazine page and we\'ll make it real. We work from reference images regularly.' }
+    ]
+  },
+  {
+    slug: 'wainscoting',
+    name: 'Wainscoting',
+    shortDescription: 'Wainscoting installation in Rockland County. Beadboard, shaker, raised panel, and flat panel wainscoting professionally installed.',
+    heroHeadline: 'Wainscoting Installation in Rockland County',
+    heroSubheadline: 'Classic wall paneling that adds elegance, character, and protection to any room.',
+    intro: 'Wainscoting is one of the most timeless upgrades you can make to a home. It adds architectural detail, protects walls from everyday wear, and instantly elevates the look of hallways, dining rooms, bathrooms, and staircases. But achieving a professional result requires precise measurements, level installation, and clean finishing work.\n\nOdds & Ends Handyman Service installs wainscoting throughout Rockland County. Dan builds and installs beadboard, shaker-style, raised panel, flat panel, and board-and-batten wainscoting in any room of your home. With over 20 years of carpentry experience, he handles every step from layout and cutting to installation, caulking, and painting for a result that looks like it has always been part of the home.',
+    commonProblems: [
+      'Plain, featureless walls that lack character or architectural detail',
+      'Walls damaged by kids, pets, or everyday furniture bumps',
+      'Dining rooms and hallways that feel unfinished or builder-basic',
+      'Bathrooms that need moisture-resistant wall protection below the chair rail',
+      'Staircase walls that look bare and scuff easily',
+      'Homeowners who want a classic, upscale look without full renovation'
+    ],
+    jobExamples: [
+      'Installed beadboard wainscoting with chair rail in a New City dining room',
+      'Built shaker-style wainscoting throughout a Suffern hallway and staircase',
+      'Added raised panel wainscoting to a formal living room in Pearl River',
+      'Installed moisture-resistant wainscoting in two Nanuet bathrooms',
+      'Built floor-to-ceiling flat panel wainscoting in a Nyack master bedroom',
+      'Installed classic board-and-batten wainscoting in a Stony Point entryway'
+    ],
+    whyHireHandyman: 'Wainscoting demands precision carpentry. Every panel, rail, and stile needs to be cut to exact measurements and installed perfectly level. Corners, outlets, and transitions around doors require custom cuts. The caulking and painting finish is what separates professional wainscoting from a DIY attempt. Dan handles the entire process with the patience and skill this detail-oriented work demands.',
+    whyChooseUs: 'Odds & Ends has installed wainscoting in homes across Rockland County — from simple beadboard in bathrooms to elaborate raised panel designs in formal dining rooms. Dan measures meticulously, cuts precisely, and finishes every joint and seam for a seamless result. He works solo, which keeps labor costs down while maintaining the highest quality standards.',
+    faqs: [
+      { question: 'What styles of wainscoting do you install?', answer: 'We install all styles including beadboard, shaker (recessed flat panel), raised panel, flat panel, and board-and-batten. We can match an existing style in your home or install something entirely new.' },
+      { question: 'How tall should wainscoting be?', answer: 'Standard wainscoting height is 32 to 36 inches (chair rail height). For staircases and more dramatic looks, full-height or two-thirds-height designs are popular. We help you choose what works best for the room.' },
+      { question: 'Can wainscoting be installed in bathrooms?', answer: 'Absolutely. We use moisture-resistant materials like PVC or MDF with proper priming and paint for bathrooms. It adds protection and style to one of the most used rooms in the house.' },
+      { question: 'Do you paint the wainscoting too?', answer: 'Yes. We handle the full project — installation, caulking, filling nail holes, priming, and painting. The painting and finishing are what make wainscoting look truly professional.' }
+    ],
+    relatedServices: ['custom-accent-walls', 'painting', 'built-ins', 'cabinet-refinishing'],
+    metaTitle: 'Professional Wainscoting Installation | Rockland County, NY',
+    metaDescription: 'Professional wainscoting installation in Rockland County, NY. Beadboard, shaker, raised panel, and more. Add elegance and character to any room. Call today!',
+    keywords: ['wainscoting installation Rockland County', 'wainscoting contractor', 'beadboard installation', 'shaker wainscoting', 'raised panel wainscoting NY', 'wall paneling installation'],
+    image: '/images/services/wainscoting.jpg',
+    altText: 'Freshly installed white shaker wainscoting in a dining room',
+    processSteps: [
+      { title: 'Design & Layout', description: 'We measure the room, discuss style options, and plan panel sizes, spacing, and chair rail height for a balanced, proportional look.' },
+      { title: 'Cut & Install Panels', description: 'Each panel, rail, and stile is cut to precise measurements and installed level on the wall with construction adhesive and finish nails.' },
+      { title: 'Chair Rail & Trim', description: 'The chair rail cap is installed to create a clean transition between the wainscoting and the wall above. All trim is mitered at corners.' },
+      { title: 'Caulk, Fill & Paint', description: 'Every nail hole is filled, every seam is caulked, and multiple coats of paint are applied for a flawless, built-in finish.' }
+    ],
+    whyChooseUsCards: [
+      { title: 'Every Style Available', description: 'Beadboard, shaker, raised panel, flat panel, board-and-batten — we build whatever style matches your home and vision.' },
+      { title: 'Seamless Finish Work', description: 'Caulking, filling, and painting are included. The finishing details are what make wainscoting look truly professional, not DIY.' },
+      { title: 'Custom Panel Sizing', description: 'We calculate panel widths to create even, balanced spacing across the wall — no awkward narrow panels at the end.' },
+      { title: 'Moisture-Resistant Options', description: 'For bathrooms and high-moisture areas, we use PVC and moisture-resistant MDF that will not warp or swell.' },
+      { title: 'Solo Operator Savings', description: 'Dan handles the entire project himself, keeping labor costs low while delivering meticulous, detail-oriented craftsmanship.' }
     ]
   },
   {
@@ -1311,7 +1312,7 @@ export const services: Service[] = [
       { question: 'Do built-ins add home value?', answer: 'Yes. Quality built-ins are consistently cited by real estate professionals as a feature that adds both value and buyer appeal. They are a permanent improvement that stays with the home.' },
       { question: 'Can you build around a TV or fireplace?', answer: 'Absolutely. Entertainment center built-ins and fireplace surrounds with flanking bookcases are among our most popular projects. We accommodate wiring, cable management, and heat clearances.' }
     ],
-    relatedServices: ['shelving-installation', 'cabinet-installation', 'custom-accent-walls', 'painting', 'closet-system-installation'],
+    relatedServices: ['shelving-installation', 'cabinet-refinishing', 'custom-accent-walls', 'painting', 'closet-system-installation'],
     metaTitle: 'Professional Custom Built-Ins | Rockland County, NY',
     metaDescription: 'Custom built-in bookcases, shelving, and storage in Rockland County. Designed and built to fit your space perfectly. Call for a consultation!',
     keywords: ['custom built-ins Rockland County', 'built-in bookcase', 'built-in shelving near me', 'custom bookcases NY', 'window seat built-in', 'fireplace built-ins', 'mudroom built-in'],

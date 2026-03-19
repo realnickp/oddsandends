@@ -88,8 +88,8 @@ export function ServicesOverview() {
               One Call Handles Your Entire To-Do List
             </h2>
             <p className="text-lg text-gray-500 font-light leading-relaxed">
-              From small repairs to custom projects, we handle over 25 types of home
-              improvement work. No job is too small.
+              From small repairs to complete renovations, Dan handles a wide range of home
+              improvement work. No job too small, because we know how much the little things matter.
             </p>
           </div>
         </ScrollReveal>

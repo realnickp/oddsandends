@@ -85,7 +85,7 @@ const differentiators = [
 
 const stats = [
   { number: '20+', label: 'Years of Experience' },
-  { number: '30+', label: 'Services Offered' },
+  { number: '$1M+', label: 'Insurance Coverage' },
   { number: '5.0', label: 'Google Star Rating' },
   { number: '2001', label: 'Established' },
 ]
@@ -126,8 +126,9 @@ export default function AboutContent() {
               </ScrollReveal>
               <ScrollReveal direction="up" delay={200}>
                 <p className="text-xl text-gray-400 font-light leading-relaxed mb-8">
-                  Trusted by homeowners across Rockland County since 2001. One man, one
-                  mission: exceptional craftsmanship and honest service on every job.
+                  Owner operated, licensed, and local. Trusted by homeowners across Rockland
+                  and Westchester County since 2001. Dan specializes in small and medium
+                  sized renovations — exceptional craftsmanship and honest service on every job.
                 </p>
               </ScrollReveal>
               <ScrollReveal direction="up" delay={300}>
