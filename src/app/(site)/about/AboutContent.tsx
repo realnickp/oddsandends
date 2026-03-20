@@ -281,9 +281,9 @@ export default function AboutContent() {
               </p>
             </div>
           </ScrollReveal>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="flex flex-wrap justify-center gap-8">
             {values.map((value, i) => (
-              <ScrollReveal key={value.title} direction="up" delay={i * 100}>
+              <ScrollReveal key={value.title} direction="up" delay={i * 100} className="w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.34rem)]">
                 <div className="bg-white rounded-2xl p-8 border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 h-full">
                   <div className="h-12 w-12 rounded-xl bg-gradient-to-br from-blue-600 to-blue-700 flex items-center justify-center mb-5">
                     <value.icon className="h-6 w-6 text-white" />
