@@ -9,13 +9,16 @@ import { cities } from '@/data/cities'
 
 export async function generateMetadata() {
   return generatePageMetadata({
-    title: 'Service Areas in Rockland County, NY',
+    title: 'Service Areas | Rockland & Westchester County, NY',
     description:
-      'Odds & Ends Handyman Service proudly serves all of Rockland County, NY. Nyack, New City, Nanuet, Pearl River, Suffern, Piermont, Tappan, and more. Free estimates.',
+      'Odds & Ends Handyman Service proudly serves Rockland County and select Westchester County communities. Nyack, New City, Nanuet, Suffern, Sleepy Hollow, Tarrytown, and more. Free estimates.',
     path: '/areas',
-    keywords: ['Rockland County handyman', 'handyman near me', 'local handyman NY'],
+    keywords: ['Rockland County handyman', 'Westchester County handyman', 'handyman near me', 'local handyman NY'],
   })
 }
+
+const rocklandCities = cities.filter((c) => c.county !== 'Westchester County')
+const westchesterCities = cities.filter((c) => c.county === 'Westchester County')
 
 export default function AreasPage() {
   return (
@@ -45,13 +48,13 @@ export default function AreasPage() {
               </p>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
                 Handyman Services Across{' '}
-                <span className="text-gradient">Rockland County</span>
+                <span className="text-gradient">Rockland & Westchester</span>
               </h1>
               <p className="text-lg md:text-xl text-gray-400 font-light leading-relaxed">
                 Odds & Ends Handyman Service has been proudly serving homeowners
-                throughout Rockland County, New York since 2001. From the charming
-                Hudson River villages to the western communities, Dan brings 20+
-                years of professional handyman expertise to your door.
+                throughout Rockland County and select Westchester County communities
+                since 2001. From the charming Hudson River villages to the western
+                hills, Dan brings professional handyman expertise to your door.
               </p>
             </div>
           </ScrollReveal>
@@ -60,20 +63,29 @@ export default function AreasPage() {
 
       <SectionDivider variant="wave" fromColor="#030712" toColor="#ffffff" />
 
-      {/* All Service Areas */}
+      {/* Rockland County */}
       <section className="py-20 md:py-28">
         <div className="max-w-7xl mx-auto px-4">
           <ScrollReveal direction="up">
-            <p className="text-blue-700 font-semibold text-xs uppercase tracking-[0.2em] mb-3">
-              Communities We Serve
-            </p>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-10">
-              Our Service Areas
+            <div className="flex items-center gap-3 mb-3">
+              <div className="h-9 w-9 rounded-lg bg-blue-600 flex items-center justify-center">
+                <MapPin className="h-4 w-4 text-white" />
+              </div>
+              <p className="text-blue-700 font-semibold text-xs uppercase tracking-[0.2em]">
+                Our Home Base
+              </p>
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
+              Rockland County
             </h2>
+            <p className="text-gray-500 font-light max-w-2xl mb-10">
+              Dan has been serving every corner of Rockland County since 2001 — from the
+              Hudson River villages to the western hills.
+            </p>
           </ScrollReveal>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {cities.map((city, i) => (
+            {rocklandCities.map((city, i) => (
               <ScrollReveal key={city.slug} direction="up" delay={i * 50}>
                 <Link
                   href={`/areas/${city.slug}`}
@@ -86,9 +98,58 @@ export default function AreasPage() {
                     {city.name}
                   </h3>
                   <p className="text-gray-500 font-light text-sm mb-4">
-                    {city.county}, {city.state}
+                    Rockland County, {city.state}
                   </p>
                   <span className="inline-flex items-center gap-1.5 text-blue-700 font-semibold text-sm group-hover:gap-2.5 transition-all">
+                    View Services <ArrowRight className="h-4 w-4" />
+                  </span>
+                </Link>
+              </ScrollReveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Westchester County */}
+      <section className="pb-20 md:pb-28">
+        <div className="max-w-7xl mx-auto px-4">
+          <ScrollReveal direction="up">
+            <div className="border-t border-gray-200 pt-16 mb-10">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="h-9 w-9 rounded-lg bg-emerald-600 flex items-center justify-center">
+                  <MapPin className="h-4 w-4 text-white" />
+                </div>
+                <p className="text-emerald-700 font-semibold text-xs uppercase tracking-[0.2em]">
+                  Now Serving
+                </p>
+              </div>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
+                Westchester County
+              </h2>
+              <p className="text-gray-500 font-light max-w-2xl">
+                Just across the Mario Cuomo Bridge — Dan now brings the same trusted
+                craftsmanship to select Westchester County communities along the Hudson.
+              </p>
+            </div>
+          </ScrollReveal>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {westchesterCities.map((city, i) => (
+              <ScrollReveal key={city.slug} direction="up" delay={i * 50}>
+                <Link
+                  href={`/areas/${city.slug}`}
+                  className="group block bg-white rounded-2xl p-6 border border-gray-100 hover:border-emerald-300 hover:shadow-xl hover:shadow-emerald-100/50 hover:-translate-y-1 transition-all duration-300"
+                >
+                  <div className="h-11 w-11 rounded-xl bg-gradient-to-br from-emerald-600 to-emerald-700 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                    <MapPin className="h-5 w-5 text-white" />
+                  </div>
+                  <h3 className="font-bold text-gray-900 text-lg mb-1 group-hover:text-emerald-700 transition-colors">
+                    {city.name}
+                  </h3>
+                  <p className="text-gray-500 font-light text-sm mb-4">
+                    Westchester County, {city.state}
+                  </p>
+                  <span className="inline-flex items-center gap-1.5 text-emerald-700 font-semibold text-sm group-hover:gap-2.5 transition-all">
                     View Services <ArrowRight className="h-4 w-4" />
                   </span>
                 </Link>

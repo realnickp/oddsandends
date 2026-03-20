@@ -1,17 +1,19 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { ArrowRight, Wrench, Paintbrush, Hammer, Tv, Droplets, Home, Lightbulb, Grid3X3 } from 'lucide-react'
+import { ArrowRight, Wrench, Paintbrush, Hammer, Tv, Droplets, Home, Lightbulb, Grid3X3, Phone } from 'lucide-react'
 import { generatePageMetadata } from '@/lib/metadata'
 import { services } from '@/data/services'
 import { ScrollReveal } from '@/components/ui/ScrollReveal'
 import { SectionDivider } from '@/components/ui/SectionDivider'
 import { CTASection } from '@/components/sections/CTASection'
+import { siteConfig } from '@/data/site-config'
+import { phoneHref } from '@/lib/utils'
 
 export async function generateMetadata() {
   return generatePageMetadata({
     title: 'Handyman Services in Rockland County, NY',
     description:
-      'Over 30 professional handyman services in Rockland County, NY. TV mounting, drywall repair, painting, deck repair, plumbing, and more. Free estimates from Odds & Ends.',
+      'Professional handyman services in Rockland County, NY. TV mounting, drywall repair, painting, deck repair, renovations, and more. Free estimates from Odds & Ends.',
     path: '/services',
     keywords: ['handyman services', 'home repair services', 'Rockland County handyman services'],
   })
@@ -265,6 +267,37 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
+
+      {/* Don't see your service? */}
+      <div className="max-w-7xl mx-auto px-4 pb-16 pt-4">
+        <ScrollReveal>
+          <div className="text-center bg-white/[0.05] border border-white/10 rounded-2xl p-8 md:p-10">
+            <h3 className="text-xl md:text-2xl font-bold text-white mb-3">
+              Don&apos;t See Your Project Listed?
+            </h3>
+            <p className="text-gray-400 font-light max-w-lg mx-auto mb-6">
+              Dan can almost definitely do it. Give him a call or fill out the estimate form
+              and describe what you need — chances are it&apos;s right in his wheelhouse.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <a
+                href={phoneHref(siteConfig.phone)}
+                className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-500 text-white px-6 py-3 rounded-xl font-semibold transition-colors"
+              >
+                <Phone className="h-4 w-4" />
+                Call {siteConfig.phoneFormatted}
+              </a>
+              <Link
+                href="/estimate"
+                className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/15 border border-white/20 text-white px-6 py-3 rounded-xl font-semibold transition-colors"
+              >
+                Free Estimate
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </div>
+          </div>
+        </ScrollReveal>
+      </div>
 
       <SectionDivider variant="wave" fromColor="#030712" toColor="#ffffff" />
 

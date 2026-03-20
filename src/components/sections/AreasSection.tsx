@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { MapPin, ArrowRight } from 'lucide-react'
 import { ScrollReveal } from '@/components/ui/ScrollReveal'
 
-const areas = [
+const rocklandAreas = [
   { name: 'Nyack', slug: 'nyack' },
   { name: 'New City', slug: 'new-city' },
   { name: 'Clarkstown', slug: 'clarkstown' },
@@ -19,6 +19,13 @@ const areas = [
   { name: 'Stony Point', slug: 'stony-point' },
   { name: 'Orangetown', slug: 'orangetown' },
   { name: 'Ramapo', slug: 'ramapo' },
+]
+
+const westchesterAreas = [
+  { name: 'Sleepy Hollow', slug: 'sleepy-hollow' },
+  { name: 'Tarrytown', slug: 'tarrytown' },
+  { name: 'Irvington', slug: 'irvington' },
+  { name: 'Dobbs Ferry', slug: 'dobbs-ferry' },
 ]
 
 export function AreasSection() {
@@ -41,23 +48,51 @@ export function AreasSection() {
               Service Areas
             </p>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Serving All of Rockland County
+              Rockland & Westchester County
             </h2>
             <p className="text-lg text-gray-400 font-light leading-relaxed">
-              From the Hudson River villages to the western hills, we proudly serve
-              homeowners throughout Rockland County, New York.
+              From the Hudson River villages to the western hills — and now across the
+              Mario Cuomo Bridge into Westchester.
             </p>
           </div>
         </ScrollReveal>
 
+        {/* Rockland County */}
+        <ScrollReveal>
+          <p className="text-blue-400 font-semibold text-xs uppercase tracking-[0.15em] mb-4">
+            Rockland County
+          </p>
+        </ScrollReveal>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-          {areas.map((area, i) => (
+          {rocklandAreas.map((area, i) => (
             <ScrollReveal key={area.slug} delay={(i % 8) * 50}>
               <Link
                 href={`/areas/${area.slug}`}
                 className="group flex items-center gap-3 bg-white/[0.05] hover:bg-white/[0.1] border border-white/[0.08] hover:border-blue-400/30 rounded-xl px-5 py-4 transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/10"
               >
                 <MapPin className="h-4 w-4 text-blue-400 shrink-0" />
+                <span className="text-gray-300 text-sm font-medium group-hover:text-white transition-colors">
+                  {area.name}
+                </span>
+              </Link>
+            </ScrollReveal>
+          ))}
+        </div>
+
+        {/* Westchester County */}
+        <ScrollReveal delay={200}>
+          <p className="text-emerald-400 font-semibold text-xs uppercase tracking-[0.15em] mt-10 mb-4">
+            Westchester County
+          </p>
+        </ScrollReveal>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+          {westchesterAreas.map((area, i) => (
+            <ScrollReveal key={area.slug} delay={(i % 4) * 50 + 300}>
+              <Link
+                href={`/areas/${area.slug}`}
+                className="group flex items-center gap-3 bg-white/[0.05] hover:bg-white/[0.1] border border-white/[0.08] hover:border-emerald-400/30 rounded-xl px-5 py-4 transition-all duration-300 hover:shadow-lg hover:shadow-emerald-500/10"
+              >
+                <MapPin className="h-4 w-4 text-emerald-400 shrink-0" />
                 <span className="text-gray-300 text-sm font-medium group-hover:text-white transition-colors">
                   {area.name}
                 </span>

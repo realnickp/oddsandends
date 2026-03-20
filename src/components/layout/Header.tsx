@@ -21,7 +21,7 @@ const featuredServices = [
   { slug: 'tile-work', name: 'Tile Work' },
 ]
 
-const featuredCities = [
+const rocklandCities = [
   { slug: 'nyack', name: 'Nyack' },
   { slug: 'new-city', name: 'New City' },
   { slug: 'nanuet', name: 'Nanuet' },
@@ -30,6 +30,13 @@ const featuredCities = [
   { slug: 'haverstraw', name: 'Haverstraw' },
   { slug: 'stony-point', name: 'Stony Point' },
   { slug: 'suffern', name: 'Suffern' },
+]
+
+const westchesterCities = [
+  { slug: 'sleepy-hollow', name: 'Sleepy Hollow' },
+  { slug: 'tarrytown', name: 'Tarrytown' },
+  { slug: 'irvington', name: 'Irvington' },
+  { slug: 'dobbs-ferry', name: 'Dobbs Ferry' },
 ]
 
 type NavItem =
@@ -98,7 +105,7 @@ export function Header() {
       <div className="border-b border-white/10 text-white py-2 hidden md:block">
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center text-sm">
           <p className="text-gray-300">
-            Serving {siteConfig.county}, {siteConfig.stateAbbr} — Free Estimates
+            Serving Rockland & Westchester County, {siteConfig.stateAbbr} — Free Estimates
           </p>
           <div className="flex items-center gap-6">
             <a
@@ -329,16 +336,32 @@ function DesktopAreasPanel() {
     <>
       <div className="flex items-center gap-2 mb-3 pb-2.5 border-b border-gray-100">
         <MapPin className="h-4 w-4 text-blue-600" />
-        <span className="text-sm font-semibold text-gray-900">Service Areas</span>
+        <span className="text-sm font-semibold text-gray-900">Rockland County</span>
       </div>
       <ul className="space-y-0.5">
-        {featuredCities.map((city) => (
+        {rocklandCities.map((city) => (
           <li key={city.slug}>
             <Link
               href={`/areas/${city.slug}`}
               className="block px-2.5 py-1.5 text-sm text-gray-600 hover:text-blue-700 hover:bg-blue-50 rounded-md transition-colors"
             >
-              {city.name}, NY
+              {city.name}
+            </Link>
+          </li>
+        ))}
+      </ul>
+      <div className="flex items-center gap-2 mt-4 mb-3 pb-2.5 border-b border-gray-100">
+        <MapPin className="h-4 w-4 text-emerald-600" />
+        <span className="text-sm font-semibold text-gray-900">Westchester County</span>
+      </div>
+      <ul className="space-y-0.5">
+        {westchesterCities.map((city) => (
+          <li key={city.slug}>
+            <Link
+              href={`/areas/${city.slug}`}
+              className="block px-2.5 py-1.5 text-sm text-gray-600 hover:text-emerald-700 hover:bg-emerald-50 rounded-md transition-colors"
+            >
+              {city.name}
             </Link>
           </li>
         ))}
@@ -384,14 +407,30 @@ function MobileServicesPanel({ onNavigate }: { onNavigate: () => void }) {
 function MobileAreasPanel({ onNavigate }: { onNavigate: () => void }) {
   return (
     <>
-      {featuredCities.map((city) => (
+      <p className="px-3 py-1.5 text-xs font-semibold text-blue-400 uppercase tracking-wider">
+        Rockland County
+      </p>
+      {rocklandCities.map((city) => (
         <Link
           key={city.slug}
           href={`/areas/${city.slug}`}
           onClick={onNavigate}
           className="block px-3 py-2 text-sm text-gray-400 hover:text-white hover:bg-white/10 rounded-md transition-colors"
         >
-          {city.name}, NY
+          {city.name}
+        </Link>
+      ))}
+      <p className="px-3 py-1.5 mt-3 text-xs font-semibold text-emerald-400 uppercase tracking-wider">
+        Westchester County
+      </p>
+      {westchesterCities.map((city) => (
+        <Link
+          key={city.slug}
+          href={`/areas/${city.slug}`}
+          onClick={onNavigate}
+          className="block px-3 py-2 text-sm text-gray-400 hover:text-white hover:bg-white/10 rounded-md transition-colors"
+        >
+          {city.name}
         </Link>
       ))}
       <Link

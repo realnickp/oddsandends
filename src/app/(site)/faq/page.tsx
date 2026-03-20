@@ -22,7 +22,7 @@ const faqs = [
   {
     question: 'What services does Odds & Ends Handyman Service offer?',
     answer:
-      'We handle a wide range of home improvement and repair tasks — over 30 types of work including TV mounting, drywall repair, painting, door installation, deck and fence repair, faucet and toilet installation, light fixture and ceiling fan installation, furniture assembly, custom accent walls, built-in shelving, kitchen facelifts, pergola construction, tile repair, and much more. If it\'s on your to-do list, chances are we can help.',
+      'We handle a wide range of home improvement and repair tasks including TV mounting, drywall repair, painting, door installation, deck and fence repair, bathroom and kitchen renovations, light fixture and ceiling fan installation, furniture assembly, wainscoting, custom accent walls, built-in shelving, tile work, and much more. If you don\'t see your project listed, give Dan a call or fill out the estimate form — he can almost definitely do it.',
   },
   {
     question: 'What areas do you serve?',

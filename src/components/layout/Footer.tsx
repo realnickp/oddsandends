@@ -17,7 +17,7 @@ const serviceLinks = [
   { label: 'All Services →', href: '/services' },
 ]
 
-const areaLinks = [
+const rocklandAreaLinks = [
   { label: 'Nyack', href: '/areas/nyack' },
   { label: 'New City', href: '/areas/new-city' },
   { label: 'Pearl River', href: '/areas/pearl-river' },
@@ -26,7 +26,13 @@ const areaLinks = [
   { label: 'Suffern', href: '/areas/suffern' },
   { label: 'Clarkstown', href: '/areas/clarkstown' },
   { label: 'Tappan', href: '/areas/tappan' },
-  { label: 'All Areas →', href: '/areas' },
+]
+
+const westchesterAreaLinks = [
+  { label: 'Sleepy Hollow', href: '/areas/sleepy-hollow' },
+  { label: 'Tarrytown', href: '/areas/tarrytown' },
+  { label: 'Irvington', href: '/areas/irvington' },
+  { label: 'Dobbs Ferry', href: '/areas/dobbs-ferry' },
 ]
 
 const companyLinks = [
@@ -92,7 +98,7 @@ export function Footer() {
               </a>
               <div className="flex items-center gap-2.5">
                 <MapPin className="h-4 w-4 text-blue-400" />
-                {siteConfig.county}, {siteConfig.stateAbbr}
+                Rockland & Westchester, {siteConfig.stateAbbr}
               </div>
               <div className="flex items-center gap-2.5">
                 <Clock className="h-4 w-4 text-blue-400" />
@@ -123,10 +129,10 @@ export function Footer() {
           {/* Areas column */}
           <div>
             <h3 className="font-semibold text-white text-sm uppercase tracking-wider mb-4">
-              Service Areas
+              Rockland County
             </h3>
             <ul className="space-y-2.5">
-              {areaLinks.map((link) => (
+              {rocklandAreaLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
@@ -137,6 +143,27 @@ export function Footer() {
                 </li>
               ))}
             </ul>
+            <h3 className="font-semibold text-white text-sm uppercase tracking-wider mt-6 mb-4">
+              Westchester County
+            </h3>
+            <ul className="space-y-2.5">
+              {westchesterAreaLinks.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-sm hover:text-white transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <Link
+              href="/areas"
+              className="inline-block text-sm text-blue-400 hover:text-blue-300 mt-4 transition-colors"
+            >
+              All Areas →
+            </Link>
           </div>
 
           {/* Company column */}

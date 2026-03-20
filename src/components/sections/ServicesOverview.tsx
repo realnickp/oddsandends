@@ -142,7 +142,7 @@ export function ServicesOverview() {
               href="/services"
               className="inline-flex items-center gap-2 bg-gray-900 hover:bg-gray-800 text-white px-8 py-3.5 rounded-xl font-semibold transition-all hover:shadow-lg"
             >
-              View All 25+ Services
+              View All Services
               <ArrowRight className="h-4 w-4" />
             </Link>
           </div>

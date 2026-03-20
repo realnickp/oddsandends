@@ -35,7 +35,7 @@ const homeFAQs = [
   },
   {
     question: 'What kind of work do you handle?',
-    answer: 'We handle over 30 types of home improvement work including TV mounting, drywall repair, painting, door installation, deck repair, faucet and toilet installation, light fixtures, furniture assembly, custom accent walls, built-ins, and much more. If it\'s on your to-do list, chances are we can help.',
+    answer: 'We handle a wide range of home improvement work including TV mounting, drywall repair, painting, door installation, deck repair, bathroom and kitchen renovations, light fixtures, furniture assembly, wainscoting, custom accent walls, built-ins, and much more. If you don\'t see your project listed, give Dan a call — he can almost definitely do it.',
   },
   {
     question: 'How quickly can you start?',
