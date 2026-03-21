@@ -6,7 +6,6 @@ interface MetadataParams {
   title: string
   description: string
   path: string
-  ogImage?: string
   keywords?: string[]
 }
 
@@ -28,14 +27,12 @@ export async function generatePageMetadata({
   title,
   description,
   path,
-  ogImage = '/images/og-default.jpg',
   keywords,
 }: MetadataParams): Promise<Metadata> {
   const override = await getSeoOverride(path)
 
   const finalTitle = override?.meta_title || title
   const finalDescription = override?.meta_description || description
-  const finalOgImage = override?.og_image || ogImage
   const finalKeywords = (override?.keywords?.length ? override.keywords : keywords) || undefined
 
   const fullTitle = finalTitle.includes(siteConfig.shortName)
@@ -55,14 +52,6 @@ export async function generatePageMetadata({
       description: finalDescription,
       url,
       siteName: siteConfig.businessName,
-      images: [
-        {
-          url: finalOgImage,
-          width: 1200,
-          height: 630,
-          alt: fullTitle,
-        },
-      ],
       locale: 'en_US',
       type: 'website',
     },
@@ -70,7 +59,6 @@ export async function generatePageMetadata({
       card: 'summary_large_image',
       title: fullTitle,
       description: finalDescription,
-      images: [finalOgImage],
     },
   }
 }
