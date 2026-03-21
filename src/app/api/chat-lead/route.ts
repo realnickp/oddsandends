@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getServiceSupabase } from '@/lib/supabase'
+import { sendLeadNotification, sendWelcomeEmail } from '@/lib/email'
 
 export async function POST(request: NextRequest) {
   try {
@@ -14,7 +15,6 @@ export async function POST(request: NextRequest) {
 
     const supabase = getServiceSupabase()
 
-    // Try to detect service interest from messages
     let serviceInterest = ''
     const userMessages = messages
       .filter((m: { role: string; content: string }) => m.role === 'user')
@@ -38,6 +38,10 @@ export async function POST(request: NextRequest) {
       'smart home',
       'built-in',
       'pergola',
+      'tile',
+      'bathroom',
+      'kitchen',
+      'wainscoting',
     ]
 
     for (const keyword of serviceKeywords) {
@@ -63,6 +67,30 @@ export async function POST(request: NextRequest) {
         { status: 500 }
       )
     }
+
+    // Build a concise chat summary from the last few user messages
+    const recentUserMessages = messages
+      .filter((m: { role: string; content: string }) => m.role === 'user')
+      .slice(-3)
+      .map((m: { role: string; content: string }) => m.content)
+      .join(' → ')
+
+    const emailPromises: Promise<void>[] = [
+      sendLeadNotification({
+        source: 'Chat Lead',
+        name: name || 'Chat Visitor',
+        phone: phone || 'Not provided',
+        email: email || undefined,
+        service: serviceInterest || undefined,
+        chatSummary: recentUserMessages || 'No messages captured',
+      }),
+    ]
+
+    if (email) {
+      emailPromises.push(sendWelcomeEmail(email, name || 'there'))
+    }
+
+    await Promise.allSettled(emailPromises)
 
     return NextResponse.json({ success: true })
   } catch (err) {

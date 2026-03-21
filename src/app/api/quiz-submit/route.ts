@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getServiceSupabase } from '@/lib/supabase'
+import { sendLeadNotification, sendWelcomeEmail } from '@/lib/email'
 
 export async function POST(request: NextRequest) {
   try {
@@ -60,6 +61,29 @@ export async function POST(request: NextRequest) {
         { status: 500 }
       )
     }
+
+    // Build a readable version of quiz answers for the notification
+    const quizAnswers: Record<string, string> = {}
+    if (data.answers && typeof data.answers === 'object') {
+      for (const [key, val] of Object.entries(data.answers)) {
+        quizAnswers[key] = String(val)
+      }
+    }
+
+    await Promise.allSettled([
+      sendLeadNotification({
+        source: 'Project Builder',
+        name: data.name,
+        phone: data.phone,
+        email: data.email,
+        service: data.serviceName,
+        description: data.description,
+        contactMethod: data.contactMethod,
+        quizAnswers,
+        photoUrls,
+      }),
+      sendWelcomeEmail(data.email, data.name),
+    ])
 
     return NextResponse.json({ success: true })
   } catch (err) {

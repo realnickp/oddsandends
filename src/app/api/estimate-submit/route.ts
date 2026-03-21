@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getServiceSupabase } from '@/lib/supabase'
+import { sendLeadNotification, sendWelcomeEmail } from '@/lib/email'
 
 export async function POST(request: NextRequest) {
   try {
@@ -58,6 +59,23 @@ export async function POST(request: NextRequest) {
         { status: 500 }
       )
     }
+
+    // Send emails in parallel — don't block the response on email delivery
+    await Promise.allSettled([
+      sendLeadNotification({
+        source: 'Estimate Form',
+        name: data.name,
+        phone: data.phone,
+        email: data.email,
+        service: data.serviceNeeded,
+        description: data.description,
+        city: data.city,
+        contactMethod: data.contactMethod,
+        timeline: data.timeline,
+        photoUrls,
+      }),
+      sendWelcomeEmail(data.email, data.name),
+    ])
 
     return NextResponse.json({ success: true })
   } catch (err) {
