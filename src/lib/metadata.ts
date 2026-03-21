@@ -52,6 +52,14 @@ export async function generatePageMetadata({
       description: finalDescription,
       url,
       siteName: siteConfig.businessName,
+      images: [
+        {
+          url: `${siteConfig.url}/opengraph-image`,
+          width: 1200,
+          height: 630,
+          alt: fullTitle,
+        },
+      ],
       locale: 'en_US',
       type: 'website',
     },
@@ -59,6 +67,7 @@ export async function generatePageMetadata({
       card: 'summary_large_image',
       title: fullTitle,
       description: finalDescription,
+      images: [`${siteConfig.url}/twitter-image`],
     },
   }
 }
