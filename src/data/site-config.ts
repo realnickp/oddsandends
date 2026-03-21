@@ -14,7 +14,7 @@ export const siteConfig = {
   stateAbbr: 'NY',
   freeEstimates: true,
   textingPreferred: true,
-  url: 'https://oddsandendshandymanservice.com',
+  url: 'https://oddsandendsny.com',
   logo: '/images/logo.png',
   address: {
     county: 'Rockland County',
