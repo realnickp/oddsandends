@@ -54,7 +54,7 @@ export async function generatePageMetadata({
       siteName: siteConfig.businessName,
       images: [
         {
-          url: `${siteConfig.url}/opengraph-image`,
+          url: `${siteConfig.url}/images/og-image.png`,
           width: 1200,
           height: 630,
           alt: fullTitle,
@@ -67,7 +67,7 @@ export async function generatePageMetadata({
       card: 'summary_large_image',
       title: fullTitle,
       description: finalDescription,
-      images: [`${siteConfig.url}/twitter-image`],
+      images: [`${siteConfig.url}/images/og-image.png`],
     },
   }
 }

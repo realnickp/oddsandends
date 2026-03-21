@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     description: `Professional handyman services in ${siteConfig.county}, ${siteConfig.stateAbbr}. ${siteConfig.yearsExperience}+ years of experience. Free estimates.`,
     images: [
       {
-        url: `${siteConfig.url}/opengraph-image`,
+        url: `${siteConfig.url}/images/og-image.png`,
         width: 1200,
         height: 630,
         alt: `${siteConfig.businessName} — Professional Handyman in Rockland & Westchester County, NY`,
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    images: [`${siteConfig.url}/twitter-image`],
+    images: [`${siteConfig.url}/images/og-image.png`],
   },
   robots: {
     index: true,
