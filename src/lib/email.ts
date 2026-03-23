@@ -8,6 +8,13 @@ const REPLY_TO = 'Dkiely101@gmail.com'
 const LOGO_URL = 'https://nbdukzyoxpcznegumygh.supabase.co/storage/v1/object/public/lead-uploads/branding/logo.png'
 const SITE_URL = 'https://oddsandendshandymanservice.com'
 
+function formatTelHref(phone: string): string {
+  const digits = phone.replace(/\D/g, '')
+  if (digits.startsWith('1') && digits.length === 11) return `tel:+${digits}`
+  if (digits.length === 10) return `tel:+1${digits}`
+  return `tel:+${digits}`
+}
+
 // ─── Shared styles ───────────────────────────────────────────────
 
 const emailWrapper = (content: string) => `
@@ -121,16 +128,16 @@ function buildNotificationHtml(data: LeadNotificationData) {
       ${data.name}
     </h2>
     <p style="color:#6b7280;font-size:14px;margin:0 0 24px;text-align:center;">
-      <a href="tel:+1${data.phone.replace(/\D/g, '')}" style="color:#2563eb;text-decoration:none;font-weight:600;">${data.phone}</a>
+      <a href="${formatTelHref(data.phone)}" style="color:#2563eb;text-decoration:none;font-weight:600;">${data.phone}</a>
     </p>
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #e5e7eb;border-radius:8px;overflow:hidden;">
       ${rows.filter(Boolean).join('')}
     </table>
     ${photosHtml}
-    <table role="presentation" cellpadding="0" cellspacing="0" style="margin:24px auto 0;">
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="margin:24px auto 0;">
       <tr>
-        <td style="background-color:#2563eb;border-radius:8px;">
-          <a href="tel:+1${data.phone.replace(/\D/g, '')}" style="display:block;padding:12px 28px;color:#ffffff;font-size:14px;font-weight:600;text-decoration:none;text-align:center;">
+        <td align="center" bgcolor="#2563eb" style="background-color:#2563eb;border-radius:8px;">
+          <a href="${formatTelHref(data.phone)}" style="display:inline-block;padding:12px 28px;color:#ffffff;font-size:14px;font-weight:600;text-decoration:none;text-align:center;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
             Call ${data.name.split(' ')[0]} Now
           </a>
         </td>
@@ -154,10 +161,10 @@ function buildWelcomeHtml(customerName: string) {
     <p style="color:#374151;font-size:15px;line-height:1.7;margin:0 0 24px;">
       In the meantime, feel free to call or text Dan directly if you'd like to get started right away:
     </p>
-    <table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 auto 24px;">
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto 24px;">
       <tr>
-        <td style="background-color:#2563eb;border-radius:8px;">
-          <a href="tel:+19084612688" style="display:block;padding:14px 32px;color:#ffffff;font-size:15px;font-weight:600;text-decoration:none;text-align:center;">
+        <td align="center" bgcolor="#2563eb" style="background-color:#2563eb;border-radius:8px;">
+          <a href="tel:+19084612688" style="display:inline-block;padding:14px 32px;color:#ffffff;font-size:15px;font-weight:600;text-decoration:none;text-align:center;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
             Call (908) 461-2688
           </a>
         </td>
