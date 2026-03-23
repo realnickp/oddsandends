@@ -89,17 +89,20 @@ export async function POST(
     const ext = audio.name?.split('.').pop() || 'webm'
     const fileName = `voice-notes/${id}/${Date.now()}-${Math.random().toString(36).slice(2, 8)}.${ext}`
 
+    const arrayBuffer = await audio.arrayBuffer()
+    const buffer = Buffer.from(arrayBuffer)
+
     const { error: uploadError } = await supabase.storage
       .from('lead-uploads')
-      .upload(fileName, audio, {
-        contentType: audio.type,
+      .upload(fileName, buffer, {
+        contentType: baseType,
         upsert: false,
       })
 
     if (uploadError) {
       console.error('Voice note upload error:', uploadError)
       return NextResponse.json(
-        { error: 'Failed to upload audio' },
+        { error: `Failed to upload audio: ${uploadError.message}` },
         { status: 500 }
       )
     }
@@ -118,7 +121,7 @@ export async function POST(
         storage_path: fileName,
         duration_seconds: duration,
         file_size: audio.size,
-        mime_type: audio.type,
+        mime_type: baseType,
       })
       .select()
       .single()
