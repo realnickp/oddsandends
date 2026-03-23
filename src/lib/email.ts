@@ -127,11 +127,15 @@ function buildNotificationHtml(data: LeadNotificationData) {
       ${rows.filter(Boolean).join('')}
     </table>
     ${photosHtml}
-    <div style="margin-top:24px;text-align:center;">
-      <a href="tel:+1${data.phone.replace(/\D/g, '')}" style="display:inline-block;background-color:#2563eb;color:#ffffff;font-size:14px;font-weight:600;padding:12px 28px;border-radius:8px;text-decoration:none;">
-        Call ${data.name.split(' ')[0]} Now
-      </a>
-    </div>
+    <table role="presentation" cellpadding="0" cellspacing="0" style="margin:24px auto 0;">
+      <tr>
+        <td style="background-color:#2563eb;border-radius:8px;">
+          <a href="tel:+1${data.phone.replace(/\D/g, '')}" style="display:block;padding:12px 28px;color:#ffffff;font-size:14px;font-weight:600;text-decoration:none;text-align:center;">
+            Call ${data.name.split(' ')[0]} Now
+          </a>
+        </td>
+      </tr>
+    </table>
   `)
 }
 
@@ -150,11 +154,15 @@ function buildWelcomeHtml(customerName: string) {
     <p style="color:#374151;font-size:15px;line-height:1.7;margin:0 0 24px;">
       In the meantime, feel free to call or text Dan directly if you'd like to get started right away:
     </p>
-    <div style="text-align:center;margin-bottom:24px;">
-      <a href="tel:+19084612688" style="display:inline-block;background-color:#2563eb;color:#ffffff;font-size:15px;font-weight:600;padding:14px 32px;border-radius:8px;text-decoration:none;">
-        Call (908) 461-2688
-      </a>
-    </div>
+    <table role="presentation" cellpadding="0" cellspacing="0" style="margin:0 auto 24px;">
+      <tr>
+        <td style="background-color:#2563eb;border-radius:8px;">
+          <a href="tel:+19084612688" style="display:block;padding:14px 32px;color:#ffffff;font-size:15px;font-weight:600;text-decoration:none;text-align:center;">
+            Call (908) 461-2688
+          </a>
+        </td>
+      </tr>
+    </table>
     <div style="background-color:#f0f9ff;border-radius:8px;padding:16px 20px;margin-bottom:16px;">
       <p style="color:#1e40af;font-size:13px;font-weight:600;margin:0 0 4px;">What happens next?</p>
       <ul style="color:#374151;font-size:14px;line-height:1.8;margin:0;padding-left:18px;">
