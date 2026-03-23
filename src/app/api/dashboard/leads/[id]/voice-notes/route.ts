@@ -76,7 +76,8 @@ export async function POST(
       )
     }
 
-    if (!ALLOWED_TYPES.includes(audio.type)) {
+    const baseType = audio.type.split(';')[0].trim()
+    if (!ALLOWED_TYPES.includes(baseType)) {
       return NextResponse.json(
         { error: `Unsupported audio type: ${audio.type}` },
         { status: 400 }

@@ -45,6 +45,7 @@ export default function VoiceNotes({ leadId, dashboardFetch }: VoiceNotesProps) 
   const [playingId, setPlayingId] = useState<string | null>(null)
   const [deletingId, setDeletingId] = useState<string | null>(null)
   const [micError, setMicError] = useState<string | null>(null)
+  const [uploadError, setUploadError] = useState<string | null>(null)
 
   const mediaRecorderRef = useRef<MediaRecorder | null>(null)
   const chunksRef = useRef<Blob[]>([])
@@ -91,6 +92,7 @@ export default function VoiceNotes({ leadId, dashboardFetch }: VoiceNotesProps) 
   const uploadVoiceNote = useCallback(
     async (blob: Blob, mimeType: string, duration: number) => {
       setUploading(true)
+      setUploadError(null)
       try {
         const ext = mimeType.includes('webm') ? 'webm' : 'm4a'
         const file = new File([blob], `voice-note.${ext}`, { type: mimeType })
@@ -113,9 +115,11 @@ export default function VoiceNotes({ leadId, dashboardFetch }: VoiceNotesProps) 
         } else {
           const err = await res.json().catch(() => null)
           console.error('Upload failed:', err)
+          setUploadError(err?.error || 'Failed to save voice note. Please try again.')
         }
       } catch (err) {
         console.error('Upload failed:', err)
+        setUploadError('Failed to save voice note. Please try again.')
       } finally {
         setUploading(false)
       }
@@ -312,6 +316,9 @@ export default function VoiceNotes({ leadId, dashboardFetch }: VoiceNotesProps) 
 
       {micError && (
         <p className="mt-2 text-xs text-red-500">{micError}</p>
+      )}
+      {uploadError && (
+        <p className="mt-2 text-xs text-red-500">{uploadError}</p>
       )}
     </div>
   )
