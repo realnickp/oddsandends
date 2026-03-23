@@ -25,6 +25,7 @@ import {
   Printer,
   ArrowUp,
 } from 'lucide-react'
+import VoiceNotes from '@/components/dashboard/VoiceNotes'
 
 // ── Urgency detection ─────────────────────────────────────────
 const URGENCY_HIGH = /\b(asap|right away|immediately|emergency|urgent|today|tomorrow|this week|ready to (hire|book|start|go|schedule)|need(ed)? (it |this )?(done |fixed )?(asap|now|fast|quick|soon|today|yesterday|immediately)|as soon as possible|can you come|when can you (start|come)|time[- ]?sensitive|water (leak|damage|flooding)|pipe burst|no hot water|power out|dangerous|safety (concern|hazard|issue))\b/i
@@ -949,6 +950,9 @@ export default function LeadsPage() {
                         </button>
                       </div>
                     </div>
+
+                    {/* Voice Notes */}
+                    <VoiceNotes leadId={lead.id} dashboardFetch={dashboardFetch} />
                   </div>
                 )}
               </div>
