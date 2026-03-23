@@ -252,7 +252,7 @@ export function ChatWidget() {
         <>
           {/* Mobile backdrop */}
           <div
-            className="fixed inset-0 bg-black/40 z-40 md:hidden"
+            className="fixed inset-0 bg-black/40 z-[10000] md:hidden"
             onClick={handleClose}
           />
 
@@ -260,7 +260,7 @@ export function ChatWidget() {
             ref={panelRef}
             role="dialog"
             aria-label="Chat with Odds & Ends"
-            className="fixed inset-0 md:inset-auto md:right-6 md:bottom-6 md:w-[380px] md:h-[520px] md:rounded-2xl md:shadow-2xl z-50 flex flex-col bg-white overflow-hidden animate-chat-panel-in"
+            className="fixed inset-0 md:inset-auto md:right-6 md:bottom-6 md:w-[380px] md:h-[520px] md:rounded-2xl md:shadow-2xl z-[10001] flex flex-col bg-white overflow-hidden animate-chat-panel-in"
           >
             {/* Header */}
             <div className="flex items-center justify-between px-4 py-3 bg-gradient-to-r from-blue-700 to-blue-600 shrink-0">
