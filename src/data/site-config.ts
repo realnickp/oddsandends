@@ -14,7 +14,7 @@ export const siteConfig = {
   stateAbbr: 'NY',
   freeEstimates: true,
   textingPreferred: true,
-  url: 'https://oddsandendsny.com',
+  url: 'https://www.oddsandendsny.com',
   logo: '/images/logo.png',
   address: {
     county: 'Rockland County',

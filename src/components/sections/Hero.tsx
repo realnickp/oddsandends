@@ -139,11 +139,11 @@ export function Hero() {
                 </div>
               </div>
 
-              <h1 className="text-5xl xl:text-6xl 2xl:text-7xl font-bold text-white leading-[1.08] tracking-tight mb-6">
+              <h2 className="text-5xl xl:text-6xl 2xl:text-7xl font-bold text-white leading-[1.08] tracking-tight mb-6">
                 <span className="block" style={show(200)}>Your Reliable</span>
                 <span className="block text-gradient" style={show(350)}>Rockland County</span>
                 <span className="block" style={show(500)}>Handyman</span>
-              </h1>
+              </h2>
 
               <p
                 className="text-lg xl:text-xl text-gray-400 font-light leading-relaxed mb-10 max-w-xl"
