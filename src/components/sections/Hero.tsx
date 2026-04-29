@@ -40,7 +40,7 @@ export function Hero() {
         <div className="absolute inset-0">
           <Image
             src="/images/site/dan.png"
-            alt="Dan Kiely, owner of Odds & Ends Handyman Service"
+            alt="Owner of Odds & Ends Handyman Service at work in Rockland County"
             fill
             className="object-cover object-[center_15%]"
             sizes="100vw"
@@ -62,19 +62,19 @@ export function Hero() {
         <div className="relative z-10 px-5 pb-8 pt-16 safe-area-bottom">
           <div style={show(300)}>
             <p className="text-blue-400 text-xs font-bold uppercase tracking-[0.2em] mb-2">
-              {siteConfig.ownerFirstName} Kiely · Owner &amp; Craftsman
+              {siteConfig.shortName} · Est. {siteConfig.established}
             </p>
           </div>
 
-          <h1 className="text-[2rem] sm:text-4xl font-bold text-white leading-[1.1] tracking-tight mb-3" style={show(400)}>
+          <h1 className="text-[2rem] sm:text-4xl font-bold text-white leading-[1.1] tracking-tight mb-3">
             Your Reliable{' '}
             <span className="text-gradient">Rockland County</span>{' '}
             Handyman
           </h1>
 
           <p className="text-sm sm:text-base text-gray-300/80 font-light leading-relaxed mb-6 max-w-md" style={show(550)}>
-            {siteConfig.yearsExperience}+ years of meticulous craftsmanship.
-            Owner operated, licensed, and local — specializing in small and medium sized renovations.
+            {siteConfig.yearsExperience}+ years of meticulous craftsmanship across Rockland County.
+            Locally owned, licensed, and insured — specializing in small and medium sized renovations.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 mb-5" style={show(650)}>
@@ -140,18 +140,18 @@ export function Hero() {
               </div>
 
               <h2 className="text-5xl xl:text-6xl 2xl:text-7xl font-bold text-white leading-[1.08] tracking-tight mb-6">
-                <span className="block" style={show(200)}>Your Reliable</span>
-                <span className="block text-gradient" style={show(350)}>Rockland County</span>
-                <span className="block" style={show(500)}>Handyman</span>
+                <span className="block">Your Reliable</span>
+                <span className="block text-gradient">Rockland County</span>
+                <span className="block">Handyman</span>
               </h2>
 
               <p
                 className="text-lg xl:text-xl text-gray-400 font-light leading-relaxed mb-10 max-w-xl"
                 style={show(600)}
               >
-                {siteConfig.yearsExperience}+ years of professional handyman service.
-                Owner operated, licensed, and local — specializing in small and
-                medium sized renovations. Free estimates, honest pricing, meticulous work.
+                {siteConfig.shortName} has delivered professional handyman service across Rockland County
+                since {siteConfig.established}. Locally owned, licensed, and insured —
+                specializing in small and medium sized renovations. Free estimates, honest pricing, meticulous work.
               </p>
 
               <div className="flex flex-row gap-4 mb-12" style={show(750)}>
@@ -196,11 +196,11 @@ export function Hero() {
               className="grid grid-cols-[1.3fr_1fr] grid-rows-[1.1fr_1fr] gap-2.5 h-[480px] xl:h-[540px]"
               style={fadeIn(300)}
             >
-              {/* Dan — tall hero, left column spanning both rows */}
+              {/* Owner photo — tall hero, left column spanning both rows */}
               <div className="row-span-2 relative rounded-2xl overflow-hidden group">
                 <Image
                   src="/images/site/dan.png"
-                  alt="Dan Kiely, owner of Odds & Ends Handyman Service"
+                  alt="Owner of Odds & Ends Handyman Service"
                   fill
                   className="object-cover object-[center_15%] transition-transform duration-700 group-hover:scale-105"
                   sizes="(max-width: 1280px) 30vw, 25vw"
@@ -208,8 +208,8 @@ export function Hero() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-950/80 via-transparent to-transparent" />
                 <div className="absolute bottom-0 inset-x-0 p-5">
-                  <p className="text-white font-bold text-lg">{siteConfig.ownerFirstName} Kiely</p>
-                  <p className="text-blue-300 text-xs font-medium">Owner · Est. {siteConfig.established}</p>
+                  <p className="text-white font-bold text-lg">{siteConfig.shortName}</p>
+                  <p className="text-blue-300 text-xs font-medium">Locally Owned · Est. {siteConfig.established}</p>
                 </div>
               </div>
 

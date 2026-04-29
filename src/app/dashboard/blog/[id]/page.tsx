@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { useRouter, useParams } from 'next/navigation'
-import { useDashboard } from '../../layout'
+import { useDashboard } from '../../_DashboardClient'
 import Link from 'next/link'
 import {
   ArrowLeft,

@@ -8,11 +8,18 @@ export function localBusinessSchema() {
     '@type': 'HomeAndConstructionBusiness',
     '@id': `${siteConfig.url}/#business`,
     name: siteConfig.businessName,
-    image: `${siteConfig.url}${siteConfig.logo}`,
+    legalName: siteConfig.license.businessEntity,
+    alternateName: siteConfig.license.dba,
+    image: [
+      `${siteConfig.url}${siteConfig.logo}`,
+      `${siteConfig.url}/images/og-image.png`,
+    ],
+    logo: `${siteConfig.url}${siteConfig.logo}`,
     telephone: `+1${siteConfig.phone}`,
     email: siteConfig.email,
     url: siteConfig.url,
-    foundingDate: siteConfig.established.toString(),
+    foundingDate: `${siteConfig.established}-01-01`,
+    founder: { '@id': `${siteConfig.url}/#owner` },
     description: `Professional handyman services in ${siteConfig.county}, ${siteConfig.state}. ${siteConfig.yearsExperience}+ years of experience. Free estimates.`,
     areaServed: {
       '@type': 'County',
@@ -41,9 +48,21 @@ export function localBusinessSchema() {
       latitude: siteConfig.latitude,
       longitude: siteConfig.longitude,
     },
+    serviceArea: {
+      '@type': 'GeoCircle',
+      geoMidpoint: {
+        '@type': 'GeoCoordinates',
+        latitude: siteConfig.latitude,
+        longitude: siteConfig.longitude,
+      },
+      geoRadius: '40000', // 40km / ~25mi covers Rockland + reachable Westchester
+    },
     sameAs: siteConfig.socialProfiles,
     knowsAbout: siteConfig.knowsAbout,
+    slogan: siteConfig.tagline,
     priceRange: '$$',
+    currenciesAccepted: 'USD',
+    paymentAccepted: 'Cash, Check, Credit Card, Venmo, Zelle',
     hasCredential: {
       '@type': 'EducationalOccupationalCredential',
       credentialCategory: 'Home Improvement Contractor License',
@@ -68,11 +87,28 @@ export function organizationSchema() {
     '@type': 'Organization',
     '@id': `${siteConfig.url}/#organization`,
     name: siteConfig.businessName,
+    legalName: siteConfig.license.businessEntity,
+    alternateName: siteConfig.license.dba,
     url: siteConfig.url,
     logo: `${siteConfig.url}${siteConfig.logo}`,
     telephone: `+1${siteConfig.phone}`,
     email: siteConfig.email,
-    foundingDate: siteConfig.established.toString(),
+    foundingDate: `${siteConfig.established}-01-01`,
+    founder: { '@id': `${siteConfig.url}/#owner` },
+    sameAs: siteConfig.socialProfiles,
+  }
+}
+
+export function websiteSchema() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${siteConfig.url}/#website`,
+    url: siteConfig.url,
+    name: siteConfig.businessName,
+    description: `Professional handyman services in ${siteConfig.county}, ${siteConfig.state}. ${siteConfig.yearsExperience}+ years of experience.`,
+    publisher: { '@id': `${siteConfig.url}/#organization` },
+    inLanguage: 'en-US',
   }
 }
 
@@ -85,17 +121,20 @@ export function serviceSchema(service: {
   return {
     '@context': 'https://schema.org',
     '@type': 'Service',
+    '@id': `${siteConfig.url}/services/${service.slug}/#service`,
     name: service.name,
+    serviceType: service.name,
     description: service.description,
     url: `${siteConfig.url}/services/${service.slug}`,
-    provider: {
-      '@type': 'HomeAndConstructionBusiness',
-      '@id': `${siteConfig.url}/#business`,
-    },
+    provider: { '@id': `${siteConfig.url}/#business` },
     areaServed: [
       { '@type': 'County', name: siteConfig.county, containedInPlace: { '@type': 'State', name: siteConfig.state } },
       ...cities.map(city => ({ '@type': 'City', name: city.name, containedInPlace: { '@type': 'County', name: siteConfig.county } })),
     ],
+    audience: {
+      '@type': 'PeopleAudience',
+      geographicArea: { '@type': 'County', name: siteConfig.county },
+    },
     offers: {
       '@type': 'Offer',
       availability: 'https://schema.org/InStock',
@@ -103,6 +142,7 @@ export function serviceSchema(service: {
         '@type': 'PriceSpecification',
         priceCurrency: 'USD',
       },
+      eligibleRegion: { '@type': 'County', name: siteConfig.county },
     },
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
@@ -110,6 +150,12 @@ export function serviceSchema(service: {
       itemListElement: [
         { '@type': 'Offer', itemOffered: { '@type': 'Service', name: service.name, description: service.shortDescription } },
       ],
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '5.0',
+      reviewCount: String(reviews.length),
+      bestRating: '5',
     },
   }
 }
@@ -173,17 +219,26 @@ export function ownerSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'Person',
+    '@id': `${siteConfig.url}/#owner`,
     name: siteConfig.owner,
     jobTitle: 'Owner & Lead Handyman',
-    worksFor: {
-      '@type': 'HomeAndConstructionBusiness',
-      name: siteConfig.businessName,
-    },
+    description: `${siteConfig.owner} founded ${siteConfig.businessName} in ${siteConfig.established} and has personally led every job for ${siteConfig.yearsExperience}+ years. Licensed Home Improvement Contractor (License #${siteConfig.license.number}, ${siteConfig.license.issuedBy}).`,
+    worksFor: { '@id': `${siteConfig.url}/#business` },
     knowsAbout: siteConfig.knowsAbout,
     address: {
       '@type': 'PostalAddress',
       addressRegion: siteConfig.stateAbbr,
       addressLocality: siteConfig.county,
+    },
+    sameAs: siteConfig.socialProfiles,
+    hasCredential: {
+      '@type': 'EducationalOccupationalCredential',
+      credentialCategory: siteConfig.license.type,
+      identifier: siteConfig.license.number,
+      recognizedBy: {
+        '@type': 'GovernmentOrganization',
+        name: siteConfig.license.issuedBy,
+      },
     },
   }
 }

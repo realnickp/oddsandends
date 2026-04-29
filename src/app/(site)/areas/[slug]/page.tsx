@@ -41,7 +41,7 @@ const howWeWorkSteps = [
   {
     icon: Home,
     title: 'Free On-Site Estimate',
-    description: 'Dan visits your property and provides a clear, written quote — no surprises.',
+    description: 'Our team visits your property and provides a clear, written quote — no surprises.',
   },
   {
     icon: Clock,
@@ -487,10 +487,12 @@ export default async function CityPage({ params }: PageProps) {
       )}
 
       {/* ─── 9. FAQs ─── */}
+      {/* emitSchema={false}: faqSchema already injected at top via SchemaMarkup */}
       <FAQSection
         faqs={city.faqs}
         title="Frequently Asked Questions"
         subtitle={`Common questions from homeowners in ${city.name}`}
+        emitSchema={false}
       />
 
       {/* ─── 10. CTA ─── */}

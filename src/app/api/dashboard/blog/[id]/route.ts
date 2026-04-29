@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getServiceSupabase } from '@/lib/supabase'
+import { pingIndexNow } from '@/lib/indexnow'
+import { siteConfig } from '@/data/site-config'
 import {
   verifyDashboardAuth,
   unauthorizedResponse,
@@ -87,6 +89,15 @@ export async function PUT(
       )
     }
 
+    if (data?.is_published && data?.slug) {
+      const postUrl = `${siteConfig.url}/blog/${data.slug}`
+      pingIndexNow([postUrl, `${siteConfig.url}/blog`])
+        .then((res) => {
+          if (!res.ok) console.warn('IndexNow ping failed:', res.status, res.body)
+        })
+        .catch((e) => console.warn('IndexNow ping threw:', e))
+    }
+
     return NextResponse.json({ success: true, post: data })
   } catch (err) {
     console.error('Blog PUT error:', err)
@@ -107,6 +118,12 @@ export async function DELETE(
     const { id } = await params
     const supabase = getServiceSupabase()
 
+    const { data: existing } = await supabase
+      .from('blog_posts')
+      .select('slug, is_published')
+      .eq('id', id)
+      .single()
+
     const { error } = await supabase
       .from('blog_posts')
       .delete()
@@ -118,6 +135,16 @@ export async function DELETE(
         { error: 'Failed to delete blog post' },
         { status: 500 }
       )
+    }
+
+    // Tell IndexNow the URL is gone so search engines drop it from the index
+    if (existing?.is_published && existing?.slug) {
+      const postUrl = `${siteConfig.url}/blog/${existing.slug}`
+      pingIndexNow([postUrl, `${siteConfig.url}/blog`])
+        .then((res) => {
+          if (!res.ok) console.warn('IndexNow delete ping failed:', res.status, res.body)
+        })
+        .catch((e) => console.warn('IndexNow delete ping threw:', e))
     }
 
     return NextResponse.json({ success: true })

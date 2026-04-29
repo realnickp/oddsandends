@@ -7,23 +7,27 @@ import { ScrollReveal } from '@/components/ui/ScrollReveal'
 import { SectionDivider } from '@/components/ui/SectionDivider'
 
 export async function generateMetadata() {
-  return generatePageMetadata({
+  const base = await generatePageMetadata({
     title: 'Thank You',
     description: 'Thank you for contacting Odds & Ends Handyman Service. We will be in touch shortly.',
     path: '/thank-you',
   })
+  return {
+    ...base,
+    robots: { index: false, follow: true },
+  }
 }
 
 const nextSteps = [
   {
     step: '1',
-    title: 'Dan Reviews Your Request',
-    description: 'Dan personally reads every estimate request and reviews any photos you included.',
+    title: 'We Review Your Request',
+    description: 'Odds & Ends personally reads every estimate request and reviews any photos you included.',
   },
   {
     step: '2',
     title: 'You\'ll Hear Back Soon',
-    description: 'Dan typically responds within a few hours via your preferred contact method.',
+    description: 'We typically respond within a few hours via your preferred contact method.',
   },
   {
     step: '3',
@@ -57,7 +61,7 @@ export default function ThankYouPage() {
                 Thank You!
               </h1>
               <p className="text-lg md:text-xl text-gray-400 font-light mb-3 leading-relaxed">
-                Your estimate request has been received. Dan will review your project details
+                Your estimate request has been received. We'll review your project details
                 and get back to you shortly — usually within a few hours.
               </p>
               <p className="text-gray-500 font-light mb-10">

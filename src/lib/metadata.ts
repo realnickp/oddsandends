@@ -41,7 +41,9 @@ export async function generatePageMetadata({
   const url = `${siteConfig.url}${path}`
 
   return {
-    title: fullTitle,
+    // `absolute` prevents the root layout's `title.template` from
+    // re-appending the brand suffix (which would double it).
+    title: { absolute: fullTitle },
     description: finalDescription,
     ...(finalKeywords && { keywords: finalKeywords }),
     alternates: {

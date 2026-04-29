@@ -31,7 +31,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Nyack's Trusted Handyman Service",
     heroSubheadline: "Expert craftsmanship for the homes that make this Hudson River village so special.",
-    intro: "Nyack homeowners trust Odds & Ends for reliable handyman work. From Victorian trim restoration to porch repair and weatherproofing, Dan has been serving Nyack since 2001.",
+    intro: "Handyman service in Nyack, NY covers everything from trim restoration on 1880s Queen Annes off Broadway to deck weatherproofing on the riverfront homes that line the Hudson. Daniel Kiely founded Odds & Ends right here in Rockland County in 2001, and a quarter century later we still run jobs in Upper Nyack, South Nyack, and along the Hudson Avenue stretch every week. We've patched original lath-and-plaster in pre-war homes near Castle Heights, rebuilt rotting porch columns on Main Street Victorians, and restored cedar trim on Midland Avenue. Carrying a $1 million general liability policy and the Rockland County Home Improvement Contractor license keeps both us and your home protected from start to finish.",
     commonNeeds: [
       "Victorian trim and woodwork restoration",
       "Porch repair and weatherproofing",
@@ -89,7 +89,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "New City's Go-To Handyman Team",
     heroSubheadline: "Reliable, detail-driven home repairs for Clarkstown's busiest hamlet.",
-    intro: "New City homeowners trust Odds & Ends for reliable handyman work. From deck repairs to basement finishing, Dan has been serving New City since 2001.",
+    intro: "Home repair in New City, NY almost always involves a 50-to-60-year-old split-level or raised ranch — the housing built during Clarkstown's 1960s boom that now needs decks rebuilt, basements re-waterproofed, and dated kitchens reworked. Odds & Ends has handled exactly that work since Daniel Kiely opened the business in 2001. We log jobs every week along Little Tor Road, off Old Schoolhouse, near the Rockland County complex, and out toward Phillips Hill. Heavy clay soil throughout central Clarkstown puts steady moisture pressure on basement walls, which is why so much of our New City work touches drainage, sump systems, and lower-level finishing. Holding a 5-star Google rating across our reviews keeps the bar high.",
     commonNeeds: [
       "Deck repair, staining, and replacement",
       "Basement finishing and waterproofing",
@@ -147,7 +147,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Dependable Handyman Service in Nanuet",
     heroSubheadline: "Honest work, fair prices, and the kind of reliability Nanuet homeowners count on.",
-    intro: "Nanuet homeowners trust Odds & Ends for reliable handyman work. From kitchen and bathroom updates to window replacement, Dan has been serving Nanuet since 2001.",
+    intro: "What Odds & Ends does in Nanuet, NY runs heavily toward modernization work — original 1950s kitchens, single-pane windows on Cape Cods, and dated bathrooms on the post-war ranches that fill out neighborhoods like Smith Hill, Highview Avenue, and the Middletown Road area. Galvanized supply lines and original electrical panels are common in this stretch of Rockland County, and many homes are now on their second or third owner. Founded by Daniel Kiely in 2001, our operation handles everything from a single fixture swap to a full bath remodel. We're licensed (H-25-600) and carry a million-dollar general liability policy, so the homeowners off Route 59 and Demarest Mill Road get full peace of mind on every visit.",
     commonNeeds: [
       "Window and door replacement",
       "Kitchen and bathroom updates",
@@ -201,7 +201,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Pearl River's Reliable Handyman Service",
     heroSubheadline: "Keeping Pearl River homes in great shape — from downtown bungalows to quiet side streets.",
-    intro: "Pearl River homeowners trust Odds & Ends for reliable handyman work. From exterior painting to porch and step repair, Dan has been serving Pearl River since 2001.",
+    intro: "Pearl River handyman work calls for a craftsman's touch — the hamlet's downtown core off Central Avenue is full of 1920s-through-1940s bungalows and colonials with original plaster, narrow-gauge oak floors, and cedar-shake exterior details. Tear-and-replace doesn't fly here. Odds & Ends has been doing repair-first carpentry in Rockland County since 2001, and Pearl River is one of our densest service zones — we've patched plaster on Franklin Avenue, restored cedar trim near Pearl River High School, and hung doors on Cape Cods along North Main Street. Owner Dan Kiely runs every job personally, backed by a $1 million general liability policy and the Rockland County Home Improvement Contractor license that's required for residential construction work in the village.",
     commonNeeds: [
       "Exterior painting and siding repair",
       "Porch and step repair",
@@ -255,7 +255,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Affordable Handyman Services in Spring Valley",
     heroSubheadline: "Quality home repairs at fair prices for Spring Valley's hardworking homeowners.",
-    intro: "Spring Valley homeowners trust Odds & Ends for reliable handyman work. From plumbing fixture replacement to interior and exterior painting, Dan has been serving Spring Valley since 2001.",
+    intro: "Handyman jobs in Spring Valley, NY frequently involve multi-family homes, converted two- and three-unit properties, and older infrastructure where deferred maintenance has piled up — galvanized pipes, original fuse panels, single-pane windows. Odds & Ends has been the steady hand on those projects since Daniel Kiely founded the business in 2001. We work across the Main Street corridor, the Route 45 stretch, the Memorial Park neighborhood, and the side streets off Maple Avenue and Ewing. Rockland County's Office of Consumer Protection licenses us as a Home Improvement Contractor (H-25-600), and we maintain a $1 million general liability insurance policy — both essential when coordinating repairs across landlords, tenants, and shared-wall units. Free estimates, written quotes, no surprises.",
     commonNeeds: [
       "Plumbing fixture replacement",
       "Electrical outlet and panel updates",
@@ -309,7 +309,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Haverstraw's Trusted Handyman Team",
     heroSubheadline: "Reliable home repairs for Haverstraw homeowners — from the waterfront to the hilltops.",
-    intro: "Haverstraw homeowners trust Odds & Ends for reliable handyman work. From siding repair to kitchen and bathroom modernization, Dan has been serving Haverstraw since 2001.",
+    intro: "Skilled handyman work in Haverstraw, NY ranges across two very different housing eras — the late-1800s brick row buildings of the historic village core and the 1950s–70s ranches and split-levels that fill out West Haverstraw and the surrounding town. Odds & Ends has handled both since Dan Kiely opened the doors in 2001. We log jobs along the Route 9W corridor, near Bowline Point Park, in the Garner Arts District blocks, and on side streets off Samsondale Avenue. Old brick storefronts need careful repointing and sash work; mid-century Capes need deck rebuilds, fence repair, and bathroom updates. With 25+ years on the books and a 5-star Google rating, the work speaks for itself.",
     commonNeeds: [
       "Siding repair and replacement",
       "Kitchen and bathroom modernization",
@@ -363,7 +363,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Handyman Service You Can Count On in Stony Point",
     heroSubheadline: "From park-side homes to quiet cul-de-sacs — dependable repairs for Stony Point homeowners.",
-    intro: "Stony Point homeowners trust Odds & Ends for reliable handyman work. From deck building to storm damage repair, Dan has been serving Stony Point since 2001.",
+    intro: "Stony Point handyman service has to handle what comes with living next to Harriman State Park — heavy tree debris in gutters, storm damage from northeast systems pushing through the river corridor, and constant moisture pressure on decks and siding from the dense forest canopy. Odds & Ends has worked these conditions since 2001. Our crew runs jobs along the Route 9W corridor, around Tomkins Cove, near the Stony Point Battlefield, and out toward Buckberg Mountain Road. We rebuild storm-damaged porches, treat moss-covered cedar decks, repair fences crushed by fallen limbs, and replace siding hit by wind-driven branches. Daniel Kiely's $1 million general liability policy covers every Rockland County job — including the awkward, wooded ones.",
     commonNeeds: [
       "Deck building and repair",
       "Gutter cleaning and leaf guard installation",
@@ -417,7 +417,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Clarkstown's Premier Handyman Service",
     heroSubheadline: "Expert home care for every hamlet in Rockland County's largest town.",
-    intro: "Clarkstown homeowners trust Odds & Ends for reliable handyman work. From kitchen renovations to deck construction, Dan has been serving Clarkstown since 2001.",
+    intro: "Home improvement work in Clarkstown, NY covers nearly every suburban housing era at once — 1950s Capes in Central Nyack, 1960s split-levels in New City and Nanuet, lakeside cottages around Congers Lake, and newer colonials in Bardonia and Germonds. Odds & Ends has worked across that range since Dan Kiely launched the business in 2001. Because the town's mid-century housing boom produced such a uniform stock, we end up doing the same kinds of jobs — deck rebuilds, basement waterproofing, kitchen mods, drywall and plaster repair — for many neighbors at the same time. The Rockland County Home Improvement Contractor license (H-25-600) and a million-dollar general liability policy back everything we do here.",
     commonNeeds: [
       "Kitchen and bathroom renovation",
       "Deck construction and refinishing",
@@ -475,7 +475,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Orangetown's Experienced Handyman Service",
     heroSubheadline: "Quality home repairs for one of Rockland County's most established communities.",
-    intro: "Orangetown homeowners trust Odds & Ends for reliable handyman work. From exterior painting to bathroom and kitchen upgrades, Dan has been serving Orangetown since 2001.",
+    intro: "Handyman service in Orangetown, NY moves between hamlets that look like different centuries. Tappan has colonial-era Dutch stone houses; Pearl River has 1920s bungalows; Sparkill has early-20th-century colonials; Palisades has riverfront properties just below the Mario Cuomo Bridge. Odds & Ends has worked all of them since 2001 — that's 25+ years across one of Rockland County's most architecturally varied towns. We restore original woodwork on stone homes near the historic '76 House, patch plaster in Sparkill colonials, and rebuild decks on Orangeburg ranches. Owner Daniel Kiely runs every estimate personally; the company holds a Rockland County Home Improvement Contractor license and carries $1 million in general liability coverage. Free, no-obligation written estimates.",
     commonNeeds: [
       "Exterior painting and staining",
       "Roof and gutter maintenance",
@@ -529,7 +529,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Reliable Handyman Services in Ramapo",
     heroSubheadline: "Serving the diverse communities of Rockland County's largest town with quality home repairs.",
-    intro: "Ramapo homeowners trust Odds & Ends for reliable handyman work. From interior painting to deck and fence repair, Dan has been serving Ramapo since 2001.",
+    intro: "Handyman work in Ramapo, NY spans the largest town in Rockland County — from the village core of Suffern at the foot of the Ramapo Mountains, west through wooded Pomona, and east into the dense neighborhoods of Spring Valley, Monsey, and Airmont. That geographic spread means we handle dramatically different conditions: rocky soil and steep grades on mountain-adjacent properties, older infrastructure on the densely built east side. Odds & Ends has run jobs across all of it since Dan Kiely opened the company in 2001. We carry a $1 million general liability policy and the Rockland County Home Improvement Contractor license (H-25-600). Same-day responses to text messages are part of how we keep up across this much territory.",
     commonNeeds: [
       "Interior and exterior painting",
       "Plumbing and fixture updates",
@@ -583,7 +583,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Suffern's Trusted Local Handyman",
     heroSubheadline: "Quality repairs and honest service for Suffern's village homes and beyond.",
-    intro: "Suffern homeowners trust Odds & Ends for reliable handyman work. From historic home maintenance to kitchen and bathroom modernization, Dan has been serving Suffern since 2001.",
+    intro: "Suffern handyman service has to deal with the village's hillside microclimate — heavy runoff pouring off the Ramapo Mountains pushes constant pressure against foundations, and basements take more abuse here than almost anywhere else in Rockland County. Odds & Ends has been at this since 2001. Our regular Suffern routes cover the Lafayette Avenue corridor (Victorians, Foursquares, and craftsman bungalows from the 1880s onward), the village downtown, the side streets off Wayne Avenue, and the hillside neighborhoods near Good Samaritan Hospital. Foundation drainage, sump installation, plaster repair, and original-window restoration are weekly work for us here. Holding a Rockland County Home Improvement Contractor license and $1 million in general liability coverage means homeowners get a fully protected job, every job.",
     commonNeeds: [
       "Historic home maintenance and repair",
       "Interior painting and wallpaper removal",
@@ -637,7 +637,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Piermont's Handyman for Distinctive Homes",
     heroSubheadline: "Meticulous craftsmanship for the homes that define this one-of-a-kind Hudson River village.",
-    intro: "Piermont homeowners trust Odds & Ends for reliable handyman work. From custom carpentry to exterior restoration, Dan has been serving Piermont since 2001.",
+    intro: "Skilled handyman work in Piermont, NY rewards careful planning. The riverfront village's housing — 19th-century paper-mill workers' cottages, hillside homes with dramatic Hudson River views, and tasteful modern renovations — is squeezed onto compact, often awkwardly shaped lots. Odds & Ends has navigated that since Dan Kiely founded the company in 2001. Jobs run along Piermont Avenue, on Ash Street, around Flywheel Park, and across the Sparkill Creek border. We've built custom shelving for tight Ferdon Avenue cottages, restored historic trim on Hudson Terrace homes, and rebuilt decks engineered for steep, river-overlooking grades. Every Rockland County project gets a $1 million general liability backstop and the H-25-600 contractor license that's recognized by the village's permit office.",
     commonNeeds: [
       "Custom carpentry and millwork",
       "High-end bathroom and kitchen renovations",
@@ -695,7 +695,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Handyman Excellence for Grandview-on-Hudson",
     heroSubheadline: "Skilled craftsmanship worthy of the most exclusive address on the Hudson.",
-    intro: "Grandview-on-Hudson homeowners trust Odds & Ends for reliable handyman work. From deck maintenance to premium exterior finishing, Dan has been serving Grandview-on-Hudson since 2001.",
+    intro: "Grandview-on-Hudson handyman work demands a higher finish bar. The village's architect-designed homes, mid-century modern properties, and thoughtfully renovated houses sit on steep, heavily wooded lots overlooking the Hudson River — and the owners expect maintenance work to match the design intent. Odds & Ends has delivered exactly that since 2001. We work along River Road, Broadway, Highland Avenue, and the upper hillside streets near the Tappan Zee overlook. Custom built-ins, premium exterior finish work, decks engineered for view-grade slopes, and trim restoration that matches the original architectural intent are all in our daily mix. As a Licensed Home Improvement Contractor in Rockland County (H-25-600) with $1 million in general liability coverage, we treat these homes the way they were built.",
     commonNeeds: [
       "Deck and terrace maintenance and rebuilding",
       "Premium exterior painting and finishing",
@@ -753,7 +753,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Sparkill's Trusted Handyman Craftsmen",
     heroSubheadline: "Careful, quality work for the quiet homes and tree-lined streets of Sparkill.",
-    intro: "Sparkill homeowners trust Odds & Ends for reliable handyman work. From exterior painting to kitchen and bathroom remodeling, Dan has been serving Sparkill since 2001.",
+    intro: "Handyman service in Sparkill, NY frequently centers on water — Sparkill Creek can push periodic flooding into low-lying lots, and the hamlet's heavy tree canopy means gutters fill, decks grow moss, and painted trim weathers fast. Odds & Ends has handled those exact conditions across Rockland County since 2001. Our Sparkill jobs run along the Route 340 corridor, near St. Thomas Aquinas College, around Depot Square, and on the streets off Mountainview Avenue and Eastern Road. The hamlet's well-kept early-1900s colonials and Cape Cods get the careful original-trim repair, plaster patching, and hardwood touch-up they deserve. Daniel Kiely founded the company in 2001 and still personally writes every estimate; the work is backed by a 5-star Google rating.",
     commonNeeds: [
       "Exterior painting and wood restoration",
       "Kitchen and bathroom remodeling",
@@ -811,7 +811,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Tappan's Handyman for Historic & Modern Homes",
     heroSubheadline: "Preserving the character of one of Rockland County's most historic hamlets — one home at a time.",
-    intro: "Tappan homeowners trust Odds & Ends for reliable handyman work. From historic stone repair to kitchen and bathroom renovations, Dan has been serving Tappan since 2001.",
+    intro: "Tappan handyman work crosses three centuries in a single hamlet. The historic center holds 1700s and 1800s Dutch stone homes with hand-hewn beam construction, wide-plank floors, and original stonework — surrounded by 1920s–40s bungalows, mid-century ranches, and newer colonial developments out toward Route 303. Odds & Ends has worked that full range since Dan Kiely opened the company in 2001. Our crew has restored original trim near the DeWint House, repointed stone walls along Old Tappan Road, and rebuilt decks on Kings Highway colonials. Every Rockland County job carries the protection of our Home Improvement Contractor license (H-25-600) and a $1 million general liability policy — important when working on houses that predate the United States.",
     commonNeeds: [
       "Historic stone and masonry repair",
       "Period-appropriate interior restoration",
@@ -869,7 +869,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Pomona's Preferred Handyman Service",
     heroSubheadline: "Quality craftsmanship for Pomona's nature-surrounded homes and growing community.",
-    intro: "Pomona homeowners trust Odds & Ends for reliable handyman work. From deck construction to exterior painting, Dan has been serving Pomona since 2001.",
+    intro: "Pomona handyman service has to handle big decks, big lots, and big trees. The hamlet's housing is mostly 1970s and 1980s raised ranches and colonials sitting on wooded lots of a half-acre or more — many with substantial decks, detached garages, sheds, and outdoor living space that all needs ongoing care. Odds & Ends has worked Pomona since 2001. Our jobs cluster along the Route 202 corridor, off Camp Hill Road and Quaker Road, and out toward the Harriman State Park border. Deck rebuilds, fence repair, shed siding, and detached-garage roofing are weekly work here. Daniel Kiely's $1 million general liability insurance and Rockland County Home Improvement Contractor license back every project — including the deep-lot ones.",
     commonNeeds: [
       "Deck construction, repair, and staining",
       "Exterior painting and wood protection",
@@ -927,7 +927,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Airmont's Trusted Handyman Service",
     heroSubheadline: "Reliable home repairs and upgrades for Airmont's quiet residential neighborhoods.",
-    intro: "Airmont homeowners count on Odds & Ends for quality repairs and improvements that keep their homes in top shape. As a village within the Town of Ramapo, Airmont's suburban character and family-friendly neighborhoods deserve a handyman service that understands the area and delivers work you can trust.",
+    intro: "What handyman work looks like in Airmont, NY is largely shaped by the 1960s-and-1970s split-level, bi-level, and raised ranch homes that fill the village. Quarter- to half-acre lots, attached one-car garages, modest decks — and now, decades of accumulated maintenance items finally coming due. Odds & Ends has been the team Airmont neighbors call since Dan Kiely founded the company in 2001. We work the Cherry Lane area, Viola Road, Spook Rock Road, the streets off Ewing Avenue, and out toward Doxbury Lane. Deck refinishing, basement updates, dated bathroom modernization, and split-level kitchen reworks are our routine here. The Rockland County Home Improvement Contractor license and $1M general liability coverage make every job paperwork-clean.",
     commonNeeds: [
       "Interior and exterior painting",
       "Deck repair and staining",
@@ -970,7 +970,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Chestnut Ridge's Trusted Handyman Service",
     heroSubheadline: "Expert home repairs and renovations for Chestnut Ridge's distinctive hillside community.",
-    intro: "Chestnut Ridge homeowners turn to Odds & Ends for dependable craftsmanship on every project, from small fixes to full room renovations. Nestled along the ridge between Nanuet and Spring Valley, this village has a mix of housing styles and a community that values quality — and that's exactly what we deliver.",
+    intro: "Chestnut Ridge handyman jobs frequently call for multi-level deck work, walkout basement repairs, and hillside fence builds — the natural consequence of a village that climbs the ridge between Nanuet and Spring Valley. Lots range from a third of an acre to over an acre, and many homes have been significantly expanded over the years. Odds & Ends has worked across Rockland County since Daniel Kiely launched the business in 2001. Our regular Chestnut Ridge routes cover the Red Schoolhouse Road corridor, Hungry Hollow Road, the side streets off Summit Avenue, and homes near Old Schoolhouse Road. Backed by a Rockland County Home Improvement Contractor license (H-25-600) and a $1 million general liability policy, we keep big sloped projects on track.",
     commonNeeds: [
       "Kitchen and bathroom renovations",
       "Deck building and repair",
@@ -1013,7 +1013,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Montebello's Trusted Handyman Service",
     heroSubheadline: "Quality craftsmanship for Montebello's upscale homes and wooded estates.",
-    intro: "Montebello homeowners expect a higher standard — and Odds & Ends delivers. From custom built-ins to complete kitchen renovations, we bring careful attention to detail and honest pricing to every project in this beautiful Ramapo hillside village.",
+    intro: "Montebello handyman work runs toward the high end. The Ramapo hillside village is dominated by 1980s-through-2000s colonials and contemporary homes on lots of an acre or more, with traditional architecture, stone and cedar exteriors, attached two-car garages, and finished basements. Owners expect handyman work to look as deliberate as the original construction. Odds & Ends has delivered that standard since 2001. Our jobs run along Montebello Road, off Spook Rock Road and Hemion Road, around the Blue Hill area, and out toward the Harriman State Park border. Custom built-ins, finished-basement work, premium exterior maintenance, and large-deck rebuilds make up most of our local mix. Licensed (H-25-600) and insured for $1 million in general liability — the bare minimum for this caliber of home.",
     commonNeeds: [
       "Custom built-in cabinetry",
       "Kitchen and bathroom renovations",
@@ -1056,7 +1056,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "New Hempstead's Trusted Handyman Service",
     heroSubheadline: "Dependable repairs and improvements for New Hempstead's family-oriented community.",
-    intro: "New Hempstead families rely on Odds & Ends for home repairs and upgrades that stand the test of time. Centrally located in the Town of Ramapo, this village has a strong residential character — and we're proud to be the handyman service that neighbors recommend to each other.",
+    intro: "Handyman service in New Hempstead, NY skews toward the kind of work that keeps a 1970s-or-1980s home moving forward another generation. The village's split-levels, raised ranches, and colonials — solidly built on quarter-to-third-acre lots — frequently still have original kitchens, original bathrooms, original flooring, and partially finished basements that are ready for the second-pass renovation. Odds & Ends has done exactly that work in Rockland County since 2001. We run jobs along the New Hempstead Road corridor, on Brick Church Road, near Pennington Way, and across to the Kearsing Parkway area. Daniel Kiely founded the business 25+ years ago and still inspects every estimate; backed by $1 million in general liability coverage and a 5-star Google rating across all reviews.",
     commonNeeds: [
       "Bathroom renovations",
       "Painting and wall repairs",
@@ -1099,7 +1099,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Sloatsburg's Trusted Handyman Service",
     heroSubheadline: "Skilled home repairs for Sloatsburg's mountain-edge community.",
-    intro: "Sloatsburg homeowners know that living at the gateway to Harriman State Park comes with unique maintenance demands. Odds & Ends provides the skilled, reliable handyman services this close-knit village needs — from weatherproofing decks to renovating kitchens in homes that have stood here for generations.",
+    intro: "Sloatsburg handyman work has to keep up with the demands of homes built right at the gateway to Harriman State Park. Turn-of-the-century cottages near the village center, mid-century capes and ranches further out, and newer construction along the mountain edges — all of them dealing with wooded lots, hilly grades, heavy leaf fall, and the kind of moisture and storm exposure that defines Rockland County's western edge. Odds & Ends has worked these conditions since Dan Kiely founded the business in 2001. We run jobs in Eagle Valley, along the Route 17 corridor, on Sterling Mine Road, and out the Seven Lakes Drive area. Cottage restoration, deck weatherproofing, fence repair, and exterior painting are weekly work; insurance: $1M general liability.",
     commonNeeds: [
       "Deck building and restoration",
       "Exterior painting and staining",
@@ -1142,7 +1142,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Upper Nyack's Trusted Handyman Service",
     heroSubheadline: "Careful craftsmanship for Upper Nyack's hillside homes and historic properties.",
-    intro: "Upper Nyack homeowners appreciate the village's quiet, tree-lined character — and they need a handyman service that matches that sensibility. Odds & Ends brings thoughtful, detail-oriented work to every project here, from restoring original woodwork to building new decks that take advantage of those Hudson River views.",
+    intro: "Upper Nyack handyman work calls for the same careful hand the village itself was built with. Stately Victorians and Colonial Revival homes near the center, mid-century ranches climbing the hillside toward Hook Mountain State Park, and contemporary builds that capitalize on Hudson River views — all on heavily wooded, often steeply graded lots. Odds & Ends has worked across Rockland County since 2001. Our Upper Nyack routes cover Old Mill Road, North Midland Avenue, Castle Heights, Larchdale Avenue, and the streets near Hook Mountain. Original woodwork restoration, view-grade deck builds, and hillside fence work are routine for us here. Daniel Kiely runs every project personally, with the Rockland County Home Improvement Contractor license and $1 million in general liability coverage backing the work.",
     commonNeeds: [
       "Deck construction with river views",
       "Interior painting and trim restoration",
@@ -1185,7 +1185,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Congers' Trusted Handyman Service",
     heroSubheadline: "Reliable home repairs and upgrades for Congers' lakeside community.",
-    intro: "Congers homeowners rely on Odds & Ends for skilled, dependable work on homes throughout this welcoming Clarkstown hamlet. Whether your house overlooks Congers Lake or sits along one of the quiet side streets, we deliver quality craftsmanship and fair pricing on every project.",
+    intro: "Congers handyman service runs heavily toward water management. The hamlet sits around Congers Lake, and the elevated humidity that comes with it accelerates paint failure on siding, wood deterioration on decks, and basement moisture in lower-lying homes. Odds & Ends has handled those conditions across Rockland County since 2001. Most Congers homes are 1950s-through-1970s capes, ranches, and split-levels — meaning we're often updating original kitchens, refinishing original decks, and managing recurring moisture issues all at once. Routes cover the Congers Lake area, Lake Road, the Route 303 corridor, Old Lake Road, and the side streets off Sierra Vista. We carry a Rockland County Home Improvement Contractor license and a $1 million general liability policy. Same-day text response.",
     commonNeeds: [
       "Interior and exterior painting",
       "Deck repair and refinishing",
@@ -1228,7 +1228,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Blauvelt's Trusted Handyman Service",
     heroSubheadline: "Expert home repairs for Blauvelt's established neighborhoods and charming properties.",
-    intro: "Blauvelt homeowners trust Odds & Ends for reliable, high-quality work on every project. This Orangetown hamlet's blend of historic charm and suburban convenience means homes here have a character worth preserving — and updating when the time is right.",
+    intro: "What we do in Blauvelt, NY is mostly thoughtful preservation work — many of these homes have been in the same family for decades, and homeowners want to maintain original character rather than gut and replace. Built-in cabinetry, original hardwood floors, plaster walls, and the cedar trim details that define the colonial-style homes along Western Highway all benefit from a careful repair-first approach. Odds & Ends has been doing this in Rockland County since Dan Kiely opened the business in 2001. We run jobs along the Western Highway corridor, on Greenbush Road, near Blauvelt State Park, and on the side streets off Clausland Mountain Road. Licensed (H-25-600) and carrying $1 million in general liability — the homeowners here expect both.",
     commonNeeds: [
       "Interior painting and trim work",
       "Kitchen cabinet refinishing",
@@ -1271,7 +1271,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Valley Cottage's Trusted Handyman Service",
     heroSubheadline: "Quality home repairs and upgrades for Valley Cottage's family-friendly neighborhoods.",
-    intro: "Valley Cottage homeowners count on Odds & Ends for the kind of work that makes a real difference — updated bathrooms, refinished decks, fresh paint, and the dozens of smaller repairs that keep a home running smoothly. We've been serving this Clarkstown hamlet for years and our work speaks for itself.",
+    intro: "Valley Cottage handyman work hits the sweet spot for mid-century home updates. The hamlet's housing — predominantly ranches, capes, and split-levels built between the late 1950s and the 1970s — is right at the age when bathrooms need refreshing, decks need rebuilding, and exterior paint needs more than a touch-up. Odds & Ends has done that work across Rockland County since Daniel Kiely founded the business in 2001. Our regular Valley Cottage stops cover the Route 303 corridor, the Lake Road area near Lake DeForest, the streets off Storms Road, and the Hilltop section that climbs toward High Tor. Above-ground pools, decks, and patios are common additions we maintain. Free written estimates, a Home Improvement Contractor license, and $1M GL coverage.",
     commonNeeds: [
       "Deck repair and staining",
       "Bathroom renovations",
@@ -1314,7 +1314,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Thiells' Trusted Handyman Service",
     heroSubheadline: "Dependable repairs and improvements for Thiells' growing community.",
-    intro: "Thiells homeowners turn to Odds & Ends for quality work that lasts. Straddling the border of Haverstraw and Stony Point in northern Rockland County, Thiells has a mix of established neighborhoods and newer developments — and we have the experience to serve them all.",
+    intro: "Thiells handyman service runs across two distinct housing eras at once. The hamlet straddles the Haverstraw and Stony Point border in northern Rockland County and holds both 1960s-and-1970s ranches and split-levels in the established neighborhoods plus 1990s-and-2000s townhouse and condominium developments. Odds & Ends has worked both since Dan Kiely launched the business in 2001. Our crew runs jobs along the Route 202 corridor, on Thiells-Mount Ivy Road, off Filors Lane, near the Anthony Wayne Recreation Area entrance, and out the Bulsontown Road stretch. Mid-century homes need deck rebuilds and bathroom refreshes; townhomes need interior carpentry and unit-level repair. Holding the Rockland County Home Improvement Contractor license (H-25-600) and $1M in general liability coverage.",
     commonNeeds: [
       "Deck building and repair",
       "Interior and exterior painting",
@@ -1357,7 +1357,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Garnerville's Trusted Handyman Service",
     heroSubheadline: "Skilled repairs and renovations for Garnerville's riverside homes.",
-    intro: "Garnerville homeowners rely on Odds & Ends for honest, quality work that respects both their homes and their budgets. This Haverstraw hamlet has a rich history and a housing stock that ranges from century-old gems to modern builds — and we have the versatility to handle them all.",
+    intro: "Garnerville handyman work hits a useful crossroads of housing eras. The hamlet's Haverstraw setting holds late-1800s and early-1900s workers' cottages and two-family homes near the village center, 1950s-and-1960s ranches and capes climbing the surrounding hillsides, and pockets of newer construction. Odds & Ends has worked all of it across Rockland County since Daniel Kiely opened the business in 2001. We run jobs along the Route 202 area, near the Garnerville Arts & Industrial Center, off Rosman Road, on Railroad Avenue, and around Letchworth Village. The older cottages get plaster work, hardwood touch-ups, and tight-floor-plan carpentry. The mid-century homes get bathroom refreshes and decks rebuilt. Licensed Home Improvement Contractor in Rockland County, $1M general liability — protection on every job.",
     commonNeeds: [
       "Interior painting and plaster repair",
       "Bathroom renovations",
@@ -1400,7 +1400,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Sleepy Hollow's Trusted Handyman Service",
     heroSubheadline: "Quality craftsmanship for the historic homes and modern residences of this legendary Hudson River village.",
-    intro: "Sleepy Hollow homeowners trust Odds & Ends for dependable handyman work that respects this village's rich character. From restoring original woodwork in century-old homes along Broadway to upgrading kitchens in the newer developments off Route 9, we bring the same attention to detail we've built our reputation on in Rockland County — now just a short drive across the Mario Cuomo Bridge.",
+    intro: "Sleepy Hollow handyman work spans two completely different housing types. The village's historic core along Broadway is full of century-old colonials, Dutch-influenced stone homes, and modest workers' cottages — many with original plaster, narrow oak floors, and aged heating systems. Just to the south, the Edge-on-Hudson waterfront development brings modern condos and townhomes that need a different kind of finish work. Odds & Ends has worked across Westchester County and back to our Rockland County base since Dan Kiely founded the company in 2001. We routinely make the short drive over the Mario Cuomo Bridge for jobs in Webber Park, around Bellwood Avenue, and out toward Philipse Manor. Backed by a $1 million general liability insurance policy and 25+ years of hands-on experience.",
     commonNeeds: [
       "Interior painting and plaster repair in pre-war homes",
       "Deck repair and refinishing on hillside properties",
@@ -1442,7 +1442,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Tarrytown's Trusted Handyman Service",
     heroSubheadline: "Careful, quality work for the Victorians, colonials, and character homes that define this Hudson River village.",
-    intro: "Tarrytown homeowners count on Odds & Ends for skilled handyman work that matches the care these homes deserve. Whether you need trim restoration on a Victorian along Grove Street or a kitchen refresh in a colonial off Neperan Road, we bring over two decades of experience right across the Mario Cuomo Bridge from our Rockland County base.",
+    intro: "Tarrytown handyman jobs usually start with a layered diagnosis. The village's Victorians, Tudors, and colonials — most built between the 1880s and 1930s — frequently carry decades of renovation history inside the same wall: original plaster, mid-century drywall patches, modern skim coats. Hilly terrain and a mature tree canopy add steady gutter and drainage challenges. Odds & Ends has worked these layered older homes across Westchester County and Rockland County since Daniel Kiely launched the business in 2001. We make the run across the Mario Cuomo Bridge to jobs on Grove Street, Wildey Street, the Neperan Road corridor, and the side streets off Leroy Avenue. With 25+ years of hands-on experience and a $1 million general liability policy, the careful work gets done right.",
     commonNeeds: [
       "Interior and exterior painting on period homes",
       "Cabinet refinishing and kitchen updates",
@@ -1484,7 +1484,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Irvington's Trusted Handyman Service",
     heroSubheadline: "Meticulous craftsmanship for the distinctive homes of this scenic Hudson River village.",
-    intro: "Irvington homeowners choose Odds & Ends for handyman work that matches the quality of their homes. This is a village where details matter — from the built-ins in a 1920s Tudor to the custom shelving in a renovated colonial. We bring over 20 years of experience from our Rockland County base, just a quick trip across the Mario Cuomo Bridge.",
+    intro: "Irvington handyman service runs at the high end of Westchester County standards. The village is one of the most architecturally cohesive on the Hudson, with a housing stock dominated by well-preserved Tudors, colonials, and Arts and Crafts homes from the early 1900s through the 1940s — slate roofs, stucco exteriors, leaded glass windows, and built-in cabinetry are common. Odds & Ends has worked these homes since 2001 from our Rockland County base, just across the Mario Cuomo Bridge. We've handled built-in restoration in 1920s Tudors near Main Street, trim repair on Station Road colonials, and finish carpentry on Harriman Road. Steep terrain and tight lots make logistics matter. Bonded with $1 million in general liability coverage and a 5-star Google rating to match the work.",
     commonNeeds: [
       "Custom built-in shelving and cabinetry",
       "Kitchen renovation and modernization",
@@ -1526,7 +1526,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Dobbs Ferry's Trusted Handyman Service",
     heroSubheadline: "Reliable home repairs and upgrades for the families and homeowners of this welcoming riverfront village.",
-    intro: "Dobbs Ferry homeowners rely on Odds & Ends for handyman work that's done right and built to last. Whether you're updating a bathroom in a 1950s Cape Cod or installing new flooring in a renovated colonial, we bring over two decades of hands-on experience from our Rockland County base — just a drive across the Mario Cuomo Bridge.",
+    intro: "Dobbs Ferry handyman work moves between several distinct building eras inside one village. Pre-war colonials and Tudors fill the hillside neighborhoods (1920s plaster, original lath, ornate trim), mid-century Capes and ranches dominate the central streets (1960s drywall, dated kitchens), and modern condos cluster near the Metro-North station. Odds & Ends has handled all three since Dan Kiely founded the company in 2001. From our Rockland County base, we make the run across the Mario Cuomo Bridge to jobs on Cedar Street, Walnut Street, the Palisade Street corridor, and around the Mercy College campus. 25+ years of working with everything from 1920s plaster to contemporary construction means the right tool comes out the first time. $1 million general liability policy, free estimates.",
     commonNeeds: [
       "Bathroom renovation and fixture upgrades",
       "Flooring installation and refinishing",

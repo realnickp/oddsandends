@@ -24,7 +24,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'tv-mounting',
     serviceName: 'TV Mounting',
     headline: 'Plan Your TV Mounting',
-    subtitle: 'A few quick questions so Dan can prep the right hardware',
+    subtitle: 'A few quick questions so we can prep the right hardware',
     steps: [
       {
         id: 'wall-type',
@@ -58,7 +58,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
           { label: '📐 Fixed (flat to wall)', value: 'fixed' },
           { label: '↕️ Tilt', value: 'tilt' },
           { label: '🔄 Full-motion / Swivel', value: 'full-motion' },
-          { label: '🤷 Not sure — Dan can help', value: 'not-sure' },
+          { label: '🤷 Not sure — we can help', value: 'not-sure' },
         ],
       },
       {
@@ -78,7 +78,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'drywall-repair',
     serviceName: 'Drywall Repair',
     headline: 'Plan Your Drywall Repair',
-    subtitle: 'Help Dan understand the damage so he can come prepared',
+    subtitle: 'Help us understand the damage so we can come prepared',
     steps: [
       {
         id: 'damage-type',
@@ -121,7 +121,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'door-installation',
     serviceName: 'Door Installation',
     headline: 'Plan Your Door Installation',
-    subtitle: 'Tell Dan about the door project so he can come ready',
+    subtitle: 'Tell us about the door project so we can come ready',
     steps: [
       {
         id: 'door-type',
@@ -162,7 +162,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'fence-repair',
     serviceName: 'Fence Repair',
     headline: 'Plan Your Fence Repair',
-    subtitle: 'Quick details so Dan knows what tools and materials to bring',
+    subtitle: 'Quick details so we know what tools and materials to bring',
     steps: [
       {
         id: 'fence-material',
@@ -204,7 +204,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'deck-repair',
     serviceName: 'Deck Repair',
     headline: 'Plan Your Deck Repair',
-    subtitle: 'Help Dan assess your deck before the visit',
+    subtitle: 'Help us assess your deck before the visit',
     steps: [
       {
         id: 'deck-issue',
@@ -245,7 +245,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'furniture-assembly',
     serviceName: 'Furniture Assembly',
     headline: 'Plan Your Furniture Assembly',
-    subtitle: "Tell Dan what you've got so he can estimate time",
+    subtitle: "Tell us what you've got so we can estimate time",
     steps: [
       {
         id: 'furniture-brand',
@@ -289,7 +289,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'light-fixture-installation',
     serviceName: 'Light Fixture Installation',
     headline: 'Plan Your Light Fixture Install',
-    subtitle: 'Quick details so Dan comes with the right tools',
+    subtitle: 'Quick details so we come with the right tools',
     steps: [
       {
         id: 'fixture-type',
@@ -331,7 +331,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'bathroom-renovation',
     serviceName: 'Bathroom Renovation',
     headline: 'Plan Your Bathroom Project',
-    subtitle: 'Check off everything you need and Dan will put together a complete estimate',
+    subtitle: "Check off everything you need and we'll put together a complete estimate",
     steps: [
       {
         id: 'bathroom-scope',
@@ -341,7 +341,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
           { label: '🏗️ Full bathroom refresh', value: 'full-refresh' },
           { label: '🔄 Update a few things', value: 'partial' },
           { label: '🔧 One fixture or repair', value: 'single' },
-          { label: '🤔 Not sure — want Dan\'s input', value: 'unsure' },
+          { label: '🤔 Not sure — want our input', value: 'unsure' },
         ],
       },
       {
@@ -382,7 +382,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
         options: [
           { label: '✅ Yes, everything is purchased', value: 'have-all' },
           { label: '🛒 Some things, still shopping', value: 'have-some' },
-          { label: '🤷 No, need Dan\'s recommendations', value: 'need-help' },
+          { label: '🤷 No, need recommendations', value: 'need-help' },
         ],
       },
     ],
@@ -392,7 +392,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'kitchen-renovation',
     serviceName: 'Kitchen Renovation',
     headline: 'Plan Your Kitchen Project',
-    subtitle: 'Check off what you need and Dan will put together a complete estimate',
+    subtitle: "Check off what you need and we'll put together a complete estimate",
     steps: [
       {
         id: 'kitchen-scope',
@@ -402,7 +402,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
           { label: '🏗️ Full kitchen refresh', value: 'full-refresh' },
           { label: '🔄 Update a few things', value: 'partial' },
           { label: '🔧 One item or repair', value: 'single' },
-          { label: '🤔 Not sure — want Dan\'s input', value: 'unsure' },
+          { label: '🤔 Not sure — want our input', value: 'unsure' },
         ],
       },
       {
@@ -442,7 +442,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
         options: [
           { label: '✅ Yes, everything is purchased', value: 'have-all' },
           { label: '🛒 Some things, still shopping', value: 'have-some' },
-          { label: '🤷 No, need Dan\'s recommendations', value: 'need-help' },
+          { label: '🤷 No, need recommendations', value: 'need-help' },
         ],
       },
     ],
@@ -452,7 +452,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'flooring',
     serviceName: 'Flooring Installation',
     headline: 'Plan Your Flooring Project',
-    subtitle: 'A few details so Dan can give you an accurate quote',
+    subtitle: 'A few details so we can give you an accurate quote',
     steps: [
       {
         id: 'flooring-material',
@@ -522,7 +522,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'tile-work',
     serviceName: 'Tile Work',
     headline: 'Plan Your Tile Project',
-    subtitle: 'Tell Dan about your tile job so he can give you an accurate quote',
+    subtitle: 'Tell us about your tile job so we can give you an accurate quote',
     steps: [
       {
         id: 'tile-type',
@@ -577,7 +577,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'painting',
     serviceName: 'Painting',
     headline: 'Plan Your Painting Project',
-    subtitle: 'A few details so Dan can give you an accurate quote',
+    subtitle: 'A few details so we can give you an accurate quote',
     steps: [
       {
         id: 'paint-scope',
@@ -660,7 +660,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'cabinet-refinishing',
     serviceName: 'Cabinet Refinishing',
     headline: 'Plan Your Cabinet Refinishing',
-    subtitle: 'Help Dan understand the cabinet project',
+    subtitle: 'Help us understand the cabinet project',
     steps: [
       {
         id: 'cabinet-goal',
@@ -702,7 +702,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'picture-hanging',
     serviceName: 'Picture Hanging',
     headline: 'Plan Your Picture Hanging',
-    subtitle: "Tell Dan what you're hanging",
+    subtitle: "Tell us what you're hanging",
     steps: [
       {
         id: 'hanging-scope',
@@ -764,7 +764,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'doorknob-and-handle-replacement',
     serviceName: 'Doorknob & Handle Replacement',
     headline: 'Plan Your Hardware Upgrade',
-    subtitle: 'Tell Dan about your door hardware project',
+    subtitle: 'Tell us about your door hardware project',
     steps: [
       {
         id: 'hardware-type',
@@ -795,7 +795,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'curtain-and-blind-installation',
     serviceName: 'Curtain & Blind Installation',
     headline: 'Plan Your Window Treatment Install',
-    subtitle: 'Tell Dan about your curtain or blind project',
+    subtitle: 'Tell us about your curtain or blind project',
     steps: [
       {
         id: 'treatment-type',
@@ -836,7 +836,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'ceiling-fan-installation-and-replacement',
     serviceName: 'Ceiling Fan Installation',
     headline: 'Plan Your Ceiling Fan Install',
-    subtitle: 'Details so Dan can prep for the job',
+    subtitle: 'Details so we can prep for the job',
     steps: [
       {
         id: 'fan-situation',
@@ -874,7 +874,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'smart-home-device-setup',
     serviceName: 'Smart Home Setup',
     headline: 'Plan Your Smart Home Setup',
-    subtitle: 'Tell Dan which devices need installing',
+    subtitle: 'Tell us which devices need installing',
     steps: [
       {
         id: 'smart-devices',
@@ -908,7 +908,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'home-office-setup',
     serviceName: 'Home Office Setup',
     headline: 'Plan Your Home Office Setup',
-    subtitle: 'Tell Dan what your workspace needs',
+    subtitle: 'Tell us what your workspace needs',
     steps: [
       {
         id: 'office-needs',
@@ -939,7 +939,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'closet-system-installation',
     serviceName: 'Closet System Installation',
     headline: 'Plan Your Closet Makeover',
-    subtitle: 'Help Dan understand the closet project',
+    subtitle: 'Help us understand the closet project',
     steps: [
       {
         id: 'closet-type',
@@ -971,7 +971,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'custom-accent-walls',
     serviceName: 'Custom Accent Walls',
     headline: 'Plan Your Accent Wall',
-    subtitle: 'Tell Dan about your vision',
+    subtitle: 'Tell us about your vision',
     steps: [
       {
         id: 'wall-style',
@@ -1002,7 +1002,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
         type: 'single-select',
         options: [
           { label: '✅ Yes, materials purchased', value: 'have-materials' },
-          { label: '🛒 Need Dan to recommend', value: 'need-recommendation' },
+          { label: '🛒 Need a recommendation', value: 'need-recommendation' },
           { label: '🤔 Still deciding', value: 'deciding' },
         ],
       },
@@ -1013,7 +1013,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'wainscoting',
     serviceName: 'Wainscoting',
     headline: 'Plan Your Wainscoting Project',
-    subtitle: 'Help Dan understand your wainscoting vision',
+    subtitle: 'Help us understand your wainscoting vision',
     steps: [
       {
         id: 'wainscoting-style',
@@ -1056,7 +1056,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'built-ins',
     serviceName: 'Custom Built-Ins',
     headline: 'Plan Your Built-In Project',
-    subtitle: 'Help Dan understand your custom build',
+    subtitle: 'Help us understand your custom build',
     steps: [
       {
         id: 'builtin-type',
@@ -1101,7 +1101,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'excavation',
     serviceName: 'Excavation',
     headline: 'Plan Your Excavation Project',
-    subtitle: 'A few details so Dan can line up the right equipment',
+    subtitle: 'A few details so we can line up the right equipment',
     steps: [
       {
         id: 'job-type',
@@ -1153,7 +1153,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'gravel-pads',
     serviceName: 'Gravel Pads',
     headline: 'Plan Your Gravel Pad',
-    subtitle: 'Tell Dan about your pad project so he can prep materials',
+    subtitle: 'Tell us about your pad project so we can prep materials',
     steps: [
       {
         id: 'pad-purpose',
@@ -1196,7 +1196,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'sheds',
     serviceName: 'Sheds',
     headline: 'Plan Your Shed Project',
-    subtitle: 'Help Dan understand the build so he comes prepared',
+    subtitle: 'Help us understand the build so we come prepared',
     steps: [
       {
         id: 'shed-type',
@@ -1246,7 +1246,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'tiki-bars',
     serviceName: 'Tiki Bars',
     headline: 'Plan Your Tiki Bar Build',
-    subtitle: 'Tell Dan about your dream bar so he can make it happen',
+    subtitle: 'Tell us about your dream bar so we can make it happen',
     steps: [
       {
         id: 'bar-style',
@@ -1256,7 +1256,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
           { label: '🌴 Bamboo tropical', value: 'bamboo-tropical' },
           { label: '🪵 Rustic wood', value: 'rustic-wood' },
           { label: '🔲 Modern bar', value: 'modern' },
-          { label: '🤷 Not sure — want Dan\'s input', value: 'not-sure' },
+          { label: '🤷 Not sure — want our input', value: 'not-sure' },
         ],
       },
       {
@@ -1300,7 +1300,7 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     serviceSlug: 'outdoor-structures',
     serviceName: 'Outdoor Structures',
     headline: 'Plan Your Outdoor Build',
-    subtitle: 'Tell Dan about your backyard project',
+    subtitle: 'Tell us about your backyard project',
     steps: [
       {
         id: 'structure-type',

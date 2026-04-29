@@ -115,7 +115,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         <div className="aspect-[16/9] relative rounded-2xl overflow-hidden shadow-2xl">
           <Image
             src={post.image}
-            alt={post.title}
+            alt={post.imageAlt || post.title}
             fill
             priority
             className="object-cover"

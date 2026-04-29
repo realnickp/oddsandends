@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useCallback } from 'react'
 import { useSearchParams } from 'next/navigation'
-import { useDashboard } from '../layout'
+import { useDashboard } from '../_DashboardClient'
 import {
   Phone,
   MessageSquare,

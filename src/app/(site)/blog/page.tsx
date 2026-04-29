@@ -51,7 +51,7 @@ export default function BlogPage() {
                 <span className="text-gradient">Tips & Guides</span>
               </h1>
               <p className="text-lg md:text-xl text-gray-400 font-light leading-relaxed">
-                Practical advice for Rockland County homeowners from Dan Kiely,
+                Practical advice for Rockland County homeowners from the Odds & Ends team,
                 with 20+ years of hands-on experience. Learn when to DIY, when to
                 call a pro, and how to keep your home in great shape.
               </p>
@@ -76,7 +76,7 @@ export default function BlogPage() {
                     <div className="aspect-[16/9] relative overflow-hidden">
                       <Image
                         src={post.image}
-                        alt={post.title}
+                        alt={post.imageAlt || post.title}
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-500"
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"

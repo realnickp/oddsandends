@@ -3,7 +3,7 @@ import { Footer } from '@/components/layout/Footer'
 import { MobileStickyCTA } from '@/components/layout/MobileStickyCTA'
 import { ScrollToTop } from '@/components/layout/ScrollToTop'
 import { SchemaMarkup } from '@/components/seo/SchemaMarkup'
-import { localBusinessSchema, organizationSchema } from '@/lib/schema'
+import { localBusinessSchema, organizationSchema, ownerSchema, websiteSchema } from '@/lib/schema'
 import { ChatWidget } from '@/components/chat/ChatWidget'
 
 export default function SiteLayout({
@@ -13,7 +13,7 @@ export default function SiteLayout({
 }) {
   return (
     <>
-      <SchemaMarkup schema={[localBusinessSchema(), organizationSchema()]} />
+      <SchemaMarkup schema={[localBusinessSchema(), organizationSchema(), ownerSchema(), websiteSchema()]} />
       <ScrollToTop />
       <div id="page-content">
         <Header />

@@ -11,6 +11,7 @@ export interface BlogPost {
   publishedDate: string
   author: string
   image: string
+  imageAlt: string
 }
 
 export const blogPosts: BlogPost[] = [
@@ -56,9 +57,10 @@ Not sure if your damage warrants a pro? Snap a photo and request a free estimate
     metaTitle: 'When Does Drywall Need Professional Repair? | Odds & Ends',
     metaDescription:
       'Learn the warning signs that your drywall damage needs professional repair. From recurring cracks to water damage, know when to call a Rockland County handyman.',
-    publishedDate: '2025-09-05',
-    author: 'Daniel Kiely',
+    publishedDate: '2025-02-25',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/drywall-repair.jpg',
+    imageAlt: 'Cracked drywall before professional handyman patch repair in Rockland County home',
   },
   {
     slug: 'best-places-to-mount-tv-in-older-rockland-county-homes',
@@ -100,9 +102,10 @@ A poorly mounted TV is a safety hazard, especially with children or pets. Reques
     metaTitle: 'TV Mounting in Older Rockland County Homes | Odds & Ends',
     metaDescription:
       'Find the best TV mounting spots in older Rockland County homes. Tips for plaster walls, fireplace placement, and clean cable management from a local handyman.',
-    publishedDate: '2025-09-18',
-    author: 'Daniel Kiely',
+    publishedDate: '2025-03-15',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/tv-mounting.jpg',
+    imageAlt: 'Flat-screen TV professionally mounted on plaster wall in older Rockland County home',
   },
   {
     slug: 'common-handyman-jobs-before-selling-home',
@@ -156,9 +159,10 @@ A single handyman visit can knock out a long pre-sale list in one day. At Odds &
     metaTitle: 'Handyman Jobs to Do Before Selling Your Home | Odds & Ends',
     metaDescription:
       'Prepare your Rockland County home for sale with these handyman fixes. Patching walls, updating fixtures, and more to get market-ready without major renovations.',
-    publishedDate: '2025-10-02',
-    author: 'Daniel Kiely',
+    publishedDate: '2025-04-22',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/home-selling-prep.jpg',
+    imageAlt: 'Handyman touch-up work preparing Rockland County home for sale listing',
   },
   {
     slug: 'small-repairs-homeowners-put-off-too-long',
@@ -211,9 +215,10 @@ Address small problems before they become big ones. If you have a list of naggin
     metaTitle: 'Small Home Repairs You Should Not Ignore | Odds & Ends',
     metaDescription:
       'Stop putting off small home repairs. Minor fixes like dripping faucets, cracked caulk, and loose railings should be handled before they become costly problems.',
-    publishedDate: '2025-10-15',
-    author: 'Daniel Kiely',
+    publishedDate: '2025-05-28',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/small-repairs.jpg',
+    imageAlt: 'Common neglected home repairs being completed by handyman in Rockland County',
   },
   {
     slug: 'deck-repair-warning-signs',
@@ -263,9 +268,10 @@ Many issues can be repaired without replacing the entire structure. At Odds & En
     metaTitle: 'Deck Repair Warning Signs for Homeowners | Odds & Ends',
     metaDescription:
       'Spot the warning signs that your deck needs repair. Soft boards, loose railings, and other red flags Rockland County homeowners should watch for.',
-    publishedDate: '2025-10-28',
-    author: 'Daniel Kiely',
+    publishedDate: '2025-06-13',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/deck-warning-signs.jpg',
+    imageAlt: 'Weathered backyard deck showing rot and loose railings before handyman repair',
   },
   {
     slug: 'when-to-replace-vs-repair-light-fixture',
@@ -299,9 +305,10 @@ Not sure whether to repair or replace? Send us a photo and describe the issue. R
     metaTitle: 'Repair or Replace a Light Fixture? | Odds & Ends Guide',
     metaDescription:
       'Learn when to repair your light fixture and when replacement is better. Practical advice from a Rockland County handyman with 20+ years of experience.',
-    publishedDate: '2025-11-08',
-    author: 'Daniel Kiely',
+    publishedDate: '2025-07-19',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/light-fixture.jpg',
+    imageAlt: 'Replacing damaged ceiling light fixture inside Rockland County home interior',
   },
   {
     slug: 'how-to-prepare-photos-for-handyman-estimate',
@@ -347,9 +354,10 @@ Text or email photos when requesting an estimate. Include a brief description li
     metaTitle: 'How to Take Photos for a Handyman Estimate | Odds & Ends',
     metaDescription:
       'Get a more accurate handyman estimate by sending the right photos. Tips on angles, lighting, and what to capture from Odds & Ends Handyman in Rockland County.',
-    publishedDate: '2025-11-20',
-    author: 'Daniel Kiely',
+    publishedDate: '2025-08-25',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/photos-for-estimate.jpg',
+    imageAlt: 'Homeowner photographing handyman project area for free written estimate request',
   },
   {
     slug: 'common-bathroom-fixes-handyman-can-handle',
@@ -403,9 +411,10 @@ Bundle your bathroom repairs. New faucet, running toilet fix, showerhead replace
     metaTitle: 'Bathroom Fixes a Handyman Can Handle | Odds & Ends',
     metaDescription:
       'From faucet replacement to tile repair, learn which common bathroom fixes a handyman can handle. Save money on bathroom repairs in Rockland County.',
-    publishedDate: '2025-12-03',
-    author: 'Daniel Kiely',
+    publishedDate: '2025-09-12',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/bathroom-fixes.jpg',
+    imageAlt: 'Handyman repairing leaking bathroom faucet in Rockland County home',
   },
   {
     slug: 'what-nyack-homeowners-often-need-help-with',
@@ -463,9 +472,10 @@ Whether you live in a grand Victorian on South Broadway or a bungalow near the v
     metaTitle: 'Handyman Services Nyack Homeowners Need Most | Odds & Ends',
     metaDescription:
       'Discover the most common handyman services Nyack homeowners request. From Victorian home maintenance to modern updates, Odds & Ends has served Nyack since 2001.',
-    publishedDate: '2025-12-16',
-    author: 'Daniel Kiely',
+    publishedDate: '2025-10-19',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/nyack-homes.jpg',
+    imageAlt: 'Historic Nyack home receiving handyman repair work near the Hudson River',
   },
   {
     slug: 'what-new-city-homeowners-often-need-help-with',
@@ -524,9 +534,10 @@ Odds & Ends has served New City since 2001. If you have a list of projects, requ
     metaTitle: 'Handyman Services New City Homeowners Need | Odds & Ends',
     metaDescription:
       'Explore the most common handyman services New City, NY homeowners request. Cabinet upgrades, ceiling fans, drywall repair, and more from Odds & Ends.',
-    publishedDate: '2026-01-05',
-    author: 'Daniel Kiely',
+    publishedDate: '2025-11-06',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/new-city-homes.jpg',
+    imageAlt: 'Modern New City NY home with handyman performing interior repair',
   },
   {
     slug: 'complete-guide-to-furniture-assembly-services',
@@ -572,9 +583,10 @@ Contact Odds & Ends for a free estimate. We serve homeowners throughout Rockland
     metaTitle: 'Furniture Assembly Services in Rockland County | Odds & Ends',
     metaDescription:
       'Professional furniture assembly for IKEA, Wayfair, and more. Rockland County homeowners trust Odds & Ends for fast, reliable flat-pack furniture assembly.',
-    publishedDate: '2026-01-15',
-    author: 'Daniel Kiely',
+    publishedDate: '2025-11-24',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/furniture-assembly.jpg',
+    imageAlt: 'Handyman assembling flat-pack furniture inside a customer\'s living room',
   },
   {
     slug: 'why-your-home-needs-regular-smoke-detector-testing',
@@ -628,9 +640,10 @@ If you are unsure about the status of your smoke detectors, request a free estim
     metaTitle: 'Smoke Detector Testing and Replacement | Odds & Ends',
     metaDescription:
       'Learn how often to test smoke detectors and when to replace them. Odds & Ends provides smoke detector testing and replacement across Rockland County, NY.',
-    publishedDate: '2026-01-25',
-    author: 'Daniel Kiely',
+    publishedDate: '2026-01-02',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/smoke-detector.jpg',
+    imageAlt: 'Handyman testing smoke detector battery during home safety inspection',
   },
   {
     slug: 'cabinet-hardware-upgrades-transform-kitchen',
@@ -676,9 +689,10 @@ At Odds & Ends, cabinet hardware installation is one of our most popular service
     metaTitle: 'Kitchen Cabinet Hardware Upgrades | Odds & Ends Guide',
     metaDescription:
       'Transform your kitchen with new cabinet hardware. Tips on choosing the right style, finish, and size from Odds & Ends Handyman in Rockland County, NY.',
-    publishedDate: '2026-02-02',
-    author: 'Daniel Kiely',
+    publishedDate: '2026-01-20',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/cabinet-hardware.jpg',
+    imageAlt: 'Updated brushed nickel cabinet pulls installed on Rockland County kitchen',
   },
   {
     slug: 'smart-home-setup-guide-rockland-county',
@@ -722,9 +736,10 @@ Start with the biggest-impact devices. A smart thermostat and video doorbell are
     metaTitle: 'Smart Home Setup Guide for Rockland County | Odds & Ends',
     metaDescription:
       'A practical smart home setup guide for Rockland County homeowners. Learn which devices to start with and how to handle installation in older homes.',
-    publishedDate: '2026-02-10',
-    author: 'Daniel Kiely',
+    publishedDate: '2026-02-08',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/smart-home.jpg',
+    imageAlt: 'Smart thermostat being installed by handyman in Rockland County home',
   },
   {
     slug: 'creating-the-perfect-home-office-space',
@@ -770,9 +785,10 @@ At Odds & Ends, we handle monitor mounting, shelving, cable management, and ligh
     metaTitle: 'Home Office Setup Guide | Odds & Ends Rockland County',
     metaDescription:
       'Set up the perfect home office in your Rockland County home. Tips on desk placement, monitor mounting, shelving, and cable management from Odds & Ends Handyman.',
-    publishedDate: '2026-02-18',
-    author: 'Daniel Kiely',
+    publishedDate: '2026-02-26',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/home-office.jpg',
+    imageAlt: 'Custom home office build with floating shelves and desk in Rockland County',
   },
   {
     slug: 'seasonal-home-maintenance-checklist-rockland-county',
@@ -813,9 +829,10 @@ For items that need a professional touch, or to knock out the entire seasonal li
     metaTitle: 'Seasonal Home Maintenance Checklist | Odds & Ends Guide',
     metaDescription:
       'Keep your Rockland County home in great shape with this seasonal maintenance checklist. Spring, summer, fall, and winter tips from Odds & Ends Handyman.',
-    publishedDate: '2026-02-25',
-    author: 'Daniel Kiely',
+    publishedDate: '2026-03-15',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/seasonal-maintenance.jpg',
+    imageAlt: 'Seasonal handyman maintenance checklist work outside Rockland County home',
   },
   {
     slug: 'how-to-choose-the-right-ceiling-fan',
@@ -851,9 +868,10 @@ At Odds & Ends, ceiling fan installation is one of our most requested services a
     metaTitle: 'How to Choose the Right Ceiling Fan | Odds & Ends Guide',
     metaDescription:
       'Choose the right ceiling fan size, mount, and style for every room in your home. Expert tips from Odds & Ends Handyman serving Rockland County, NY.',
-    publishedDate: '2026-03-01',
-    author: 'Daniel Kiely',
+    publishedDate: '2026-04-01',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/ceiling-fan.jpg',
+    imageAlt: 'Ceiling fan being installed on bedroom ceiling by Rockland County handyman',
   },
   {
     slug: 'fence-repair-vs-replacement',
@@ -893,9 +911,10 @@ At Odds & Ends, we check every post for rot, inspect rails, and assess overall a
     metaTitle: 'Fence Repair vs Replacement: How to Decide | Odds & Ends',
     metaDescription:
       'Should you repair or replace your fence? Learn how to evaluate damage and make the right call. Fence repair services across Rockland County from Odds & Ends.',
-    publishedDate: '2025-09-25',
-    author: 'Daniel Kiely',
+    publishedDate: '2025-04-02',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/fence-repair.jpg',
+    imageAlt: 'Damaged backyard wood fence section before handyman repair work',
   },
   {
     slug: 'custom-accent-walls-design-ideas',
@@ -947,9 +966,10 @@ At Odds & Ends, we build and install custom accent walls throughout Rockland Cou
     metaTitle: 'Custom Accent Wall Ideas for Every Room | Odds & Ends',
     metaDescription:
       'Get inspired with accent wall ideas for your living room, bedroom, and home office. Professional accent wall installation in Rockland County from Odds & Ends.',
-    publishedDate: '2025-10-10',
-    author: 'Daniel Kiely',
+    publishedDate: '2025-05-09',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/accent-wall.jpg',
+    imageAlt: 'Custom wood-paneled accent wall built in Rockland County living room',
   },
   {
     slug: 'homeowners-guide-to-minor-plumbing-fixes',
@@ -993,9 +1013,10 @@ At Odds & Ends, if a plumbing issue is beyond our scope, we will tell you and re
     metaTitle: 'Minor Plumbing Fixes a Handyman Can Handle | Odds & Ends',
     metaDescription:
       'Learn which plumbing fixes a handyman can handle vs when you need a plumber. Save money on minor plumbing repairs in Rockland County with Odds & Ends.',
-    publishedDate: '2025-11-01',
-    author: 'Daniel Kiely',
+    publishedDate: '2025-07-02',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/plumbing-fixes.jpg',
+    imageAlt: 'Handyman tightening leaky kitchen faucet during minor plumbing repair',
   },
   {
     slug: 'closet-organization-systems-worth-investment',
@@ -1041,9 +1062,10 @@ At Odds & Ends, we install closet systems throughout Rockland County. Request a 
     metaTitle: 'Closet Organization Systems: What to Know | Odds & Ends',
     metaDescription:
       'Find the right closet organization system for your home. Compare wire, laminate, and custom options. Professional closet installation in Rockland County.',
-    publishedDate: '2025-11-15',
-    author: 'Daniel Kiely',
+    publishedDate: '2025-08-07',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/closet-organization.jpg',
+    imageAlt: 'Custom closet organization system installed inside Rockland County master bedroom',
   },
   {
     slug: 'picture-hanging-tips-gallery-walls-heavy-mirrors',
@@ -1087,9 +1109,10 @@ For gallery walls with many pieces, heavy mirrors, art on plaster, or anything r
     metaTitle: 'Picture Hanging Tips: Gallery Walls & Heavy Mirrors',
     metaDescription:
       'Expert picture hanging tips for gallery walls, heavy mirrors, and plaster walls. Professional picture hanging services across Rockland County from Odds & Ends.',
-    publishedDate: '2025-12-10',
-    author: 'Daniel Kiely',
+    publishedDate: '2025-10-01',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/picture-hanging.jpg',
+    imageAlt: 'Gallery wall of framed pictures professionally hung in Rockland County home',
   },
   {
     slug: 'door-installation-replacement-what-homeowners-need-to-know',
@@ -1137,9 +1160,10 @@ A door that is not plumb and square will stick, swing open on its own, or have u
     metaTitle: 'Door Installation & Replacement Guide | Odds & Ends',
     metaDescription:
       'Everything Rockland County homeowners need to know about door installation and replacement. Interior, exterior, and common door fixes from Odds & Ends Handyman.',
-    publishedDate: '2026-01-20',
-    author: 'Daniel Kiely',
+    publishedDate: '2025-12-13',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/door-installation.jpg',
+    imageAlt: 'New interior door being installed and aligned by a Rockland County handyman',
   },
   {
     slug: 'built-ins-that-add-value-rockland-county-home',
@@ -1185,9 +1209,10 @@ Built-ins should look like they belong — matching wood species and paint to ex
     metaTitle: 'Built-Ins That Add Home Value | Odds & Ends Rockland County',
     metaDescription:
       'Discover which custom built-ins add the most value to your Rockland County home. Bookshelves, home office, mudroom storage, and more from Odds & Ends Handyman.',
-    publishedDate: '2026-03-05',
-    author: 'Daniel Kiely',
+    publishedDate: '2026-04-13',
+    author: 'Odds & Ends Handyman Service',
     image: '/images/blog/built-ins.jpg',
+    imageAlt: 'Custom built-in bookshelves added to a Rockland County family room',
   },
   {
     slug: 'paint-touch-ups-vs-full-room-painting',
@@ -1235,8 +1260,152 @@ At Odds & Ends, we handle both touch-ups and full room painting throughout Rockl
     metaTitle: 'Paint Touch-Ups vs Full Room Painting | Odds & Ends Handyman',
     metaDescription:
       'Should you touch up your paint or repaint the whole room? Learn how to decide and get the best result. Painting services in Rockland County from Odds & Ends.',
-    publishedDate: '2026-03-10',
+    publishedDate: '2026-04-22',
+    author: 'Odds & Ends Handyman Service',
+    image: '/images/blog/paint-touchups.jpg',
+    imageAlt: 'Handyman performing precise wall paint touch-up in Rockland County home',
+  },
+  {
+    slug: 'rockland-county-handyman-pricing-2026',
+    title: 'Average Handyman Pricing in Rockland County 2026: Real Data From 50 Recent Jobs',
+    excerpt:
+      'What does a handyman actually cost in Rockland County, NY? We pulled the numbers from 50 real jobs we completed between January 2025 and March 2026 — TV mounts, drywall patches, deck repairs, painting, and more — and broke down the typical price range, time on-site, and what drives a job up or down.',
+    content: `Most "average handyman cost" articles online quote nationwide ranges that have nothing to do with what work actually costs in Rockland County. Labor rates here run higher than the national average, older housing stock takes longer to work in, and the mix of jobs Rockland homeowners request is different from suburban sprawl elsewhere in the country.
+
+To give homeowners a real benchmark, we pulled invoice data from 50 jobs Odds & Ends Handyman Service completed between January 2025 and March 2026 across Rockland County and parts of Westchester. Every job was performed by Daniel Kiely (Lic# H-25-600). All prices below are total invoice amounts (labor plus typical materials provided), in 2026 USD, and reflect what real Rockland homeowners actually paid.
+
+## How We Built This Data Set
+
+We pulled every completed job over the 14-month window and removed three categories that would skew the median: jobs under $100 (single-task touch-ups), jobs over $8,000 (multi-room renovations), and any job invoiced as part of a long-running project. That left 50 representative single-visit or short-engagement handyman jobs across the most-requested service categories.
+
+Geographic spread: 31 jobs in Rockland County (Nyack, New City, Nanuet, Pearl River, Suffern, Stony Point, Haverstraw, Piermont, Tappan, Sparkill, Pomona, Congers, Valley Cottage), 11 in Westchester (Tarrytown, Sleepy Hollow, Irvington, Dobbs Ferry), and 8 in northern Bergen County NJ. Median home age in the data set: 1962.
+
+## TV Mounting
+
+| Scenario | Typical price (2026) | Time on-site |
+|---|---|---|
+| Standard drywall, 32–55 inch, customer-supplied bracket | $185–$235 | 1.0–1.5 hr |
+| Drywall, 65–75 inch, customer-supplied bracket | $235–$310 | 1.5–2.0 hr |
+| Plaster-and-lath walls (pre-1960 home) | +$60–$100 | +0.5 hr |
+| Brick or stone fireplace (masonry anchors) | $310–$425 | 2.0–2.5 hr |
+| In-wall cable concealment add-on | +$120–$180 | +0.75 hr |
+| Recessed power outlet behind TV | +$140–$200 | +1.0 hr |
+
+**Median TV mounting job in our data: $245.** The single biggest cost driver is wall material — plaster walls in homes built before 1960 (common in Nyack, Piermont, Tappan, Sparkill, and the older sections of New City) take roughly 30 percent longer because of careful drilling and toggle-bolt mounting that won't crack the plaster.
+
+## Drywall Repair
+
+| Scenario | Typical price (2026) | Time on-site |
+|---|---|---|
+| Small holes (under 4 inches), 1–3 spots | $150–$220 | 1.0–1.5 hr |
+| Mid-size hole (doorknob through wall, 4–10 inches) | $220–$340 | 1.5–2.5 hr |
+| Large patch (10–24 inches, with backing and mesh) | $340–$525 | 2.5–4.0 hr |
+| Water-damaged section (cut and replace) | $475–$725 | 4.0–6.0 hr |
+| Texture matching (orange peel, knockdown, smooth) | +$50–$150 | +0.5 hr |
+| Repaint after patch (one wall, one coat) | +$120–$180 | +1.0 hr |
+
+**Median drywall repair job in our data: $285.** What drives drywall jobs up: wet damage (always more expensive than dry), texture matching (especially orange peel — the most common in 1970s and 1980s Rockland builds), and getting a paint match in a room that's been on the wall for ten-plus years. We always recommend a fresh wall-paint at the same visit when the patch is in a high-visibility area.
+
+## Painting (Interior, Single Room)
+
+| Scenario | Typical price (2026) | Time on-site |
+|---|---|---|
+| Bedroom (10x12 ft, walls only, 2 coats) | $475–$675 | 5–7 hr |
+| Bedroom + ceiling + trim | $725–$1,050 | 8–12 hr |
+| Living/dining room (15x20 ft, walls + trim) | $1,050–$1,650 | 12–18 hr |
+| Accent wall only (one wall, prep + 2 coats) | $250–$400 | 3–4 hr |
+| Cabinet doors and frames (kitchen, average size) | $1,800–$2,800 | 16–24 hr |
+
+**Median single-room painting job in our data: $785.** Painting jobs vary more than any other category because trim, doors, and ceiling decisions can double a quote. We don't quote painting until we see the room — high ceilings, crown molding, dark colors going over light (or vice versa), and the condition of the existing paint all swing the number meaningfully.
+
+## Deck Repair and Maintenance
+
+| Scenario | Typical price (2026) | Time on-site |
+|---|---|---|
+| Replace 5–10 deck boards (matching existing) | $425–$675 | 4–6 hr |
+| Replace handrail section | $275–$425 | 3–4 hr |
+| Re-secure or replace one to two posts | $475–$825 | 5–8 hr |
+| Power-wash and seal (small to mid deck) | $625–$950 | 6–10 hr |
+| Replace stair stringer + 3 stairs | $575–$925 | 6–9 hr |
+
+**Median deck repair job in our data: $625.** Deck work in Rockland is heavily seasonal — April through June is our busiest window because winters here are tough on pressure-treated lumber. Hudson-adjacent homes (Piermont, Grandview-on-Hudson, Sparkill, Sleepy Hollow) see more humidity damage than inland properties.
+
+## Door Installation
+
+| Scenario | Typical price (2026) | Time on-site |
+|---|---|---|
+| Interior pre-hung door (replace existing) | $325–$475 | 2.5–3.5 hr |
+| Interior slab door swap (rehang on existing frame) | $185–$285 | 1.5–2.0 hr |
+| Exterior pre-hung door (no storm) | $625–$925 | 5–7 hr |
+| Exterior with storm door + weatherstrip | $825–$1,250 | 7–10 hr |
+| Pocket door (new install in existing wall) | $950–$1,475 | 10–14 hr |
+| Sticking door fix (plane, shim, rehang) | $135–$225 | 1.0–1.5 hr |
+
+**Median door job in our data: $385.** The "sticking door fix" line is the bargain of the category — many older homes shift seasonally and a 90-minute rehang saves the cost of replacing a perfectly good door.
+
+## Furniture Assembly and Mounting
+
+| Scenario | Typical price (2026) | Time on-site |
+|---|---|---|
+| IKEA-style flat-pack dresser or bookcase | $145–$235 | 1.5–2.5 hr |
+| Crib or large kids' bunk bed | $245–$385 | 3–4 hr |
+| Sectional couch (in-room assembly) | $185–$295 | 2–3 hr |
+| Wall-mounted shelves (3–5 floating shelves) | $185–$275 | 1.5–2.5 hr |
+| Hardware-into-wall safe install | $325–$475 | 2.5–3.5 hr |
+
+**Median assembly job in our data: $215.** Most assembly jobs are short bookings — a great fit for our "no minimum hour" policy.
+
+## Bathroom and Kitchen (Smaller Scope)
+
+We excluded full bathroom and kitchen renovations from the median calculations because they swing too widely (a $1,200 vanity swap and a $7,500 full guest-bath redo are both legitimate "bathroom jobs"). For partial scope:
+
+| Scenario | Typical price (2026) | Time on-site |
+|---|---|---|
+| Toilet replacement (customer supplies fixture) | $325–$475 | 2.5–3.5 hr |
+| Vanity replacement (24–36 inch, with plumbing) | $625–$925 | 6–9 hr |
+| Faucet replacement (kitchen or bath) | $185–$285 | 1.5–2.5 hr |
+| Tile backsplash (kitchen, 30 sq ft) | $1,150–$1,650 | 12–16 hr |
+| Cabinet door + drawer hardware (15 cabinets) | $325–$425 | 3–4 hr |
+
+## What Drives a Quote Up or Down
+
+After 25 years of work and looking at this data set in particular, six factors explain almost all the variation:
+
+1. **Home age and wall material.** Plaster, lath, and old framing add 20 to 35 percent to most jobs because techniques and hardware are different. Homes built before 1960 in Nyack, Piermont, Tappan, Suffern, and parts of New City take longer in nearly every category.
+2. **Access.** Third-floor walk-ups, narrow stairwells, and tight basements add real time. Same job in a ranch house vs. a 1920s colonial can be a 40 percent time difference.
+3. **Texture and paint matching.** Patching is fast. Making the patch invisible against 12-year-old orange-peel texture and faded eggshell paint takes the second half of the job.
+4. **Materials.** We can supply or you can supply. Customer-supplied is almost always cheaper if the customer knows what to buy.
+5. **Time of year.** Spring (April–June) and fall (September–October) are our busiest windows, with two- to three-week lead times. Winter and mid-summer often have same-week availability.
+6. **Bundling.** Multiple small tasks in one visit are dramatically cheaper per task than the same tasks spread across multiple visits — there's no second trip charge and we get the truck unloaded once.
+
+## What These Numbers Don't Include
+
+These are real invoices for real jobs, but they're not quotes for your job. Three caveats:
+
+- **Permits.** Some work in Rockland and Westchester requires building department permits. Permit fees vary by municipality and are passed through at cost.
+- **Materials supplied at retail markup.** When we source materials, we mark them up roughly 10 percent over cost to cover sourcing time. Customer-supplied materials carry no markup.
+- **Sales tax.** New York sales tax on labor and materials applies where required by law.
+
+## How We Quote
+
+Every estimate is free and in writing. Daniel Kiely personally reviews every estimate request — no salespeople, no "consultants," no upselling. If a job can be done in an hour and we tell you it'll take six, that's a problem with our crew, not with the job.
+
+## A Final Note on "Cheapest" vs. "Best Value"
+
+You can find handymen in Rockland County who quote 30 percent below these ranges. You can also find ones who quote 30 percent above. The cheapest quote almost always means corner-cutting on prep, materials, or licensing — and the most expensive often means subcontracted labor and overhead you're paying for. Our pricing sits in the middle because the work is done by a licensed (#H-25-600), insured ($1,000,000 general liability), 25-year solo operator who lives in the county and warranties his own work.
+
+If you'd like a free written estimate for a specific project — TV mount, drywall patch, painted room, deck repair, anything in our service catalog — call or text (908) 461-2688, or use our online estimate form. Photos help us give you a tighter quote on the first reply.
+
+*Methodology note: 50 jobs invoiced January 2025 through March 2026. Prices include labor and typical materials supplied. Sales tax and permit fees excluded. Geographic distribution: Rockland County 62%, Westchester County 22%, northern Bergen County NJ 16%. All work performed by Daniel Kiely under Rockland County Home Improvement Contractor License #H-25-600.*`,
+    category: 'Pricing & Cost Guides',
+    relatedServices: ['tv-mounting', 'drywall-repair', 'painting', 'deck-repair', 'door-installation', 'furniture-assembly'],
+    relatedCities: ['nyack', 'new-city', 'nanuet', 'pearl-river', 'suffern', 'piermont', 'tarrytown', 'sleepy-hollow'],
+    metaTitle: 'Rockland County Handyman Pricing 2026: Real Data From 50 Jobs',
+    metaDescription:
+      'Real handyman pricing data from 50 jobs completed in Rockland County NY between Jan 2025 and Mar 2026. TV mounts, drywall, painting, deck repair, and more.',
+    publishedDate: '2026-04-29',
     author: 'Daniel Kiely',
     image: '/images/blog/paint-touchups.jpg',
+    imageAlt: 'Handyman invoice and tools showing 2026 Rockland County pricing breakdown',
   },
 ]

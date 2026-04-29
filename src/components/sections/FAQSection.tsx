@@ -1,5 +1,7 @@
 import { ChevronDown } from 'lucide-react'
 import { ScrollReveal } from '@/components/ui/ScrollReveal'
+import { SchemaMarkup } from '@/components/seo/SchemaMarkup'
+import { faqSchema } from '@/lib/schema'
 
 interface FAQ {
   question: string
@@ -10,13 +12,18 @@ export function FAQSection({
   faqs,
   title = 'Frequently Asked Questions',
   subtitle,
+  emitSchema = true,
 }: {
   faqs: FAQ[]
   title?: string
   subtitle?: string
+  emitSchema?: boolean
 }) {
   return (
     <section className="py-20 md:py-28 relative overflow-hidden">
+      {emitSchema && faqs.length > 0 && (
+        <SchemaMarkup schema={faqSchema(faqs)} />
+      )}
       {/* Decorative watermark */}
       <div className="absolute left-4 top-1/4 text-[10rem] md:text-[14rem] font-black text-gray-100/50 leading-none select-none pointer-events-none -rotate-12">
         ?

@@ -1,3 +1,8 @@
+const ESTABLISHED_YEAR = 2001
+const GOOGLE_PROFILE_URL = 'https://www.google.com/maps/place/Odds+%26+Ends+Handyman+Service'
+const YELP_PROFILE_URL = 'https://www.yelp.com/biz/odds-and-ends-handyman-service-rockland-county'
+const FACEBOOK_PROFILE_URL = 'https://www.facebook.com/oddsandendshandyman'
+
 export const siteConfig = {
   businessName: 'Odds & Ends Handyman Service',
   shortName: 'Odds & Ends',
@@ -7,8 +12,8 @@ export const siteConfig = {
   email: 'Dkiely@oddsandendshandymanservice.com',
   owner: 'Daniel Kiely',
   ownerFirstName: 'Dan',
-  established: 2001,
-  yearsExperience: 20,
+  established: ESTABLISHED_YEAR,
+  yearsExperience: new Date().getFullYear() - ESTABLISHED_YEAR,
   county: 'Rockland County',
   state: 'New York',
   stateAbbr: 'NY',
@@ -22,9 +27,9 @@ export const siteConfig = {
     stateAbbr: 'NY',
   },
   social: {
-    google: '',
-    facebook: '',
-    yelp: '',
+    google: GOOGLE_PROFILE_URL,
+    facebook: FACEBOOK_PROFILE_URL,
+    yelp: YELP_PROFILE_URL,
   },
   hours: {
     weekdays: '7:00 AM - 6:00 PM',
@@ -39,9 +44,9 @@ export const siteConfig = {
   latitude: 41.1482,
   longitude: -74.0671,
   socialProfiles: [
-    'https://www.google.com/maps/place/Odds+%26+Ends+Handyman+Service',
-    'https://www.yelp.com/biz/odds-and-ends-handyman-service-rockland-county',
-    'https://www.facebook.com/oddsandendshandyman',
+    GOOGLE_PROFILE_URL,
+    YELP_PROFILE_URL,
+    FACEBOOK_PROFILE_URL,
   ],
   license: {
     number: 'H-25-600',

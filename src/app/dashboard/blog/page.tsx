@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
-import { useDashboard } from '../layout'
+import { useDashboard } from '../_DashboardClient'
 import {
   Plus,
   Edit3,

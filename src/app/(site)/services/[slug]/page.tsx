@@ -576,16 +576,18 @@ export default async function ServicePage({ params }: PageProps) {
       })()}
 
       {/* ── 13. FAQs ── */}
+      {/* emitSchema={false}: faqSchema already injected at top with serviceSchema bundle */}
       <FAQSection
         faqs={service.faqs}
         title="Frequently Asked Questions"
         subtitle={`Common questions about this service`}
+        emitSchema={false}
       />
 
       {/* ── 14. CTA ── */}
       <CTASection
         headline="Ready to Get Started?"
-        subheadline="Dan is ready to help. Call, text, or request your free estimate today. No obligation, no pressure — just honest, quality work."
+        subheadline="Odds & Ends is ready to help. Call, text, or request your free estimate today. No obligation, no pressure — just honest, quality work."
       />
       </article>
     </>

@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect, useMemo, useCallback } from 'react'
-import { useDashboard } from '../layout'
+import { useDashboard } from '../_DashboardClient'
 import {
   Search,
   ChevronDown,
