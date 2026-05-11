@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getServiceSupabase } from '@/lib/supabase'
 import { sendLeadNotification, sendWelcomeEmail } from '@/lib/email'
+import { evaluateBotSignals, logBotRejection } from '@/lib/bot-check'
 
 export async function POST(request: NextRequest) {
   try {
@@ -12,6 +13,21 @@ export async function POST(request: NextRequest) {
     }
 
     const data = JSON.parse(rawData)
+
+    const botCheck = evaluateBotSignals({
+      formStartedAt: data.formStartedAt,
+      honeypot: data.website,
+    })
+    if (botCheck.isBot) {
+      logBotRejection('estimate-submit', botCheck, {
+        name: data.name,
+        phone: data.phone,
+        email: data.email,
+      })
+      // Fake-success response so spam bots stop retrying.
+      return NextResponse.json({ success: true })
+    }
+
     const supabase = getServiceSupabase()
 
     const photoUrls: string[] = []

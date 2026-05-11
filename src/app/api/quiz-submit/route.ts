@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getServiceSupabase } from '@/lib/supabase'
 import { sendLeadNotification, sendWelcomeEmail } from '@/lib/email'
+import { evaluateBotSignals, logBotRejection } from '@/lib/bot-check'
 
 export async function POST(request: NextRequest) {
   try {
@@ -12,6 +13,20 @@ export async function POST(request: NextRequest) {
     }
 
     const data = JSON.parse(rawData)
+
+    const botCheck = evaluateBotSignals({
+      formStartedAt: data.formStartedAt,
+      honeypot: data.website,
+    })
+    if (botCheck.isBot) {
+      logBotRejection('quiz-submit', botCheck, {
+        serviceSlug: data.serviceSlug,
+        name: data.name,
+        phone: data.phone,
+      })
+      return NextResponse.json({ success: true })
+    }
+
     const supabase = getServiceSupabase()
 
     const photoUrls: string[] = []

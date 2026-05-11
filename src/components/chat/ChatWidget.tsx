@@ -2,6 +2,10 @@
 
 import { useState, useRef, useEffect, useCallback } from 'react'
 import { MessageCircle, X, Send, User, Phone, Mail, RotateCcw, MessageSquare, ChevronDown } from 'lucide-react'
+import {
+  FORM_STARTED_AT_FIELD_NAME,
+  HONEYPOT_FIELD_NAME,
+} from '@/lib/bot-check'
 
 interface Message {
   role: 'user' | 'assistant'
@@ -32,6 +36,8 @@ export function ChatWidget() {
   const inputRef = useRef<HTMLInputElement>(null)
   const panelRef = useRef<HTMLDivElement>(null)
   const messageCountRef = useRef(0)
+  const formStartedAtRef = useRef<number>(Date.now())
+  const honeypotRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' })
@@ -69,6 +75,8 @@ export function ChatWidget() {
       name: userInfo.name,
       phone: userInfo.phone,
       email: userInfo.email,
+      [FORM_STARTED_AT_FIELD_NAME]: formStartedAtRef.current,
+      [HONEYPOT_FIELD_NAME]: honeypotRef.current?.value || '',
     })
 
     if (navigator.sendBeacon) {
@@ -331,6 +339,31 @@ export function ChatWidget() {
                   </div>
 
                   <form onSubmit={handleContactSubmit} className="space-y-3">
+                    <div
+                      aria-hidden="true"
+                      style={{
+                        position: 'absolute',
+                        left: '-9999px',
+                        width: '1px',
+                        height: '1px',
+                        overflow: 'hidden',
+                        opacity: 0,
+                        pointerEvents: 'none',
+                      }}
+                    >
+                      <label htmlFor="cw-website-field">
+                        Leave this field blank
+                        <input
+                          id="cw-website-field"
+                          ref={honeypotRef}
+                          type="text"
+                          name={HONEYPOT_FIELD_NAME}
+                          tabIndex={-1}
+                          autoComplete="off"
+                          defaultValue=""
+                        />
+                      </label>
+                    </div>
                     <div className="relative">
                       <User className="absolute left-3.5 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400" />
                       <input

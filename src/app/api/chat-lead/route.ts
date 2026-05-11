@@ -1,16 +1,31 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getServiceSupabase } from '@/lib/supabase'
 import { sendLeadNotification, sendWelcomeEmail } from '@/lib/email'
+import { evaluateBotSignals, logBotRejection } from '@/lib/bot-check'
 
 export async function POST(request: NextRequest) {
   try {
-    const { messages, name, phone, email } = await request.json()
+    const body = await request.json()
+    const {
+      messages,
+      name,
+      phone,
+      email,
+      formStartedAt,
+      website: honeypot,
+    } = body
 
     if (!messages || !Array.isArray(messages)) {
       return NextResponse.json(
         { error: 'Messages array is required' },
         { status: 400 }
       )
+    }
+
+    const botCheck = evaluateBotSignals({ formStartedAt, honeypot })
+    if (botCheck.isBot) {
+      logBotRejection('chat-lead', botCheck, { name, phone, email })
+      return NextResponse.json({ success: true })
     }
 
     const supabase = getServiceSupabase()

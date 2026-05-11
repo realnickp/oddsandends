@@ -3,6 +3,10 @@
 import { useState, useRef } from 'react'
 import { Send, Upload, CheckCircle2, Loader2 } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import {
+  FORM_STARTED_AT_FIELD_NAME,
+  HONEYPOT_FIELD_NAME,
+} from '@/lib/bot-check'
 
 const serviceOptions = [
   'TV Mounting', 'Drywall Repair', 'Door Installation', 'Fence Repair',
@@ -38,6 +42,7 @@ export function EstimateForm({
   const [error, setError] = useState('')
   const [files, setFiles] = useState<File[]>([])
   const formRef = useRef<HTMLFormElement>(null)
+  const formStartedAtRef = useRef<number>(Date.now())
 
   if (submitted) {
     return (
@@ -86,7 +91,17 @@ export function EstimateForm({
         data.timeline = (inputs.namedItem('timeline') as HTMLSelectElement)?.value || 'As soon as possible'
       }
 
-      formData.append('data', JSON.stringify(data))
+      const honeypotValue =
+        (inputs.namedItem(HONEYPOT_FIELD_NAME) as HTMLInputElement | null)
+          ?.value || ''
+
+      const payload = {
+        ...data,
+        [FORM_STARTED_AT_FIELD_NAME]: formStartedAtRef.current,
+        [HONEYPOT_FIELD_NAME]: honeypotValue,
+      }
+
+      formData.append('data', JSON.stringify(payload))
 
       for (const file of files) {
         formData.append('photos', file)
@@ -112,6 +127,7 @@ export function EstimateForm({
   if (compact) {
     return (
       <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
+        <HoneypotField />
         <div className="grid sm:grid-cols-2 gap-4">
           <input
             type="text"
@@ -165,6 +181,7 @@ export function EstimateForm({
 
   return (
     <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
+      <HoneypotField />
       <div className="grid sm:grid-cols-2 gap-5">
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1.5">
@@ -332,5 +349,34 @@ export function EstimateForm({
         Free estimates · No obligation · Usually responds within hours
       </p>
     </form>
+  )
+}
+
+function HoneypotField() {
+  return (
+    <div
+      aria-hidden="true"
+      style={{
+        position: 'absolute',
+        left: '-9999px',
+        width: '1px',
+        height: '1px',
+        overflow: 'hidden',
+        opacity: 0,
+        pointerEvents: 'none',
+      }}
+    >
+      <label htmlFor="ee-website-field">
+        Leave this field blank
+        <input
+          id="ee-website-field"
+          type="text"
+          name={HONEYPOT_FIELD_NAME}
+          tabIndex={-1}
+          autoComplete="off"
+          defaultValue=""
+        />
+      </label>
+    </div>
   )
 }

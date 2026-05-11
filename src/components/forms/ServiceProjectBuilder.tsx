@@ -16,6 +16,10 @@ import { siteConfig } from '@/data/site-config'
 import { getQuizConfig } from '@/data/quiz-configs'
 import type { QuizStep } from '@/data/quiz-configs'
 import { EstimateForm } from '@/components/forms/EstimateForm'
+import {
+  FORM_STARTED_AT_FIELD_NAME,
+  HONEYPOT_FIELD_NAME,
+} from '@/lib/bot-check'
 
 interface ServiceProjectBuilderProps {
   serviceSlug: string
@@ -104,6 +108,8 @@ export function ServiceProjectBuilder({
   const fileInputRef = useRef<HTMLInputElement>(null)
   const dragCounterRef = useRef(0)
   const [isDragOver, setIsDragOver] = useState(false)
+  const formStartedAtRef = useRef<number>(Date.now())
+  const honeypotRef = useRef<HTMLInputElement>(null)
 
   const step = allSteps[currentStep]
   const isLastStep = currentStep === totalSteps - 1
@@ -238,6 +244,8 @@ export function ServiceProjectBuilder({
         city: (answers['city'] as string) || '',
         projectStage: (answers['project-stage'] as string) || '',
         timeline: (answers['timeline'] as string) || '',
+        [FORM_STARTED_AT_FIELD_NAME]: formStartedAtRef.current,
+        [HONEYPOT_FIELD_NAME]: honeypotRef.current?.value || '',
       }
       formData.append('data', JSON.stringify(payload))
       photos.forEach((file) => formData.append('photos', file))
@@ -658,6 +666,31 @@ export function ServiceProjectBuilder({
 
   return (
     <section id="project-builder" className="bg-gray-950 py-16 sm:py-20 px-4">
+      <div
+        aria-hidden="true"
+        style={{
+          position: 'absolute',
+          left: '-9999px',
+          width: '1px',
+          height: '1px',
+          overflow: 'hidden',
+          opacity: 0,
+          pointerEvents: 'none',
+        }}
+      >
+        <label htmlFor="pb-website-field">
+          Leave this field blank
+          <input
+            id="pb-website-field"
+            ref={honeypotRef}
+            type="text"
+            name={HONEYPOT_FIELD_NAME}
+            tabIndex={-1}
+            autoComplete="off"
+            defaultValue=""
+          />
+        </label>
+      </div>
       <div className="mx-auto max-w-2xl text-center mb-10">
         <h2 className="text-3xl sm:text-4xl font-bold text-white mb-3">
           {mode === 'builder' ? quizHeadline : `Request a ${serviceName} Estimate`}
