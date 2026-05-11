@@ -88,8 +88,8 @@ export function HomepageEstimateSection() {
               </h2>
               <p className="text-lg text-gray-500 font-light leading-relaxed max-w-2xl mx-auto">
                 Choose how you&apos;d like to get started. Use the guided
-                Project Builder or fill out a quick form — either way, Dan
-                will get back to you fast.
+                Project Builder or fill out a quick form — either way, we'll
+                get back to you fast.
               </p>
             </ScrollReveal>
           </div>
@@ -112,7 +112,7 @@ export function HomepageEstimateSection() {
                   Project Builder
                 </h3>
                 <p className="text-sm text-gray-500 leading-relaxed mb-5">
-                  Answer a few guided questions about your project so Dan
+                  Answer a few guided questions about your project so we
                   can prepare an accurate, tailored estimate.
                 </p>
 
@@ -148,7 +148,7 @@ export function HomepageEstimateSection() {
                   Quick Estimate Form
                 </h3>
                 <p className="text-sm text-gray-500 leading-relaxed mb-5">
-                  Prefer a simple form? Describe your project and Dan will
+                  Prefer a simple form? Describe your project and we'll
                   reach out with a quote — usually within hours.
                 </p>
 

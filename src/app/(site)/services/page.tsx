@@ -139,46 +139,37 @@ export default function ServicesPage() {
                 >
                   <Link
                     href={`/services/${service.slug}`}
-                    className="group relative block rounded-2xl overflow-hidden border border-gray-100 hover:border-blue-200 hover:shadow-xl hover:shadow-blue-50/50 transition-all duration-500 h-[320px] md:h-[360px]"
+                    className="group relative block rounded-2xl overflow-hidden border border-gray-100 hover:border-blue-200 hover:shadow-xl hover:shadow-blue-50/50 transition-all duration-500 h-[320px] md:h-[360px] bg-gray-950"
                   >
-                    {image ? (
-                      <>
-                        <Image
-                          src={image.src}
-                          alt={image.alt}
-                          fill
-                          className="object-cover transition-transform duration-700 group-hover:scale-105"
-                          sizes="(max-width: 768px) 100vw, 33vw"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
-                        <div className="absolute bottom-0 left-0 right-0 p-6">
-                          <h3 className="font-bold text-white text-xl mb-2">
-                            {service.name}
-                          </h3>
-                          <p className="text-white/70 text-sm font-light line-clamp-2 mb-3">
-                            {service.shortDescription}
-                          </p>
-                          <span className="inline-flex items-center gap-1.5 text-blue-300 font-semibold text-sm group-hover:gap-2.5 transition-all">
-                            Learn More <ArrowRight className="h-4 w-4" />
-                          </span>
-                        </div>
-                      </>
-                    ) : (
-                      <div className="h-full bg-gradient-to-br from-gray-50 to-white p-6 flex flex-col justify-end">
-                        <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-blue-600 to-blue-700 flex items-center justify-center text-white mb-4">
-                          {categoryIcons[service.slug] || <Wrench className="h-5 w-5" />}
-                        </div>
-                        <h3 className="font-bold text-gray-900 text-xl mb-2 group-hover:text-blue-700 transition-colors">
-                          {service.name}
-                        </h3>
-                        <p className="text-gray-500 text-sm font-light line-clamp-2 mb-3">
-                          {service.shortDescription}
-                        </p>
-                        <span className="inline-flex items-center gap-1.5 text-blue-700 font-semibold text-sm group-hover:gap-2.5 transition-all">
-                          Learn More <ArrowRight className="h-4 w-4" />
-                        </span>
+                    {image && (
+                      <Image
+                        src={image.src}
+                        alt={image.alt}
+                        fill
+                        className="object-cover transition-transform duration-700 group-hover:scale-105"
+                        sizes="(max-width: 768px) 100vw, 33vw"
+                      />
+                    )}
+                    {/* Base darkening so text stays legible on any photo */}
+                    <div className="absolute inset-0 bg-black/45" />
+                    {/* Bottom gradient for extra contrast on the copy */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/65 to-black/20" />
+                    {!image && (
+                      <div className="absolute top-6 left-6 h-10 w-10 rounded-xl bg-gradient-to-br from-blue-600 to-blue-700 flex items-center justify-center text-white">
+                        {categoryIcons[service.slug] || <Wrench className="h-5 w-5" />}
                       </div>
                     )}
+                    <div className="absolute bottom-0 left-0 right-0 p-6">
+                      <h3 className="font-bold text-white text-xl mb-2 drop-shadow-sm">
+                        {service.name}
+                      </h3>
+                      <p className="text-white text-sm font-light line-clamp-2 mb-3 drop-shadow-sm">
+                        {service.shortDescription}
+                      </p>
+                      <span className="inline-flex items-center gap-1.5 text-white font-semibold text-sm group-hover:gap-2.5 group-hover:text-blue-200 transition-all">
+                        Learn More <ArrowRight className="h-4 w-4" />
+                      </span>
+                    </div>
                   </Link>
                 </ScrollReveal>
               )
@@ -208,7 +199,7 @@ export default function ServicesPage() {
                 All Services
               </h2>
               <p className="text-lg text-gray-400 font-light max-w-2xl">
-                From quick fixes to custom builds — if it&apos;s on your to-do list, Dan can handle it.
+                From quick fixes to custom builds — if it&apos;s on your to-do list, we can handle it.
               </p>
             </div>
           </ScrollReveal>
@@ -220,46 +211,37 @@ export default function ServicesPage() {
                 <ScrollReveal key={service.slug} delay={(i % 8) * 60}>
                   <Link
                     href={`/services/${service.slug}`}
-                    className="group block h-full rounded-2xl overflow-hidden border border-white/[0.06] hover:border-blue-500/30 hover:shadow-xl hover:shadow-blue-950/20 transition-all duration-500"
+                    className="group relative block h-full min-h-[180px] md:min-h-[240px] rounded-2xl overflow-hidden border border-white/[0.06] hover:border-blue-500/30 hover:shadow-xl hover:shadow-blue-950/20 transition-all duration-500 bg-gray-900"
                   >
-                    {image ? (
-                      <div className="relative h-full min-h-[180px] md:min-h-[240px]">
-                        <Image
-                          src={image.src}
-                          alt={image.alt}
-                          fill
-                          className="object-cover transition-transform duration-700 group-hover:scale-105"
-                          sizes="(max-width: 768px) 50vw, (max-width: 1024px) 50vw, 25vw"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/40 to-transparent" />
-                        <div className="absolute bottom-0 left-0 right-0 p-3 md:p-5">
-                          <h3 className="font-bold text-white text-sm md:text-lg mb-0.5 md:mb-1 group-hover:text-blue-300 transition-colors">
-                            {service.name}
-                          </h3>
-                          <p className="hidden md:block text-gray-400 text-sm font-light leading-relaxed mb-3 line-clamp-2">
-                            {service.shortDescription}
-                          </p>
-                          <span className="inline-flex items-center gap-1 md:gap-1.5 text-blue-400 font-semibold text-xs md:text-sm group-hover:gap-2.5 transition-all">
-                            Learn More <ArrowRight className="h-3 w-3 md:h-4 md:w-4" />
-                          </span>
-                        </div>
-                      </div>
-                    ) : (
-                      <div className="bg-white/[0.03] p-4 md:p-6 h-full">
-                        <div className="h-8 w-8 md:h-10 md:w-10 rounded-xl bg-gradient-to-br from-blue-600 to-blue-700 flex items-center justify-center text-white mb-3 md:mb-4">
-                          {categoryIcons[service.slug] || <Wrench className="h-4 w-4 md:h-5 md:w-5" />}
-                        </div>
-                        <h3 className="font-bold text-white text-sm md:text-lg mb-1 md:mb-2 group-hover:text-blue-300 transition-colors">
-                          {service.name}
-                        </h3>
-                        <p className="hidden md:block text-gray-500 text-sm font-light leading-relaxed mb-4 line-clamp-2">
-                          {service.shortDescription}
-                        </p>
-                        <span className="inline-flex items-center gap-1 md:gap-1.5 text-blue-400 font-semibold text-xs md:text-sm group-hover:gap-2.5 transition-all">
-                          Learn More <ArrowRight className="h-3 w-3 md:h-4 md:w-4" />
-                        </span>
+                    {image && (
+                      <Image
+                        src={image.src}
+                        alt={image.alt}
+                        fill
+                        className="object-cover transition-transform duration-700 group-hover:scale-105"
+                        sizes="(max-width: 768px) 50vw, (max-width: 1024px) 50vw, 25vw"
+                      />
+                    )}
+                    {/* Base darkening so text stays legible on any photo */}
+                    <div className="absolute inset-0 bg-black/50" />
+                    {/* Bottom gradient for extra contrast */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/65 to-black/25" />
+                    {!image && (
+                      <div className="absolute top-4 left-4 md:top-5 md:left-5 h-8 w-8 md:h-10 md:w-10 rounded-xl bg-gradient-to-br from-blue-600 to-blue-700 flex items-center justify-center text-white">
+                        {categoryIcons[service.slug] || <Wrench className="h-4 w-4 md:h-5 md:w-5" />}
                       </div>
                     )}
+                    <div className="absolute bottom-0 left-0 right-0 p-3 md:p-5">
+                      <h3 className="font-bold text-white text-sm md:text-lg mb-0.5 md:mb-1 drop-shadow-sm group-hover:text-blue-200 transition-colors">
+                        {service.name}
+                      </h3>
+                      <p className="hidden md:block text-white text-sm font-light leading-relaxed mb-3 line-clamp-2 drop-shadow-sm">
+                        {service.shortDescription}
+                      </p>
+                      <span className="inline-flex items-center gap-1 md:gap-1.5 text-white font-semibold text-xs md:text-sm group-hover:gap-2.5 group-hover:text-blue-200 transition-all">
+                        Learn More <ArrowRight className="h-3 w-3 md:h-4 md:w-4" />
+                      </span>
+                    </div>
                   </Link>
                 </ScrollReveal>
               )
@@ -276,8 +258,8 @@ export default function ServicesPage() {
               Don&apos;t See Your Project Listed?
             </h3>
             <p className="text-gray-400 font-light max-w-lg mx-auto mb-6">
-              Dan can almost definitely do it. Give him a call or fill out the estimate form
-              and describe what you need — chances are it&apos;s right in his wheelhouse.
+              We can almost definitely do it. Give us a call or fill out the estimate form
+              and describe what you need — chances are it&apos;s right in our wheelhouse.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
@@ -313,7 +295,7 @@ export default function ServicesPage() {
                 One Call Handles It All
               </h3>
               <p className="text-gray-500 font-light max-w-lg mx-auto">
-                Why juggle multiple contractors? Dan handles everything from quick fixes to
+                Why juggle multiple contractors? Odds & Ends handles everything from quick fixes to
                 custom builds — all with the same care and five-star quality.
               </p>
             </div>

@@ -13,23 +13,23 @@ export const faqs: FAQ[] = [
   },
   {
     question: 'How long has Odds & Ends been in business?',
-    answer: 'Odds & Ends Handyman Service was established in 2001. Dan has over 20 years of professional handyman and home improvement experience.',
+    answer: 'Odds & Ends Handyman Service was established in 2001 and has over 20 years of professional handyman and home improvement experience serving Rockland County.',
     category: 'General',
   },
   {
-    question: 'Is Dan licensed and insured?',
-    answer: 'Yes. Odds & Ends is a licensed Home Improvement Contractor (Lic# H-25-600) in Rockland County and carries a million dollar general liability insurance policy. Dan has been operating in Rockland County since 2001 and now also serves parts of Westchester County.',
+    question: 'Is Odds & Ends licensed and insured?',
+    answer: 'Yes. Odds & Ends is a licensed Home Improvement Contractor (Lic# H-25-600) in Rockland County and carries a million dollar general liability insurance policy. We have been operating in Rockland County since 2001 and now also serve parts of Westchester County.',
     category: 'General',
   },
   {
     question: 'What makes Odds & Ends different from other handyman services?',
-    answer: 'Dan brings 20+ years of experience, meticulous attention to detail, creative problem-solving, and a commitment to leaving your home cleaner than he found it. His perfect 5-star Google rating speaks to the quality and reliability homeowners can expect.',
+    answer: 'Odds & Ends brings 20+ years of experience, meticulous attention to detail, creative problem-solving, and a commitment to leaving your home cleaner than we found it. Our perfect 5-star Google rating speaks to the quality and reliability homeowners can expect.',
     category: 'General',
   },
   // Services
   {
     question: 'What types of work do you handle?',
-    answer: 'We handle a wide range of home repair and improvement work including TV mounting, drywall repair, painting, door installation, deck and fence repair, plumbing fixtures, light fixtures, furniture assembly, custom accent walls, wainscoting, built-ins, smart home setup, and much more. Dan specializes in small and medium sized renovations.',
+    answer: 'We handle a wide range of home repair and improvement work including TV mounting, drywall repair, painting, door installation, deck and fence repair, plumbing fixtures, light fixtures, furniture assembly, custom accent walls, wainscoting, built-ins, smart home setup, and much more. Odds & Ends specializes in small and medium sized renovations.',
     category: 'Services',
   },
   {
@@ -44,29 +44,29 @@ export const faqs: FAQ[] = [
   },
   {
     question: 'Can you handle a list of multiple projects in one visit?',
-    answer: 'Absolutely. Many homeowners call us with a honey-do list of repairs and projects that have been piling up. Dan can often tackle multiple tasks in a single visit, saving you time and hassle.',
+    answer: 'Absolutely. Many homeowners call us with a honey-do list of repairs and projects that have been piling up. We can often tackle multiple tasks in a single visit, saving you time and hassle.',
     category: 'Services',
   },
   // Pricing & Estimates
   {
     question: 'Do you offer free estimates?',
-    answer: 'Yes. Every estimate is completely free with no obligation. Call, text, or fill out our online estimate form and Dan will get back to you with a clear, honest quote.',
+    answer: 'Yes. Every estimate is completely free with no obligation. Call, text, or fill out our online estimate form and we\'ll get back to you with a clear, honest quote.',
     category: 'Pricing',
   },
   {
     question: 'How does pricing work?',
-    answer: 'Pricing depends on the scope of the project. Dan provides upfront, transparent quotes so you know exactly what to expect. No hidden fees, no surprise charges. Many customers specifically mention his fair and reasonable pricing in their reviews.',
+    answer: 'Pricing depends on the scope of the project. Odds & Ends provides upfront, transparent quotes so you know exactly what to expect. No hidden fees, no surprise charges. Many customers specifically mention our fair and reasonable pricing in their reviews.',
     category: 'Pricing',
   },
   {
     question: 'Do I need to pay upfront?',
-    answer: 'Payment terms are discussed when you receive your estimate. Dan works with homeowners to ensure the process is straightforward and comfortable.',
+    answer: 'Payment terms are discussed when you receive your estimate. We work with homeowners to ensure the process is straightforward and comfortable.',
     category: 'Pricing',
   },
   // Scheduling
   {
     question: 'How quickly can you start my project?',
-    answer: 'Dan typically responds within hours and can often schedule work within a few days. For urgent needs, calling or texting directly will get the fastest response.',
+    answer: 'We typically respond within hours and can often schedule work within a few days. For urgent needs, calling or texting directly will get the fastest response.',
     category: 'Scheduling',
   },
   {
@@ -76,13 +76,13 @@ export const faqs: FAQ[] = [
   },
   {
     question: 'What is the best way to contact you?',
-    answer: 'Texting is the fastest way to reach Dan, though calling works great too. You can reach us at (908) 461-2688. You can also submit an online estimate request through our website.',
+    answer: 'Texting is the fastest way to reach us, though calling works great too. You can reach us at (908) 461-2688. You can also submit an online estimate request through our website.',
     category: 'Scheduling',
   },
   // Process
   {
-    question: 'What should I expect when Dan arrives?',
-    answer: 'Dan arrives on time, prepared, and ready to work. He will discuss the project with you, confirm the scope and approach, and get to work. He is respectful of your home and always cleans up after himself — many customers note that he leaves the workspace cleaner than he found it.',
+    question: 'What should I expect when Odds & Ends arrives?',
+    answer: 'We arrive on time, prepared, and ready to work. We\'ll discuss the project with you, confirm the scope and approach, and get to work. We\'re respectful of your home and always clean up after ourselves — many customers note that we leave the workspace cleaner than we found it.',
     category: 'Process',
   },
   {
@@ -92,12 +92,12 @@ export const faqs: FAQ[] = [
   },
   {
     question: 'Do you provide materials or should I buy them?',
-    answer: 'This depends on the project. Dan can often recommend and source the right materials, or you can purchase them yourself. This is discussed during the estimate process so there are no surprises.',
+    answer: 'This depends on the project. We can often recommend and source the right materials, or you can purchase them yourself. This is discussed during the estimate process so there are no surprises.',
     category: 'Process',
   },
   {
     question: 'What if I am not satisfied with the work?',
-    answer: 'Dan takes great pride in his work and does not consider a job done until you are completely satisfied. His meticulous attention to detail and commitment to quality mean issues are extremely rare, but if something is not right, he will make it right.',
+    answer: 'We take great pride in our work and do not consider a job done until you are completely satisfied. Our meticulous attention to detail and commitment to quality mean issues are extremely rare, but if something is not right, we will make it right.',
     category: 'Process',
   },
 ]

@@ -498,7 +498,7 @@ export function ServiceProjectBuilder({
         ) : (
           <textarea
             rows={4}
-            placeholder="Describe what you need done — the more detail, the better Dan can help."
+            placeholder="Describe what you need done — the more detail, the better we can help."
             value={description}
             onChange={(e) => setDescription(e.target.value)}
             className="w-full rounded-xl border-2 border-gray-200 bg-white px-4 py-3 text-sm text-gray-800 placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20 resize-none transition-colors"
@@ -654,7 +654,7 @@ export function ServiceProjectBuilder({
   const quizHeadline = quizConfig?.headline || `Plan Your ${serviceName} Project`
   const quizSubtitle =
     quizConfig?.subtitle ||
-    `Answer a few quick questions so Dan can prepare an accurate estimate`
+    `Answer a few quick questions so we can prepare an accurate estimate`
 
   return (
     <section id="project-builder" className="bg-gray-950 py-16 sm:py-20 px-4">
@@ -665,7 +665,7 @@ export function ServiceProjectBuilder({
         <p className="text-gray-400 text-lg mb-6">
           {mode === 'builder'
             ? quizSubtitle
-            : 'Fill out this quick form and Dan will get back to you ASAP'}
+            : 'Fill out this quick form and we\'ll get back to you ASAP'}
         </p>
 
         <div className="inline-flex rounded-xl bg-gray-800/60 p-1">

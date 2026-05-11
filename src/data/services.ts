@@ -1591,5 +1591,65 @@ export const services: Service[] = [
       { title: 'One Contractor, Every Trade', description: 'Carpentry, roofing, countertops, electrical, finishing — we handle every aspect of the build so you deal with one team, not five subcontractors.' },
       { title: '25+ Years of Building', description: 'Our team brings decades of construction experience to every bar build. Your tiki bar is built with the same care and precision as any structural project we take on.' }
     ]
+  },
+  {
+    slug: 'junk-removal',
+    name: 'Junk Removal',
+    shortDescription: 'Fast, affordable junk removal in Rockland County. Garage cleanouts, basement & attic clearing, estate cleanouts, furniture & appliance haul-away.',
+    heroHeadline: 'Junk Removal Services in Rockland County, NY',
+    heroSubheadline: 'We load it, haul it, and dispose of it — you just point at what needs to go.',
+    intro: 'Whether you are clearing out a packed garage, emptying a basement after a flood, prepping a home for sale, or finally getting rid of that broken washer in the laundry room, junk removal is one of those jobs that always feels bigger than it should. Renting a dumpster is expensive, scheduling town pickup is hit-or-miss, and most national franchises charge premium rates for a half-empty truck. Most homeowners just need a reliable local crew that shows up on time, lifts the heavy stuff, and disposes of everything responsibly.\n\nOdds & Ends Handyman Service now offers full-service junk removal across Rockland County, NY. Our team handles single-item pickups like that old couch nobody wants to lift, all the way up to whole-house cleanouts and post-renovation debris. We sort for donation and recycling where possible, haul everything to the correct Rockland County transfer stations and recycling facilities, and leave your property swept clean. With 25 years of experience working in homes throughout New City, Nyack, Suffern, Nanuet, Pearl River, and Stony Point, we know the layouts, the stairs, and the tight basement doorways that make this work harder than it looks.',
+    commonProblems: [
+      'Garages and basements packed so full you cannot park a car or use the space',
+      'Heavy old appliances — washers, dryers, fridges, water heaters — nobody will haul away',
+      'Estate cleanouts after a loved one passes, with decades of belongings to sort and clear',
+      'Construction debris and renovation leftovers piled in driveways and yards',
+      'Hot tubs, swing sets, sheds, and trampolines that need to be dismantled and removed',
+      'Curbside pickup limits in Rockland County towns that turn down bulky items',
+      'Hoarding cleanouts that need a non-judgmental, methodical professional crew',
+      'Tenant cleanouts where landlords need rental units emptied between leases'
+    ],
+    jobExamples: [
+      'Full 2-car garage cleanout — 20+ years of stored boxes, tools, and yard equipment — in New City',
+      'Basement cleanout after a sewer backup in a Pearl River split-level',
+      'Estate cleanout of a 4-bedroom colonial in Nyack, sorted for family, donation, and disposal',
+      'Hauled away an old hot tub, broken treadmill, and three mattresses in Suffern',
+      'Construction debris removal after a kitchen demo in Nanuet',
+      'Removed a rusted swing set, trampoline, and shed materials from a backyard in Stony Point',
+      'Cleared a packed attic of decades-old furniture and boxes in a Sloatsburg Cape Cod',
+      'Post-move junk haul-away from an empty 3-bedroom rental in Spring Valley'
+    ],
+    whyHireHandyman: 'Renting a dumpster sounds cheap until you realize you still have to load it yourself, then pay overage fees if you exceed weight limits, then wait days for pickup with a giant container blocking your driveway. Town curbside pickup has strict size and quantity limits and often will not take appliances, electronics, mattresses, or construction debris at all. A professional junk removal handyman shows up with a truck, does all the lifting and loading, hauls everything in a single trip, and knows exactly where each material legally needs to go — donation centers, scrap metal recyclers, e-waste facilities, or Rockland County transfer stations. You save your back, your weekend, and the hassle of figuring out municipal disposal rules.',
+    whyChooseUs: 'Odds & Ends has been working inside Rockland County homes for 25 years. That experience matters more for junk removal than people realize — we know the narrow basement stairs in 1950s Nanuet ranches, the tight attic accesses in older Nyack Victorians, and the steep driveways in Stony Point that make hauling a challenge. We sort responsibly: donation-worthy items go to local charities like Habitat for Humanity ReStore and Goodwill, metals go to scrap, e-waste goes to certified recyclers, and only true trash hits the landfill. We are licensed (#H-25-600), insured for $1,000,000 in general liability, and we provide upfront flat-rate pricing — no surprise dump fees, no hourly clock running while we drag your couch up the stairs.',
+    faqs: [
+      { question: 'What does junk removal cost in Rockland County?', answer: 'Pricing is based on truck volume — how much of our truck your stuff fills — and is quoted as a flat rate before any work begins. A single-item pickup (one mattress, one couch, one appliance) typically runs lower than a full truck cleanout. We provide a free, no-obligation written quote after seeing the items in person or from photos texted to (908) 461-2688. There are no hidden dump fees or hourly add-ons.' },
+      { question: 'Do you haul away appliances like refrigerators, washers, and water heaters?', answer: 'Yes. Old appliances are one of the most common requests we get, especially refrigerators, washers, dryers, dishwashers, water heaters, and AC units. We handle the lifting, disconnect the appliance from any plumbing or gas lines if needed (or coordinate with a licensed plumber for active hookups), and haul it to the correct scrap metal recycling facility.' },
+      { question: 'Can you do same-day or next-day junk removal?', answer: 'Often yes, especially for smaller jobs. Call or text (908) 461-2688 with what you need removed and your zip code — for single items or partial loads in towns like New City, Nanuet, or Suffern, we can frequently fit a same-week or next-day pickup around our other scheduled work.' },
+      { question: 'Do you handle estate cleanouts and hoarding situations?', answer: 'Yes. Estate cleanouts and hoarding cleanouts are both services we provide regularly across Rockland County. These jobs require patience, organization, and discretion. We work with the family to identify keepsakes, donation items, recyclables, and disposal items, and we move at a respectful pace. Pricing for these jobs is project-based after a free walkthrough.' },
+      { question: 'Where does my junk actually go?', answer: 'We sort everything at the truck for the highest legal disposal hierarchy: donation first (Habitat ReStore, Goodwill, local thrift shops), then recycling (scrap metal yards, e-waste recyclers, cardboard and clean wood), and only true trash heads to a Rockland County transfer station or licensed landfill. We keep waste out of the landfill whenever possible.' },
+      { question: 'Do I need to be home during the removal?', answer: 'Not necessarily. For garage, driveway, or curbside pickups, many customers leave us instructions and a payment method on file. For interior jobs we prefer the homeowner or a representative be present to confirm exactly what is going. We are fully insured and bonded if you would rather not be there.' },
+      { question: 'What about hazardous materials like paint, chemicals, or propane tanks?', answer: 'Hazardous waste is regulated separately and we cannot take it on our standard truck. We can advise you on Rockland County household hazardous waste drop-off days and locations, and for larger commercial hazardous loads we refer to licensed haz-mat haulers. Latex paint that has been dried out with kitty litter is acceptable as regular trash and we will take it.' },
+      { question: 'Do you remove sheds, hot tubs, and outdoor structures?', answer: 'Yes. We dismantle and haul away sheds, hot tubs, above-ground pools, swing sets, trampolines, decks, and other outdoor structures. These projects combine our existing demolition and removal experience, so we can break the structure down safely without damaging your lawn or surrounding property.' }
+    ],
+    relatedServices: ['excavation', 'sheds', 'deck-repair', 'drywall-repair'],
+    metaTitle: 'Junk Removal in Rockland County, NY | Odds & Ends Handyman',
+    metaDescription: 'Affordable junk removal in Rockland County, NY. Garage cleanouts, appliance haul-away, estate cleanouts, construction debris. Flat-rate pricing. Call (908) 461-2688.',
+    keywords: ['junk removal Rockland County', 'junk removal New City NY', 'garage cleanout Rockland County', 'estate cleanout Nyack', 'appliance removal Nanuet', 'basement cleanout Suffern', 'junk hauler near me', 'furniture removal Pearl River', 'construction debris removal Stony Point', 'hot tub removal Rockland County', 'mattress disposal NY', 'same day junk removal Rockland County'],
+    image: '/images/services/junk-removal.jpg',
+    altText: 'Odds & Ends crew loading a couch, refrigerator, boxes, and rug into a junk removal truck outside a Rockland County home',
+    processSteps: [
+      { title: 'Free Quote & Walkthrough', description: 'Text photos or schedule a quick walkthrough so we can see what needs to go. We provide a flat-rate written quote upfront — no hourly meter, no surprise dump fees.' },
+      { title: 'Schedule & Confirm', description: 'Pick a date that works for you. For most single-item and partial-load jobs, same-week or next-day availability is common across Rockland County.' },
+      { title: 'Load, Haul & Sort', description: 'Our team does all the lifting — out of basements, down attic stairs, across yards. Items are sorted at the truck for donation, recycling, scrap, or disposal.' },
+      { title: 'Clean Sweep & Receipt', description: 'We sweep the area clean, confirm nothing was missed, and email you a final receipt. Donation slips are available on request for tax purposes.' }
+    ],
+    whyChooseUsCards: [
+      { title: 'Flat-Rate Pricing', description: 'You see the price before we lift a thing. No hourly clock, no fuel surcharges, no surprise dump fees added at the end of the job.' },
+      { title: 'Donation & Recycling First', description: 'Usable furniture and appliances go to Habitat ReStore and Goodwill. Metal goes to scrap. E-waste goes to certified recyclers. Less than 30% of what we collect ends up in a landfill.' },
+      { title: 'Whole-House to Single-Item', description: 'From one couch on the curb to a full garage, basement, and attic cleanout — same crew, same care, no minimum truck fees.' },
+      { title: 'Estate & Hoarding Experience', description: 'We handle sensitive cleanouts with patience and respect. Family keepsakes get set aside, donation items get tracked, and the pace matches what you can handle.' },
+      { title: 'Licensed, Insured, Local', description: 'Rockland County Home Improvement Contractor #H-25-600 with $1M general liability. We live here, we work here, and we know every transfer station and donation drop-off in the county.' },
+      { title: '25+ Years in Rockland County Homes', description: 'Steep basement stairs in Pearl River. Tight attic hatches in Nyack Victorians. Narrow side yards in Suffern duplexes. We have moved heavy stuff out of every kind of Rockland County home.' }
+    ]
   }
 ]

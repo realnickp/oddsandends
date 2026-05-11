@@ -89,7 +89,7 @@ export default function QuizContent() {
                 Project Request Received!
               </h1>
               <p className="text-lg text-gray-400 font-light mb-10 leading-relaxed">
-                Dan will review your project details and reach out shortly. For a
+                We'll review your project details and reach out shortly. For a
                 faster response, feel free to call or text directly.
               </p>
               <a

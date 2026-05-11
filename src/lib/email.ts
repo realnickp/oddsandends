@@ -156,10 +156,10 @@ function buildWelcomeHtml(customerName: string) {
       Thank You, ${firstName}!
     </h2>
     <p style="color:#374151;font-size:15px;line-height:1.7;margin:0 0 16px;">
-      We received your inquiry and Dan will be in touch soon — typically within a few hours during business days.
+      We received your inquiry and we'll be in touch soon — typically within a few hours during business days.
     </p>
     <p style="color:#374151;font-size:15px;line-height:1.7;margin:0 0 24px;">
-      In the meantime, feel free to call or text Dan directly if you'd like to get started right away:
+      In the meantime, feel free to call or text us directly if you'd like to get started right away:
     </p>
     <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto 24px;">
       <tr>
@@ -173,8 +173,8 @@ function buildWelcomeHtml(customerName: string) {
     <div style="background-color:#f0f9ff;border-radius:8px;padding:16px 20px;margin-bottom:16px;">
       <p style="color:#1e40af;font-size:13px;font-weight:600;margin:0 0 4px;">What happens next?</p>
       <ul style="color:#374151;font-size:14px;line-height:1.8;margin:0;padding-left:18px;">
-        <li>Dan will review your request</li>
-        <li>He'll reach out to discuss your project and schedule a time</li>
+        <li>We'll review your request</li>
+        <li>We'll reach out to discuss your project and schedule a time</li>
         <li>You'll receive an honest, no-obligation estimate</li>
       </ul>
     </div>
@@ -182,8 +182,8 @@ function buildWelcomeHtml(customerName: string) {
       Thanks for choosing Odds & Ends — we look forward to helping!
     </p>
     <p style="color:#374151;font-size:15px;line-height:1.7;margin:16px 0 0;">
-      <strong>Dan Kiely</strong><br />
-      <span style="color:#6b7280;font-size:13px;">Owner, Odds & Ends Handyman Service</span>
+      <strong>The Odds & Ends Team</strong><br />
+      <span style="color:#6b7280;font-size:13px;">Odds & Ends Handyman Service</span>
     </p>
   `)
 }
@@ -211,7 +211,7 @@ export async function sendWelcomeEmail(customerEmail: string, customerName: stri
 
   try {
     await resend.emails.send({
-      from: `Dan at Odds & Ends <${FROM_EMAIL}>`,
+      from: `Odds & Ends Handyman <${FROM_EMAIL}>`,
       to: customerEmail,
       replyTo: REPLY_TO,
       subject: `Thanks for reaching out, ${customerName.split(' ')[0]}! — Odds & Ends Handyman`,

@@ -1296,6 +1296,48 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     ],
   },
 
+  'junk-removal': {
+    serviceSlug: 'junk-removal',
+    serviceName: 'Junk Removal',
+    headline: 'Plan Your Junk Removal',
+    subtitle: 'Three quick questions and we will get you a flat-rate quote',
+    steps: [
+      {
+        id: 'job-type',
+        question: 'What needs to go?',
+        type: 'single-select',
+        options: [
+          { label: '📦 One or two items', value: 'single-item' },
+          { label: '🚗 A cleanout (garage, basement, attic, or whole house)', value: 'cleanout' },
+          { label: '🔨 Construction or renovation debris', value: 'construction' },
+          { label: '🤷 Not sure yet', value: 'other' },
+        ],
+      },
+      {
+        id: 'volume',
+        question: 'About how much stuff?',
+        type: 'single-select',
+        options: [
+          { label: '🪶 Just a few items', value: 'few-items' },
+          { label: '🚐 About a pickup-truck full', value: 'pickup-truck' },
+          { label: '🚚 A garage or basement full', value: 'garage-full' },
+          { label: '🤷 No idea — come take a look', value: 'unsure' },
+        ],
+      },
+      {
+        id: 'special',
+        question: 'Any of these in the pile?',
+        type: 'multi-select',
+        options: [
+          { label: '❄️ Large appliance (fridge, washer, AC unit)', value: 'appliance' },
+          { label: '🛏️ Mattress or box spring', value: 'mattress' },
+          { label: '♨️ Hot tub, shed, or swing set', value: 'structure' },
+          { label: '🚫 None of the above', value: 'none' },
+        ],
+      },
+    ],
+  },
+
   'outdoor-structures': {
     serviceSlug: 'outdoor-structures',
     serviceName: 'Outdoor Structures',

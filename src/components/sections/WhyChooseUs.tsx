@@ -7,7 +7,7 @@ const reasons = [
   {
     icon: Clock,
     title: '20+ Years of Experience',
-    description: "Dan has been solving homeowners' problems since 2001. You're not getting a rookie — you're getting decades of hands-on expertise.",
+    description: "Odds & Ends has been solving homeowners' problems since 2001. You're not getting a rookie — you're getting decades of hands-on expertise.",
   },
   {
     icon: Sparkles,
@@ -22,7 +22,7 @@ const reasons = [
   {
     icon: Paintbrush,
     title: 'Creative Problem Solver',
-    description: "Dan doesn't just fix things — he finds better solutions. Multiple customers have said the finished result exceeded what they imagined.",
+    description: "We don't just fix things — we find better solutions. Customers regularly tell us the finished result exceeded what they imagined.",
   },
   {
     icon: MessagesSquare,
@@ -57,9 +57,9 @@ export function WhyChooseUs() {
               The Handyman Rockland County Counts On
             </h2>
             <p className="text-lg text-gray-500 font-light leading-relaxed">
-              Owner operated, licensed, and local — Dan specializes in small and medium
+              Locally owned, licensed, and insured — Odds & Ends specializes in small and medium
               sized renovations and carries a million dollar insurance policy.
-              Here&apos;s why hundreds of homeowners trust him with their homes.
+              Here&apos;s why hundreds of homeowners trust us with their homes.
             </p>
           </div>
         </ScrollReveal>
@@ -69,14 +69,14 @@ export function WhyChooseUs() {
             <div className="relative h-28 w-28 rounded-full overflow-hidden shadow-lg shadow-gray-300/50 ring-4 ring-white">
               <Image
                 src="/images/site/dan.png"
-                alt="Dan Kiely, owner of Odds & Ends Handyman Service"
+                alt="Odds & Ends Handyman Service owner"
                 fill
                 className="object-cover"
                 sizes="112px"
               />
             </div>
-            <p className="mt-4 font-bold text-gray-900 text-lg">Dan Kiely</p>
-            <p className="text-gray-500 text-sm font-light">Owner &amp; Craftsman Since 2001</p>
+            <p className="mt-4 font-bold text-gray-900 text-lg">Odds & Ends Handyman Service</p>
+            <p className="text-gray-500 text-sm font-light">Locally Owned & Operated Since 2001</p>
             <p className="text-green-600 text-xs font-medium flex items-center justify-center gap-1 mt-1">
               <Shield className="h-3 w-3" />
               Licensed &amp; Insured in Rockland County

@@ -22,6 +22,7 @@ import { CTASection } from '@/components/sections/CTASection'
 import { HomepageEstimateSection } from '@/components/sections/HomepageEstimateSection'
 import { ScrollVideoAnimation } from '@/components/sections/ScrollVideoAnimation'
 import { BeforeAfterShowcase } from '@/components/sections/BeforeAfterShowcase'
+import { JunkRemovalAnnouncement } from '@/components/sections/JunkRemovalAnnouncement'
 import { SectionDivider } from '@/components/ui/SectionDivider'
 
 const homeFAQs = [
@@ -62,6 +63,9 @@ export default function HomePage() {
       <ScrollVideoAnimation />
       <SectionDivider variant="wave" fromColor="#030712" toColor="#ffffff" />
       <TrustBar />
+
+      {/* NEW: Junk Removal Service Announcement */}
+      <JunkRemovalAnnouncement />
 
       {/* Get Started — Two options: Project Builder or Estimate Form */}
       <HomepageEstimateSection />

@@ -143,7 +143,7 @@ export function ChatWidget() {
     setMessages([
       {
         role: 'assistant',
-        content: `Hi ${userInfo.name.split(' ')[0]}! I'm the Odds & Ends assistant. I know all about handyman services \u2014 ask me anything about your home project, or I can help you book a free estimate with Dan!`,
+        content: `Hi ${userInfo.name.split(' ')[0]}! I'm the Odds & Ends assistant. I know all about handyman services \u2014 ask me anything about your home project, or I can help you book a free estimate!`,
       },
     ])
   }
@@ -419,9 +419,9 @@ export function ChatWidget() {
                               : 'bg-blue-600 text-white rounded-2xl rounded-tr-sm',
                           ].join(' ')}
                         >
-                          {msg.role === 'assistant' && msg.content.includes('[CONTACT_DAN]') ? (
+                          {msg.role === 'assistant' && msg.content.includes('[CONTACT_US]') ? (
                             <>
-                              {msg.content.split('[CONTACT_DAN]').map((part, idx, arr) => (
+                              {msg.content.split('[CONTACT_US]').map((part, idx, arr) => (
                                 <span key={idx}>
                                   {part}
                                   {idx < arr.length - 1 && (
@@ -431,14 +431,14 @@ export function ChatWidget() {
                                         className="inline-flex items-center gap-1.5 px-4 py-2.5 md:px-3.5 md:py-2 bg-green-600 hover:bg-green-700 active:bg-green-800 text-white text-xs font-semibold rounded-full transition-colors shadow-sm"
                                       >
                                         <Phone className="h-3.5 w-3.5" />
-                                        Call Dan
+                                        Call Us
                                       </a>
                                       <a
                                         href="sms:+19084612688"
                                         className="inline-flex items-center gap-1.5 px-4 py-2.5 md:px-3.5 md:py-2 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white text-xs font-semibold rounded-full transition-colors shadow-sm"
                                       >
                                         <MessageSquare className="h-3.5 w-3.5" />
-                                        Text Dan
+                                        Text Us
                                       </a>
                                     </span>
                                   )}

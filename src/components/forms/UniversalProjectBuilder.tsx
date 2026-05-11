@@ -63,7 +63,7 @@ export function UniversalProjectBuilder() {
             Ready to Start Your Project?
           </h2>
           <p className="text-lg text-gray-400 font-light leading-relaxed mb-8 max-w-xl mx-auto">
-            Tell us what you need in a few guided steps. Dan will review your
+            Tell us what you need in a few guided steps. We'll review your
             project and get back to you with an honest, no-obligation estimate.
           </p>
 

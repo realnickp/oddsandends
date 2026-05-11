@@ -54,7 +54,7 @@ export default function AreasPage() {
                 Odds & Ends Handyman Service has been proudly serving homeowners
                 throughout Rockland County and select Westchester County communities
                 since 2001. From the charming Hudson River villages to the western
-                hills, Dan brings professional handyman expertise to your door.
+                hills, Odds & Ends brings professional handyman expertise to your door.
               </p>
             </div>
           </ScrollReveal>
@@ -79,7 +79,7 @@ export default function AreasPage() {
               Rockland County
             </h2>
             <p className="text-gray-500 font-light max-w-2xl mb-10">
-              Dan has been serving every corner of Rockland County since 2001 — from the
+              Odds & Ends has been serving every corner of Rockland County since 2001 — from the
               Hudson River villages to the western hills.
             </p>
           </ScrollReveal>
@@ -127,7 +127,7 @@ export default function AreasPage() {
                 Westchester County
               </h2>
               <p className="text-gray-500 font-light max-w-2xl">
-                Just across the Mario Cuomo Bridge — Dan now brings the same trusted
+                Just across the Mario Cuomo Bridge — Odds & Ends now brings the same trusted
                 craftsmanship to select Westchester County communities along the Hudson.
               </p>
             </div>

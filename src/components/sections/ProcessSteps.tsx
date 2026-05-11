@@ -21,7 +21,7 @@ const steps = [
     icon: Calendar,
     number: '03',
     title: 'Schedule the Work',
-    description: 'Pick a time that works for you. Dan shows up on time, prepared, and ready to work. We respect your schedule and your home.',
+    description: 'Pick a time that works for you. We show up on time, prepared, and ready to work. We respect your schedule and your home.',
   },
   {
     icon: CheckCircle2,

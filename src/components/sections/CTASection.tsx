@@ -6,7 +6,7 @@ import { ScrollReveal } from '@/components/ui/ScrollReveal'
 
 export function CTASection({
   headline = "Ready to Cross Those Projects Off Your List?",
-  subheadline = "Whether it's one small fix or a whole list of things that need attention, Dan is ready to help. Call, text, or request your free estimate today.",
+  subheadline = "Whether it's one small fix or a whole list of things that need attention, Odds & Ends is ready to help. Call, text, or request your free estimate today.",
   dark = true,
 }: {
   headline?: string

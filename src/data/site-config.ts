@@ -68,7 +68,9 @@ export const siteConfig = {
     'Kitchen renovation', 'Bathroom renovation', 'Furniture assembly',
     'Fence repair', 'Light fixture installation', 'Cabinet refinishing',
     'Flooring installation', 'Tile work', 'Shed building', 'Excavation',
-    'Wainscoting', 'Small and medium sized renovations',
+    'Wainscoting', 'Small and medium sized renovations', 'Junk removal',
+    'Garage cleanout', 'Estate cleanout', 'Appliance haul-away',
+    'Construction debris removal',
   ],
 } as const
 

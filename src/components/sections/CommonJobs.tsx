@@ -39,10 +39,10 @@ export function CommonJobs() {
                 What We Handle
               </p>
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                Jobs Homeowners Hire Dan For
+                Jobs Homeowners Hire Odds & Ends For
               </h2>
               <p className="text-lg text-gray-500 font-light leading-relaxed mb-8">
-                No more keeping a running list of things that need fixing. One call and Dan
+                No more keeping a running list of things that need fixing. One call and we
                 can knock out multiple projects in a single visit.
               </p>
               <div className="flex items-baseline gap-2">

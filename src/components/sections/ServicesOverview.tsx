@@ -88,7 +88,7 @@ export function ServicesOverview() {
               One Call Handles Your Entire To-Do List
             </h2>
             <p className="text-lg text-gray-500 font-light leading-relaxed">
-              From small repairs to complete renovations, Dan handles a wide range of home
+              From small repairs to complete renovations, Odds & Ends handles a wide range of home
               improvement work. No job too small, because we know how much the little things matter.
             </p>
           </div>

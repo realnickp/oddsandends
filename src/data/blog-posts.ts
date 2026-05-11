@@ -1408,4 +1408,151 @@ If you'd like a free written estimate for a specific project — TV mount, drywa
     image: '/images/blog/paint-touchups.jpg',
     imageAlt: 'Handyman invoice and tools showing 2026 Rockland County pricing breakdown',
   },
+  {
+    slug: 'junk-removal-rockland-county-complete-guide',
+    title: 'Junk Removal in Rockland County, NY: The Complete 2026 Homeowner\'s Guide',
+    excerpt:
+      'Everything Rockland County homeowners need to know about junk removal in 2026 — what it costs, what gets hauled, where it goes, and how to skip the dumpster headache. Odds & Ends now offers full-service junk removal across New City, Nyack, Suffern, Nanuet, Pearl River, and every town in between.',
+    content: `Every Rockland County home eventually reaches the same tipping point. The garage that started as "we will get to it next spring" becomes a fire hazard. The basement floods and suddenly you have a couch, a rug, and a water heater to get rid of. A parent passes away and an entire colonial in New City needs to be emptied in 30 days so the family can list it. A renovation finishes and there is a small mountain of drywall, old cabinets, and broken tile sitting in the driveway.
+
+Junk removal sounds simple — call somebody, they take it, you write a check. In practice it is one of the most confusing home services to figure out, especially in Rockland County where every town has different curbside rules, the transfer stations have their own quirks, and national franchises charge premium rates for a half-empty truck. This guide walks you through everything: what junk removal actually costs in Rockland County in 2026, what gets hauled and what does not, where your stuff actually ends up, how to choose a hauler, and why **Odds & Ends Handyman Service** now offers full-service **junk removal in Rockland County, NY**.
+
+## Why "Junk Removal" Is Bigger Than You Think
+
+The phrase "junk removal" sounds like one specific service, but in practice it covers at least eight distinct jobs that come up constantly across Rockland County homes:
+
+- **Single-item pickups** — one couch, one mattress, one busted washer, one peloton nobody uses.
+- **Garage cleanouts** — twenty years of stored boxes, broken tools, dead lawn equipment, expired car seats, paint cans, and that orphan piece of plywood.
+- **Basement cleanouts** — often triggered by water damage, sewer backups, or a finally-finished refinishing project that exposes how much got shoved down there.
+- **Attic cleanouts** — decades of Christmas decorations, old furniture, family records, and rodent-damaged insulation.
+- **Estate cleanouts** — emptying an entire home after a death or move to assisted living, usually under a tight timeline tied to a real estate closing.
+- **Hoarding cleanouts** — sensitive, methodical work that requires patience and respect for the homeowner.
+- **Tenant cleanouts** — rental properties where the previous occupant left "everything" behind.
+- **Construction & renovation debris** — drywall, flooring, cabinets, tile, fencing, deck boards, and packaging from a recent project.
+
+A real Rockland County **junk hauler** handles all eight. A guy with a pickup truck handles maybe two of them, and a national franchise will quote you triple for any of them.
+
+## What Junk Removal Costs in Rockland County in 2026
+
+The most common question we hear: **how much is junk removal in Rockland County?** The honest answer is "it depends on volume," but in 2026 the real ranges look like this for a properly licensed, insured local hauler:
+
+- **Single small item** (one mattress, one nightstand, one bag of garbage): roughly **$95 to $150**.
+- **Single large item** (sectional couch, hot tub, swing set, washer/dryer pair): roughly **$175 to $400** depending on weight and access.
+- **Quarter-truck load** (small cleanout, partial garage, post-move haul-away): roughly **$250 to $400**.
+- **Half-truck load** (full single-car garage, average basement cleanout, mid-size renovation debris): roughly **$425 to $650**.
+- **Full-truck load** (full two-car garage, large basement, attic + garage combo): roughly **$650 to $900**.
+- **Estate cleanout, 3-4 bedroom home**: typically **$1,800 to $4,500** depending on volume, sorting, and donation coordination.
+- **Hoarding cleanout**: project-based, usually **$2,500 and up**, billed transparently after a free walkthrough.
+
+National franchises — the big-name brands you have seen on TV — typically run 25 to 40 percent higher than a local Rockland County operator for the same volume. The reason is overhead: franchise fees, call-center staffing, fleet leasing, and national marketing. A local handyman-run operation runs leaner and passes the savings on.
+
+## What Towns Curbside Pickup Will (and Will Not) Take in Rockland County
+
+Every Rockland County town runs garbage and bulk pickup differently, and most of the bulky stuff people want gone is exactly what they will not take. A quick reality check:
+
+- **Clarkstown (New City, Nanuet, Valley Cottage, Congers, Bardonia, West Nyack)** — limited bulk pickup days, no appliances with refrigerants (fridges, freezers, AC units), no construction debris, no electronics on regular pickup. Bulk items must be scheduled, often with size and quantity caps.
+- **Orangetown (Pearl River, Tappan, Sparkill, Blauvelt, Palisades, Orangeburg)** — similar bulk restrictions, with electronics pickup handled separately at the town's e-waste collection site.
+- **Ramapo (Suffern, Spring Valley, Airmont, Monsey, Hillburn, Wesley Hills, Sloatsburg, Montebello, New Hempstead)** — bulk pickup is restricted, mattresses and large furniture are limited, no construction debris.
+- **Stony Point and Haverstraw** — bulk items limited, no appliances or construction debris on routes.
+- **Nyack, Piermont, South Nyack, Upper Nyack** — small village trash routes with stricter rules; bulk and appliances usually require private haul-away.
+
+Bottom line: if you have appliances, electronics, mattresses, construction debris, or more than one or two large items, town pickup will almost certainly not be your answer. That is exactly the gap a professional **junk removal service in Rockland County** fills.
+
+## What Junk Removal Actually Hauls (and What It Cannot)
+
+A typical Rockland County junk hauler — including **Odds & Ends Handyman Service** — will take:
+
+- Furniture: couches, sectionals, recliners, dressers, beds, mattresses, box springs, dining sets, office chairs.
+- Appliances: refrigerators, freezers, washers, dryers, dishwashers, stoves, microwaves, water heaters, AC units, dehumidifiers.
+- Electronics: TVs (CRT and flat panel), computers, printers, monitors, stereo equipment, exercise equipment, treadmills, ellipticals, Pelotons.
+- Yard items: swing sets, trampolines, basketball hoops, above-ground pools, hot tubs (dismantled), grills, patio furniture.
+- Outdoor structures: small sheds, dog runs, fencing, old decks (post-demo).
+- Construction debris: drywall, flooring, tile, cabinets, vanities, lumber, deck boards, fencing, packaging.
+- General cleanouts: boxes, bags of trash, paper, plastic, knick-knacks, the contents of an entire room.
+
+What junk removal **cannot** take in Rockland County (regulated separately under state and federal law):
+
+- **Hazardous household waste** — wet paint, solvents, motor oil, antifreeze, pesticides, pool chemicals, propane tanks, batteries, fluorescent bulbs.
+- **Medical waste** — needles, sharps, pharmaceuticals.
+- **Asbestos-containing materials** — requires licensed abatement contractors.
+- **Tires** — typically handled separately at scrap yards or state-licensed tire recyclers.
+- **Live ammunition or firearms** — requires law enforcement coordination.
+
+For hazardous household waste, Rockland County runs scheduled drop-off events each year and the Solid Waste Management Authority maintains a permanent drop-off location. We will tell you exactly where to bring those items.
+
+## Where Your Junk Actually Goes
+
+This is the part most haulers will not tell you straight: **most "junk" is not trash**. A responsible Rockland County junk removal operation sorts at the truck, not after the fact, and uses this disposal hierarchy:
+
+1. **Donation first.** Furniture in usable condition, working appliances, books, household goods — these go to Habitat for Humanity ReStore in Rockland (a great local resource), Goodwill, the Rockland County Salvation Army, and local thrift shops.
+2. **Recycling second.** Metal goes to scrap yards in the area. Cardboard and clean wood get recycled. Electronics go to certified e-waste recyclers — never to landfill — to comply with New York's Electronic Equipment Recycling and Reuse Act.
+3. **Landfill last.** Only true non-recoverable trash heads to a Rockland County transfer station (in Hillburn) or licensed regional landfill.
+
+A typical full-truck load that we run from a Rockland County home ends up roughly 35 percent donation, 35 percent recycling, and 30 percent landfill. Some loads — clean garage cleanouts especially — divert 75 percent or more from the landfill. If a hauler tells you everything just "goes to the dump," you are paying premium rates for a lazy operation.
+
+## How to Choose a Junk Removal Service in Rockland County
+
+Not every truck with a guy in it is a legitimate junk hauler. Before you hire, ask:
+
+1. **Are you licensed and insured?** A legitimate Rockland County junk removal operator carries general liability insurance (we carry $1,000,000) and, if also doing handyman work, holds a Rockland County Home Improvement Contractor license (ours is #H-25-600).
+2. **Is the quote flat-rate or hourly?** Flat-rate after a walkthrough or photo review is the standard. Hourly billing turns into a meter that runs while two people drag your couch up basement stairs.
+3. **Where does my stuff go?** A good answer names specific donation partners and recyclers. A bad answer is "the dump."
+4. **Can I get a receipt?** Yes. Donation slips for tax purposes are available on request, and a final dated receipt is standard.
+5. **Do you handle the sensitive jobs?** Estate cleanouts and hoarding situations require a different kind of operator. Ask how they approach those before booking.
+6. **Are you actually local?** Local matters because local haulers know which Rockland County donation centers are open which days, which transfer stations charge the lowest tipping fees, and which streets in Nyack have a 9 AM no-truck ordinance.
+
+## When Junk Removal Pairs With Other Handyman Work
+
+This is where a handyman-run junk removal service has a real advantage over a single-service franchise. A lot of Rockland County jobs need both:
+
+- **Appliance swap-outs.** We remove the old refrigerator, dishwasher, washer, or water heater and can install the new unit the same visit — including disconnecting/reconnecting plumbing for non-gas appliances.
+- **Demo and removal as one job.** Old deck coming down? Old shed? Above-ground pool? We dismantle and haul in one visit, often the same day.
+- **Renovation cleanup.** After **drywall repair**, **flooring** replacement, **cabinet refinishing**, or **tile work**, we sweep the debris and haul it as part of the same project.
+- **Estate prep for sale.** Cleanout plus **painting**, **drywall repair**, and small **handyman repairs** in one coordinated push, so the home is ready to list a week after the keys come back.
+
+Single-service junk haulers cannot do any of this. We can, because we are the same crew that has been working on Rockland County homes for 25 years.
+
+## Real Junk Removal Jobs in Rockland County
+
+A snapshot of the kind of work this service handles week-to-week:
+
+- **New City, full garage cleanout** — 23 years of boxes, broken yard equipment, three old bikes, and a rotting plywood storage shelf. Sorted 40 percent donation, 35 percent scrap, 25 percent landfill.
+- **Pearl River, basement post-flood** — soaked sectional, water heater, three rugs, four bins of damaged photos. Mold-conscious removal in one day so the homeowner could start drying out the framing.
+- **Nyack, estate cleanout of a 4-bedroom Victorian** — three-day project, family keepsakes flagged and set aside, donation slips for $2,400 in furniture, the rest sorted at the truck.
+- **Suffern, hot tub removal** — rusted six-person hot tub dismantled in place, hauled to scrap, deck repaired to fill the gap. Two days.
+- **Nanuet, renovation debris haul** — drywall, flooring, two old vanities, and packaging from a bathroom remodel. Half-day pickup, no surprise dump fees.
+- **Stony Point, swing set + trampoline removal** — kids grew out of it, the structures had become a hazard. Dismantled, scrapped the metal, hauled the rest. Three hours total.
+
+## How to Get a Junk Removal Quote From Odds & Ends
+
+Three ways to start, all of them free and no-pressure:
+
+1. **Text photos to (908) 461-2688.** This is the fastest path for most jobs. A few wide shots of the area and a close-up of anything especially large gets us to a flat-rate quote inside an hour during business hours.
+2. **Call (908) 461-2688.** Owner Daniel Kiely or one of the crew answers directly during operating hours — Monday through Friday 7 AM to 6 PM and Saturday 8 AM to 4 PM. No call center, no salespeople.
+3. **Fill out the online estimate form** on this site. Include a short description and as many photos as you can attach.
+
+Most quotes come back the same business day. Scheduling for single-item and partial-load jobs is often same-week, and for estate or large cleanouts we typically book 1 to 2 weeks out depending on season.
+
+## A Final Note: Why We Added Junk Removal
+
+For 25 years we have been the crew that homeowners in Rockland County call for **drywall repair**, **painting**, **deck repair**, **TV mounting**, and the dozens of other small-to-medium home improvement jobs that come up. About once a week, somebody asks us: *"Hey, while you're here, can you take this old couch / fridge / pile of construction debris with you?"*
+
+For years we said "we are not really set up for that" and pointed them to a national franchise. But we noticed two things: those franchises were quoting our customers 30 to 40 percent more than the job was worth, and the customers were coming back to us anyway because they trusted us more. So in 2026 we built out the truck capacity and the disposal partnerships to do this right — flat-rate pricing, donation-first sorting, no surprise fees, and the same licensed-and-insured crew that has been in your neighbor's house all year.
+
+If you have something to get rid of — one item or a whole house worth — give us a call at **(908) 461-2688** or [request a free estimate](/estimate). We will quote it, we will haul it, and we will leave the space swept clean.
+
+---
+
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600) carrying $1,000,000 in general liability insurance. We serve junk removal customers across all of Rockland County, NY, including New City, Nyack, Nanuet, Suffern, Pearl River, Stony Point, Haverstraw, Spring Valley, Piermont, Tappan, Sparkill, Blauvelt, Valley Cottage, Congers, Sloatsburg, Pomona, Airmont, Chestnut Ridge, Montebello, New Hempstead, Upper Nyack, Grandview, Thiells, and Garnerville, plus select Westchester communities including Sleepy Hollow, Tarrytown, Irvington, and Dobbs Ferry.*`,
+    category: 'Junk Removal',
+    relatedServices: ['junk-removal', 'excavation', 'sheds', 'drywall-repair'],
+    relatedCities: ['new-city', 'nyack', 'nanuet', 'suffern', 'pearl-river', 'stony-point'],
+    metaTitle: 'Junk Removal in Rockland County, NY: 2026 Complete Guide | Odds & Ends',
+    metaDescription:
+      'Junk removal in Rockland County, NY: 2026 pricing, what gets hauled, where it goes, and how to choose a hauler. Garage cleanouts, appliances, estate cleanouts, construction debris. Call (908) 461-2688.',
+    publishedDate: '2026-05-11',
+    author: 'Daniel Kiely',
+    image: '/images/services/junk-removal.jpg',
+    imageAlt: 'Two Odds & Ends crew members loading an old refrigerator, couch, boxes, and rolled rug onto a junk removal truck outside a Rockland County, NY home',
+  },
 ]

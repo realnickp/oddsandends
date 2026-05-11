@@ -15,7 +15,7 @@ const contactMethods = [
     label: 'Call Us',
     value: siteConfig.phoneFormatted,
     href: phoneHref(siteConfig.phone),
-    description: 'Speak with Dan directly',
+    description: 'Speak with us directly',
   },
   {
     icon: MessageSquare,
@@ -69,7 +69,7 @@ export default function ContactContent() {
             <ScrollReveal direction="up" delay={200}>
               <p className="text-xl text-gray-400 font-light leading-relaxed mb-10">
                 Have a question or ready to get started? Reach out by phone, text, or
-                email — Dan typically responds within hours.
+                email — we typically respond within hours.
               </p>
             </ScrollReveal>
 
@@ -113,7 +113,7 @@ export default function ContactContent() {
                   Request a Free Estimate
                 </h2>
                 <p className="text-gray-500 font-light mb-8">
-                  Fill out the form below and Dan will get back to you with an honest,
+                  Fill out the form below and we'll get back to you with an honest,
                   no-obligation quote.
                 </p>
                 <div className="bg-white rounded-2xl p-6 md:p-8 shadow-2xl shadow-gray-200/50 border-t-4 border-blue-600">
@@ -187,7 +187,7 @@ export default function ContactContent() {
                   <div className="relative">
                     <h3 className="text-lg font-bold mb-2">Prefer to Talk?</h3>
                     <p className="text-gray-400 font-light text-sm mb-5">
-                      Call or text Dan directly for the fastest response.
+                      Call or text us directly for the fastest response.
                     </p>
                     <div className="space-y-3">
                       <a
@@ -215,7 +215,7 @@ export default function ContactContent() {
 
       <CTASection
         headline="Need a Faster Response?"
-        subheadline="For the quickest turnaround, call or text Dan directly. He typically responds within hours and can often schedule work within a few days."
+        subheadline="For the quickest turnaround, call or text us directly. We typically respond within hours and can often schedule work within a few days."
       />
     </>
   )

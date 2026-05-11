@@ -45,7 +45,7 @@ export function EstimateForm({
         <CheckCircle2 className="h-16 w-16 text-green-500 mx-auto mb-4" />
         <h3 className="text-2xl font-bold text-gray-900 mb-2">Request Received!</h3>
         <p className="text-gray-600">
-          Dan will review your project details and get back to you shortly.
+          We'll review your project details and get back to you shortly.
           Thanks for choosing Odds & Ends!
         </p>
       </div>

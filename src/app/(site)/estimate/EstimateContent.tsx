@@ -38,21 +38,21 @@ const processSteps = [
   },
   {
     step: '2',
-    title: 'Dan Reviews Your Request',
+    title: 'We Review Your Request',
     description:
-      'Dan personally reviews every estimate request. He may reach out with a question or two to make sure he understands your needs.',
+      'Odds & Ends personally reviews every estimate request. We may reach out with a question or two to make sure we understand your needs.',
   },
   {
     step: '3',
     title: 'Receive Your Honest Quote',
     description:
-      "You'll get a clear, straightforward quote with no hidden fees. Dan typically responds within hours.",
+      "You'll get a clear, straightforward quote with no hidden fees. We typically respond within hours.",
   },
   {
     step: '4',
     title: 'Schedule at Your Convenience',
     description:
-      'Approve the estimate and schedule the work at a time that fits your life. Dan can often start within days.',
+      'Approve the estimate and schedule the work at a time that fits your life. We can often start within days.',
   },
 ]
 
@@ -125,7 +125,7 @@ export default function EstimateContent() {
             <ScrollReveal direction="up" delay={200}>
               <p className="text-xl text-gray-400 font-light leading-relaxed mb-8">
                 Choose how you&apos;d like to get started — use our guided Project Builder
-                or fill out a quick form. Either way, Dan will get back to you fast.
+                or fill out a quick form. Either way, we'll get back to you fast.
               </p>
             </ScrollReveal>
             <ScrollReveal direction="up" delay={300}>
@@ -165,7 +165,7 @@ export default function EstimateContent() {
                 </div>
                 <div className="flex-1 text-left">
                   <p className="text-lg md:text-xl font-bold mb-1">Project Builder</p>
-                  <p className="text-sm text-gray-400">Answer a few guided questions so Dan can prepare an accurate, tailored estimate &middot; 2 min</p>
+                  <p className="text-sm text-gray-400">Answer a few guided questions so we can prepare an accurate, tailored estimate &middot; 2 min</p>
                 </div>
                 <ArrowRight className="h-6 w-6 text-gray-400 group-hover:text-white group-hover:translate-x-1 transition-all shrink-0" />
               </button>
@@ -281,7 +281,7 @@ export default function EstimateContent() {
                 <div className="bg-gray-50 rounded-2xl p-6 border border-gray-100 text-center">
                   <h3 className="text-lg font-bold text-gray-900 mb-2">Prefer to Talk?</h3>
                   <p className="text-gray-500 font-light text-sm mb-4">
-                    Call or text Dan directly for the fastest response.
+                    Call or text us directly for the fastest response.
                   </p>
                   <div className="space-y-3">
                     <a
@@ -308,7 +308,7 @@ export default function EstimateContent() {
 
       <CTASection
         headline="Questions Before You Submit?"
-        subheadline="No question is too small. Call or text Dan — he's happy to walk you through the process and help you figure out exactly what you need."
+        subheadline="No question is too small. Call or text us — we're happy to walk you through the process and help you figure out exactly what you need."
       />
 
       {/* Project Builder overlay */}

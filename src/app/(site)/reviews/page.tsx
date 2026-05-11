@@ -12,7 +12,7 @@ import Link from 'next/link'
 export async function generateMetadata() {
   return generatePageMetadata({
     title: 'Customer Reviews',
-    description: `Read five-star Google reviews for Odds & Ends Handyman Service. See why Rockland County homeowners trust Dan Kiely for their home repairs and improvements.`,
+    description: `Read five-star Google reviews for Odds & Ends Handyman Service. See why Rockland County homeowners trust us for their home repairs and improvements.`,
     path: '/reviews',
   })
 }
@@ -90,7 +90,7 @@ export default function ReviewsPage() {
           <ScrollReveal delay={200}>
             <p className="text-lg md:text-xl text-gray-400 font-light leading-relaxed max-w-2xl mb-10">
               Don&apos;t just take our word for it. Read what Rockland County homeowners have to
-              say about working with Dan.
+              say about working with Odds & Ends.
             </p>
           </ScrollReveal>
 

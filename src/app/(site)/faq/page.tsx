@@ -22,7 +22,7 @@ const faqs = [
   {
     question: 'What services does Odds & Ends Handyman Service offer?',
     answer:
-      'We handle a wide range of home improvement and repair tasks including TV mounting, drywall repair, painting, door installation, deck and fence repair, bathroom and kitchen renovations, light fixture and ceiling fan installation, furniture assembly, wainscoting, custom accent walls, built-in shelving, tile work, and much more. If you don\'t see your project listed, give Dan a call or fill out the estimate form — he can almost definitely do it.',
+      'We handle a wide range of home improvement and repair tasks including TV mounting, drywall repair, painting, door installation, deck and fence repair, bathroom and kitchen renovations, light fixture and ceiling fan installation, furniture assembly, wainscoting, custom accent walls, built-in shelving, tile work, and much more. If you don\'t see your project listed, give us a call or fill out the estimate form — we can almost definitely do it.',
   },
   {
     question: 'What areas do you serve?',
@@ -32,32 +32,32 @@ const faqs = [
   {
     question: 'Do you offer free estimates?',
     answer:
-      'Yes! Every estimate is completely free with no obligation. Call, text, or fill out our online form and Dan will get back to you quickly with an honest quote. We believe in transparent pricing with no surprises.',
+      'Yes! Every estimate is completely free with no obligation. Call, text, or fill out our online form and we\'ll get back to you quickly with an honest quote. We believe in transparent pricing with no surprises.',
   },
   {
     question: 'How do I request an estimate?',
     answer:
-      'You have three easy options: fill out our online estimate form at oddsandendshandymanservice.com/estimate, call Dan directly at (908) 461-2688, or text that same number (texting is often the fastest way to reach us). Include photos if you can — they help us give a more accurate quote.',
+      'You have three easy options: fill out our online estimate form at oddsandendshandymanservice.com/estimate, call us directly at (908) 461-2688, or text that same number (texting is often the fastest way to reach us). Include photos if you can — they help us give a more accurate quote.',
   },
   {
     question: 'How quickly can you start my project?',
     answer:
-      'Dan typically responds to inquiries within hours and can often schedule work within a few days. For urgent needs, calling or texting directly is the fastest way to get on the schedule.',
+      'We typically respond to inquiries within hours and can often schedule work within a few days. For urgent needs, calling or texting directly is the fastest way to get on the schedule.',
   },
   {
     question: 'What are your hours of operation?',
     answer:
-      `We're available Monday through Friday from ${siteConfig.hours.weekdays}, and Saturday from ${siteConfig.hours.saturday}. We are closed on Sundays. For estimate requests, you can submit through our online form anytime and Dan will respond during business hours.`,
+      `We're available Monday through Friday from ${siteConfig.hours.weekdays}, and Saturday from ${siteConfig.hours.saturday}. We are closed on Sundays. For estimate requests, you can submit through our online form anytime and we'll respond during business hours.`,
   },
   {
     question: 'How is pricing determined?',
     answer:
-      'Pricing is based on the scope and complexity of the work. Dan provides a clear, upfront quote after reviewing your project details. There are no hidden fees or surprise charges. Many customers comment on how fair and reasonable the pricing is.',
+      'Pricing is based on the scope and complexity of the work. We provide a clear, upfront quote after reviewing your project details. There are no hidden fees or surprise charges. Many customers comment on how fair and reasonable the pricing is.',
   },
   {
     question: 'Do you charge for a consultation?',
     answer:
-      'No — consultations and estimates are always free. Dan has even been known to fix small issues on the spot during a consultation at no extra charge, and he\'ll tell you what you can fix yourself if it makes sense.',
+      'No — consultations and estimates are always free. We have even been known to fix small issues on the spot during a consultation at no extra charge, and we\'ll tell you what you can fix yourself if it makes sense.',
   },
   {
     question: 'Are you licensed and insured?',
@@ -77,7 +77,7 @@ const faqs = [
   {
     question: 'What about larger projects?',
     answer:
-      'Dan handles projects of all sizes, from quick fixes to multi-day renovations like kitchen facelifts, basement reconstructions, custom built-ins, and deck or pergola builds. He\'ll let you know upfront what\'s involved and give you an honest assessment.',
+      'Odds & Ends handles projects of all sizes, from quick fixes to multi-day renovations like kitchen facelifts, basement reconstructions, custom built-ins, and deck or pergola builds. We\'ll let you know upfront what\'s involved and give you an honest assessment.',
   },
   {
     question: 'What services do you NOT offer?',
@@ -87,27 +87,27 @@ const faqs = [
   {
     question: 'Do you clean up after the job?',
     answer:
-      'Absolutely. Dan is known for leaving workspaces cleaner than he found them. Multiple customers have specifically mentioned this in their reviews — one even noted that he mopped the floors before leaving. Cleanliness and respect for your home are non-negotiable.',
+      'Absolutely. Odds & Ends is known for leaving workspaces cleaner than we found them. Multiple customers have specifically mentioned this in their reviews — one even noted that the floors were mopped before we left. Cleanliness and respect for your home are non-negotiable.',
   },
   {
     question: 'What if I\'m not happy with the work?',
     answer:
-      'Your satisfaction is Dan\'s top priority. He takes great care to ensure every project meets your expectations. If something isn\'t right, he\'ll make it right. His perfect five-star Google rating speaks to his commitment to quality.',
+      'Your satisfaction is our top priority. We take great care to ensure every project meets your expectations. If something isn\'t right, we\'ll make it right. Our perfect five-star Google rating speaks to our commitment to quality.',
   },
   {
     question: 'Can you help me figure out what I need?',
     answer:
-      'Yes! Dan is happy to consult on your project and offer recommendations. He\'ll walk through your home, assess the situation, and give you honest advice — including what you can handle yourself and what would benefit from professional help.',
+      'Yes! We\'re happy to consult on your project and offer recommendations. We\'ll walk through your home, assess the situation, and give you honest advice — including what you can handle yourself and what would benefit from professional help.',
   },
   {
     question: 'How long has Odds & Ends been in business?',
     answer:
-      'Dan Kiely founded Odds & Ends Handyman Service in 2001. With over 20 years of experience, he brings deep knowledge and proven craftsmanship to every project.',
+      'Odds & Ends Handyman Service was founded in 2001. With over 20 years of experience, we bring deep knowledge and proven craftsmanship to every project.',
   },
   {
     question: 'What is the best way to contact you?',
     answer:
-      'Texting (908) 461-2688 is often the fastest way to reach Dan. You can also call that number or email Dkiely@oddsandendshandymanservice.com. For detailed project requests, use our online estimate form where you can include photos and project specifics.',
+      'Texting (908) 461-2688 is often the fastest way to reach us. You can also call that number or email Dkiely@oddsandendshandymanservice.com. For detailed project requests, use our online estimate form where you can include photos and project specifics.',
   },
 ]
 
@@ -142,7 +142,7 @@ export default function FAQPage() {
                 <span className="text-gradient">Questions</span>
               </h1>
               <p className="text-lg md:text-xl text-gray-400 font-light leading-relaxed">
-                Everything you need to know about working with Odds & Ends Handyman Service. Can&apos;t find your answer? Call or text Dan at{' '}
+                Everything you need to know about working with Odds & Ends Handyman Service. Can&apos;t find your answer? Call or text us at{' '}
                 <a href={phoneHref(siteConfig.phone)} className="text-blue-400 font-semibold hover:text-blue-300 transition-colors">
                   {siteConfig.phoneFormatted}
                 </a>.
@@ -172,7 +172,7 @@ export default function FAQPage() {
 
       <CTASection
         headline="Still Have Questions?"
-        subheadline="Don't hesitate to reach out. Dan is happy to answer any questions about your project, pricing, or the process. Call, text, or request your free estimate."
+        subheadline="Don't hesitate to reach out. Odds & Ends is happy to answer any questions about your project, pricing, or the process. Call, text, or request your free estimate."
       />
     </>
   )
