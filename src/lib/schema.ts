@@ -195,6 +195,7 @@ export function articleSchema(post: {
   excerpt: string
   slug: string
   publishedDate: string
+  updatedDate?: string
   author: string
 }) {
   return {
@@ -204,6 +205,7 @@ export function articleSchema(post: {
     description: post.excerpt,
     url: `${siteConfig.url}/blog/${post.slug}`,
     datePublished: post.publishedDate,
+    dateModified: post.updatedDate ?? post.publishedDate,
     author: {
       '@type': 'Person',
       name: post.author,

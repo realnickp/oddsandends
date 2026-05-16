@@ -50,6 +50,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           excerpt: post.excerpt,
           slug: post.slug,
           publishedDate: post.publishedDate,
+          updatedDate: post.updatedDate,
           author: post.author,
         })}
       />

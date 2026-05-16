@@ -9,6 +9,7 @@ export interface BlogPost {
   metaTitle: string
   metaDescription: string
   publishedDate: string
+  updatedDate?: string
   author: string
   image: string
   imageAlt: string
@@ -125,6 +126,7 @@ Not sure whether your damage is a DIY afternoon or a job for a pro? Snap a photo
     metaDescription:
       'When can you patch drywall yourself and when do you need a pro? Warning signs, repair vs. replacement, and 2026 drywall repair costs in Rockland County, NY.',
     publishedDate: '2025-02-25',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/drywall-repair.jpg',
     imageAlt: 'Cracked drywall being patched by a professional handyman in a Rockland County, NY home',
@@ -231,6 +233,7 @@ Send a photo of the wall and the TV with a [free estimate request](/estimate), o
     metaDescription:
       'Mounting a TV in an older home? How to mount on plaster-and-lath walls, the best room placement, fireplace tips, and 2026 TV mounting costs in Rockland County.',
     publishedDate: '2025-03-15',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/tv-mounting.jpg',
     imageAlt: 'Flat-screen TV mounted on a plaster-and-lath wall in an older Rockland County home',
@@ -351,6 +354,7 @@ Send your pre-sale list and a few photos with a [free estimate request](/estimat
     metaDescription:
       'The pre-sale repair checklist: handyman fixes that boost offers and clear inspection items before you list your Rockland County, NY home. 2026 costs included.',
     publishedDate: '2025-04-22',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/home-selling-prep.jpg',
     imageAlt: 'Handyman completing pre-sale repairs to get a Rockland County home market-ready',
@@ -463,6 +467,7 @@ Have a list of nagging repairs? Send it with a few photos through our [free esti
     metaDescription:
       'Dripping faucets, cracked caulk, loose railings: 10 small home repairs you should not put off, why they snowball, and what they cost now vs. later in Rockland County.',
     publishedDate: '2025-05-28',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/small-repairs.jpg',
     imageAlt: 'Handyman fixing a small home repair before it becomes a costly problem in Rockland County',
@@ -571,6 +576,7 @@ Not sure how your deck is holding up? Send a few photos with a [free estimate re
     metaDescription:
       'Soft boards, wobbly railings, ledger board failure: 8 deck repair warning signs every Rockland County homeowner should know, plus 2026 deck repair costs.',
     publishedDate: '2025-06-13',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/deck-warning-signs.jpg',
     imageAlt: 'Weathered deck showing rot and a loose railing — deck repair warning signs in Rockland County',
@@ -670,6 +676,7 @@ Not sure whether your fixture needs a quick repair or a full swap? Send a photo 
     metaDescription:
       'When to repair a light fixture vs. replace it: flickering, dead sockets, corrosion, and dated fixtures explained, plus 2026 costs in Rockland County, NY.',
     publishedDate: '2025-07-19',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/light-fixture.jpg',
     imageAlt: 'Handyman replacing an outdated ceiling light fixture in a Rockland County home',
@@ -767,6 +774,7 @@ Snap a few photos following the steps above and [request a free estimate](/estim
     metaDescription:
       'Get an accurate handyman quote from photos: what to capture, how to light it, scale tips, and how to send images for a tighter estimate in Rockland County, NY.',
     publishedDate: '2025-08-25',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/photos-for-estimate.jpg',
     imageAlt: 'Homeowner photographing a home repair to get an accurate handyman estimate',
@@ -897,6 +905,7 @@ Don't let small bathroom problems sit until they become big ones. We serve all o
     metaDescription:
       "Faucets, toilets, tile, caulk, exhaust fans — most bathroom repairs don't need a plumber. See what a Rockland County handyman can fix and typical 2026 costs.",
     publishedDate: '2025-09-12',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/bathroom-fixes.jpg',
     imageAlt: "Handyman repairing leaking bathroom faucet in Rockland County home",
@@ -1037,6 +1046,7 @@ Whether it is a plaster patch, a sticky door, a TV that needs a proper wall moun
     metaDescription:
       "Plaster walls, swollen doors, deck repairs, TV mounting — Nyack homeowners face unique challenges. See what Odds & Ends handles in older Rockland County homes.",
     publishedDate: '2025-10-19',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/nyack-homes.jpg',
     imageAlt: 'Historic Nyack home receiving handyman repair work near the Hudson River',
@@ -1182,6 +1192,7 @@ Whether you have one task or a running list that has been growing for a year, ca
     metaDescription:
       "Ceiling fans, drywall repairs, deck work, cabinet updates — New City homeowners rely on Odds & Ends for honest handyman work in Rockland County since 2001.",
     publishedDate: '2025-11-06',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/new-city-homes.jpg',
     imageAlt: 'Modern New City NY home with handyman performing interior repair',
@@ -1326,6 +1337,7 @@ Whether you have one piece or a full room to assemble, call or text **(908) 461-
     metaDescription:
       "Everything Rockland County homeowners need to know about professional furniture assembly: what we build, IKEA tips, wall anchoring, and 2026 pricing.",
     publishedDate: '2025-11-24',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/furniture-assembly.jpg',
     imageAlt: "Handyman assembling flat-pack furniture inside a customer's living room in Rockland County",
@@ -1482,6 +1494,7 @@ This is one of the highest-return safety tasks a homeowner can do — and one of
     metaDescription:
       "3 of 5 home fire deaths happen with no working smoke alarm. Learn when to test, replace, and reposition detectors in your Rockland County home — 2026 guide.",
     publishedDate: '2026-01-02',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/smoke-detector.jpg',
     imageAlt: 'Handyman testing smoke detector battery during home safety inspection',
@@ -1626,6 +1639,7 @@ If you are in Rockland County — whether you are in Suffern, Haverstraw, Nanuet
     metaDescription:
       "Learn how to choose pulls, knobs, and finishes for your kitchen cabinets — plus 2026 pricing for Rockland County hardware installation by a licensed handyman.",
     publishedDate: '2026-01-20',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/cabinet-hardware.jpg',
     imageAlt: 'Updated brushed nickel cabinet pulls installed on Rockland County kitchen cabinets',
@@ -1772,6 +1786,7 @@ We handle the full installation — device mounting, wiring, app setup, and a wa
     metaDescription:
       "Smart thermostats, video doorbells, smart locks — installed right in Rockland County. What works in older homes, what to watch out for, and realistic 2026 costs.",
     publishedDate: '2026-02-08',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/smart-home.jpg',
     imageAlt: 'Smart thermostat being installed by handyman in Rockland County home',
@@ -1901,6 +1916,7 @@ Whether you need a monitor mounted, shelves installed, cables managed, or a full
     metaDescription:
       "Build a better home office in Rockland County: monitor placement, shelving, cable management, lighting, and sound tips — plus 2026 pricing estimates.",
     publishedDate: '2026-02-26',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/home-office.jpg',
     imageAlt: 'Custom home office build with floating shelves and desk in Rockland County',
@@ -2088,6 +2104,7 @@ Do not wait until something fails to deal with it. A seasonal visit from Odds & 
     metaDescription:
       "A complete season-by-season maintenance checklist for Rockland County, NY homeowners — spring through winter, with local tips for older Hudson Valley homes.",
     publishedDate: '2026-03-15',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/seasonal-maintenance.jpg',
     imageAlt: 'Seasonal handyman maintenance checklist work outside Rockland County home',
@@ -2229,6 +2246,7 @@ We install ceiling fans throughout Rockland County — New City, Nanuet, Nyack, 
     metaDescription:
       "Match ceiling fan size to room square footage, pick the right mount for your ceiling height, and avoid the fan-rated box mistake. Rockland County install guide.",
     publishedDate: '2026-04-01',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/ceiling-fan.jpg',
     imageAlt: 'Ceiling fan being installed on bedroom ceiling by Rockland County handyman',
@@ -2351,6 +2369,7 @@ We check every post for rot, test every rail for flex, and tell you exactly what
     metaDescription:
       'Should you repair or replace your fence? Our decision framework and 2026 cost comparison helps Rockland County homeowners make the right call. Free estimates.',
     publishedDate: '2025-04-02',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/fence-repair.jpg',
     imageAlt: 'Damaged backyard wood fence section before handyman repair work',
@@ -2492,6 +2511,7 @@ Whether you are looking at a simple bold paint color or a full custom board-and-
     metaDescription:
       "Board-and-batten, shiplap, wood slat walls — compare accent wall treatments, see 2026 pricing, and learn what works best in Rockland County homes.",
     publishedDate: '2025-05-09',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/accent-wall.jpg',
     imageAlt: 'Custom wood-paneled accent wall built in Rockland County living room',
@@ -2649,6 +2669,7 @@ Whether it's one dripping faucet or a whole list of bathroom and kitchen fixes, 
     metaDescription:
       "Learn which plumbing fixes a Rockland County handyman can handle — faucets, toilets, drains — vs. what needs a licensed plumber. Includes 2026 cost ranges.",
     publishedDate: '2025-07-02',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/plumbing-fixes.jpg',
     imageAlt: 'Handyman tightening leaky kitchen faucet during minor plumbing repair',
@@ -2793,6 +2814,7 @@ We serve all of Rockland County — Suffern, Spring Valley, Nanuet, Pearl River,
     metaDescription:
       "Wire, laminate, or custom wood? Compare closet system types, get 2026 Rockland County pricing, and learn why professional installation makes the difference.",
     publishedDate: '2025-08-07',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/closet-organization.jpg',
     imageAlt: 'Custom closet organization system installed inside a Rockland County master bedroom closet',
@@ -2954,6 +2976,7 @@ We come prepared with a laser level, stud finder, and a full range of hardware �
     metaDescription:
       "The right hardware for every weight, how to hang on plaster walls in Rockland County, gallery wall layout tips, and how to safely hang heavy mirrors.",
     publishedDate: '2025-10-01',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/picture-hanging.jpg',
     imageAlt: "Gallery wall of framed pictures professionally hung in Rockland County home",
@@ -3093,6 +3116,7 @@ Whether you need a single sticking door adjusted, a hollow-core replaced with a 
     metaDescription:
       'Everything Rockland County homeowners need to know about door installation, replacement, and repair. Interior, exterior, and hardware upgrades from Odds & Ends.',
     publishedDate: '2025-12-13',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/door-installation.jpg',
     imageAlt: 'New interior door being installed and aligned by a Rockland County handyman',
@@ -3240,6 +3264,7 @@ Custom built-ins are one of the most satisfying projects we do — the transform
     metaDescription:
       "Custom built-in bookshelves, mudroom benches, window seats, and office systems for Rockland County homes. Room-by-room guide with 2026 pricing estimates.",
     publishedDate: '2026-04-13',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/built-ins.jpg',
     imageAlt: 'Custom built-in bookshelves added to a Rockland County family room',
@@ -3373,6 +3398,7 @@ Whether you need a few touch-ups done properly or a full room repaint, we handle
     metaDescription:
       'Touch up or repaint? A practical decision guide with 2026 pricing for Rockland County painting work. Honest advice from Odds & Ends Handyman Service.',
     publishedDate: '2026-04-22',
+    updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
     image: '/images/blog/paint-touchups.jpg',
     imageAlt: 'Handyman performing precise wall paint touch-up in Rockland County home',
