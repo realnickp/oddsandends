@@ -9,6 +9,7 @@ import { cities } from '@/data/cities'
 import { Breadcrumbs } from '@/components/seo/Breadcrumbs'
 import { SchemaMarkup } from '@/components/seo/SchemaMarkup'
 import { CTASection } from '@/components/sections/CTASection'
+import { BlogContent } from '@/components/blog/BlogContent'
 import { ScrollReveal } from '@/components/ui/ScrollReveal'
 import { SectionDivider } from '@/components/ui/SectionDivider'
 import { generateBlogMetadata } from '@/lib/metadata'
@@ -130,35 +131,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           <div className="grid lg:grid-cols-3 gap-12">
             {/* Main content */}
             <div className="lg:col-span-2">
-              <div className="prose prose-lg max-w-none">
-                {post.content.split('\n\n').map((paragraph, i) => {
-                  if (paragraph.startsWith('## ')) {
-                    return (
-                      <h2
-                        key={i}
-                        className="text-2xl md:text-3xl font-bold text-gray-900 mt-12 mb-5"
-                      >
-                        {paragraph.replace('## ', '')}
-                      </h2>
-                    )
-                  }
-                  if (paragraph.startsWith('### ')) {
-                    return (
-                      <h3
-                        key={i}
-                        className="text-xl md:text-2xl font-bold text-gray-900 mt-10 mb-4"
-                      >
-                        {paragraph.replace('### ', '')}
-                      </h3>
-                    )
-                  }
-                  return (
-                    <p key={i} className="text-gray-500 font-light leading-relaxed mb-5 text-lg">
-                      {paragraph}
-                    </p>
-                  )
-                })}
-              </div>
+              <BlogContent content={post.content} />
             </div>
 
             {/* Sidebar */}
