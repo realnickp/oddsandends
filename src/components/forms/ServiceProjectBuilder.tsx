@@ -12,6 +12,7 @@ import {
   FileText,
 } from 'lucide-react'
 import { cn, phoneHref } from '@/lib/utils'
+import { CONVERSION_LABELS, trackConversion } from '@/lib/gtag'
 import { siteConfig } from '@/data/site-config'
 import { getQuizConfig } from '@/data/quiz-configs'
 import type { QuizStep } from '@/data/quiz-configs'
@@ -250,7 +251,11 @@ export function ServiceProjectBuilder({
       formData.append('data', JSON.stringify(payload))
       photos.forEach((file) => formData.append('photos', file))
 
-      await fetch('/api/quiz-submit', { method: 'POST', body: formData })
+      const res = await fetch('/api/quiz-submit', { method: 'POST', body: formData })
+      // Report the Google Ads conversion only on a confirmed-OK response.
+      if (res.ok) {
+        trackConversion(CONVERSION_LABELS.projectBuilder)
+      }
       setSubmitted(true)
     } catch (err) {
       console.error('Submission failed:', err)

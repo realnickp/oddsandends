@@ -3,6 +3,7 @@
 import { useState, useRef } from 'react'
 import { Send, Upload, CheckCircle2, Loader2 } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { CONVERSION_LABELS, trackConversion } from '@/lib/gtag'
 import {
   FORM_STARTED_AT_FIELD_NAME,
   HONEYPOT_FIELD_NAME,
@@ -116,6 +117,8 @@ export function EstimateForm({
         throw new Error('Failed to submit')
       }
 
+      // Successful submission — report the Google Ads conversion.
+      trackConversion(CONVERSION_LABELS.estimateForm)
       setSubmitted(true)
     } catch {
       setError('Something went wrong. Please try again or call us directly.')

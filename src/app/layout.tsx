@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Script from 'next/script'
 import './globals.css'
 import { siteConfig } from '@/data/site-config'
+import { ConversionTracking } from '@/components/analytics/ConversionTracking'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -90,6 +91,7 @@ export default function RootLayout({
             gtag('config', 'AW-18165734950');
           `}
         </Script>
+        <ConversionTracking />
         {children}
       </body>
     </html>
