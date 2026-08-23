@@ -3,11 +3,11 @@ import QuizContent from './QuizContent'
 
 export async function generateMetadata() {
   return generatePageMetadata({
-    title: 'Build Your Project | Odds & Ends Handyman Rockland',
+    title: 'Build Your Project | Odds & Ends Home Services',
     description:
-      'Use our project builder to describe your home improvement project. Get a personalized estimate from Odds & Ends Handyman Service in Rockland County.',
+      'Use our project builder to describe your home improvement project. Get a personalized estimate from Odds & Ends Home Services in Tuxedo & Rockland County.',
     path: '/quiz',
-    keywords: ['project builder', 'handyman', 'Rockland County', 'estimate', 'home improvement'],
+    keywords: ['project builder', 'home services', 'Tuxedo NY', 'Rockland County', 'estimate', 'home improvement'],
   })
 }
 

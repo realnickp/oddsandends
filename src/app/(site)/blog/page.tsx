@@ -7,12 +7,13 @@ import { ScrollReveal } from '@/components/ui/ScrollReveal'
 import { SectionDivider } from '@/components/ui/SectionDivider'
 import { generatePageMetadata } from '@/lib/metadata'
 import { blogPosts } from '@/data/blog-posts'
+import { siteConfig } from '@/data/site-config'
 
 export async function generateMetadata() {
   return generatePageMetadata({
     title: 'Home Improvement Blog | Tips & Guides',
     description:
-      'Helpful home improvement tips, repair guides, and maintenance advice from Odds & Ends Handyman Service in Rockland County, NY.',
+      'Helpful home improvement tips, repair guides, and local advice from Odds & Ends Home Services in Tuxedo & Rockland County, NY.',
     path: '/blog',
     keywords: ['home improvement blog', 'handyman tips', 'home repair guides'],
   })
@@ -51,8 +52,8 @@ export default function BlogPage() {
                 <span className="text-gradient">Tips & Guides</span>
               </h1>
               <p className="text-lg md:text-xl text-gray-400 font-light leading-relaxed">
-                Practical advice for Rockland County homeowners from the Odds & Ends team,
-                with 20+ years of hands-on experience. Learn when to DIY, when to
+                Practical advice for Tuxedo and Rockland County homeowners from the Odds & Ends team,
+                with {siteConfig.yearsExperience}+ years of hands-on experience. Learn when to DIY, when to
                 call a pro, and how to keep your home in great shape.
               </p>
             </div>

@@ -6,7 +6,7 @@ const FROM_EMAIL = process.env.RESEND_FROM_EMAIL || 'Dan@oddsandendsny.com'
 const NOTIFICATION_EMAILS = (process.env.NOTIFICATION_EMAIL || '').split(',').map((e) => e.trim()).filter(Boolean)
 const REPLY_TO = 'Dkiely101@gmail.com'
 const LOGO_URL = 'https://nbdukzyoxpcznegumygh.supabase.co/storage/v1/object/public/lead-uploads/branding/logo.png'
-const SITE_URL = 'https://oddsandendshandymanservice.com'
+const SITE_URL = 'https://www.oddsandendsny.com'
 
 function formatTelHref(phone: string): string {
   const digits = phone.replace(/\D/g, '')
@@ -32,8 +32,8 @@ const emailWrapper = (content: string) => `
           <!-- Header -->
           <tr>
             <td style="background-color:#030712;padding:28px 32px;text-align:center;">
-              <img src="${LOGO_URL}" alt="Odds & Ends Handyman Service" width="72" height="72" style="border-radius:50%;display:inline-block;" />
-              <p style="color:#ffffff;font-size:18px;font-weight:700;margin:12px 0 0;letter-spacing:0.5px;">Odds & Ends Handyman Service</p>
+              <img src="${LOGO_URL}" alt="Odds & Ends Home Services" width="72" height="72" style="border-radius:50%;display:inline-block;" />
+              <p style="color:#ffffff;font-size:18px;font-weight:700;margin:12px 0 0;letter-spacing:0.5px;">Odds & Ends Home Services</p>
             </td>
           </tr>
           <!-- Body -->
@@ -46,9 +46,9 @@ const emailWrapper = (content: string) => `
           <tr>
             <td style="background-color:#f9fafb;padding:20px 32px;border-top:1px solid #e5e7eb;">
               <p style="color:#6b7280;font-size:12px;margin:0;text-align:center;line-height:1.6;">
-                Odds & Ends Handyman Service · Rockland & Westchester County, NY<br />
+                Odds & Ends Home Services · Tuxedo, Tuxedo Park & Rockland County, NY<br />
                 <a href="tel:+19084612688" style="color:#2563eb;text-decoration:none;">(908) 461-2688</a> · 
-                <a href="${SITE_URL}" style="color:#2563eb;text-decoration:none;">oddsandendshandymanservice.com</a>
+                <a href="${SITE_URL}" style="color:#2563eb;text-decoration:none;">oddsandendsny.com</a>
               </p>
             </td>
           </tr>
@@ -183,7 +183,7 @@ function buildWelcomeHtml(customerName: string) {
     </p>
     <p style="color:#374151;font-size:15px;line-height:1.7;margin:16px 0 0;">
       <strong>The Odds & Ends Team</strong><br />
-      <span style="color:#6b7280;font-size:13px;">Odds & Ends Handyman Service</span>
+      <span style="color:#6b7280;font-size:13px;">Odds & Ends Home Services</span>
     </p>
   `)
 }

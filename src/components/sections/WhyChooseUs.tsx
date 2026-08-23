@@ -6,7 +6,7 @@ import { siteConfig } from '@/data/site-config'
 const reasons = [
   {
     icon: Clock,
-    title: '20+ Years of Experience',
+    title: `${siteConfig.yearsExperience}+ Years of Experience`,
     description: "Odds & Ends has been solving homeowners' problems since 2001. You're not getting a rookie — you're getting decades of hands-on expertise.",
   },
   {
@@ -54,12 +54,12 @@ export function WhyChooseUs() {
               Why Homeowners Trust Us
             </p>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              The Handyman Rockland County Counts On
+              The Team Tuxedo Counts On
             </h2>
             <p className="text-lg text-gray-500 font-light leading-relaxed">
               Locally owned, licensed, and insured — Odds & Ends specializes in small and medium
               sized renovations and carries a million dollar insurance policy.
-              Here&apos;s why hundreds of homeowners trust us with their homes.
+              Here&apos;s why homeowners from Tuxedo Park to Rockland County trust us with their homes.
             </p>
           </div>
         </ScrollReveal>
@@ -69,17 +69,17 @@ export function WhyChooseUs() {
             <div className="relative h-28 w-28 rounded-full overflow-hidden shadow-lg shadow-gray-300/50 ring-4 ring-white">
               <Image
                 src="/images/site/dan.png"
-                alt="Odds & Ends Handyman Service owner"
+                alt="Odds & Ends Home Services owner"
                 fill
                 className="object-cover"
                 sizes="112px"
               />
             </div>
-            <p className="mt-4 font-bold text-gray-900 text-lg">Odds & Ends Handyman Service</p>
+            <p className="mt-4 font-bold text-gray-900 text-lg">Odds & Ends Home Services</p>
             <p className="text-gray-500 text-sm font-light">Locally Owned & Operated Since 2001</p>
             <p className="text-green-600 text-xs font-medium flex items-center justify-center gap-1 mt-1">
               <Shield className="h-3 w-3" />
-              Licensed &amp; Insured in Rockland County
+              Licensed &amp; Insured · Lic# {siteConfig.license.number}
             </p>
           </div>
         </ScrollReveal>

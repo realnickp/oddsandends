@@ -14,7 +14,7 @@ import { ProjectBuilderCard } from '@/components/forms/ProjectBuilderCard'
 import { ScrollReveal } from '@/components/ui/ScrollReveal'
 import { SectionDivider } from '@/components/ui/SectionDivider'
 import { generateServiceMetadata } from '@/lib/metadata'
-import { serviceSchema, faqSchema, breadcrumbSchema, howToSchema } from '@/lib/schema'
+import { serviceSchema, faqSchema, breadcrumbSchema } from '@/lib/schema'
 import { phoneHref } from '@/lib/utils'
 import { EstimateChoiceButton } from '@/components/forms/EstimateChoiceButton'
 
@@ -62,7 +62,6 @@ export default async function ServicePage({ params }: PageProps) {
             slug: service.slug,
           }),
           faqSchema(service.faqs),
-          howToSchema({ name: service.name, processSteps: service.processSteps }),
         ]}
       />
 

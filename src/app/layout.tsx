@@ -18,7 +18,7 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: `${siteConfig.businessName} | Professional Handyman in ${siteConfig.county}, ${siteConfig.stateAbbr}`,
+    default: `${siteConfig.businessName} | Tuxedo & ${siteConfig.county}, ${siteConfig.stateAbbr}`,
     template: `%s | ${siteConfig.businessName}`,
   },
   applicationName: siteConfig.businessName,
@@ -28,11 +28,11 @@ export const metadata: Metadata = {
   category: 'home services',
   other: {
     'geo.region': `US-${siteConfig.stateAbbr}`,
-    'geo.placename': siteConfig.county,
+    'geo.placename': `Tuxedo, ${siteConfig.stateAbbr}`,
     'geo.position': `${siteConfig.latitude};${siteConfig.longitude}`,
     ICBM: `${siteConfig.latitude}, ${siteConfig.longitude}`,
   },
-  description: `Professional handyman services in ${siteConfig.county}, ${siteConfig.state}. ${siteConfig.yearsExperience}+ years of experience. TV mounting, drywall repair, painting, deck repair, and a wide range of home improvement services. Owner operated, licensed, and insured. Free estimates. Call ${siteConfig.phoneFormatted}.`,
+  description: `Home improvement and handyman services in Tuxedo, Tuxedo Park, and ${siteConfig.county}, ${siteConfig.state}. Kitchens, bathrooms, basements, accent walls, custom built-ins, decks, flooring, and more. ${siteConfig.yearsExperience}+ years of experience. Owner operated, licensed, and insured. Free estimates. Call ${siteConfig.phoneFormatted}.`,
   metadataBase: new URL(siteConfig.url),
   alternates: {
     canonical: '/',
@@ -43,13 +43,13 @@ export const metadata: Metadata = {
     url: siteConfig.url,
     siteName: siteConfig.businessName,
     title: siteConfig.businessName,
-    description: `Professional handyman services in ${siteConfig.county}, ${siteConfig.stateAbbr}. ${siteConfig.yearsExperience}+ years of experience. Free estimates.`,
+    description: `Kitchens, baths, basements, built-ins, and trusted handyman work in Tuxedo, Tuxedo Park & ${siteConfig.county}, ${siteConfig.stateAbbr}. ${siteConfig.yearsExperience}+ years of experience. Free estimates.`,
     images: [
       {
         url: `${siteConfig.url}/images/og-image.png`,
         width: 1200,
         height: 630,
-        alt: `${siteConfig.businessName} — Professional Handyman in Rockland & Westchester County, NY`,
+        alt: `${siteConfig.businessName} — Kitchens, Baths & Home Services in Tuxedo & Rockland County, NY`,
       },
     ],
   },

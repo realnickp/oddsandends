@@ -270,7 +270,7 @@ export default function EstimateContent() {
                   </div>
                   <div className="p-4">
                     <p className="text-xs text-gray-500 font-light">
-                      Real results from real Rockland County homes
+                      Real results from real local homes
                     </p>
                   </div>
                 </div>

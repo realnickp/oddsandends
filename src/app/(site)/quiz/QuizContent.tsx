@@ -21,7 +21,7 @@ const cityOptions = [
   'Nyack', 'New City', 'Nanuet', 'Pearl River', 'Spring Valley',
   'Haverstraw', 'Stony Point', 'Clarkstown', 'Orangetown', 'Ramapo',
   'Suffern', 'Piermont', 'Grandview on Hudson', 'Sparkill', 'Tappan',
-  'Pomona', 'Other area in Rockland County',
+  'Pomona', 'Tuxedo', 'Tuxedo Park', 'Other area',
 ]
 
 const timelineOptions = [

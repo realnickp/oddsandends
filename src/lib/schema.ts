@@ -20,15 +20,24 @@ export function localBusinessSchema() {
     url: siteConfig.url,
     foundingDate: `${siteConfig.established}-01-01`,
     founder: { '@id': `${siteConfig.url}/#owner` },
-    description: `Professional handyman services in ${siteConfig.county}, ${siteConfig.state}. ${siteConfig.yearsExperience}+ years of experience. Free estimates.`,
-    areaServed: {
-      '@type': 'County',
-      name: siteConfig.county,
-      containedInPlace: {
-        '@type': 'State',
-        name: siteConfig.state,
+    description: `Home improvement and handyman services in Tuxedo, Tuxedo Park, and ${siteConfig.county}, ${siteConfig.state}. Kitchens, bathrooms, basements, built-ins, and more. ${siteConfig.yearsExperience}+ years of experience. Free estimates.`,
+    areaServed: [
+      {
+        '@type': 'City',
+        name: 'Tuxedo',
+        containedInPlace: { '@type': 'AdministrativeArea', name: 'Orange County, New York' },
       },
-    },
+      {
+        '@type': 'City',
+        name: 'Tuxedo Park',
+        containedInPlace: { '@type': 'AdministrativeArea', name: 'Orange County, New York' },
+      },
+      {
+        '@type': 'County',
+        name: 'Rockland County',
+        containedInPlace: { '@type': 'State', name: siteConfig.state },
+      },
+    ],
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
@@ -55,7 +64,7 @@ export function localBusinessSchema() {
         latitude: siteConfig.latitude,
         longitude: siteConfig.longitude,
       },
-      geoRadius: '40000', // 40km / ~25mi covers Rockland + reachable Westchester
+      geoRadius: '30000', // 30km / ~19mi covers Tuxedo, Tuxedo Park, and Rockland County
     },
     sameAs: siteConfig.socialProfiles,
     knowsAbout: siteConfig.knowsAbout,
@@ -106,7 +115,7 @@ export function websiteSchema() {
     '@id': `${siteConfig.url}/#website`,
     url: siteConfig.url,
     name: siteConfig.businessName,
-    description: `Professional handyman services in ${siteConfig.county}, ${siteConfig.state}. ${siteConfig.yearsExperience}+ years of experience.`,
+    description: `Home improvement and handyman services in Tuxedo, Tuxedo Park, and ${siteConfig.county}, ${siteConfig.state}. ${siteConfig.yearsExperience}+ years of experience.`,
     publisher: { '@id': `${siteConfig.url}/#organization` },
     inLanguage: 'en-US',
   }
@@ -128,12 +137,12 @@ export function serviceSchema(service: {
     url: `${siteConfig.url}/services/${service.slug}`,
     provider: { '@id': `${siteConfig.url}/#business` },
     areaServed: [
-      { '@type': 'County', name: siteConfig.county, containedInPlace: { '@type': 'State', name: siteConfig.state } },
-      ...cities.map(city => ({ '@type': 'City', name: city.name, containedInPlace: { '@type': 'County', name: siteConfig.county } })),
+      { '@type': 'County', name: 'Rockland County', containedInPlace: { '@type': 'State', name: siteConfig.state } },
+      ...cities.map(city => ({ '@type': 'City', name: city.name, containedInPlace: { '@type': 'County', name: `${city.county} County` } })),
     ],
     audience: {
       '@type': 'PeopleAudience',
-      geographicArea: { '@type': 'County', name: siteConfig.county },
+      geographicArea: { '@type': 'AdministrativeArea', name: 'Tuxedo and Rockland County, New York' },
     },
     offers: {
       '@type': 'Offer',
@@ -142,7 +151,7 @@ export function serviceSchema(service: {
         '@type': 'PriceSpecification',
         priceCurrency: 'USD',
       },
-      eligibleRegion: { '@type': 'County', name: siteConfig.county },
+      eligibleRegion: siteConfig.serviceCounties.map((county) => ({ '@type': 'County', name: county })),
     },
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
@@ -197,12 +206,14 @@ export function articleSchema(post: {
   publishedDate: string
   updatedDate?: string
   author: string
+  image?: string
 }) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline: post.title,
     description: post.excerpt,
+    ...(post.image ? { image: `${siteConfig.url}${post.image}` } : {}),
     url: `${siteConfig.url}/blog/${post.slug}`,
     datePublished: post.publishedDate,
     dateModified: post.updatedDate ?? post.publishedDate,
@@ -242,20 +253,6 @@ export function ownerSchema() {
         name: siteConfig.license.issuedBy,
       },
     },
-  }
-}
-
-export function howToSchema(service: { name: string; processSteps: { title: string; description: string }[] }) {
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'HowTo',
-    name: `How ${siteConfig.businessName} Handles ${service.name}`,
-    step: service.processSteps.map((step, i) => ({
-      '@type': 'HowToStep',
-      position: i + 1,
-      name: step.title,
-      text: step.description,
-    })),
   }
 }
 

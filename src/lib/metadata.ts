@@ -37,7 +37,7 @@ export async function generatePageMetadata({
 
   const fullTitle = finalTitle.includes(siteConfig.shortName)
     ? finalTitle
-    : `${finalTitle} | ${siteConfig.businessName}`
+    : `${finalTitle} | ${siteConfig.shortName}`
   const url = `${siteConfig.url}${path}`
 
   return {

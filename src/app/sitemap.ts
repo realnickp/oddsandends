@@ -7,7 +7,7 @@ import { blogPosts } from '@/data/blog-posts'
 // Stable build-time timestamp. Using `new Date()` per-request makes every
 // sitemap fetch report "now" for static URLs, which trains crawlers to ignore
 // lastmod. Bump this constant when service/city/core content materially changes.
-const STATIC_LAST_MODIFIED = new Date('2026-04-29')
+const STATIC_LAST_MODIFIED = new Date('2026-08-23')
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = siteConfig.url

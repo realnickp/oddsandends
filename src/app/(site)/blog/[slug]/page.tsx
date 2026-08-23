@@ -52,6 +52,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           publishedDate: post.publishedDate,
           updatedDate: post.updatedDate,
           author: post.author,
+          image: post.image,
         })}
       />
 

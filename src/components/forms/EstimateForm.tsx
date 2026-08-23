@@ -10,12 +10,13 @@ import {
 } from '@/lib/bot-check'
 
 const serviceOptions = [
-  'TV Mounting', 'Drywall Repair', 'Door Installation', 'Fence Repair',
-  'Deck Repair', 'Furniture Assembly', 'Light Fixture Installation',
-  'Toilet Installation', 'Faucet Installation', 'Tile Repair', 'Painting',
-  'Shelving Installation', 'Cabinet Refinishing', 'Picture Hanging',
-  'Ceiling Fan Installation', 'Minor Plumbing', 'Smart Home Setup',
-  'Custom Accent Wall', 'Wainscoting', 'Built-Ins', 'Other',
+  'Kitchen Renovation', 'Bathroom Renovation', 'Basement Finishing',
+  'Custom Accent Wall', 'Custom Built-Ins', 'Deck Repair & Refinishing',
+  'Flooring', 'Home Office', 'TV Mounting', 'Drywall Repair',
+  'Door Installation', 'Fence Repair', 'Furniture Assembly',
+  'Light Fixture Installation', 'Painting', 'Tile Work',
+  'Picture Hanging', 'Ceiling Fan Installation', 'Minor Plumbing',
+  'Smart Home Setup', 'Wainscoting', 'Other',
 ]
 
 const timelineOptions = [
@@ -325,7 +326,7 @@ export function EstimateForm({
       <label className="flex items-start gap-3 cursor-pointer">
         <input type="checkbox" required className="mt-1 h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500" />
         <span className="text-sm text-gray-600">
-          I consent to Odds & Ends Handyman Service contacting me about my project
+          I consent to Odds & Ends Home Services contacting me about my project
           via the contact method I selected. I understand this is a free estimate
           with no obligation.
         </span>

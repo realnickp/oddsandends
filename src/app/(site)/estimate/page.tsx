@@ -3,11 +3,11 @@ import EstimateContent from './EstimateContent'
 
 export async function generateMetadata() {
   return generatePageMetadata({
-    title: 'Free Handyman Estimate | Odds & Ends Rockland County',
+    title: 'Free Estimate | Odds & Ends Home Services, Tuxedo NY',
     description:
-      'Request a free, no-obligation estimate from Odds & Ends Handyman Service. Describe your project and we\'ll get back to you with an honest quote.',
+      'Request a free, no-obligation estimate from Odds & Ends Home Services. Describe your project and we\'ll get back to you with an honest quote.',
     path: '/estimate',
-    keywords: ['free estimate', 'handyman', 'Rockland County', 'quote', 'home repair'],
+    keywords: ['free estimate', 'home services', 'Tuxedo NY', 'Rockland County', 'quote', 'home repair'],
   })
 }
 

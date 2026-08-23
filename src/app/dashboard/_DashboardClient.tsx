@@ -122,7 +122,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
               <Wrench className="h-7 w-7" />
             </div>
             <h1 className="text-2xl font-bold text-gray-900">Dashboard Login</h1>
-            <p className="mt-1 text-sm text-gray-500">Odd &amp; Ends Handyman Services</p>
+            <p className="mt-1 text-sm text-gray-500">Odds &amp; Ends Home Services</p>
           </div>
 
           <form onSubmit={handleLogin} className="rounded-2xl border border-gray-100 bg-white p-6 shadow-sm">

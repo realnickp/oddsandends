@@ -5,34 +5,32 @@ import { siteConfig } from '@/data/site-config'
 import { phoneHref, smsHref } from '@/lib/utils'
 
 const serviceLinks = [
-  { label: 'TV Mounting', href: '/services/tv-mounting' },
-  { label: 'Drywall Repair', href: '/services/drywall-repair' },
-  { label: 'Door Installation', href: '/services/door-installation' },
-  { label: 'Deck Repair', href: '/services/deck-repair' },
-  { label: 'Painting', href: '/services/painting' },
-  { label: 'Light Fixture Installation', href: '/services/light-fixture-installation' },
-  { label: 'Bathroom Renovation', href: '/services/bathroom-renovation' },
-  { label: 'Kitchen Renovation', href: '/services/kitchen-renovation' },
-  { label: 'Cabinet Refinishing', href: '/services/cabinet-refinishing' },
+  { label: 'Kitchens', href: '/services/kitchen-renovation' },
+  { label: 'Bathrooms', href: '/services/bathroom-renovation' },
+  { label: 'Basements', href: '/services/basement-finishing' },
+  { label: 'Accent Walls', href: '/services/custom-accent-walls' },
+  { label: 'Custom Built-Ins', href: '/services/built-ins' },
+  { label: 'Deck Repair & Refinishing', href: '/services/deck-repair' },
+  { label: 'Flooring', href: '/services/flooring' },
+  { label: 'Home Offices', href: '/services/home-office-setup' },
+  { label: 'General Handyman', href: '/services' },
   { label: 'All Services →', href: '/services' },
 ]
 
+const tuxedoAreaLinks = [
+  { label: 'Tuxedo', href: '/areas/tuxedo' },
+  { label: 'Tuxedo Park', href: '/areas/tuxedo-park' },
+]
+
 const rocklandAreaLinks = [
+  { label: 'Sloatsburg', href: '/areas/sloatsburg' },
+  { label: 'Suffern', href: '/areas/suffern' },
   { label: 'Nyack', href: '/areas/nyack' },
   { label: 'New City', href: '/areas/new-city' },
   { label: 'Pearl River', href: '/areas/pearl-river' },
   { label: 'Nanuet', href: '/areas/nanuet' },
-  { label: 'Piermont', href: '/areas/piermont' },
-  { label: 'Suffern', href: '/areas/suffern' },
   { label: 'Clarkstown', href: '/areas/clarkstown' },
   { label: 'Tappan', href: '/areas/tappan' },
-]
-
-const westchesterAreaLinks = [
-  { label: 'Sleepy Hollow', href: '/areas/sleepy-hollow' },
-  { label: 'Tarrytown', href: '/areas/tarrytown' },
-  { label: 'Irvington', href: '/areas/irvington' },
-  { label: 'Dobbs Ferry', href: '/areas/dobbs-ferry' },
 ]
 
 const companyLinks = [
@@ -65,14 +63,15 @@ export function Footer() {
                   Odds & Ends
                 </p>
                 <p className="text-xs text-gray-400 tracking-wide uppercase">
-                  Handyman Service
+                  Home Services
                 </p>
               </div>
             </div>
             <p className="text-sm leading-relaxed text-gray-400">
-              Professional handyman services in {siteConfig.county},{' '}
-              {siteConfig.stateAbbr}. Trusted by homeowners since{' '}
-              {siteConfig.established}. No job too small, because we know how much the little things matter.
+              Kitchens, baths, basements, built-ins, and trusted handyman work in
+              Tuxedo, Tuxedo Park &amp; Rockland County, {siteConfig.stateAbbr}. Trusted by
+              homeowners since {siteConfig.established}. No job too small, because we know
+              how much the little things matter.
             </p>
             <div className="space-y-3 text-sm">
               <a
@@ -98,7 +97,7 @@ export function Footer() {
               </a>
               <div className="flex items-center gap-2.5">
                 <MapPin className="h-4 w-4 text-blue-400" />
-                Rockland & Westchester, {siteConfig.stateAbbr}
+                Tuxedo &amp; Rockland County, {siteConfig.stateAbbr}
               </div>
               <div className="flex items-center gap-2.5">
                 <Clock className="h-4 w-4 text-blue-400" />
@@ -129,10 +128,10 @@ export function Footer() {
           {/* Areas column */}
           <div>
             <h3 className="font-semibold text-white text-sm uppercase tracking-wider mb-4">
-              Rockland County
+              Tuxedo — Home Turf
             </h3>
             <ul className="space-y-2.5">
-              {rocklandAreaLinks.map((link) => (
+              {tuxedoAreaLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
@@ -144,10 +143,10 @@ export function Footer() {
               ))}
             </ul>
             <h3 className="font-semibold text-white text-sm uppercase tracking-wider mt-6 mb-4">
-              Westchester County
+              Rockland County
             </h3>
             <ul className="space-y-2.5">
-              {westchesterAreaLinks.map((link) => (
+              {rocklandAreaLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}

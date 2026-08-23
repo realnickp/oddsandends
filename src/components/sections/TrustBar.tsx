@@ -4,6 +4,7 @@ import { Shield, Clock, Star, ThumbsUp, Wrench, MapPin } from 'lucide-react'
 import { useScrollReveal } from '@/hooks/useScrollReveal'
 import { useCountUp } from '@/hooks/useCountUp'
 import type { LucideIcon } from 'lucide-react'
+import { siteConfig } from '@/data/site-config'
 
 interface TrustItem {
   icon: LucideIcon
@@ -15,12 +16,12 @@ interface TrustItem {
 }
 
 const trustItems: TrustItem[] = [
-  { icon: Clock, value: '20+', countTo: 20, suffix: '+', label: 'Years Experience' },
+  { icon: Clock, value: `${siteConfig.yearsExperience}+`, countTo: siteConfig.yearsExperience, suffix: '+', label: 'Years Experience' },
   { icon: Star, value: '5.0', countTo: 5, decimals: 1, label: 'Star Rating' },
   { icon: Shield, value: 'Free', label: 'Estimates' },
   { icon: ThumbsUp, value: '100%', countTo: 100, suffix: '%', label: 'Satisfaction' },
   { icon: Wrench, value: 'Owner', label: 'Operated & Local' },
-  { icon: MapPin, value: 'Rockland', label: '& Westchester' },
+  { icon: MapPin, value: 'Tuxedo', label: '& Rockland County' },
 ]
 
 function CounterValue({ item, isVisible }: { item: TrustItem; isVisible: boolean }) {

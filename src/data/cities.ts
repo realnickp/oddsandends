@@ -24,6 +24,122 @@ export interface City {
 
 export const cities: City[] = [
   {
+    slug: "tuxedo",
+    image: "/images/areas/tuxedo.jpg",
+    name: "Tuxedo",
+    county: "Orange",
+    state: "New York",
+    heroHeadline: "Tuxedo's Go-To Home Services Team",
+    heroSubheadline: "Kitchens, baths, basements, built-ins, and every repair in between — for the town we've made our home turf.",
+    intro: "Home services in Tuxedo, NY mean working with what this town actually is: wooded hillside lots along the Ramapo River, turn-of-the-century homes near the 1886 Victorian train station, mid-century builds tucked into Eagle Valley and Southfields, and newer townhomes at Woodlands at Tuxedo. Odds & Ends has been doing small and medium sized renovation and repair work in the Hudson Valley since 2001, and Tuxedo is now the heart of our service area — close enough to our Rockland County base that a quick repair up Route 17 is never an imposition. With more than 70 percent of the town preserved as open space between Harriman and Sterling Forest state parks, homes here live in the woods, and the woods are hard on houses: shade holds moisture against siding and decks, wells and septic systems need respectful scheduling, and every project has to be planned around trees, slopes, and stone. That's the work we love.",
+    commonNeeds: [
+      "Deck repair and refinishing on wooded, shaded lots",
+      "Kitchen and bathroom updates in older homes",
+      "Basement moisture control and finishing",
+      "Custom built-ins and home office setups for NYC commuters",
+      "Interior painting and drywall or plaster repair",
+      "Door and window adjustments in settling older frames",
+      "Flooring repair and installation",
+      "Exterior trim, caulk, and rot repair"
+    ],
+    whyChooseUs: `Tuxedo is a small town, and we want to be its go-to. That's not a slogan — it's the business plan. We answer the phone, we show up when we say we will, and we treat a one-hour repair in Southfields with the same care as a month of built-ins near the lake. A lot of contractors won't drive to Tuxedo for a small job; we've made Tuxedo the center of the map instead. Owner Daniel Kiely has spent ${new Date().getFullYear() - 2001}+ years working on Hudson Valley homes just down Route 17, and every job here is a chance to earn a neighbor's trust for the next twenty.`,
+    faqs: [
+      {
+        question: "Do you cover all of the Town of Tuxedo?",
+        answer: "Yes — the hamlet along Route 17, Eagle Valley, Southfields, Sterling Forest, Arden, and the Village of Tuxedo Park. We're minutes up the road from our Rockland County base, so nothing in town is out of the way, including homes off Long Meadow Road and East Village Road."
+      },
+      {
+        question: "Can you handle the moisture problems common on wooded Tuxedo lots?",
+        answer: "That's half the work in this town. Deep shade keeps decks, siding, and trim damp long after rain, which accelerates rot, moss, and paint failure. We build maintenance plans around it — proper stains and caulks, improved drainage and airflow, and rot repairs done before they spread into framing."
+      },
+      {
+        question: "Do you work on the older homes near the train station?",
+        answer: "Yes. The homes in the hamlet and around the station date back a century or more, with plaster walls, original trim, and framing that has settled into place. We repair rather than rip out wherever possible, matching materials so the fix disappears into the house."
+      },
+      {
+        question: "Do I need a permit for my project in Tuxedo?",
+        answer: "Structural work, decks, and most plumbing or electrical changes go through the Town of Tuxedo building department, and work inside Tuxedo Park adds village review on top. We'll tell you up front whether your project needs a permit and handle the paperwork with you rather than leaving you to figure it out."
+      },
+      {
+        question: "How quickly can you get to a small job in Tuxedo?",
+        answer: "Usually within days, not weeks. Small jobs are how we earn trust in a town this size, so we bundle them into efficient visits rather than turning them down. Call or text (908) 461-2688 with a photo and you'll typically have an answer the same business day."
+      }
+    ],
+    nearbyAreas: ["tuxedo-park", "sloatsburg", "suffern", "montebello"],
+    metaTitle: "Home Services & Handyman in Tuxedo, NY | Odds & Ends",
+    metaDescription: "Kitchens, bathrooms, basements, decks, built-ins, and expert handyman work in Tuxedo, NY. Odds & Ends Home Services — Tuxedo's go-to since 2001. Free estimates.",
+    keywords: ["home services Tuxedo NY", "handyman Tuxedo NY", "Tuxedo NY contractor", "kitchen remodel Tuxedo NY", "deck repair Tuxedo NY", "home repair Tuxedo New York"],
+    localAdvantage: "Tuxedo's homes sit in deep woods between Harriman and Sterling Forest state parks, and that setting drives everything about maintaining them: shaded siding and decks stay wet and grow moss, leaf litter clogs gutters and grades, and wells, septic fields, and long gravel drives complicate projects that would be routine in a subdivision. A local team that plans for the terrain — and doesn't charge windshield time to get here — changes the economics of keeping a Tuxedo home in shape.",
+    neighborhoods: ["Tuxedo hamlet / East Village", "Eagle Valley", "Southfields", "Sterling Forest", "Arden", "Woodlands at Tuxedo", "Long Meadow Road corridor", "Route 17 corridor"],
+    housingStock: "Tuxedo's housing runs from early-1900s homes clustered near the Metro-North station to mid-century houses in Eagle Valley and Southfields, plus the newer Woodlands at Tuxedo townhomes. Most sit on wooded, sloped lots with wells and septic, and many carry decades of deferred small repairs that add up.",
+    popularServiceSlugs: ["deck-repair", "basement-finishing", "kitchen-renovation", "home-office-setup"],
+    localTips: "The Town of Tuxedo building department handles permits for structural work, decks, and plumbing or electrical changes. On wooded lots, schedule exterior staining and painting for stretches of dry weather — shaded surfaces here need extra cure time. If you're near the Ramapo River or at the base of a slope, ask us to check grading and downspout runs before finishing a basement; managing water first saves the finish work later.",
+    stats: [
+      { label: "Focused On Tuxedo", value: "Our #1 Area" },
+      { label: "Google Rating", value: "5 Stars" },
+      { label: "Response Time", value: "Same Day" },
+      { label: "Estimates", value: "Always Free" }
+    ]
+  },
+  {
+    slug: "tuxedo-park",
+    image: "/images/areas/tuxedo-park.jpg",
+    name: "Tuxedo Park",
+    county: "Orange",
+    state: "New York",
+    heroHeadline: "Tuxedo Park's Trusted Home Services Craftsman",
+    heroSubheadline: "Careful, discreet work for America's first gated community — from small repairs to full room transformations.",
+    intro: "Home services in Tuxedo Park, NY are a different discipline. Behind the gate, some 300 homes built for Pierre Lorillard's 1886 colony ring Tuxedo Lake, the Wee Wah, and Pond Number Three — stone and shingle houses with slate roofs, plaster walls, leaded glass, and trim profiles no lumber yard stocks. These houses reward craftsmen who repair rather than replace, and they punish shortcuts. Odds & Ends Home Services brings a quarter century of small and medium sized renovation experience to exactly this kind of work: kitchens and baths updated without erasing character, built-ins that look original to the house, plaster patched properly, and the steady stream of small repairs a century-old home generates. We're minutes away, we're insured for it, and we actually want the small jobs most contractors won't drive in for.",
+    commonNeeds: [
+      "Plaster wall and ceiling repair",
+      "Kitchen and bathroom renovations that respect period character",
+      "Custom built-ins, bookcases, and window seats",
+      "Trim, molding, and millwork matching",
+      "Interior painting with proper prep on old surfaces",
+      "Door, window, and hardware restoration and adjustment",
+      "Basement and utility space improvements in stone foundations",
+      "Punch lists after larger renovations"
+    ],
+    whyChooseUs: `Tuxedo Park homeowners tell the same story: it's nearly impossible to get a skilled contractor to show up for anything smaller than a gut renovation. That's the gap we exist to fill. We're licensed and insured, we follow the village's contractor registration and gate procedures without drama, and we're comfortable being trusted with a home while you're in the city. Most of all, we understand that in a village of three hundred homes, reputation is everything — every job we do inside the gate is a referral we intend to earn.`,
+    faqs: [
+      {
+        question: "Are you set up to work inside the gate at Tuxedo Park?",
+        answer: "Yes. We carry $1,000,000 in general liability coverage, provide license and insurance documentation with every estimate, and follow the village's contractor registration and gate access procedures. Tell the Keep we're coming and we'll be on time."
+      },
+      {
+        question: "Do exterior projects need village approval?",
+        answer: "Often, yes — Tuxedo Park is a National Register historic district and exterior changes typically go through the village's review process in addition to any town permit. We'll flag which projects need approval before work begins and keep the scope inside what's been approved. Interior repairs and updates generally don't need village review."
+      },
+      {
+        question: "Can you work on plaster, old trim, and other original materials?",
+        answer: "That's the work we like best. We patch and skim plaster rather than defaulting to demolition, match existing trim profiles, and salvage original hardware wherever it can be saved. A repair in a 1900s house should disappear into it."
+      },
+      {
+        question: "Will you take small jobs in Tuxedo Park, or only renovations?",
+        answer: "Both, genuinely. A sticking pocket door, a short punch list, a single room repaint — small jobs are how we introduce ourselves. Many contractors won't come in for less than a major project; we've built our schedule so Tuxedo Park's small jobs always have a place in it."
+      },
+      {
+        question: "Can you work while we're away?",
+        answer: "Yes. Many Park residents split time with the city, and we're used to coordinating access, sending progress photos, and leaving the house cleaner than we found it. You'll get updates without having to be on site."
+      }
+    ],
+    nearbyAreas: ["tuxedo", "sloatsburg", "suffern", "montebello"],
+    metaTitle: "Home Services in Tuxedo Park, NY | Odds & Ends",
+    metaDescription: "Skilled, discreet home services for Tuxedo Park, NY — plaster repair, kitchens, baths, custom built-ins, and small jobs done right. Licensed, insured, local.",
+    keywords: ["Tuxedo Park NY contractor", "home services Tuxedo Park", "handyman Tuxedo Park NY", "historic home repair Tuxedo Park", "plaster repair Tuxedo Park", "built-ins Tuxedo Park NY"],
+    localAdvantage: "Tuxedo Park's roughly 300 homes are a living museum of pre-World-War-I architecture — Bruce Price cottages, stone and shingle manors, slate roofs, and interiors finished in plaster and hardwood by Gilded Age craftsmen. Maintaining them demands both skill and logistics: village contractor procedures, historic district review for exterior work, winding lakeside roads, and owners who are often in the city midweek. A trusted local craftsman who handles the small work as willingly as the renovations is the rarest trade in the village.",
+    neighborhoods: ["Tuxedo Lake", "Wee Wah Lake area", "Pond Number Three", "Circuit Road", "Tower Hill", "West Lake Road", "Clubhouse Road area", "The Race Track area"],
+    housingStock: "The village's homes date overwhelmingly to 1886 through the 1930s: stone, shingle, and stucco houses of two to twenty rooms with slate roofs, plaster interiors, original windows, and additions layered across a century. Systems and finishes vary wildly house to house, which makes an experienced eye on small problems the cheapest insurance a Park homeowner can buy.",
+    popularServiceSlugs: ["kitchen-renovation", "bathroom-renovation", "built-ins", "painting"],
+    localTips: "Register your contractor with the village and allow lead time for gate access on the first visit. Exterior changes in the historic district typically need village review — plan approvals before ordering materials. Slate roofs and copper gutters belong to specialists, but the plaster, trim, kitchens, baths, and built-ins below them are exactly what we do. If your house sits near the lakes, ask us to check basement humidity before storing anything precious down there.",
+    stats: [
+      { label: "Homes In The Village", value: "~300" },
+      { label: "Insurance Coverage", value: "$1M" },
+      { label: "Response Time", value: "Same Day" },
+      { label: "Estimates", value: "Always Free" }
+    ]
+  },
+  {
     slug: "nyack",
     image: "/images/areas/nyack.jpg",
     name: "Nyack",
@@ -1387,174 +1503,6 @@ export const cities: City[] = [
     localTips: "Garnerville is within the Town of Haverstraw for all permits and inspections. Many older homes here have original knob-and-tube wiring — if you're updating lighting or outlets, have an electrician assess the existing system first. The hillside homes often have stone or rubble foundations that may need repointing. The hamlet's location near the base of High Tor means excellent hiking access but also more wildlife interaction; secure any construction materials and waste. For cost-effective kitchen updates, consider refinishing existing cabinets rather than replacing them.",
     stats: [
       { label: "Serving Garnerville Since", value: "2001" },
-      { label: "Google Rating", value: "5 Stars" },
-      { label: "Response Time", value: "Same Day" },
-      { label: "Estimates", value: "Always Free" }
-    ]
-  },
-  {
-    slug: "sleepy-hollow",
-    image: "/images/areas/sleepy-hollow.jpg",
-    name: "Sleepy Hollow",
-    county: "Westchester County",
-    state: "New York",
-    heroHeadline: "Sleepy Hollow's Trusted Handyman Service",
-    heroSubheadline: "Quality craftsmanship for the historic homes and modern residences of this legendary Hudson River village.",
-    intro: "Sleepy Hollow handyman work spans two completely different housing types. The village's historic core along Broadway is full of century-old colonials, Dutch-influenced stone homes, and modest workers' cottages — many with original plaster, narrow oak floors, and aged heating systems. Just to the south, the Edge-on-Hudson waterfront development brings modern condos and townhomes that need a different kind of finish work. Odds & Ends has worked across Westchester County and back to our Rockland County base since Dan Kiely founded the company in 2001. We routinely make the short drive over the Mario Cuomo Bridge for jobs in Webber Park, around Bellwood Avenue, and out toward Philipse Manor. Backed by a $1 million general liability insurance policy and 25+ years of hands-on experience.",
-    commonNeeds: [
-      "Interior painting and plaster repair in pre-war homes",
-      "Deck repair and refinishing on hillside properties",
-      "Door replacement and hardware upgrades",
-      "Drywall patching and skim coating",
-      "Bathroom updates in older colonials",
-      "Fence repair along sloped yards",
-      "Light fixture replacement and modernization",
-      "Shelving and storage solutions for older floor plans"
-    ],
-    whyChooseUs: "Sleepy Hollow's homes range from 19th-century colonials along upper Broadway to the condos and townhomes at Edge-on-Hudson — and each type demands a different approach. We don't treat every job the same. We take the time to understand the age, materials, and quirks of your specific home before we start work. As a Rockland County-based team, we're just across the Mario Cuomo Bridge and treat Sleepy Hollow like an extension of our home turf. Our clients here appreciate that we communicate clearly, show up on time, and stand behind our work.",
-    faqs: [
-      { question: "Do you serve both the older and newer sections of Sleepy Hollow?", answer: "Yes. We work throughout the village — from the historic homes along Broadway and Bellwood Avenue to the newer construction at Edge-on-Hudson and the Kendal community. Each area has its own maintenance needs, and we're comfortable with all of them." },
-      { question: "How far is the drive from Rockland County to Sleepy Hollow?", answer: "We're just across the Mario Cuomo Bridge. Door to door, we reach Sleepy Hollow in about 15 minutes from our Rockland County base, making it easy to respond quickly and keep projects on schedule." },
-      { question: "Can you work on homes in the Sleepy Hollow Historic District?", answer: "We can. We have experience working on older properties that require careful attention to original materials and period-appropriate repairs. If your home falls within a designated historic area, we'll work within any guidelines the village requires." },
-      { question: "Do you provide free estimates for Sleepy Hollow homeowners?", answer: "Absolutely. We provide free on-site estimates with a clear, written scope of work so you know exactly what to expect before any work begins." }
-    ],
-    nearbyAreas: ["tarrytown", "nyack", "piermont", "tappan"],
-    metaTitle: "Expert Handyman Services in Sleepy Hollow, NY | Odds & Ends",
-    metaDescription: "Reliable handyman services for Sleepy Hollow, NY homeowners. Historic home repairs and modern upgrades from an experienced team just across the Mario Cuomo Bridge.",
-    keywords: ["handyman Sleepy Hollow NY", "Sleepy Hollow home repair", "Westchester County handyman", "home improvement Sleepy Hollow"],
-    localAdvantage: "Sleepy Hollow's housing spans nearly two centuries — from stone and wood-frame homes built in the 1800s along upper Broadway to brand-new construction at Edge-on-Hudson on the former GM assembly plant site. The village's steep terrain above the Hudson means many properties sit on hillside lots where deck footings, retaining walls, and drainage all need extra attention. River-facing homes contend with accelerated moisture exposure that takes a toll on exterior paint and wood trim.",
-    neighborhoods: ["Broadway corridor", "Bellwood Avenue", "Edge-on-Hudson", "Webber Park", "Kendal on Hudson", "Barnhardt Avenue", "Valley Street area", "Philipse Manor"],
-    housingStock: "Sleepy Hollow's housing stock is split between the village's historic core of colonials, Dutch-influenced stone homes, and modest workers' cottages, and the modern condos and townhomes in the Edge-on-Hudson waterfront development. Many older homes retain original plaster, hardwood floors, and aged heating systems that benefit from careful, knowledgeable maintenance.",
-    popularServiceSlugs: ["painting", "drywall-repair", "door-installation", "deck-repair"],
-    localTips: "Sleepy Hollow is an incorporated village within the Town of Mount Pleasant. Building permits are required for structural work, decks, fences, and electrical or plumbing modifications. Homes in the Philipse Manor section may be subject to additional architectural guidelines. The village's steep lots often require erosion-conscious planning for any exterior construction.",
-    stats: [
-      { label: "Bridge Crossing", value: "~15 Min" },
-      { label: "Google Rating", value: "5 Stars" },
-      { label: "Response Time", value: "Same Day" },
-      { label: "Estimates", value: "Always Free" }
-    ]
-  },
-  {
-    slug: "tarrytown",
-    image: "/images/areas/tarrytown.jpg",
-    name: "Tarrytown",
-    county: "Westchester County",
-    state: "New York",
-    heroHeadline: "Tarrytown's Trusted Handyman Service",
-    heroSubheadline: "Careful, quality work for the Victorians, colonials, and character homes that define this Hudson River village.",
-    intro: "Tarrytown handyman jobs usually start with a layered diagnosis. The village's Victorians, Tudors, and colonials — most built between the 1880s and 1930s — frequently carry decades of renovation history inside the same wall: original plaster, mid-century drywall patches, modern skim coats. Hilly terrain and a mature tree canopy add steady gutter and drainage challenges. Odds & Ends has worked these layered older homes across Westchester County and Rockland County since Daniel Kiely launched the business in 2001. We make the run across the Mario Cuomo Bridge to jobs on Grove Street, Wildey Street, the Neperan Road corridor, and the side streets off Leroy Avenue. With 25+ years of hands-on experience and a $1 million general liability policy, the careful work gets done right.",
-    commonNeeds: [
-      "Interior and exterior painting on period homes",
-      "Cabinet refinishing and kitchen updates",
-      "Tile work in bathrooms and entryways",
-      "Crown molding and trim repair",
-      "Deck and porch repair on older properties",
-      "Drywall and plaster patching",
-      "Light fixture and ceiling fan installation",
-      "Wainscoting and accent wall installation"
-    ],
-    whyChooseUs: "Tarrytown's homes have genuine character — and they need a handyman team that respects that. We've spent over 20 years working on homes with original plaster, old-growth trim, and construction details you simply don't find in new builds. We understand how to repair, restore, and update these homes without cutting corners or erasing what makes them special. Being based in Rockland County puts us just minutes across the Mario Cuomo Bridge, and many of our Tarrytown clients have become long-term relationships because we treat their homes the way we'd want ours treated.",
-    faqs: [
-      { question: "Do you have experience with Victorian and colonial homes in Tarrytown?", answer: "Yes. A significant portion of our work involves older homes with original plaster walls, period millwork, and construction methods that require a different skill set than modern homes. We know how to repair and match these details rather than simply covering them up." },
-      { question: "Can you refinish or update kitchen cabinets instead of replacing them?", answer: "Absolutely. Cabinet refinishing is one of our most popular services in Tarrytown. Many homes here have solid wood cabinets that are structurally sound but look dated. We can sand, prime, and repaint or restain them for a fraction of the cost of a full replacement." },
-      { question: "Are you available on weekends for Tarrytown projects?", answer: "We offer Saturday availability for certain projects, which is helpful for homeowners who commute during the week. We'll work with your schedule to find a time that makes sense." },
-      { question: "Do you provide free estimates?", answer: "Yes, always. We'll visit your Tarrytown home, walk through the project together, and provide a clear written estimate before scheduling any work." }
-    ],
-    nearbyAreas: ["sleepy-hollow", "irvington", "nyack", "piermont", "tappan"],
-    metaTitle: "Expert Handyman Services in Tarrytown, NY | Odds & Ends",
-    metaDescription: "Trusted handyman services for Tarrytown, NY. Expert painting, cabinet refinishing, tile work, and period home repairs from an experienced Rockland County team.",
-    keywords: ["handyman Tarrytown NY", "Tarrytown home repair", "Westchester handyman", "Victorian home repair Tarrytown"],
-    localAdvantage: "Tarrytown's walkable downtown and tree-lined residential streets are home to a dense collection of Victorians, colonials, and Tudors — many built between the 1880s and 1930s. These homes frequently have layered renovation histories, meaning a single wall might contain original plaster, a mid-century drywall patch, and modern skim coat. The village's hilly terrain and mature tree canopy also mean persistent gutter and drainage challenges.",
-    neighborhoods: ["Main Street area", "Grove Street", "Neperan Road corridor", "Wildey Street", "Leroy Avenue", "Prospect Avenue", "South Tarrytown", "Crest Drive area"],
-    housingStock: "Tarrytown features a rich mix of Victorian, Tudor, and colonial homes concentrated in the village core, with mid-century ranches and split-levels on the eastern hillside and some newer condos near the waterfront. Many of the older homes retain original hardwood floors, plaster walls, built-in cabinetry, and ornate exterior trim that benefit from skilled maintenance.",
-    popularServiceSlugs: ["painting", "cabinet-refinishing", "tile-work", "wainscoting"],
-    localTips: "Tarrytown is an incorporated village with its own building department. Permits are required for structural work, decks, plumbing, and electrical modifications. Properties near the historic Lyndhurst estate and along certain village streets may fall under historic preservation considerations. The village's steep topography means water management should be part of any significant exterior project.",
-    stats: [
-      { label: "Bridge Crossing", value: "~12 Min" },
-      { label: "Google Rating", value: "5 Stars" },
-      { label: "Response Time", value: "Same Day" },
-      { label: "Estimates", value: "Always Free" }
-    ]
-  },
-  {
-    slug: "irvington",
-    image: "/images/areas/irvington.jpg",
-    name: "Irvington",
-    county: "Westchester County",
-    state: "New York",
-    heroHeadline: "Irvington's Trusted Handyman Service",
-    heroSubheadline: "Meticulous craftsmanship for the distinctive homes of this scenic Hudson River village.",
-    intro: "Irvington handyman service runs at the high end of Westchester County standards. The village is one of the most architecturally cohesive on the Hudson, with a housing stock dominated by well-preserved Tudors, colonials, and Arts and Crafts homes from the early 1900s through the 1940s — slate roofs, stucco exteriors, leaded glass windows, and built-in cabinetry are common. Odds & Ends has worked these homes since 2001 from our Rockland County base, just across the Mario Cuomo Bridge. We've handled built-in restoration in 1920s Tudors near Main Street, trim repair on Station Road colonials, and finish carpentry on Harriman Road. Steep terrain and tight lots make logistics matter. Bonded with $1 million in general liability coverage and a 5-star Google rating to match the work.",
-    commonNeeds: [
-      "Custom built-in shelving and cabinetry",
-      "Kitchen renovation and modernization",
-      "Interior painting with high-quality finishes",
-      "Accent wall and wainscoting installation",
-      "Bathroom tile and fixture upgrades",
-      "Closet system design and installation",
-      "Deck and patio maintenance on hillside lots",
-      "Door and window trim restoration"
-    ],
-    whyChooseUs: "Irvington homeowners tend to have high standards — and they should. The homes here are beautiful, well-maintained, and worth protecting with quality work. We understand that in a village like Irvington, a sloppy paint job or a poorly matched trim piece stands out. That's why we take the time to get finishes right, match existing materials carefully, and leave every job site cleaner than we found it. We may be based across the river in Rockland County, but the Mario Cuomo Bridge puts us at your door in minutes.",
-    faqs: [
-      { question: "What types of homes do you work on in Irvington?", answer: "We work on the full range — from the large Tudors and colonials on the tree-lined streets near Main Street to the historic riverfront properties and the more modest homes in the village core. Each has its own character and maintenance needs." },
-      { question: "Can you build custom built-ins or shelving for older Irvington homes?", answer: "Yes, this is one of our specialties. Many Irvington homes have alcoves, irregular wall angles, and unique room proportions that don't accommodate off-the-shelf solutions. We design and build custom pieces that fit the space and match the home's existing style." },
-      { question: "How long does a typical kitchen renovation take?", answer: "A cosmetic refresh — new cabinet finishes, hardware, backsplash, and fixtures — can often be completed in one to two weeks. A more extensive renovation with layout changes will take longer. We'll give you a realistic timeline during the estimate." },
-      { question: "Do you offer free estimates?", answer: "Yes. We visit your home, discuss the project in detail, and provide a clear written estimate at no cost and no obligation." }
-    ],
-    nearbyAreas: ["tarrytown", "dobbs-ferry", "sleepy-hollow", "nyack", "piermont"],
-    metaTitle: "Expert Handyman Services in Irvington, NY | Odds & Ends",
-    metaDescription: "Premium handyman services for Irvington, NY homeowners. Custom built-ins, kitchen renovations, painting, and skilled home repairs just across the Mario Cuomo Bridge.",
-    keywords: ["handyman Irvington NY", "Irvington home repair", "Westchester handyman", "custom built-ins Irvington"],
-    localAdvantage: "Irvington is one of the most architecturally cohesive villages along the Hudson, with a housing stock dominated by well-preserved Tudors, colonials, and Arts and Crafts homes dating from the early 1900s through the 1940s. The village's compact layout and steep terrain above the river mean many homes sit on tight lots with limited access — something we account for when planning material delivery and work logistics.",
-    neighborhoods: ["Main Street village center", "Station Road area", "North Eckar Street", "Harriman Road", "Matthiessen Park", "Ardsley-on-Hudson border", "Barney Park", "Riverview area"],
-    housingStock: "Irvington's housing is predominantly Tudors, colonials, and Arts and Crafts homes from the early to mid-20th century, many featuring original slate roofs, stucco exteriors, leaded glass windows, and handcrafted interior woodwork. A smaller number of contemporary homes and renovated estates round out the village's housing mix.",
-    popularServiceSlugs: ["kitchen-renovation", "built-ins", "custom-accent-walls", "painting"],
-    localTips: "Irvington is an incorporated village with its own building department and planning board. Permits are required for structural changes, plumbing, electrical, and any work affecting the building envelope. The village takes its residential character seriously, so exterior modifications may draw scrutiny. Tree removal on private property requires a village permit if the tree exceeds a certain diameter.",
-    stats: [
-      { label: "Bridge Crossing", value: "~18 Min" },
-      { label: "Google Rating", value: "5 Stars" },
-      { label: "Response Time", value: "Same Day" },
-      { label: "Estimates", value: "Always Free" }
-    ]
-  },
-  {
-    slug: "dobbs-ferry",
-    image: "/images/areas/dobbs-ferry.jpg",
-    name: "Dobbs Ferry",
-    county: "Westchester County",
-    state: "New York",
-    heroHeadline: "Dobbs Ferry's Trusted Handyman Service",
-    heroSubheadline: "Reliable home repairs and upgrades for the families and homeowners of this welcoming riverfront village.",
-    intro: "Dobbs Ferry handyman work moves between several distinct building eras inside one village. Pre-war colonials and Tudors fill the hillside neighborhoods (1920s plaster, original lath, ornate trim), mid-century Capes and ranches dominate the central streets (1960s drywall, dated kitchens), and modern condos cluster near the Metro-North station. Odds & Ends has handled all three since Dan Kiely founded the company in 2001. From our Rockland County base, we make the run across the Mario Cuomo Bridge to jobs on Cedar Street, Walnut Street, the Palisade Street corridor, and around the Mercy College campus. 25+ years of working with everything from 1920s plaster to contemporary construction means the right tool comes out the first time. $1 million general liability policy, free estimates.",
-    commonNeeds: [
-      "Bathroom renovation and fixture upgrades",
-      "Flooring installation and refinishing",
-      "Furniture assembly and built-in shelving",
-      "Interior painting and accent walls",
-      "Deck and patio repair",
-      "Door and window replacement",
-      "Smart home device setup and installation",
-      "Closet system installation"
-    ],
-    whyChooseUs: "Dobbs Ferry is a village where families put down roots — and that means homes need to work hard and look good year after year. We understand the practical side of home maintenance as well as the aesthetic side, and we bring that balanced approach to every project. We're a short drive from our Rockland County base across the Mario Cuomo Bridge, and we've built a growing list of Dobbs Ferry clients who call us back because we do what we say we'll do.",
-    faqs: [
-      { question: "What kinds of homes do you typically work on in Dobbs Ferry?", answer: "We work on the full spectrum — from the older colonials and Cape Cods in the village's established neighborhoods to the newer condos and townhomes near the waterfront and train station. Each property type has its own common issues and we're experienced with all of them." },
-      { question: "Can you help with flooring installation or refinishing?", answer: "Yes. We install hardwood, engineered wood, luxury vinyl plank, and tile flooring, and we can refinish existing hardwood floors in older Dobbs Ferry homes." },
-      { question: "Do you handle smart home installations?", answer: "We do. Smart thermostats, video doorbells, smart locks, and home automation setups are increasingly popular in Dobbs Ferry. We handle the installation and make sure everything is configured and working before we leave." },
-      { question: "Do you offer free estimates for Dobbs Ferry homeowners?", answer: "Yes. Every project starts with a free on-site visit where we discuss your goals, inspect the work area, and provide a detailed written estimate with no obligation." }
-    ],
-    nearbyAreas: ["irvington", "tarrytown", "sleepy-hollow", "nyack", "tappan"],
-    metaTitle: "Expert Handyman Services in Dobbs Ferry, NY | Odds & Ends",
-    metaDescription: "Dependable handyman services for Dobbs Ferry, NY. Bathroom renovations, flooring, painting, and reliable home repairs from a trusted team just across the Mario Cuomo Bridge.",
-    keywords: ["handyman Dobbs Ferry NY", "Dobbs Ferry home repair", "Westchester handyman", "bathroom renovation Dobbs Ferry"],
-    localAdvantage: "Dobbs Ferry's housing stock reflects several distinct building eras — pre-war colonials and Tudors in the hillside neighborhoods, mid-century Cape Cods and ranches along the village's central streets, and modern condos near the Metro-North station. This variety means we regularly transition between working on 1920s plaster and lathe, 1960s drywall and paneling, and contemporary construction — all within the same village.",
-    neighborhoods: ["Broadway area", "Cedar Street", "Walnut Street corridor", "Palisade Street", "Ogden Avenue", "Livingstone Avenue", "Clinton Avenue", "near Mercy College campus"],
-    housingStock: "Dobbs Ferry offers a cross-section of Westchester housing: stately pre-war colonials and Tudors on the hillside streets, practical mid-century Cape Cods and ranches in the village core, and contemporary condos and apartments near the waterfront and train station. Many of the mid-century homes retain original kitchens and bathrooms that are ready for updating.",
-    popularServiceSlugs: ["bathroom-renovation", "flooring", "shelving-installation", "smart-home-device-setup"],
-    localTips: "Dobbs Ferry is an incorporated village with its own building department. Permits are needed for plumbing, electrical, structural modifications, and any work that changes the footprint of the home. The village enforces its zoning code closely, particularly regarding setbacks and lot coverage on the smaller downtown lots.",
-    stats: [
-      { label: "Bridge Crossing", value: "~20 Min" },
       { label: "Google Rating", value: "5 Stars" },
       { label: "Response Time", value: "Same Day" },
       { label: "Estimates", value: "Always Free" }

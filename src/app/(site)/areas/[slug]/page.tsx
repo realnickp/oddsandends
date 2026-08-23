@@ -106,7 +106,7 @@ export default async function CityPage({ params }: PageProps) {
               <div className="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/20 rounded-full px-4 py-1.5 mb-6">
                 <MapPin className="h-4 w-4 text-blue-400" />
                 <span className="text-sm text-blue-300">
-                  {city.county}, {city.state}
+                  {city.county} County, {city.state}
                 </span>
               </div>
 
@@ -373,7 +373,7 @@ export default async function CityPage({ params }: PageProps) {
               Full Service List
             </h2>
             <p className="text-gray-400 font-light mb-10 max-w-2xl">
-              Every service we offer is available in {city.name} and throughout {siteConfig.county}. Click any to learn more.
+              Every service we offer is available in {city.name} and throughout the Tuxedo and Rockland County area. Click any to learn more.
             </p>
           </ScrollReveal>
 
@@ -498,7 +498,7 @@ export default async function CityPage({ params }: PageProps) {
       {/* ─── 10. CTA ─── */}
       <CTASection
         headline="Ready to Get Started?"
-        subheadline={`${siteConfig.ownerFirstName} has been serving ${city.name} and all of ${siteConfig.county} since ${siteConfig.established}. Call, text, or request your free estimate today.`}
+        subheadline={`${siteConfig.ownerFirstName} and the Odds & Ends team proudly serve ${city.name} and the surrounding area. Call, text, or request your free estimate today.`}
       />
     </>
   )

@@ -63,7 +63,7 @@ export default function ContactContent() {
             </ScrollReveal>
             <ScrollReveal direction="up" delay={100}>
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                Contact Odds & Ends Handyman Service
+                Contact Odds & Ends Home Services
               </h1>
             </ScrollReveal>
             <ScrollReveal direction="up" delay={200}>
@@ -166,7 +166,7 @@ export default function ContactContent() {
                     <h3 className="text-lg font-bold text-gray-900">Service Area</h3>
                   </div>
                   <p className="text-gray-500 font-light text-sm leading-relaxed mb-4">
-                    We serve all of Rockland County, New York — including Nyack, New City,
+                    We serve the Town of Tuxedo — including Tuxedo Park — and all of Rockland County, New York, including Nyack, New City,
                     Nanuet, Pearl River, Spring Valley, Haverstraw, Stony Point, Suffern,
                     Piermont, Tappan, Pomona, and surrounding communities.
                   </p>

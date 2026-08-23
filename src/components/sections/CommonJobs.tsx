@@ -6,20 +6,20 @@ import { useScrollReveal } from '@/hooks/useScrollReveal'
 import { useCountUp } from '@/hooks/useCountUp'
 
 const jobs = [
+  'Updating kitchens and bathrooms',
+  'Finishing and refreshing basements',
+  'Building custom accent walls',
+  'Crafting built-ins and window seats',
+  'Repairing and refinishing decks',
+  'Installing hardwood, LVP, and tile flooring',
+  'Setting up home offices',
   'Mounting TVs and shelves',
   'Patching and repairing drywall',
   'Installing or replacing doors',
-  'Fixing fences and decks',
   'Assembling furniture',
   'Replacing light fixtures and ceiling fans',
-  'Installing faucets and toilets',
   'Painting rooms and touch-ups',
-  'Hanging curtains and blinds',
-  'Replacing cabinet hardware',
-  'Building custom accent walls',
-  'Setting up home offices',
-  'Installing closet systems',
-  'Replacing smoke detectors',
+  'Installing faucets and toilets',
   'Smart home device setup',
   'General home repairs and honey-do lists',
 ]

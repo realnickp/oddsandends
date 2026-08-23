@@ -84,7 +84,7 @@ const differentiators = [
 ]
 
 const stats = [
-  { number: '20+', label: 'Years of Experience' },
+  { number: `${siteConfig.yearsExperience}+`, label: 'Years of Experience' },
   { number: '$1M+', label: 'Insurance Coverage' },
   { number: '5.0', label: 'Google Star Rating' },
   { number: '2001', label: 'Established' },
@@ -121,14 +121,15 @@ export default function AboutContent() {
               </ScrollReveal>
               <ScrollReveal direction="up" delay={100}>
                 <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                  About Odds & Ends Handyman Service
+                  About Odds & Ends Home Services
                 </h1>
               </ScrollReveal>
               <ScrollReveal direction="up" delay={200}>
                 <p className="text-xl text-gray-400 font-light leading-relaxed mb-8">
-                  Locally owned, licensed, and insured. Trusted by homeowners across Rockland
-                  and Westchester County since 2001. Odds & Ends specializes in small and medium
-                  sized renovations — exceptional craftsmanship and honest service on every job.
+                  Locally owned, licensed, and insured. Trusted by Hudson Valley homeowners
+                  since 2001 — and now proudly focused on Tuxedo, Tuxedo Park, and Rockland
+                  County. Odds & Ends specializes in small and medium sized renovations —
+                  exceptional craftsmanship and honest service on every job.
                 </p>
               </ScrollReveal>
               <ScrollReveal direction="up" delay={300}>
@@ -145,7 +146,7 @@ export default function AboutContent() {
               <div className="relative rounded-2xl overflow-hidden aspect-[4/3] shadow-2xl shadow-black/40">
                 <Image
                   src="/images/site/firepit-deck.jpg"
-                  alt="Custom fire pit deck built by Odds & Ends Handyman Service"
+                  alt="Custom fire pit deck built by Odds & Ends Home Services"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -194,23 +195,25 @@ export default function AboutContent() {
                   Our Story
                 </p>
                 <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                  20+ Years of Passion for Craftsmanship
+                  {siteConfig.yearsExperience}+ Years of Passion for Craftsmanship
                 </h2>
               </ScrollReveal>
               <ScrollReveal direction="left" delay={100}>
                 <div className="space-y-4 text-gray-500 font-light leading-relaxed text-lg">
                   <p>
-                    Odds & Ends Handyman Service was founded in 2001 with a simple
+                    Odds & Ends Home Services was founded in 2001 with a simple
                     philosophy: treat every home with the same care and respect you&apos;d
                     give your own. Over two decades later, that philosophy hasn&apos;t
                     changed.
                   </p>
                   <p>
-                    What started as a way to help neighbors with small repairs has grown
-                    into one of Rockland County&apos;s most trusted handyman services. Today,
-                    Odds & Ends handles everything from quick fixes to full room transformations —
-                    kitchen facelifts, custom built-in shelving, deck construction,
-                    pergolas, and more.
+                    What started as a way to help neighbors with small repairs grew into
+                    one of Rockland County&apos;s most trusted handyman services — and today,
+                    Odds & Ends Home Services is scaling that same craftsmanship into bigger
+                    work: kitchens, bathrooms, basements, custom built-ins, accent walls,
+                    decks, and flooring. Our home turf now is the Town of Tuxedo — including
+                    Tuxedo Park — where we intend to be every homeowner&apos;s go-to, for
+                    the small jobs as much as the transformations.
                   </p>
                   <p>
                     But what really sets Odds & Ends apart isn&apos;t just the skill — it&apos;s
@@ -227,7 +230,7 @@ export default function AboutContent() {
                 <div className="rounded-2xl overflow-hidden shadow-2xl shadow-gray-200/50 aspect-[3/4]">
                   <Image
                     src="/images/site/dan.png"
-                    alt="Owner of Odds & Ends Handyman Service"
+                    alt="Owner of Odds & Ends Home Services"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 100vw, 40vw"
@@ -240,7 +243,7 @@ export default function AboutContent() {
                       <Hammer className="h-6 w-6 text-white" />
                     </div>
                     <div>
-                      <p className="font-bold text-gray-900 text-sm">Odds & Ends Handyman Service</p>
+                      <p className="font-bold text-gray-900 text-sm">Odds & Ends Home Services</p>
                       <p className="text-gray-500 text-xs">Locally Owned · Est. {siteConfig.established}</p>
                       <p className="text-green-600 text-xs font-medium flex items-center gap-1">
                         <Shield className="h-3 w-3" />
@@ -369,15 +372,16 @@ export default function AboutContent() {
                 Service Area
               </p>
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                Proudly Serving All of Rockland County
+                Proudly Serving Tuxedo, Tuxedo Park &amp; Rockland County
               </h2>
               <p className="text-lg text-gray-500 font-light leading-relaxed mb-8">
-                Odds & Ends serves homeowners throughout Rockland County, New York — including
-                Nyack, New City, Nanuet, Pearl River, Spring Valley, Haverstraw, Stony
-                Point, Suffern, Piermont, Tappan, Pomona, Sparkill,
-                Grandview-on-Hudson, and the surrounding communities. Whether you&apos;re
-                in a historic Victorian in Nyack or a family home in Clarkstown, we bring
-                the same dedication and quality to every project.
+                Our home turf is the Town of Tuxedo, New York — the Village of Tuxedo Park,
+                Eagle Valley, Southfields, Sterling Forest, and Arden — and we serve all of
+                Rockland County next door, including Sloatsburg, Suffern, Nyack, New City,
+                Nanuet, Pearl River, Spring Valley, Haverstraw, Stony Point, Piermont,
+                Tappan, and the surrounding communities. Whether you&apos;re in a
+                century-old home behind the Tuxedo Park gate or a family colonial in
+                Clarkstown, we bring the same dedication and quality to every project.
               </p>
               <Link
                 href="/estimate"

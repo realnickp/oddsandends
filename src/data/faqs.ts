@@ -8,17 +8,17 @@ export const faqs: FAQ[] = [
   // General
   {
     question: 'What areas does Odds & Ends serve?',
-    answer: 'We serve all of Rockland County, New York, including Nyack, New City, Nanuet, Pearl River, Spring Valley, Haverstraw, Stony Point, Clarkstown, Orangetown, Ramapo, Suffern, Piermont, Grandview-on-Hudson, Sparkill, Tappan, and Pomona.',
+    answer: 'Our primary service area is the Town of Tuxedo, New York — including the Village of Tuxedo Park, Eagle Valley, Southfields, Sterling Forest, and Arden — plus all of Rockland County, including Sloatsburg, Suffern, Nyack, New City, Nanuet, Pearl River, Spring Valley, Haverstraw, Stony Point, Clarkstown, Orangetown, Ramapo, Piermont, Tappan, and Pomona.',
     category: 'General',
   },
   {
     question: 'How long has Odds & Ends been in business?',
-    answer: 'Odds & Ends Handyman Service was established in 2001 and has over 20 years of professional handyman and home improvement experience serving Rockland County.',
+    answer: 'Odds & Ends Home Services was established in 2001 and brings over two decades of renovation and repair experience to Tuxedo, Tuxedo Park, and Rockland County.',
     category: 'General',
   },
   {
     question: 'Is Odds & Ends licensed and insured?',
-    answer: 'Yes. Odds & Ends is a licensed Home Improvement Contractor (Lic# H-25-600) in Rockland County and carries a million dollar general liability insurance policy. We have been operating in Rockland County since 2001 and now also serve parts of Westchester County.',
+    answer: 'Yes. Odds & Ends is a licensed Home Improvement Contractor (Lic# H-25-600) in Rockland County and carries a million dollar general liability insurance policy that covers every job we take on, including all work in Tuxedo and Tuxedo Park.',
     category: 'General',
   },
   {

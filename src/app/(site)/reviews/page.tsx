@@ -12,7 +12,7 @@ import Link from 'next/link'
 export async function generateMetadata() {
   return generatePageMetadata({
     title: 'Customer Reviews',
-    description: `Read five-star Google reviews for Odds & Ends Handyman Service. See why Rockland County homeowners trust us for their home repairs and improvements.`,
+    description: `Read five-star Google reviews for Odds & Ends Home Services. See why Tuxedo & Rockland County homeowners trust us for their home repairs and improvements.`,
     path: '/reviews',
   })
 }
@@ -89,7 +89,7 @@ export default function ReviewsPage() {
           </ScrollReveal>
           <ScrollReveal delay={200}>
             <p className="text-lg md:text-xl text-gray-400 font-light leading-relaxed max-w-2xl mb-10">
-              Don&apos;t just take our word for it. Read what Rockland County homeowners have to
+              Don&apos;t just take our word for it. Read what local homeowners have to
               say about working with Odds & Ends.
             </p>
           </ScrollReveal>
@@ -207,7 +207,7 @@ export default function ReviewsPage() {
                 {reviews.length} Happy Homeowners
               </h2>
               <p className="text-lg text-gray-400 font-light max-w-2xl mx-auto">
-                Every review is a real, verified Google review from a Rockland County homeowner.
+                Every review is a real, verified Google review from a local homeowner.
               </p>
             </div>
           </ScrollReveal>
@@ -301,7 +301,7 @@ export default function ReviewsPage() {
 
       <CTASection
         headline="Ready to Experience the Difference?"
-        subheadline="Join the growing list of happy Rockland County homeowners. Get your free, no-obligation estimate today."
+        subheadline="Join the growing list of happy Tuxedo and Rockland County homeowners. Get your free, no-obligation estimate today."
       />
     </>
   )

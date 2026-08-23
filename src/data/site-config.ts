@@ -4,9 +4,10 @@ const YELP_PROFILE_URL = 'https://www.yelp.com/biz/odds-and-ends-handyman-servic
 const FACEBOOK_PROFILE_URL = 'https://www.facebook.com/oddsandendshandyman'
 
 export const siteConfig = {
-  businessName: 'Odds & Ends Handyman Service',
+  businessName: 'Odds & Ends Home Services',
   shortName: 'Odds & Ends',
-  tagline: 'Your Trusted Rockland County Handyman Since 2001',
+  descriptor: 'Home Services',
+  tagline: "Tuxedo's Go-To for Home Improvements & Repairs Since 2001",
   phone: '9084612688',
   phoneFormatted: '(908) 461-2688',
   email: 'Dkiely@oddsandendshandymanservice.com',
@@ -14,7 +15,11 @@ export const siteConfig = {
   ownerFirstName: 'Dan',
   established: ESTABLISHED_YEAR,
   yearsExperience: new Date().getFullYear() - ESTABLISHED_YEAR,
+  primaryTown: 'Tuxedo',
+  primaryArea: 'Tuxedo & Tuxedo Park',
   county: 'Rockland County',
+  serviceCounties: ['Orange County', 'Rockland County'],
+  serviceAreaLabel: 'Tuxedo, Tuxedo Park & Rockland County',
   state: 'New York',
   stateAbbr: 'NY',
   freeEstimates: true,
@@ -63,14 +68,15 @@ export const siteConfig = {
     type: 'General Liability',
   },
   knowsAbout: [
+    'Kitchen renovation', 'Bathroom renovation', 'Basement finishing',
+    'Custom built-ins', 'Custom accent walls', 'Wainscoting',
+    'Deck repair', 'Deck refinishing', 'Flooring installation',
+    'Home office construction', 'Cabinet refinishing', 'Tile work',
     'Home repair', 'Handyman services', 'TV mounting', 'Drywall repair',
-    'Painting', 'Deck repair', 'Door installation', 'Plumbing repairs',
-    'Kitchen renovation', 'Bathroom renovation', 'Furniture assembly',
-    'Fence repair', 'Light fixture installation', 'Cabinet refinishing',
-    'Flooring installation', 'Tile work', 'Shed building', 'Excavation',
-    'Wainscoting', 'Small and medium sized renovations', 'Junk removal',
-    'Garage cleanout', 'Estate cleanout', 'Appliance haul-away',
-    'Construction debris removal',
+    'Painting', 'Door installation', 'Plumbing repairs',
+    'Furniture assembly', 'Fence repair', 'Light fixture installation',
+    'Shed building', 'Excavation',
+    'Small and medium sized renovations', 'Historic home maintenance',
   ],
 } as const
 

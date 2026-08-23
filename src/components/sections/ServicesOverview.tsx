@@ -5,12 +5,12 @@ import { ScrollReveal } from '@/components/ui/ScrollReveal'
 import { services } from '@/data/services'
 
 const desktopSlugs = [
-  'tv-mounting', 'drywall-repair', 'door-installation', 'deck-repair',
-  'painting', 'light-fixture-installation', 'bathroom-renovation',
-  'custom-accent-walls', 'built-ins',
+  'kitchen-renovation', 'bathroom-renovation', 'basement-finishing',
+  'custom-accent-walls', 'built-ins', 'deck-repair',
+  'flooring', 'home-office-setup', 'painting',
 ]
 
-const mobileSlugs = [...desktopSlugs, 'furniture-assembly']
+const mobileSlugs = [...desktopSlugs, 'tv-mounting']
 
 const desktopServices = desktopSlugs
   .map((slug) => services.find((s) => s.slug === slug))
@@ -85,11 +85,12 @@ export function ServicesOverview() {
               Our Services
             </p>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              One Call Handles Your Entire To-Do List
+              From Small Fixes to Full Transformations
             </h2>
             <p className="text-lg text-gray-500 font-light leading-relaxed">
-              From small repairs to complete renovations, Odds & Ends handles a wide range of home
-              improvement work. No job too small, because we know how much the little things matter.
+              Kitchens, bathrooms, basements, accent walls, custom built-ins, decks, flooring,
+              and home offices — plus the trusted handyman work we built our name on. No job too
+              small, because we know how much the little things matter.
             </p>
           </div>
         </ScrollReveal>
