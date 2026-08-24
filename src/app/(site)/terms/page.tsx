@@ -7,7 +7,7 @@ import { siteConfig } from '@/data/site-config'
 export async function generateMetadata() {
   return generatePageMetadata({
     title: 'Terms of Service',
-    description: `Terms of service for Odds & Ends Home Services. Read the terms and conditions that govern use of our website and services.`,
+    description: `Terms of service for Odds & Ends Handyman Service. Read the terms and conditions that govern use of our website and services.`,
     path: '/terms',
   })
 }

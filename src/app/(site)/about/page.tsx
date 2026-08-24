@@ -5,10 +5,10 @@ import AboutContent from './AboutContent'
 
 export async function generateMetadata() {
   return generatePageMetadata({
-    title: 'About Odds & Ends Home Services | Tuxedo, NY',
-    description: `Meet the Odds & Ends Home Services team. Over ${siteConfig.yearsExperience} years of trusted craftsmanship, now focused on Tuxedo, Tuxedo Park & Rockland County, NY.`,
+    title: 'About Odds & Ends Handyman Service | Tuxedo, NY',
+    description: `Meet the Odds & Ends Handyman Service team. Over ${siteConfig.yearsExperience} years of trusted craftsmanship, now focused on Tuxedo, Tuxedo Park & Rockland County, NY.`,
     path: '/about',
-    keywords: ['about', 'Odds & Ends Home Services', 'Tuxedo NY', 'Rockland County', 'craftsmanship'],
+    keywords: ['about', 'Odds & Ends Handyman Service', 'Tuxedo NY', 'Rockland County', 'craftsmanship'],
   })
 }
 

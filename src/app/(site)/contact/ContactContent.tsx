@@ -63,7 +63,7 @@ export default function ContactContent() {
             </ScrollReveal>
             <ScrollReveal direction="up" delay={100}>
               <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                Contact Odds & Ends Home Services
+                Contact Odds & Ends Handyman Service
               </h1>
             </ScrollReveal>
             <ScrollReveal direction="up" delay={200}>

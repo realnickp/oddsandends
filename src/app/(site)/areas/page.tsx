@@ -12,7 +12,7 @@ export async function generateMetadata() {
   return generatePageMetadata({
     title: 'Service Areas | Tuxedo, Tuxedo Park & Rockland, NY',
     description:
-      'Odds & Ends Home Services proudly serves Tuxedo, Tuxedo Park, and all of Rockland County, NY — Sloatsburg, Suffern, Nyack, New City, and more. Free estimates.',
+      'Odds & Ends Handyman Service proudly serves Tuxedo, Tuxedo Park, and all of Rockland County, NY — Sloatsburg, Suffern, Nyack, New City, and more. Free estimates.',
     path: '/areas',
     keywords: ['home services Tuxedo NY', 'Tuxedo Park contractor', 'Rockland County handyman', 'handyman near me', 'local handyman NY'],
   })

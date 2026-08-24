@@ -9,7 +9,7 @@ import { SectionDivider } from '@/components/ui/SectionDivider'
 export async function generateMetadata() {
   const base = await generatePageMetadata({
     title: 'Thank You',
-    description: 'Thank you for contacting Odds & Ends Home Services. We will be in touch shortly.',
+    description: 'Thank you for contacting Odds & Ends Handyman Service. We will be in touch shortly.',
     path: '/thank-you',
   })
   return {

@@ -67,7 +67,7 @@ export const cities: City[] = [
     ],
     nearbyAreas: ["tuxedo-park", "sloatsburg", "suffern", "montebello"],
     metaTitle: "Home Services & Handyman in Tuxedo, NY | Odds & Ends",
-    metaDescription: "Kitchens, bathrooms, basements, decks, built-ins, and expert handyman work in Tuxedo, NY. Odds & Ends Home Services — Tuxedo's go-to since 2001. Free estimates.",
+    metaDescription: "Kitchens, bathrooms, basements, decks, built-ins, and expert handyman work in Tuxedo, NY. Odds & Ends Handyman Service — Tuxedo's go-to since 2001. Free estimates.",
     keywords: ["home services Tuxedo NY", "handyman Tuxedo NY", "Tuxedo NY contractor", "kitchen remodel Tuxedo NY", "deck repair Tuxedo NY", "home repair Tuxedo New York"],
     localAdvantage: "Tuxedo's homes sit in deep woods between Harriman and Sterling Forest state parks, and that setting drives everything about maintaining them: shaded siding and decks stay wet and grow moss, leaf litter clogs gutters and grades, and wells, septic fields, and long gravel drives complicate projects that would be routine in a subdivision. A local team that plans for the terrain — and doesn't charge windshield time to get here — changes the economics of keeping a Tuxedo home in shape.",
     neighborhoods: ["Tuxedo hamlet / East Village", "Eagle Valley", "Southfields", "Sterling Forest", "Arden", "Woodlands at Tuxedo", "Long Meadow Road corridor", "Route 17 corridor"],
@@ -89,7 +89,7 @@ export const cities: City[] = [
     state: "New York",
     heroHeadline: "Tuxedo Park's Trusted Home Services Craftsman",
     heroSubheadline: "Careful, discreet work for America's first gated community — from small repairs to full room transformations.",
-    intro: "Home services in Tuxedo Park, NY are a different discipline. Behind the gate, some 300 homes built for Pierre Lorillard's 1886 colony ring Tuxedo Lake, the Wee Wah, and Pond Number Three — stone and shingle houses with slate roofs, plaster walls, leaded glass, and trim profiles no lumber yard stocks. These houses reward craftsmen who repair rather than replace, and they punish shortcuts. Odds & Ends Home Services brings a quarter century of small and medium sized renovation experience to exactly this kind of work: kitchens and baths updated without erasing character, built-ins that look original to the house, plaster patched properly, and the steady stream of small repairs a century-old home generates. We're minutes away, we're insured for it, and we actually want the small jobs most contractors won't drive in for.",
+    intro: "Home services in Tuxedo Park, NY are a different discipline. Behind the gate, some 300 homes built for Pierre Lorillard's 1886 colony ring Tuxedo Lake, the Wee Wah, and Pond Number Three — stone and shingle houses with slate roofs, plaster walls, leaded glass, and trim profiles no lumber yard stocks. These houses reward craftsmen who repair rather than replace, and they punish shortcuts. Odds & Ends Handyman Service brings a quarter century of small and medium sized renovation experience to exactly this kind of work: kitchens and baths updated without erasing character, built-ins that look original to the house, plaster patched properly, and the steady stream of small repairs a century-old home generates. We're minutes away, we're insured for it, and we actually want the small jobs most contractors won't drive in for.",
     commonNeeds: [
       "Plaster wall and ceiling repair",
       "Kitchen and bathroom renovations that respect period character",

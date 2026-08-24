@@ -142,7 +142,7 @@ export function Header() {
                 Odds &amp; Ends
               </p>
               <p className="text-xs text-gray-400 tracking-wide uppercase">
-                Home Services
+                Handyman Service
               </p>
             </div>
           </Link>

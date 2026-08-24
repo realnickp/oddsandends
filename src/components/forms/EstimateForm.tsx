@@ -326,7 +326,7 @@ export function EstimateForm({
       <label className="flex items-start gap-3 cursor-pointer">
         <input type="checkbox" required className="mt-1 h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500" />
         <span className="text-sm text-gray-600">
-          I consent to Odds & Ends Home Services contacting me about my project
+          I consent to Odds & Ends Handyman Service contacting me about my project
           via the contact method I selected. I understand this is a free estimate
           with no obligation.
         </span>

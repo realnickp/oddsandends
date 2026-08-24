@@ -69,13 +69,13 @@ export function WhyChooseUs() {
             <div className="relative h-28 w-28 rounded-full overflow-hidden shadow-lg shadow-gray-300/50 ring-4 ring-white">
               <Image
                 src="/images/site/dan.png"
-                alt="Odds & Ends Home Services owner"
+                alt="Odds & Ends Handyman Service owner"
                 fill
                 className="object-cover"
                 sizes="112px"
               />
             </div>
-            <p className="mt-4 font-bold text-gray-900 text-lg">Odds & Ends Home Services</p>
+            <p className="mt-4 font-bold text-gray-900 text-lg">Odds & Ends Handyman Service</p>
             <p className="text-gray-500 text-sm font-light">Locally Owned & Operated Since 2001</p>
             <p className="text-green-600 text-xs font-medium flex items-center justify-center gap-1 mt-1">
               <Shield className="h-3 w-3" />

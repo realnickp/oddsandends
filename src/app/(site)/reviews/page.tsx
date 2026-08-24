@@ -12,7 +12,7 @@ import Link from 'next/link'
 export async function generateMetadata() {
   return generatePageMetadata({
     title: 'Customer Reviews',
-    description: `Read five-star Google reviews for Odds & Ends Home Services. See why Tuxedo & Rockland County homeowners trust us for their home repairs and improvements.`,
+    description: `Read five-star Google reviews for Odds & Ends Handyman Service. See why Tuxedo & Rockland County homeowners trust us for their home repairs and improvements.`,
     path: '/reviews',
   })
 }

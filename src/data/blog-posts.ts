@@ -118,7 +118,7 @@ Yes — drywall repair is core handyman work, including holes, cracks, water-dam
 
 Not sure whether your damage is a DIY afternoon or a job for a pro? Snap a photo and [request a free estimate](/estimate), or call or text **(908) 461-2688**. We will tell you honestly which one it is — and if it is genuinely a DIY job, we will say so. Odds & Ends has repaired drywall and plaster across Rockland County since 2001.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Home Maintenance',
     relatedServices: ['drywall-repair', 'painting'],
     relatedCities: ['new-city', 'nanuet', 'pearl-river', 'nyack'],
@@ -225,7 +225,7 @@ Yes — TV mounting is standard handyman work on drywall, plaster, brick, and st
 
 Send a photo of the wall and the TV with a [free estimate request](/estimate), or call or text **(908) 461-2688**. We bring the right hardware for your wall type — drywall, plaster, brick, or stone — and leave everything level, secure, and cord-free.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Room Guides',
     relatedServices: ['tv-mounting', 'picture-hanging'],
     relatedCities: ['nyack', 'piermont', 'tappan', 'suffern'],
@@ -339,7 +339,7 @@ Most of them — drywall, paint, doors, hardware, fixtures, deck and fence repai
 
 Send your pre-sale list and a few photos with a [free estimate request](/estimate), or call or text **(908) 461-2688**. We will walk the home, flag the fixes that matter most to buyers and inspectors, and knock the list out before your photos are taken.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Home Maintenance',
     relatedServices: [
       'drywall-repair',
@@ -454,7 +454,7 @@ Most individual small repairs in Rockland County run roughly $135–$285 in 2026
 
 Have a list of nagging repairs? Send it with a few photos through our [free estimate request](/estimate), or call or text **(908) 461-2688**. We handle the small stuff in one visit — so it never becomes the big stuff.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Home Maintenance',
     relatedServices: [
       'drywall-repair',
@@ -568,7 +568,7 @@ Yes — board replacement, railing repair, fastener upgrades, resetting posts, a
 
 Not sure how your deck is holding up? Send a few photos with a [free estimate request](/estimate), or call or text **(908) 461-2688**. We inspect the full structure — including underneath — before recommending anything, and we will tell you honestly whether it is a few boards or something bigger.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Home Maintenance',
     relatedServices: ['deck-repair', 'fence-repair'],
     relatedCities: ['stony-point', 'congers', 'piermont'],
@@ -668,7 +668,7 @@ Not usually. If the ceiling box is sound and a fan or fixture rated brace can be
 
 Not sure whether your fixture needs a quick repair or a full swap? Send a photo and [request a free estimate](/estimate), or call or text **(908) 461-2688**. We will tell you honestly which it is — and bundle the rest of your lighting list into the same visit. Odds & Ends has installed and repaired light fixtures across Rockland County since 2001.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Home Maintenance',
     relatedServices: ['light-fixture-installation', 'ceiling-fan-installation-and-replacement'],
     relatedCities: ['new-city', 'nyack', 'nanuet', 'pearl-river'],
@@ -766,7 +766,7 @@ Hold a flashlight or phone light at an angle to the surface rather than pointing
 
 Snap a few photos following the steps above and [request a free estimate](/estimate), or call or text **(908) 461-2688**. The better your photos, the tighter our quote — and the fewer surprises on the day of the work. Odds & Ends has been quoting honest, accurate jobs across Rockland County since 2001.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Home Maintenance',
     relatedServices: ['drywall-repair', 'tv-mounting', 'door-installation'],
     relatedCities: ['new-city', 'nanuet', 'nyack', 'pearl-river'],
@@ -897,7 +897,7 @@ Moving drain lines, replacing P-traps inside walls, addressing sewage odors from
 
 Don't let small bathroom problems sit until they become big ones. We serve all of Rockland County — from Suffern and Airmont to Haverstraw, Stony Point, and Piermont — and we're happy to look at everything in one visit so you get the most out of a single trip charge. Call or text **(908) 461-2688**, or [request a free estimate](/estimate) online.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Room Guides',
     relatedServices: ['bathroom-renovation', 'tile-work', 'light-fixture-installation', 'cabinet-refinishing', 'ceiling-fan-installation-and-replacement'],
     relatedCities: ['nyack', 'new-city', 'piermont', 'spring-valley', 'congers', 'nanuet'],
@@ -1030,7 +1030,7 @@ For most repair and update jobs, we can usually schedule within one to two weeks
 
 Whether it is a plaster patch, a sticky door, a TV that needs a proper wall mount, or a deck that has seen one too many Hudson Valley winters, we are ready to help. Call or text us at **(908) 461-2688**, or [request a free estimate](/estimate) online. We have been working in Nyack since 2001 and we know what these homes need.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Local Living',
     relatedServices: [
       'drywall-repair',
@@ -1176,7 +1176,7 @@ Yes — we serve all of New City and the surrounding areas including Congers, Ne
 
 Whether you have one task or a running list that has been growing for a year, call or text us at **(908) 461-2688** or [request a free estimate](/estimate) online. We serve New City and all of Rockland County, and we have been doing it since 2001.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Local Living',
     relatedServices: [
       'ceiling-fan-installation-and-replacement',
@@ -1329,7 +1329,7 @@ Yes. Furniture assembly and installation is within standard handyman scope in Ne
 
 Whether you have one piece or a full room to assemble, call or text **(908) 461-2688** or [request a free estimate](/estimate) online. We serve all of Rockland County — New City, Nyack, Nanuet, Spring Valley, Pearl River, Haverstraw, Suffern, Stony Point, and all surrounding towns — and the Town of Tuxedo, including Tuxedo Park, just up Route 17.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Home Maintenance',
     relatedServices: ['furniture-assembly', 'home-office-setup', 'shelving-installation', 'closet-system-installation', 'tv-mounting'],
     relatedCities: ['new-city', 'nyack', 'nanuet', 'pearl-river', 'spring-valley', 'suffern'],
@@ -1486,7 +1486,7 @@ Yes, and we typically recommend combination units for most rooms. They cover bot
 
 This is one of the highest-return safety tasks a homeowner can do — and one of the quickest for us to handle. We serve all of Rockland County including Haverstraw, Thiells, Garnerville, Stony Point, and communities throughout Clarkstown and Orangetown. Call or text **(908) 461-2688** or [request a free estimate](/estimate) and we'll schedule a time that works.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Home Maintenance',
     relatedServices: ['air-filter-replacement', 'light-fixture-installation', 'smart-home-device-setup', 'ceiling-fan-installation-and-replacement'],
     relatedCities: ['nyack', 'new-city', 'piermont', 'haverstraw', 'blauvelt', 'upper-nyack'],
@@ -1631,7 +1631,7 @@ It adds perceived value, which is what matters at showing time. Real estate agen
 
 If you are in Rockland County — whether you are in Suffern, Haverstraw, Nanuet, Pearl River, or anywhere in between — we can handle your hardware installation from start to finish. Call or text **(908) 461-2688**, or [request a free estimate](/estimate) online. We will confirm your measurements, coordinate on finish and style if needed, and get it done in a single visit.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Room Guides',
     relatedServices: ['cabinet-refinishing', 'painting', 'shelving-installation', 'kitchen-renovation', 'picture-hanging'],
     relatedCities: ['new-city', 'nyack', 'nanuet', 'pearl-river', 'suffern', 'haverstraw'],
@@ -1765,7 +1765,7 @@ A smart thermostat delivers the clearest and most measurable return. A video doo
 
 We handle the full installation — device mounting, wiring, app setup, and a walkthrough so you know how everything works. Call or text us at **(908) 461-2688** or [request a free estimate](/estimate). We serve all of Rockland County, from Suffern and Airmont to Nyack and Piermont.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Home Maintenance',
     relatedServices: [
       'smart-home-device-setup',
@@ -1908,7 +1908,7 @@ Built-in shelving and a built-in desk add the most permanence and polish, and th
 
 Whether you need a monitor mounted, shelves installed, cables managed, or a full workspace built from scratch, we handle it all in one visit when possible. Call or text **(908) 461-2688** or [request a free estimate](/estimate). We serve all of Rockland County — New City, Nyack, Pearl River, Nanuet, Suffern, Spring Valley, and everywhere in between.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Room Guides',
     relatedServices: ['home-office-setup', 'shelving-installation', 'tv-mounting', 'door-installation', 'curtain-and-blind-installation', 'light-fixture-installation'],
     relatedCities: ['new-city', 'nyack', 'nanuet', 'pearl-river', 'suffern', 'spring-valley'],
@@ -2088,7 +2088,7 @@ Yes. We can schedule a seasonal walkthrough and task list for spring and fall �
 
 Do not wait until something fails to deal with it. A seasonal visit from Odds & Ends covers the items on this list efficiently, with honest assessments and no upselling. Call or text **(908) 461-2688** or [request a free estimate](/estimate) online. We serve all of Rockland County — New City, Nyack, Pearl River, Nanuet, Suffern, Haverstraw, Piermont, and every community in between.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Seasonal Tips',
     relatedServices: [
       'deck-repair',
@@ -2225,7 +2225,7 @@ In winter, set the fan to run clockwise at low speed. This pulls cool air up and
 
 We install ceiling fans throughout Rockland County — New City, Nanuet, Nyack, Pearl River, Suffern, Spring Valley, Haverstraw, and everywhere in between. Call or text **(908) 461-2688** or [request a free estimate](/estimate) and we'll take care of everything from box inspection to final spin test.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Room Guides',
     relatedServices: [
       'ceiling-fan-installation-and-replacement',
@@ -2361,7 +2361,7 @@ Full replacement costs vary too much by fence length, height, material, and whet
 
 We check every post for rot, test every rail for flex, and tell you exactly what the fence needs — nothing more. Call or text **(908) 461-2688** or [request a free estimate](/estimate). We serve all of Rockland County, including New City, Nanuet, Stony Point, Haverstraw, Suffern, Pearl River, Spring Valley, and beyond.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Home Maintenance',
     relatedServices: ['fence-repair', 'deck-repair', 'outdoor-structures', 'painting'],
     relatedCities: ['new-city', 'nanuet', 'stony-point', 'haverstraw', 'suffern', 'spring-valley'],
@@ -2503,7 +2503,7 @@ A painted accent wall can be repainted over easily. Wood treatments are more per
 
 Whether you are looking at a simple bold paint color or a full custom board-and-batten or slat wall, we would be glad to walk you through the options and give you an honest assessment of what will work in your space. Call or text us at **(908) 461-2688** or [request a free estimate](/estimate) — we serve all of Rockland County, from New City and Nanuet to Nyack, Pearl River, and Suffern.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Room Guides',
     relatedServices: ['custom-accent-walls', 'wainscoting', 'painting', 'shelving-installation', 'built-ins'],
     relatedCities: ['nyack', 'piermont', 'tappan', 'new-city', 'pearl-river', 'orangetown'],
@@ -2661,7 +2661,7 @@ Call a plumber for: sewage backup, water heater issues, pipe runs inside walls, 
 
 Whether it's one dripping faucet or a whole list of bathroom and kitchen fixes, we can often knock out multiple jobs in a single visit — which saves you money on trip charges. We serve all of Rockland County, including New City, Pearl River, Haverstraw, Stony Point, Garnerville, and Thiells. Call or text **(908) 461-2688** or [request a free estimate](/estimate) today.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Home Maintenance',
     relatedServices: ['bathroom-renovation', 'kitchen-renovation', 'doorknob-and-handle-replacement', 'tile-work', 'cabinet-refinishing'],
     relatedCities: ['nyack', 'new-city', 'pearl-river', 'nanuet', 'suffern', 'piermont'],
@@ -2806,7 +2806,7 @@ We can help with basic layout planning during the estimate — we will measure t
 
 We serve all of Rockland County — Suffern, Spring Valley, Nanuet, Pearl River, New City, Nyack, and everywhere in between. Call or text **(908) 461-2688** or [request a free estimate](/estimate) to get started. We handle everything from a single wire reach-in to a full walk-in build-out.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Room Guides',
     relatedServices: ['closet-system-installation', 'furniture-assembly', 'shelving-installation', 'built-ins', 'home-office-setup'],
     relatedCities: ['nyack', 'new-city', 'pearl-river', 'nanuet', 'suffern', 'montebello'],
@@ -2954,7 +2954,7 @@ Stick a small adhesive bumper (felt or rubber) on the bottom two corners of the 
 
 We come prepared with a laser level, stud finder, and a full range of hardware — from standard picture hooks to heavy-duty toggle anchors and French cleats. Whether it's a gallery wall in your New City living room, a large mirror in a Nyack bathroom, or a series of prints in your Tappan hallway, we'll get everything level, secure, and looking the way you imagined. Call or text **(908) 461-2688** or [request a free estimate](/estimate).
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Home Maintenance',
     relatedServices: [
       'picture-hanging',
@@ -3108,7 +3108,7 @@ A straightforward slab door hang takes 1.5–2.5 hours. A pre-hung interior door
 
 Whether you need a single sticking door adjusted, a hollow-core replaced with a solid-core upgrade, or a full exterior door installation, we handle it across all of Rockland County. Call or text **(908) 461-2688** or [request a free estimate](/estimate) and we will take a look.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Home Maintenance',
     relatedServices: ['door-installation', 'doorknob-and-handle-replacement', 'smart-home-device-setup', 'painting', 'drywall-repair'],
     relatedCities: ['nyack', 'piermont', 'new-city', 'nanuet', 'haverstraw', 'tappan'],
@@ -3256,7 +3256,7 @@ For painted built-ins, MDF (medium-density fiberboard) is a practical and cost-e
 
 Custom built-ins are one of the most satisfying projects we do — the transformation is immediate and the result genuinely improves how a home works and feels. If you have a space in your Rockland County home that needs a built-in solution, we would be glad to walk through the options with you. Call or text **(908) 461-2688** or [request a free estimate](/estimate). We serve all of Rockland County, from Haverstraw and Stony Point to Pearl River, New City, and the river villages.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Room Guides',
     relatedServices: ['built-ins', 'shelving-installation', 'home-office-setup', 'tv-mounting', 'tile-work', 'kitchen-renovation'],
     relatedCities: ['nyack', 'piermont', 'tappan', 'new-city', 'haverstraw', 'clarkstown'],
@@ -3390,13 +3390,13 @@ Either can produce excellent results. We handle painting throughout Rockland Cou
 
 Whether you need a few touch-ups done properly or a full room repaint, we handle both throughout Rockland County — New City, Nyack, Pearl River, Nanuet, Suffern, and everywhere in between. Call or text **(908) 461-2688** or [request a free estimate](/estimate) and we will tell you honestly which approach makes sense for your walls.
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (#H-25-600), insured for $1,000,000, and in business since 2001 — serving the Town of Tuxedo, including Tuxedo Park, and all of Rockland County, NY.*`,
     category: 'Home Maintenance',
     relatedServices: ['painting', 'drywall-repair', 'custom-accent-walls', 'cabinet-refinishing', 'wainscoting'],
     relatedCities: ['new-city', 'nyack', 'pearl-river', 'nanuet', 'suffern', 'congers'],
     metaTitle: 'Paint Touch-Ups vs Full Room Painting | Odds & Ends Handyman',
     metaDescription:
-      'Touch up or repaint? A practical decision guide with 2026 pricing for Rockland County painting work. Honest advice from Odds & Ends Home Services.',
+      'Touch up or repaint? A practical decision guide with 2026 pricing for Rockland County painting work. Honest advice from Odds & Ends Handyman Service.',
     publishedDate: '2026-04-22',
     updatedDate: '2026-05-16',
     author: 'Daniel Kiely',
@@ -3410,7 +3410,7 @@ Whether you need a few touch-ups done properly or a full room repaint, we handle
       'What does a handyman actually cost in Rockland County, NY? We pulled the numbers from 50 real jobs we completed between January 2025 and March 2026 — TV mounts, drywall patches, deck repairs, painting, and more — and broke down the typical price range, time on-site, and what drives a job up or down.',
     content: `Most "average handyman cost" articles online quote nationwide ranges that have nothing to do with what work actually costs in Rockland County. Labor rates here run higher than the national average, older housing stock takes longer to work in, and the mix of jobs Rockland homeowners request is different from suburban sprawl elsewhere in the country.
 
-To give homeowners a real benchmark, we pulled invoice data from 50 jobs Odds & Ends Home Services completed between January 2025 and March 2026 across Rockland County and nearby Lower Hudson Valley towns. Every job was performed by Daniel Kiely (Lic# H-25-600). All prices below are total invoice amounts (labor plus typical materials provided), in 2026 USD, and reflect what real Rockland homeowners actually paid.
+To give homeowners a real benchmark, we pulled invoice data from 50 jobs Odds & Ends Handyman Service completed between January 2025 and March 2026 across Rockland County and nearby Lower Hudson Valley towns. Every job was performed by Daniel Kiely (Lic# H-25-600). All prices below are total invoice amounts (labor plus typical materials provided), in 2026 USD, and reflect what real Rockland homeowners actually paid.
 
 ## How We Built This Data Set
 
@@ -3563,7 +3563,7 @@ A handyman can legally perform most non-structural, non-specialty home repair an
 
 New York State does not issue a statewide "handyman license." Licensing for home improvement and repair work is handled at the county and municipal level, and the rules vary:
 
-- **Rockland County** requires anyone performing home improvement work over a modest dollar threshold (currently a few hundred dollars) to hold a **Home Improvement Contractor license** issued by the Rockland County Office of Consumer Protection. That covers the overwhelming majority of paid handyman jobs. Odds & Ends Home Services operates under **License #H-25-600**, held by **Daniel Kiely** (business entity Top Line Property Solutions LLC, d/b/a Odds and Ends Home Services).
+- **Rockland County** requires anyone performing home improvement work over a modest dollar threshold (currently a few hundred dollars) to hold a **Home Improvement Contractor license** issued by the Rockland County Office of Consumer Protection. That covers the overwhelming majority of paid handyman jobs. Odds & Ends Handyman Service operates under **License #H-25-600**, held by **Daniel Kiely** (business entity Top Line Property Solutions LLC, d/b/a Odds and Ends Handyman Services).
 - **Several downstate counties** — Rockland, Putnam, and Suffolk among them — require county Home Improvement Contractor licenses for most repair and improvement work. If you live outside Rockland, verify the requirements with your own county's consumer-protection office.
 - **Individual towns and villages** (Clarkstown, Ramapo, Orangetown, the Village of Nyack, and others) can layer their own registration or permit requirements on top of the county license.
 
@@ -3700,7 +3700,7 @@ It is not a slogan. Here is what it protects:
 
 Before you hire anyone — us included — do this:
 
-- Ask for the **Home Improvement Contractor license number** and the name it is held under. Ours is **#H-25-600**, held by **Daniel Kiely** (entity: Top Line Property Solutions LLC, d/b/a Odds and Ends Home Services).
+- Ask for the **Home Improvement Contractor license number** and the name it is held under. Ours is **#H-25-600**, held by **Daniel Kiely** (entity: Top Line Property Solutions LLC, d/b/a Odds and Ends Handyman Services).
 - Confirm it with the **Rockland County Office of Consumer Protection** (or your own county's consumer-protection office).
 - Ask for a **certificate of insurance** — current, with general liability coverage. Ask them to have their carrier email it to you directly if you want belt-and-suspenders.
 - Check that the **business name on the estimate matches the licensed entity**.
@@ -3738,7 +3738,7 @@ If you are sitting on a project and you are not sure whether it is a handyman jo
 
 ---
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (License #H-25-600, held by Daniel Kiely / Top Line Property Solutions LLC, d/b/a Odds and Ends Home Services) carrying $1,000,000 in general liability insurance. We serve the Town of Tuxedo — including Tuxedo Park, Eagle Valley, Southfields, and Sterling Forest — and all of Rockland County, NY: New City, Nyack, Nanuet, Pearl River, Suffern, Spring Valley, Haverstraw, Stony Point, Piermont, Tappan, Sparkill, Blauvelt, Valley Cottage, Congers, Pomona, Airmont, Chestnut Ridge, Montebello, New Hempstead, Sloatsburg, Upper Nyack, Thiells, and Garnerville. This article is general information, not legal advice; license thresholds and permit rules change, so confirm current requirements with the Rockland County Office of Consumer Protection and your local building department.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (License #H-25-600, held by Daniel Kiely / Top Line Property Solutions LLC, d/b/a Odds and Ends Handyman Services) carrying $1,000,000 in general liability insurance. We serve the Town of Tuxedo — including Tuxedo Park, Eagle Valley, Southfields, and Sterling Forest — and all of Rockland County, NY: New City, Nyack, Nanuet, Pearl River, Suffern, Spring Valley, Haverstraw, Stony Point, Piermont, Tappan, Sparkill, Blauvelt, Valley Cottage, Congers, Pomona, Airmont, Chestnut Ridge, Montebello, New Hempstead, Sloatsburg, Upper Nyack, Thiells, and Garnerville. This article is general information, not legal advice; license thresholds and permit rules change, so confirm current requirements with the Rockland County Office of Consumer Protection and your local building department.*`,
     category: 'Hiring a Handyman',
     relatedServices: ['drywall-repair', 'door-installation', 'light-fixture-installation', 'tile-work', 'painting', 'deck-repair'],
     relatedCities: ['new-city', 'nyack', 'nanuet', 'suffern', 'pearl-river', 'clarkstown'],
@@ -3757,7 +3757,7 @@ If you are sitting on a project and you are not sure whether it is a handyman jo
       'Searching for a handyman near you turns up a dozen options, and they are not all the same. A 25-year Rockland County pro breaks down the 17 questions to ask before you book, the red flags that should end the call, the green flags worth keeping, and how to actually check reviews.',
     content: `Type "handyman near me" into Google and you will get a dozen options inside ten minutes of your house — franchises, one-person operations, guys with a truck and a Facebook page, and a few genuinely excellent local pros. They are not the same. The difference between the best of that list and the worst is the difference between a job done right the first time and a job you pay to have redone.
 
-After 25 years running Odds & Ends Home Services across Rockland County, here is exactly how to tell them apart — the questions to ask, the red flags that should end the call, and the green flags that mean you have found someone worth keeping in your phone.
+After 25 years running Odds & Ends Handyman Service across Rockland County, here is exactly how to tell them apart — the questions to ask, the red flags that should end the call, and the green flags that mean you have found someone worth keeping in your phone.
 
 ## The Short Version
 
@@ -3775,7 +3775,7 @@ You will get better quotes — and weed out the wrong people faster — if you d
 
 ## The 17 Questions to Ask a Handyman Before You Book
 
-1. **What is your Home Improvement Contractor license number, and what name is it held under?** In Rockland County this is required for almost all paid work. Ours is **#H-25-600**, held by **Daniel Kiely** (entity: Top Line Property Solutions LLC, d/b/a Odds and Ends Home Services). A pro rattles it off; a hesitation is a flag.
+1. **What is your Home Improvement Contractor license number, and what name is it held under?** In Rockland County this is required for almost all paid work. Ours is **#H-25-600**, held by **Daniel Kiely** (entity: Top Line Property Solutions LLC, d/b/a Odds and Ends Handyman Services). A pro rattles it off; a hesitation is a flag.
 2. **Are you insured, and can I get a certificate of insurance?** You want current general liability coverage. We carry **$1,000,000**. A real contractor's insurer will email a certificate directly to you on request.
 3. **How long have you been doing this, and how long in this area?** Local longevity matters — it means they know the housing stock (Victorians in Nyack, split-levels in New City, riverfront homes in Piermont) and they are not disappearing next month.
 4. **Have you done this exact type of job before?** "I have patched a thousand plaster walls" beats "yeah, I can probably figure that out."
@@ -3879,7 +3879,7 @@ We have been the handyman in Rockland County phones since 2001 — licensed (#H-
 
 ---
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (License #H-25-600, held by Daniel Kiely / Top Line Property Solutions LLC, d/b/a Odds and Ends Home Services) carrying $1,000,000 in general liability insurance. We serve the Town of Tuxedo — including Tuxedo Park, Eagle Valley, Southfields, and Sterling Forest — and all of Rockland County, NY: New City, Nyack, Nanuet, Pearl River, Suffern, Spring Valley, Haverstraw, Stony Point, Piermont, Tappan, Sparkill, Blauvelt, Valley Cottage, Congers, Pomona, Airmont, Chestnut Ridge, Montebello, New Hempstead, Sloatsburg, Upper Nyack, Thiells, and Garnerville.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (License #H-25-600, held by Daniel Kiely / Top Line Property Solutions LLC, d/b/a Odds and Ends Handyman Services) carrying $1,000,000 in general liability insurance. We serve the Town of Tuxedo — including Tuxedo Park, Eagle Valley, Southfields, and Sterling Forest — and all of Rockland County, NY: New City, Nyack, Nanuet, Pearl River, Suffern, Spring Valley, Haverstraw, Stony Point, Piermont, Tappan, Sparkill, Blauvelt, Valley Cottage, Congers, Pomona, Airmont, Chestnut Ridge, Montebello, New Hempstead, Sloatsburg, Upper Nyack, Thiells, and Garnerville.*`,
     category: 'Hiring a Handyman',
     relatedServices: ['tv-mounting', 'drywall-repair', 'furniture-assembly', 'painting', 'door-installation', 'deck-repair'],
     relatedCities: ['nyack', 'new-city', 'nanuet', 'pearl-river', 'suffern', 'stony-point'],
@@ -4197,7 +4197,7 @@ Whatever is on your to-do list — one item or twenty — there is a good chance
 
 ---
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (License #H-25-600, held by Daniel Kiely / Top Line Property Solutions LLC, d/b/a Odds and Ends Home Services) carrying $1,000,000 in general liability insurance. We provide handyman services across the Town of Tuxedo — including Tuxedo Park, Eagle Valley, Southfields, and Sterling Forest — and all of Rockland County, NY: New City, Nyack, Nanuet, Pearl River, Suffern, Spring Valley, Haverstraw, Stony Point, Piermont, Tappan, Sparkill, Blauvelt, Valley Cottage, Congers, Pomona, Airmont, Chestnut Ridge, Montebello, New Hempstead, Sloatsburg, Upper Nyack, Thiells, and Garnerville.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (License #H-25-600, held by Daniel Kiely / Top Line Property Solutions LLC, d/b/a Odds and Ends Handyman Services) carrying $1,000,000 in general liability insurance. We provide handyman services across the Town of Tuxedo — including Tuxedo Park, Eagle Valley, Southfields, and Sterling Forest — and all of Rockland County, NY: New City, Nyack, Nanuet, Pearl River, Suffern, Spring Valley, Haverstraw, Stony Point, Piermont, Tappan, Sparkill, Blauvelt, Valley Cottage, Congers, Pomona, Airmont, Chestnut Ridge, Montebello, New Hempstead, Sloatsburg, Upper Nyack, Thiells, and Garnerville.*`,
     category: 'Hiring a Handyman',
     relatedServices: ['tv-mounting', 'drywall-repair', 'door-installation', 'furniture-assembly', 'painting', 'light-fixture-installation', 'picture-hanging', 'tile-work'],
     relatedCities: ['new-city', 'nyack', 'nanuet', 'pearl-river', 'suffern', 'clarkstown'],
@@ -4348,7 +4348,7 @@ Send your list and a few photos through our [free estimate request](/estimate) f
 
 ---
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (License #H-25-600, held by Daniel Kiely / Top Line Property Solutions LLC, d/b/a Odds and Ends Home Services) carrying $1,000,000 in general liability insurance. Pricing ranges in this article are general 2026 estimates for the Lower Hudson Valley, not a quote for your project; tax, permit, and material costs vary. We serve the Town of Tuxedo — including Tuxedo Park, Eagle Valley, Southfields, and Sterling Forest — and all of Rockland County, NY: New City, Nyack, Nanuet, Pearl River, Suffern, Spring Valley, Haverstraw, Stony Point, Piermont, Tappan, Sparkill, Blauvelt, Valley Cottage, Congers, Pomona, Airmont, Chestnut Ridge, Montebello, New Hempstead, Sloatsburg, Upper Nyack, Thiells, and Garnerville.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (License #H-25-600, held by Daniel Kiely / Top Line Property Solutions LLC, d/b/a Odds and Ends Handyman Services) carrying $1,000,000 in general liability insurance. Pricing ranges in this article are general 2026 estimates for the Lower Hudson Valley, not a quote for your project; tax, permit, and material costs vary. We serve the Town of Tuxedo — including Tuxedo Park, Eagle Valley, Southfields, and Sterling Forest — and all of Rockland County, NY: New City, Nyack, Nanuet, Pearl River, Suffern, Spring Valley, Haverstraw, Stony Point, Piermont, Tappan, Sparkill, Blauvelt, Valley Cottage, Congers, Pomona, Airmont, Chestnut Ridge, Montebello, New Hempstead, Sloatsburg, Upper Nyack, Thiells, and Garnerville.*`,
     category: 'Pricing & Cost Guides',
     relatedServices: ['tv-mounting', 'drywall-repair', 'painting', 'door-installation', 'furniture-assembly', 'deck-repair'],
     relatedCities: ['new-city', 'nyack', 'nanuet', 'pearl-river', 'suffern', 'stony-point'],
@@ -4476,7 +4476,7 @@ Send us a photo and a sentence — "is this a me job or a you job?" We will tell
 
 ---
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (License #H-25-600, held by Daniel Kiely / Top Line Property Solutions LLC, d/b/a Odds and Ends Home Services) carrying $1,000,000 in general liability insurance. Cost figures are general 2026 estimates, not a quote for your project. We serve the Town of Tuxedo — including Tuxedo Park, Eagle Valley, Southfields, and Sterling Forest — and all of Rockland County, NY: New City, Nyack, Nanuet, Pearl River, Suffern, Spring Valley, Haverstraw, Stony Point, Piermont, Tappan, Sparkill, Blauvelt, Valley Cottage, Congers, Pomona, Airmont, Chestnut Ridge, Montebello, New Hempstead, Sloatsburg, Upper Nyack, Thiells, and Garnerville.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (License #H-25-600, held by Daniel Kiely / Top Line Property Solutions LLC, d/b/a Odds and Ends Handyman Services) carrying $1,000,000 in general liability insurance. Cost figures are general 2026 estimates, not a quote for your project. We serve the Town of Tuxedo — including Tuxedo Park, Eagle Valley, Southfields, and Sterling Forest — and all of Rockland County, NY: New City, Nyack, Nanuet, Pearl River, Suffern, Spring Valley, Haverstraw, Stony Point, Piermont, Tappan, Sparkill, Blauvelt, Valley Cottage, Congers, Pomona, Airmont, Chestnut Ridge, Montebello, New Hempstead, Sloatsburg, Upper Nyack, Thiells, and Garnerville.*`,
     category: 'Home Maintenance',
     relatedServices: ['drywall-repair', 'tv-mounting', 'painting', 'tile-work', 'deck-repair', 'fence-repair', 'light-fixture-installation'],
     relatedCities: ['nyack', 'new-city', 'nanuet', 'pearl-river', 'suffern', 'clarkstown'],
@@ -4547,7 +4547,7 @@ Call or text **(908) 461-2688**, or [request a free estimate](/estimate) online.
 
 ---
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (License #H-25-600, held by Daniel Kiely / Top Line Property Solutions LLC, d/b/a Odds and Ends Home Services) carrying $1,000,000 in general liability insurance. We serve the Town of Tuxedo — including Tuxedo Park, Eagle Valley, Southfields, and Sterling Forest — and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (License #H-25-600, held by Daniel Kiely / Top Line Property Solutions LLC, d/b/a Odds and Ends Handyman Services) carrying $1,000,000 in general liability insurance. We serve the Town of Tuxedo — including Tuxedo Park, Eagle Valley, Southfields, and Sterling Forest — and all of Rockland County, NY.*`,
     category: 'Hiring a Handyman',
     relatedServices: ['tv-mounting', 'drywall-repair', 'light-fixture-installation', 'furniture-assembly', 'picture-hanging', 'painting'],
     relatedCities: ['tuxedo', 'tuxedo-park', 'sloatsburg', 'suffern'],
@@ -4607,7 +4607,7 @@ Learn more about our [kitchen renovations](/services/kitchen-renovation), [bathr
 
 ---
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (License #H-25-600, held by Daniel Kiely / Top Line Property Solutions LLC, d/b/a Odds and Ends Home Services) carrying $1,000,000 in general liability insurance. We serve the Town of Tuxedo — including Tuxedo Park, Eagle Valley, Southfields, and Sterling Forest — and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (License #H-25-600, held by Daniel Kiely / Top Line Property Solutions LLC, d/b/a Odds and Ends Handyman Services) carrying $1,000,000 in general liability insurance. We serve the Town of Tuxedo — including Tuxedo Park, Eagle Valley, Southfields, and Sterling Forest — and all of Rockland County, NY.*`,
     category: 'Pricing & Cost Guides',
     relatedServices: ['kitchen-renovation', 'bathroom-renovation', 'flooring', 'cabinet-refinishing', 'tile-work'],
     relatedCities: ['tuxedo', 'tuxedo-park', 'sloatsburg'],
@@ -4668,7 +4668,7 @@ We'd like to be that team for yours. Call or text **(908) 461-2688** or [request
 
 ---
 
-*Odds & Ends Home Services is a licensed Rockland County Home Improvement Contractor (License #H-25-600, held by Daniel Kiely / Top Line Property Solutions LLC, d/b/a Odds and Ends Home Services) carrying $1,000,000 in general liability insurance. We serve the Town of Tuxedo — including Tuxedo Park, Eagle Valley, Southfields, and Sterling Forest — and all of Rockland County, NY.*`,
+*Odds & Ends Handyman Service is a licensed Rockland County Home Improvement Contractor (License #H-25-600, held by Daniel Kiely / Top Line Property Solutions LLC, d/b/a Odds and Ends Handyman Services) carrying $1,000,000 in general liability insurance. We serve the Town of Tuxedo — including Tuxedo Park, Eagle Valley, Southfields, and Sterling Forest — and all of Rockland County, NY.*`,
     category: 'Home Maintenance',
     relatedServices: ['drywall-repair', 'painting', 'built-ins', 'kitchen-renovation', 'bathroom-renovation', 'deck-repair'],
     relatedCities: ['tuxedo-park', 'tuxedo', 'sloatsburg'],

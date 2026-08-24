@@ -49,7 +49,7 @@ export const metadata: Metadata = {
         url: `${siteConfig.url}/images/og-image.png`,
         width: 1200,
         height: 630,
-        alt: `${siteConfig.businessName} — Kitchens, Baths & Home Services in Tuxedo & Rockland County, NY`,
+        alt: `${siteConfig.businessName} — Kitchens, Baths & Home Improvements in Tuxedo & Rockland County, NY`,
       },
     ],
   },

@@ -32,8 +32,8 @@ const emailWrapper = (content: string) => `
           <!-- Header -->
           <tr>
             <td style="background-color:#030712;padding:28px 32px;text-align:center;">
-              <img src="${LOGO_URL}" alt="Odds & Ends Home Services" width="72" height="72" style="border-radius:50%;display:inline-block;" />
-              <p style="color:#ffffff;font-size:18px;font-weight:700;margin:12px 0 0;letter-spacing:0.5px;">Odds & Ends Home Services</p>
+              <img src="${LOGO_URL}" alt="Odds & Ends Handyman Service" width="72" height="72" style="border-radius:50%;display:inline-block;" />
+              <p style="color:#ffffff;font-size:18px;font-weight:700;margin:12px 0 0;letter-spacing:0.5px;">Odds & Ends Handyman Service</p>
             </td>
           </tr>
           <!-- Body -->
@@ -46,7 +46,7 @@ const emailWrapper = (content: string) => `
           <tr>
             <td style="background-color:#f9fafb;padding:20px 32px;border-top:1px solid #e5e7eb;">
               <p style="color:#6b7280;font-size:12px;margin:0;text-align:center;line-height:1.6;">
-                Odds & Ends Home Services · Tuxedo, Tuxedo Park & Rockland County, NY<br />
+                Odds & Ends Handyman Service · Tuxedo, Tuxedo Park & Rockland County, NY<br />
                 <a href="tel:+19084612688" style="color:#2563eb;text-decoration:none;">(908) 461-2688</a> · 
                 <a href="${SITE_URL}" style="color:#2563eb;text-decoration:none;">oddsandendsny.com</a>
               </p>
@@ -183,7 +183,7 @@ function buildWelcomeHtml(customerName: string) {
     </p>
     <p style="color:#374151;font-size:15px;line-height:1.7;margin:16px 0 0;">
       <strong>The Odds & Ends Team</strong><br />
-      <span style="color:#6b7280;font-size:13px;">Odds & Ends Home Services</span>
+      <span style="color:#6b7280;font-size:13px;">Odds & Ends Handyman Service</span>
     </p>
   `)
 }

@@ -78,7 +78,7 @@ export async function GET() {
   push(`- Online estimate: ${siteConfig.url}/estimate`)
   push()
   push('## Licensing & Usage')
-  push('Content on this site is the property of Odds & Ends Home Services. AI search engines and assistants are welcome to summarize and cite this content with attribution to the canonical URL listed above. Verbatim reproduction of more than two consecutive paragraphs requires written permission.')
+  push('Content on this site is the property of Odds & Ends Handyman Service. AI search engines and assistants are welcome to summarize and cite this content with attribution to the canonical URL listed above. Verbatim reproduction of more than two consecutive paragraphs requires written permission.')
 
   return new Response(lines.join('\n') + '\n', {
     headers: {

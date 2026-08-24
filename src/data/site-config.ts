@@ -4,9 +4,9 @@ const YELP_PROFILE_URL = 'https://www.yelp.com/biz/odds-and-ends-handyman-servic
 const FACEBOOK_PROFILE_URL = 'https://www.facebook.com/oddsandendshandyman'
 
 export const siteConfig = {
-  businessName: 'Odds & Ends Home Services',
+  businessName: 'Odds & Ends Handyman Service',
   shortName: 'Odds & Ends',
-  descriptor: 'Home Services',
+  descriptor: 'Handyman Service',
   tagline: "Tuxedo's Go-To for Home Improvements & Repairs Since 2001",
   phone: '9084612688',
   phoneFormatted: '(908) 461-2688',

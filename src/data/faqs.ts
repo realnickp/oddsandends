@@ -13,7 +13,7 @@ export const faqs: FAQ[] = [
   },
   {
     question: 'How long has Odds & Ends been in business?',
-    answer: 'Odds & Ends Home Services was established in 2001 and brings over two decades of renovation and repair experience to Tuxedo, Tuxedo Park, and Rockland County.',
+    answer: 'Odds & Ends Handyman Service was established in 2001 and brings over two decades of renovation and repair experience to Tuxedo, Tuxedo Park, and Rockland County.',
     category: 'General',
   },
   {

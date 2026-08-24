@@ -7,7 +7,7 @@ import { siteConfig } from '@/data/site-config'
 export async function generateMetadata() {
   return generatePageMetadata({
     title: 'Privacy Policy',
-    description: `Privacy policy for Odds & Ends Home Services. Learn how we collect, use, and protect your personal information.`,
+    description: `Privacy policy for Odds & Ends Handyman Service. Learn how we collect, use, and protect your personal information.`,
     path: '/privacy',
   })
 }

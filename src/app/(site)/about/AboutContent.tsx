@@ -121,7 +121,7 @@ export default function AboutContent() {
               </ScrollReveal>
               <ScrollReveal direction="up" delay={100}>
                 <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                  About Odds & Ends Home Services
+                  About Odds & Ends Handyman Service
                 </h1>
               </ScrollReveal>
               <ScrollReveal direction="up" delay={200}>
@@ -146,7 +146,7 @@ export default function AboutContent() {
               <div className="relative rounded-2xl overflow-hidden aspect-[4/3] shadow-2xl shadow-black/40">
                 <Image
                   src="/images/site/firepit-deck.jpg"
-                  alt="Custom fire pit deck built by Odds & Ends Home Services"
+                  alt="Custom fire pit deck built by Odds & Ends Handyman Service"
                   fill
                   className="object-cover"
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -201,7 +201,7 @@ export default function AboutContent() {
               <ScrollReveal direction="left" delay={100}>
                 <div className="space-y-4 text-gray-500 font-light leading-relaxed text-lg">
                   <p>
-                    Odds & Ends Home Services was founded in 2001 with a simple
+                    Odds & Ends Handyman Service was founded in 2001 with a simple
                     philosophy: treat every home with the same care and respect you&apos;d
                     give your own. Over two decades later, that philosophy hasn&apos;t
                     changed.
@@ -209,7 +209,7 @@ export default function AboutContent() {
                   <p>
                     What started as a way to help neighbors with small repairs grew into
                     one of Rockland County&apos;s most trusted handyman services — and today,
-                    Odds & Ends Home Services is scaling that same craftsmanship into bigger
+                    Odds & Ends Handyman Service is scaling that same craftsmanship into bigger
                     work: kitchens, bathrooms, basements, custom built-ins, accent walls,
                     decks, and flooring. Our home turf now is the Town of Tuxedo — including
                     Tuxedo Park — where we intend to be every homeowner&apos;s go-to, for
@@ -230,7 +230,7 @@ export default function AboutContent() {
                 <div className="rounded-2xl overflow-hidden shadow-2xl shadow-gray-200/50 aspect-[3/4]">
                   <Image
                     src="/images/site/dan.png"
-                    alt="Owner of Odds & Ends Home Services"
+                    alt="Owner of Odds & Ends Handyman Service"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 100vw, 40vw"
@@ -243,7 +243,7 @@ export default function AboutContent() {
                       <Hammer className="h-6 w-6 text-white" />
                     </div>
                     <div>
-                      <p className="font-bold text-gray-900 text-sm">Odds & Ends Home Services</p>
+                      <p className="font-bold text-gray-900 text-sm">Odds & Ends Handyman Service</p>
                       <p className="text-gray-500 text-xs">Locally Owned · Est. {siteConfig.established}</p>
                       <p className="text-green-600 text-xs font-medium flex items-center gap-1">
                         <Shield className="h-3 w-3" />

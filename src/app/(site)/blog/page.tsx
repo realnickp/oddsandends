@@ -13,7 +13,7 @@ export async function generateMetadata() {
   return generatePageMetadata({
     title: 'Home Improvement Blog | Tips & Guides',
     description:
-      'Helpful home improvement tips, repair guides, and local advice from Odds & Ends Home Services in Tuxedo & Rockland County, NY.',
+      'Helpful home improvement tips, repair guides, and local advice from Odds & Ends Handyman Service in Tuxedo & Rockland County, NY.',
     path: '/blog',
     keywords: ['home improvement blog', 'handyman tips', 'home repair guides'],
   })
