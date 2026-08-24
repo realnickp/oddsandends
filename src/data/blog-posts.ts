@@ -4491,7 +4491,7 @@ Send us a photo and a sentence — "is this a me job or a you job?" We will tell
   {
     slug: 'finding-a-handyman-for-small-jobs-tuxedo-ny',
     title: 'Why Is It So Hard to Find a Handyman for Small Jobs in Tuxedo? (And How I Decided to Fix That)',
-    excerpt: 'Contractors won’t call back about small jobs in Tuxedo because of simple drive-time math. Here’s how that works, what small jobs should cost, and how I built my business around being the guy who shows up.',
+    excerpt: 'Contractors won’t call back about small jobs in Tuxedo because of simple drive-time math. Here’s how that works, what small jobs should cost, and how I built this company around being the one that shows up.',
     content: `If you own a home in Tuxedo, you already know the routine. Something small breaks — a door that won't latch, a light fixture that hums, a stretch of deck railing gone wobbly — and you start making calls. And nobody calls back.
 
 I want to explain why that happens, because once you understand it, you'll understand why I've decided to build my business around fixing it.
@@ -4502,7 +4502,7 @@ The honest answer is windshield math. Tuxedo sits in a beautiful pocket of the R
 
 The problem compounds in a town this size. Tuxedo has a few thousand residents. Tuxedo Park has around 300 homes. There's no big pool of local tradespeople the way there is in a county of 300,000 people. So the sticking door stays stuck, the to-do list grows, and eventually a small annoyance becomes a real repair.
 
-I've spent more than two decades doing this work in Rockland County, one town down Route 17. When I decided to make Tuxedo my primary focus, the small-job problem was the whole point. In a small town, the guy who shows up for the little things becomes the first call for everything. That's the reputation I intend to earn here — not by advertising it, but by answering the phone.
+I've spent more than two decades doing this work in Rockland County, one town down Route 17. When I decided to make Tuxedo my primary focus, the small-job problem was the whole point. In a small town, the company that shows up for the little things becomes the first call for everything. That's the reputation I intend to earn here — not by advertising it, but by answering the phone.
 
 ## How Much Does a Handyman Charge for Small Jobs?
 
@@ -4662,9 +4662,9 @@ A practical note for the Park specifically: register your contractor with the vi
 
 ## The Real Answer
 
-What it really takes to maintain an older home in Tuxedo Park is not heroic money. It's a relationship — with the house, and with someone skilled who answers the phone for the small things, sees the water problem while it's still a stain, and respects the materials enough to repair them. These are some of the finest houses ever built in this country. They deserve a guy who treats a sticking door as seriously as a renovation.
+What it really takes to maintain an older home in Tuxedo Park is not heroic money. It's a relationship — with the house, and with someone skilled who answers the phone for the small things, sees the water problem while it's still a stain, and respects the materials enough to repair them. These are some of the finest houses ever built in this country. They deserve a team that treats a sticking door as seriously as a renovation.
 
-I'd like to be that guy for yours. Call or text **(908) 461-2688** or [request a free estimate](/estimate) — and if you just want a walkthrough-and-honest-opinion visit before anything is wrong, that's a perfectly good reason to call too.
+We'd like to be that team for yours. Call or text **(908) 461-2688** or [request a free estimate](/estimate) — and if you just want a walkthrough-and-honest-opinion visit before anything is wrong, that's a perfectly good reason to call too.
 
 ---
 

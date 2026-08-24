@@ -55,7 +55,7 @@ export function Hero() {
         </p>
 
         <h1 className="text-[2.1rem] sm:text-4xl font-bold text-white leading-[1.08] tracking-tight mb-3 text-center">
-          <span className="text-gradient">Tuxedo&apos;s Go-To Guy</span>{' '}
+          <span className="text-gradient">Tuxedo&apos;s Go-To</span>{' '}
           for Every Home Project
         </h1>
 
@@ -120,7 +120,7 @@ export function Hero() {
               </div>
 
               <h2 className="text-5xl xl:text-6xl 2xl:text-7xl font-bold text-white leading-[1.08] tracking-tight mb-6">
-                <span className="block text-gradient">Tuxedo&apos;s Go-To Guy</span>
+                <span className="block text-gradient">Tuxedo&apos;s Go-To</span>
                 <span className="block">for Every</span>
                 <span className="block">Home Project</span>
               </h2>
