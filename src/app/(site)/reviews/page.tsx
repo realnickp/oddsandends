@@ -110,7 +110,7 @@ export default function ReviewsPage() {
                     ))}
                   </div>
                   <p className="text-gray-400 text-sm">
-                    Based on <span className="text-white font-semibold">{reviews.length} reviews</span>
+                    From <span className="text-white font-semibold">verified Google reviews</span>
                   </p>
                 </div>
               </div>
@@ -204,7 +204,7 @@ export default function ReviewsPage() {
                 All Reviews
               </p>
               <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-                {reviews.length} Happy Homeowners
+                Happy Homeowners
               </h2>
               <p className="text-lg text-gray-400 font-light max-w-2xl mx-auto">
                 Every review is a real, verified Google review from a local homeowner.

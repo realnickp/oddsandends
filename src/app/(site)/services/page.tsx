@@ -267,27 +267,23 @@ export default function ServicesPage() {
             ))}
           </div>
 
-          {/* The rest, as a compact link list */}
+          {/* The rest, as little buttons */}
           <ScrollReveal>
-            <div className="mt-8 rounded-xl bg-white/[0.03] border border-white/[0.06] px-5 py-4">
-              <p className="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-2.5">
+            <div className="mt-8 rounded-xl bg-white/[0.03] border border-white/[0.06] px-5 py-5">
+              <p className="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-3.5">
                 Plus everything else on the list
               </p>
-              <p className="leading-relaxed">
-                {moreHandymanServices.map((s, i) => (
-                  <span key={s.slug}>
-                    <Link
-                      href={`/services/${s.slug}`}
-                      className="text-sm text-gray-400 hover:text-blue-300 underline decoration-white/20 underline-offset-4 transition-colors"
-                    >
-                      {s.name}
-                    </Link>
-                    {i < moreHandymanServices.length - 1 && (
-                      <span className="text-gray-600"> · </span>
-                    )}
-                  </span>
+              <div className="flex flex-wrap gap-2">
+                {moreHandymanServices.map((s) => (
+                  <Link
+                    key={s.slug}
+                    href={`/services/${s.slug}`}
+                    className="inline-flex items-center rounded-full bg-white/[0.06] border border-white/10 hover:border-blue-400/40 hover:bg-white/[0.12] px-3.5 py-1.5 text-xs md:text-sm font-semibold text-gray-300 hover:text-white transition-all"
+                  >
+                    {s.name}
+                  </Link>
                 ))}
-              </p>
+              </div>
             </div>
           </ScrollReveal>
 
