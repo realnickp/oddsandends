@@ -31,6 +31,7 @@ export async function GET() {
   push(`- [Service Areas](${siteConfig.url}/areas): All ${cities.length} cities and townships served`)
   push(`- [Reviews](${siteConfig.url}/reviews): 5-star Google reviews from local customers`)
   push(`- [Contact](${siteConfig.url}/contact): Phone, text, email, hours`)
+  push(`- [Careers](${siteConfig.url}/careers): Job openings and online application for skilled trades and handyman work`)
   push(`- [Free Estimate](${siteConfig.url}/estimate): Request a no-obligation quote`)
   push(`- [Project Quiz](${siteConfig.url}/quiz): Build a project scope interactively`)
   push(`- [FAQ](${siteConfig.url}/faq): Common questions answered`)

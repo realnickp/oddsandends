@@ -48,6 +48,7 @@ const navItems: NavItem[] = [
   { label: 'About', href: '/about' },
   { label: 'Reviews', href: '/reviews' },
   { label: 'Blog', href: '/blog' },
+  { label: 'Careers', href: '/careers' },
   { label: 'Contact', href: '/contact' },
 ]
 
@@ -148,7 +149,7 @@ export function Header() {
           </Link>
 
           {/* Desktop nav */}
-          <nav ref={navRef} className="hidden lg:flex items-center gap-1">
+          <nav ref={navRef} className="hidden xl:flex items-center gap-1">
             {navItems.map((item) =>
               item.dropdown ? (
                 <div
@@ -216,7 +217,7 @@ export function Header() {
             </Link>
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
-              className="lg:hidden p-2 text-gray-300 hover:bg-white/10 rounded-lg"
+              className="xl:hidden p-2 text-gray-300 hover:bg-white/10 rounded-lg"
               aria-label="Toggle menu"
             >
               {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -227,7 +228,7 @@ export function Header() {
 
       {/* Mobile menu */}
       <div
-        className={`lg:hidden border-t border-white/10 bg-black overflow-hidden transition-all duration-300 ${
+        className={`xl:hidden border-t border-white/10 bg-black overflow-hidden transition-all duration-300 ${
           mobileOpen ? 'max-h-[calc(100vh-8rem)] opacity-100' : 'max-h-0 opacity-0'
         }`}
       >

@@ -221,3 +221,188 @@ export async function sendWelcomeEmail(customerEmail: string, customerName: stri
     console.error('Failed to send welcome email:', err)
   }
 }
+
+// ─── Job application notification (Careers page) ────────────────
+
+// Careers applications go to everyone on NOTIFICATION_EMAIL (Dan + Nick, so
+// nothing gets missed) plus any extra addresses in CAREERS_NOTIFICATION_EMAIL.
+const CAREERS_NOTIFICATION_EMAILS = Array.from(
+  new Set([
+    ...NOTIFICATION_EMAILS,
+    ...(process.env.CAREERS_NOTIFICATION_EMAIL || '')
+      .split(',')
+      .map((e) => e.trim())
+      .filter(Boolean),
+  ])
+)
+
+export interface ApplicationNotificationData {
+  name: string
+  phone: string
+  email: string
+  city?: string
+  contactMethod?: string
+  /** Readable question/answer pairs, already in display order. */
+  answers: { label: string; answer: string }[]
+  /** Short comma-separated experience list, used in the subject line. */
+  experienceSummary?: string
+}
+
+function escapeHtml(value: string): string {
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+}
+
+function buildApplicationHtml(data: ApplicationNotificationData) {
+  const firstName = escapeHtml(data.name.split(' ')[0])
+  const telHref = formatTelHref(data.phone)
+  const mailHref = `mailto:${escapeHtml(data.email)}`
+
+  const rows = [
+    buildDetailRow('Name', escapeHtml(data.name)),
+    buildDetailRow(
+      'Phone',
+      `<a href="${telHref}" style="color:#2563eb;text-decoration:none;">${escapeHtml(data.phone)}</a>`
+    ),
+    buildDetailRow(
+      'Email',
+      `<a href="${mailHref}" style="color:#2563eb;text-decoration:none;">${escapeHtml(data.email)}</a>`
+    ),
+    buildDetailRow('Town / City', data.city ? escapeHtml(data.city) : undefined),
+    buildDetailRow(
+      'Preferred Contact',
+      data.contactMethod ? escapeHtml(data.contactMethod) : undefined
+    ),
+    ...data.answers.map((a) =>
+      buildDetailRow(
+        escapeHtml(a.label),
+        escapeHtml(a.answer).replace(/\n/g, '<br />')
+      )
+    ),
+  ]
+
+  return emailWrapper(`
+    <div style="text-align:center;margin-bottom:24px;">
+      <span style="display:inline-block;background-color:#d97706;color:#ffffff;font-size:11px;font-weight:700;padding:4px 12px;border-radius:999px;text-transform:uppercase;letter-spacing:0.5px;">
+        New Job Application
+      </span>
+    </div>
+    <h2 style="color:#111827;font-size:22px;font-weight:700;margin:0 0 4px;text-align:center;">
+      ${escapeHtml(data.name)}
+    </h2>
+    <p style="color:#6b7280;font-size:14px;margin:0 0 24px;text-align:center;">
+      <a href="${telHref}" style="color:#2563eb;text-decoration:none;font-weight:600;">${escapeHtml(data.phone)}</a>
+      &nbsp;·&nbsp;
+      <a href="${mailHref}" style="color:#2563eb;text-decoration:none;">${escapeHtml(data.email)}</a>
+    </p>
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #e5e7eb;border-radius:8px;overflow:hidden;">
+      ${rows.filter(Boolean).join('')}
+    </table>
+    <p style="color:#9ca3af;font-size:12px;margin:16px 0 0;text-align:center;line-height:1.6;">
+      Submitted through the Careers page at ${SITE_URL}/careers.<br />
+      If this applicant came from Indeed, their resume is in your Indeed inbox.
+    </p>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="margin:24px auto 0;">
+      <tr>
+        <td align="center" bgcolor="#2563eb" style="background-color:#2563eb;border-radius:8px;">
+          <a href="${telHref}" style="display:inline-block;padding:12px 28px;color:#ffffff;font-size:14px;font-weight:600;text-decoration:none;text-align:center;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+            Call ${firstName} Now
+          </a>
+        </td>
+        <td style="width:12px;"></td>
+        <td align="center" bgcolor="#111827" style="background-color:#111827;border-radius:8px;">
+          <a href="${mailHref}" style="display:inline-block;padding:12px 28px;color:#ffffff;font-size:14px;font-weight:600;text-decoration:none;text-align:center;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+            Email ${firstName}
+          </a>
+        </td>
+      </tr>
+    </table>
+  `)
+}
+
+function buildApplicantConfirmationHtml(applicantName: string) {
+  const firstName = escapeHtml(applicantName.split(' ')[0])
+
+  return emailWrapper(`
+    <h2 style="color:#111827;font-size:24px;font-weight:700;margin:0 0 16px;text-align:center;">
+      Thanks for Applying, ${firstName}!
+    </h2>
+    <p style="color:#374151;font-size:15px;line-height:1.7;margin:0 0 16px;">
+      We received your application to join the Odds &amp; Ends team. Every application is reviewed personally, and we'll reach out if it looks like a good fit.
+    </p>
+    <div style="background-color:#f0f9ff;border-radius:8px;padding:16px 20px;margin-bottom:24px;">
+      <p style="color:#1e40af;font-size:13px;font-weight:600;margin:0 0 4px;">What happens next?</p>
+      <ul style="color:#374151;font-size:14px;line-height:1.8;margin:0;padding-left:18px;">
+        <li>We review your experience and availability</li>
+        <li>If it's a match, we'll call or text to set up a conversation</li>
+        <li>Questions in the meantime? Call or text us anytime</li>
+      </ul>
+    </div>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto 24px;">
+      <tr>
+        <td align="center" bgcolor="#2563eb" style="background-color:#2563eb;border-radius:8px;">
+          <a href="tel:+19084612688" style="display:inline-block;padding:14px 32px;color:#ffffff;font-size:15px;font-weight:600;text-decoration:none;text-align:center;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+            Call (908) 461-2688
+          </a>
+        </td>
+      </tr>
+    </table>
+    <p style="color:#374151;font-size:15px;line-height:1.7;margin:0;">
+      Thanks for your interest in working with us.
+    </p>
+    <p style="color:#374151;font-size:15px;line-height:1.7;margin:16px 0 0;">
+      <strong>The Odds &amp; Ends Team</strong><br />
+      <span style="color:#6b7280;font-size:13px;">Odds &amp; Ends Handyman Service</span>
+    </p>
+  `)
+}
+
+export async function sendApplicationNotification(
+  data: ApplicationNotificationData
+) {
+  if (!CAREERS_NOTIFICATION_EMAILS.length) return
+
+  const summary = data.experienceSummary
+    ? ` — ${data.experienceSummary.length > 60 ? data.experienceSummary.slice(0, 57).trimEnd() + '…' : data.experienceSummary}`
+    : ''
+
+  try {
+    const { error } = await resend.emails.send({
+      from: `Odds & Ends Careers <${FROM_EMAIL}>`,
+      to: CAREERS_NOTIFICATION_EMAILS,
+      replyTo: data.email || REPLY_TO,
+      subject: `New Job Application: ${data.name}${summary}`,
+      html: buildApplicationHtml(data),
+    })
+    if (error) {
+      console.error('Resend rejected job application notification email:', error)
+    }
+  } catch (err) {
+    console.error('Failed to send job application notification email:', err)
+  }
+}
+
+export async function sendApplicantConfirmation(
+  applicantEmail: string,
+  applicantName: string
+) {
+  if (!applicantEmail) return
+
+  try {
+    const { error } = await resend.emails.send({
+      from: `Odds & Ends Handyman <${FROM_EMAIL}>`,
+      to: applicantEmail,
+      replyTo: REPLY_TO,
+      subject: `We received your application, ${applicantName.split(' ')[0]} — Odds & Ends Handyman`,
+      html: buildApplicantConfirmationHtml(applicantName),
+    })
+    if (error) {
+      console.error('Resend rejected applicant confirmation email:', error)
+    }
+  } catch (err) {
+    console.error('Failed to send applicant confirmation email:', err)
+  }
+}
