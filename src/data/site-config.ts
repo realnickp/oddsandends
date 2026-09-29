@@ -1,5 +1,7 @@
 const ESTABLISHED_YEAR = 2001
-const GOOGLE_PROFILE_URL = 'https://www.google.com/maps/place/Odds+%26+Ends+Handyman+Service'
+// Canonical Google Business Profile link (CID) and the direct write-a-review form
+const GOOGLE_PROFILE_URL = 'https://www.google.com/maps?cid=8595291304426544234'
+export const GOOGLE_REVIEW_URL = 'https://search.google.com/local/writereview?placeid=ChIJ0wi9_rA88oYRahxZzeabSHc'
 const YELP_PROFILE_URL = 'https://www.yelp.com/biz/odds-and-ends-handyman-service-rockland-county'
 const FACEBOOK_PROFILE_URL = 'https://www.facebook.com/oddsandendshandyman'
 

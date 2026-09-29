@@ -9,6 +9,41 @@ export interface Review {
 
 export const reviews: Review[] = [
   {
+    name: "D ClancyUlianelli",
+    rating: 5,
+    date: '2026-09-14',
+    text: "Having relocated to Tuxedo NY, I was looking for a carpenter and found the reviews for Dan Kiely to be outstanding. Placed a call, and Dan answers the call, himself...Dan came to my townhouse that day and we discussed ideas for a bookcase, later he sent me pictures of different lay outs. I had an estimate and a date to start, within one week. Work to commence in five weeks amazing. The finished product is just what the large space needed. Dan and crew, who are all professional, neat and pleasant to have in your home doing work, arrived on time and picked up after themselves when work day was finished. Do not hesitate to use \" Odds & Ends\" they do not disappoint. Dan is extremely smart and kind, and has fair pricing.",
+    source: 'google',
+  },
+  {
+    name: "Divya S",
+    rating: 5,
+    date: '2026-09-11',
+    text: "Hired them to complete a bathroom work and they did an amazing job! Very professional and reliable. Would definitely recommend Dan and his team.",
+    source: 'google',
+  },
+  {
+    name: "Vadim Liberman",
+    rating: 5,
+    date: '2026-06-16',
+    text: "It was a pleasure having Dan do some installation work at our house. He was kinda enough to pick up the door I ordered at Home Depot and then install it expertly. I especially appreciated his attention to detail that involved making special modifications to ensure everything was even more solid than a standard installation would've been. Additionally, throughout the process, Dan was easy to work with, always professional, kind, and ready to offer his expertise and knowledge. I would absolutely use him again for home projects and would likewise recommend him to others for their home-contracting needs.",
+    source: 'google',
+  },
+  {
+    name: "Louise Newcombe",
+    rating: 5,
+    date: '2026-05-25',
+    text: "Had a great experience with Dan from Odds and Ends. They did an excellent job refinishing our deck and replacing the roof on our shed. The team was professional, efficient and kept everything clean. Very happy with the results and would definitely recommend.",
+    source: 'google',
+  },
+  {
+    name: "Madeleine Blanchard",
+    rating: 5,
+    date: '2026-03-23',
+    text: "Dan is friendly, competent, and shows up on time. Did my whole list in good time. Easy to work with. Glad to have found him!!",
+    source: 'google',
+  },
+  {
     name: 'Michele Raimondo-Braverman',
     rating: 5,
     date: '2025-12-12',
@@ -178,5 +213,12 @@ export const reviews: Review[] = [
     source: 'google',
   },
 ]
+
+// Google also shows ratings left without any text; they count toward the
+// Google total but have nothing to display. Keep this in sync with the profile.
+export const RATING_ONLY_GOOGLE_REVIEWS = 1
+
+/** Total reviews on the Google Business Profile, used for schema. */
+export const googleReviewCount = reviews.length + RATING_ONLY_GOOGLE_REVIEWS
 
 export const featuredReviews = reviews.filter((r) => r.featured)

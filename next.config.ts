@@ -16,6 +16,12 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      // Short link for review requests (texts, emails, cards): opens the Google write-a-review form
+      {
+        source: "/review",
+        destination: "https://search.google.com/local/writereview?placeid=ChIJ0wi9_rA88oYRahxZzeabSHc",
+        permanent: false,
+      },
       // Junk removal was discontinued — send old URLs to the services hub
       { source: "/services/junk-removal", destination: "/services", permanent: true },
       {

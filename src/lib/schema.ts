@@ -1,5 +1,5 @@
 import { siteConfig } from '@/data/site-config'
-import { reviews } from '@/data/reviews'
+import { googleReviewCount } from '@/data/reviews'
 import { cities } from '@/data/cities'
 
 export function localBusinessSchema() {
@@ -84,7 +84,7 @@ export function localBusinessSchema() {
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: '5.0',
-      reviewCount: String(reviews.length),
+      reviewCount: String(googleReviewCount),
       bestRating: '5',
     },
   }
@@ -163,7 +163,7 @@ export function serviceSchema(service: {
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: '5.0',
-      reviewCount: String(reviews.length),
+      reviewCount: String(googleReviewCount),
       bestRating: '5',
     },
   }

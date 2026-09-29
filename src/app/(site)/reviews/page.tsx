@@ -284,16 +284,26 @@ export default function ReviewsPage() {
                   the most trusted handyman service in {siteConfig.county}.
                 </p>
               </div>
-              {siteConfig.social.google && (
+              <div className="shrink-0 flex flex-col sm:flex-row gap-3">
                 <a
-                  href={siteConfig.social.google}
+                  href="/review"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="shrink-0 inline-flex items-center gap-2 bg-gradient-to-br from-blue-600 to-blue-700 text-white px-6 py-3 rounded-xl font-bold hover:shadow-lg hover:shadow-blue-500/25 transition-all"
+                  className="inline-flex items-center justify-center gap-2 bg-white text-gray-900 border border-gray-200 px-6 py-3 rounded-xl font-bold hover:shadow-lg transition-all"
                 >
-                  View on Google <ExternalLink className="h-4 w-4" />
+                  Leave a Review <ExternalLink className="h-4 w-4" />
                 </a>
-              )}
+                {siteConfig.social.google && (
+                  <a
+                    href={siteConfig.social.google}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center gap-2 bg-gradient-to-br from-blue-600 to-blue-700 text-white px-6 py-3 rounded-xl font-bold hover:shadow-lg hover:shadow-blue-500/25 transition-all"
+                  >
+                    View on Google <ExternalLink className="h-4 w-4" />
+                  </a>
+                )}
+              </div>
             </div>
           </ScrollReveal>
         </div>
