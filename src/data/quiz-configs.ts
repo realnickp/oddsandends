@@ -1097,58 +1097,6 @@ export const quizConfigs: Record<string, ServiceQuizConfig> = {
     ],
   },
 
-  'excavation': {
-    serviceSlug: 'excavation',
-    serviceName: 'Excavation',
-    headline: 'Plan Your Excavation Project',
-    subtitle: 'A few details so we can line up the right equipment',
-    steps: [
-      {
-        id: 'job-type',
-        question: 'What type of excavation?',
-        type: 'single-select',
-        options: [
-          { label: '🔲 Trenching', value: 'trenching' },
-          { label: '🏗️ Grading / Leveling', value: 'grading' },
-          { label: '💧 Drainage', value: 'drainage' },
-          { label: '🏠 Foundation prep', value: 'foundation' },
-          { label: '⚡ Utility line work', value: 'utility' },
-        ],
-      },
-      {
-        id: 'area-size',
-        question: 'How big is the area?',
-        type: 'single-select',
-        options: [
-          { label: '📏 Small — a trench or small section', value: 'small' },
-          { label: '📐 Medium — partial yard or driveway', value: 'medium' },
-          { label: '🏗️ Large — full yard or major grading', value: 'large' },
-        ],
-      },
-      {
-        id: 'soil-concerns',
-        question: 'Any soil concerns?',
-        type: 'single-select',
-        options: [
-          { label: '🪨 Rocky ground', value: 'rocky' },
-          { label: '🧱 Heavy clay', value: 'clay' },
-          { label: '✅ Normal soil', value: 'normal' },
-          { label: '🤷 Not sure', value: 'not-sure' },
-        ],
-      },
-      {
-        id: 'utilities-marked',
-        question: 'Do you need utilities marked before digging?',
-        type: 'single-select',
-        options: [
-          { label: '✅ Yes, please', value: 'yes' },
-          { label: '🚫 No, already done', value: 'no' },
-          { label: '🤷 Not sure', value: 'not-sure' },
-        ],
-      },
-    ],
-  },
-
   'gravel-pads': {
     serviceSlug: 'gravel-pads',
     serviceName: 'Gravel Pads',

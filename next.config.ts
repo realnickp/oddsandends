@@ -24,6 +24,8 @@ const nextConfig: NextConfig = {
       },
       // Junk removal was discontinued — send old URLs to the services hub
       { source: "/services/junk-removal", destination: "/services", permanent: true },
+      // Excavation was discontinued
+      { source: "/services/excavation", destination: "/services", permanent: true },
       {
         source: "/blog/junk-removal-rockland-county-complete-guide",
         destination: "/services",

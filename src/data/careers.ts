@@ -50,7 +50,6 @@ export const applicationSteps: CareerStep[] = [
       { label: '🚪 Doors & windows', value: 'doors-windows', short: 'Doors/Windows' },
       { label: '🔧 Basic plumbing repairs', value: 'plumbing', short: 'Plumbing' },
       { label: '💡 Light fixtures / ceiling fans', value: 'fixtures', short: 'Fixtures' },
-      { label: '🚜 Excavation / site work', value: 'excavation', short: 'Excavation' },
       { label: '🛠️ General handyman repairs', value: 'general-handyman', short: 'General handyman' },
       { label: '🌱 New to the trades — eager to learn', value: 'no-experience', short: 'New to trades' },
     ],

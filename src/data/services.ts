@@ -1441,58 +1441,6 @@ export const services: Service[] = [
     ]
   },
   {
-    slug: 'excavation',
-    name: 'Excavation',
-    shortDescription: 'Small to medium excavation services in Rockland County. Trenching, grading, drainage, and site prep done right.',
-    heroHeadline: 'Excavation Services in Tuxedo & Rockland County, NY',
-    heroSubheadline: 'Precision digging and grading for projects big and small.',
-    intro: 'Many home improvement and outdoor projects start with excavation — and getting it wrong can mean drainage problems, foundation failures, or costly do-overs. Whether you need a trench dug for a new utility line, a section of yard graded for proper water flow, or a site excavated for a new shed foundation, the work needs to be done with precision and an understanding of Rockland County\'s rocky, variable terrain.\n\nOdds & Ends Handyman Service handles small to medium excavation projects for homeowners across Rockland County. our team has over 25 years of experience working with the clay, rock, and uneven ground conditions found throughout Suffern, New City, Nyack, and surrounding communities. We bring the right equipment, dig to the correct depth, and leave your site graded and ready for the next phase of your project.',
-    commonProblems: [
-      'Yard flooding due to improper grading or drainage',
-      'Rocky soil making digging difficult for DIY homeowners',
-      'Utility lines that need trenching for water, electric, or gas',
-      'Uneven terrain requiring leveling before a structure can be built',
-      'Old tree stumps and root systems blocking a build site',
-      'Erosion washing away topsoil and exposing foundations'
-    ],
-    jobExamples: [
-      'Trenched and graded a 60-foot French drain line in New City',
-      'Excavated and leveled a shed pad site on a rocky slope in Suffern',
-      'Dug utility trench for new outdoor electrical run in Pearl River',
-      'Graded a backyard for proper drainage away from foundation in Nanuet',
-      'Excavated for a retaining wall footer along a hillside in Stony Point',
-      'Site prep and excavation for a gravel parking pad in Nyack'
-    ],
-    whyHireHandyman: 'Excavation is physically demanding and technically precise work. Dig too shallow and your drainage or foundation will fail; dig too deep and you risk hitting utility lines or destabilizing nearby structures. Rockland County\'s terrain is full of rock ledges, clay pockets, and variable soil conditions that can turn a simple trench into a serious problem without the right experience and equipment. A professional handyman knows how to read the ground, call in utility markings, and get the job done safely.',
-    whyChooseUs: 'Odds & Ends has been digging in Rockland County dirt for over 25 years. We know where the rock ledges hide in Suffern, how the clay drains in New City, and what Nyack hillsides demand in terms of erosion control. We handle projects that are too small for big excavation contractors but too involved for a homeowner with a shovel. Our pricing is fair, our work is precise, and we always leave your property clean.',
-    faqs: [
-      { question: 'How deep can you excavate?', answer: 'We handle most residential excavation depths, typically up to 4 to 6 feet for trenching and drainage projects. For anything deeper or requiring heavy commercial equipment, we can recommend a trusted partner.' },
-      { question: 'Do I need to call 811 before you dig?', answer: 'Yes, and we can help coordinate this. New York law requires utility marking before any excavation. We will not break ground until all lines are clearly marked and we know exactly what is beneath the surface.' },
-      { question: 'Can you excavate on rocky Rockland County terrain?', answer: 'Absolutely. Rocky ground is the norm here, not the exception. We carry the right tools to work through and around rock, and we know when a rock ledge means adjusting the plan versus powering through.' },
-      { question: 'Do you handle the disposal of excavated soil?', answer: 'Yes. We haul away excavated material or, if the soil is clean fill, we can redistribute it elsewhere on your property for grading purposes. Either way, your site is left clean.' },
-      { question: 'How long does a typical excavation job take?', answer: 'Most residential excavation projects take one to three days depending on scope, soil conditions, and weather. We will give you a clear timeline during our initial site assessment.' }
-    ],
-    relatedServices: ['gravel-pads', 'sheds', 'deck-repair', 'fence-repair'],
-    metaTitle: 'Excavation | Tuxedo & Rockland County, NY',
-    metaDescription: 'Professional residential excavation in Tuxedo & Rockland County, NY. Trenching, grading, drainage, and site prep. 25+ years experience. Call Odds & Ends today!',
-    keywords: ['excavation Rockland County', 'trenching service New City NY', 'grading contractor near me', 'drainage excavation', 'site prep Rockland County', 'residential excavation Suffern', 'yard grading Nyack', 'utility trenching'],
-    image: '/images/services/excavation.jpg',
-    altText: 'Odds & Ends excavating and grading a residential site in Rockland County',
-    processSteps: [
-      { title: 'Site Assessment & Utility Check', description: 'We evaluate the terrain, soil conditions, and grade, then coordinate utility markings through 811 before any digging begins.' },
-      { title: 'Excavation & Digging', description: 'Using the right equipment for your project\'s scale, we excavate to the correct depth and dimensions, working carefully around rock and existing structures.' },
-      { title: 'Grading & Compaction', description: 'The excavated area is graded to the proper slope for drainage or leveled for a foundation, then compacted to prevent future settling.' },
-      { title: 'Cleanup & Soil Disposal', description: 'Excess soil is hauled away or redistributed on-site, the work area is cleaned up, and your property is left ready for the next phase.' }
-    ],
-    whyChooseUsCards: [
-      { title: 'Rockland County Terrain Experts', description: 'We have 25 years of experience working with the rocky, clay-heavy, and variable soil conditions found across Rockland County — no surprises underground.' },
-      { title: 'Right-Sized for Residential', description: 'We specialize in the small to medium jobs that big excavation companies either overcharge for or won\'t bother with.' },
-      { title: 'Utility-Safe Digging', description: 'We always coordinate 811 utility markings and dig carefully around existing lines. No cut cables, no broken pipes.' },
-      { title: 'Proper Grading', description: 'Every excavation is graded correctly so water flows away from structures — not toward them. We prevent the drainage problems other contractors create.' },
-      { title: 'Clean Worksite', description: 'We haul away excavated material, restore disturbed areas, and leave your property clean when the job is done.' }
-    ]
-  },
-  {
     slug: 'gravel-pads',
     name: 'Gravel Pads',
     shortDescription: 'Professional gravel pad installation in Rockland County. Shed pads, hot tub bases, fire pit areas, and parking pads built to last.',
@@ -1524,7 +1472,7 @@ export const services: Service[] = [
       { question: 'Can you build a gravel pad on a slope?', answer: 'Absolutely. Sloped sites are common in Rockland County. We excavate into the hillside, build up the low side with proper retaining, and ensure the finished pad is level and drains correctly.' },
       { question: 'How long does a gravel pad installation take?', answer: 'Most gravel pad projects take one to two days. A standard 10x12 shed pad on reasonably flat ground is typically a one-day job. Larger pads or challenging terrain may take two days.' }
     ],
-    relatedServices: ['excavation', 'sheds', 'deck-repair', 'fence-repair'],
+    relatedServices: ['sheds', 'deck-repair', 'fence-repair'],
     metaTitle: 'Gravel Pad Installation | Tuxedo & Rockland, NY',
     metaDescription: 'Professional gravel pad installation in Rockland County, NY. Shed pads, hot tub bases, fire pits, parking areas. 25+ years experience. Call Odds & Ends!',
     keywords: ['gravel pad installation Rockland County', 'shed pad New City NY', 'gravel base hot tub', 'gravel parking pad', 'fire pit gravel pad', 'crushed stone pad Suffern', 'gravel pad near me'],
@@ -1576,7 +1524,7 @@ export const services: Service[] = [
       { question: 'Can you add electricity, lighting, or shelving to my shed?', answer: 'Yes. We regularly add interior shelving, pegboard walls, workbenches, lighting, and electrical outlets to sheds. These additions transform a basic storage box into a truly functional workspace.' },
       { question: 'How long does it take to build a shed?', answer: 'A pre-fab shed assembly on a prepared foundation typically takes one to two days. A custom-built shed usually takes three to five days depending on size, features, and weather. Foundation prep is additional time if needed.' }
     ],
-    relatedServices: ['gravel-pads', 'excavation', 'shelving-installation', 'door-installation'],
+    relatedServices: ['gravel-pads', 'shelving-installation', 'door-installation'],
     metaTitle: 'Shed Building & Assembly | Tuxedo & Rockland, NY',
     metaDescription: 'Professional shed building and assembly in Rockland County, NY. Pre-fab kits, custom builds, foundations, and interiors. 25+ years experience. Call today!',
     keywords: ['shed building Rockland County', 'shed assembly New City NY', 'custom shed builder', 'shed installation near me', 'pre-fab shed assembly', 'shed foundation Suffern', 'storage shed Nyack', 'shed contractor Rockland County'],

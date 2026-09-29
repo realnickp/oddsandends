@@ -3626,7 +3626,7 @@ This is the green zone — the everyday work a licensed handyman handles without
 - [Deck repair](/services/deck-repair) — board replacement, railing repair, post resetting, power-washing, sealing
 - [Fence repair](/services/fence-repair) — post resetting, picket and panel replacement, gate adjustment
 - [Sheds](/services/sheds), [outdoor structures](/services/outdoor-structures), and [tiki bars](/services/tiki-bars)
-- [Gravel pads](/services/gravel-pads) and light [excavation](/services/excavation) site prep
+- [Gravel pads](/services/gravel-pads) for sheds and AC units
 - Gutter cleaning, downspout repair, and minor exterior trim
 
 ### Cleanouts and maintenance
@@ -4090,7 +4090,6 @@ A handyman is a licensed home-repair and improvement generalist who performs non
 
 - Build and install [sheds](/services/sheds) and small outbuildings
 - Install [gravel pads](/services/gravel-pads) for sheds, AC units, and trash enclosures
-- Light [excavation](/services/excavation) and site prep
 - Clean gutters and repair downspouts
 - Install gutter guards
 - Repair exterior trim, fascia, and soffit
