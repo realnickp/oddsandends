@@ -9,6 +9,7 @@ import { Fragment, type ReactNode } from 'react'
  *   `### `  -> h3
  *   `#### ` -> h4
  *   `**Heading**` (a line that is entirely bold) -> h3
+ *   `![alt](/path)` on its own -> figure with img
  *   `---`   -> hr
  *   lines starting `- ` / `* ` -> unordered list
  *   lines starting `1. ` / `2. ` ... -> ordered list
@@ -96,6 +97,17 @@ export function BlogContent({ content }: { content: string }) {
       {blocks.map((block, bi) => {
         const key = `b${bi}`
         const trimmed = block.trim()
+
+        // Image on its own line: ![alt](/images/...)
+        const img = /^!\[([^\]]*)\]\(([^)\s]+)\)$/.exec(trimmed)
+        if (img) {
+          return (
+            <figure key={key} className="my-10">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={img[2]} alt={img[1]} loading="lazy" className="w-full rounded-xl aspect-video object-cover" />
+            </figure>
+          )
+        }
 
         // Horizontal rule
         if (/^-{3,}$/.test(trimmed)) {
